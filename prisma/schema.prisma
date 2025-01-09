@@ -1,0 +1,42 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Token {
+  id        String   @id @default(cuid())
+  content   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model BidRecord {
+  term          String
+  session       String
+  biddingWindow String
+  moduleCode    String
+  section       String
+  description   String
+
+  vacancy              Int
+  openingVacancy       Int
+  beforeProcessVacancy Int
+  afterProcessVacancy  Int
+  dice                 Int
+  enrolledStudents     Int
+  medianBid            Float
+  minBid               Float
+
+  instructor String[]
+  school     String?
+
+  @@id([term, session, biddingWindow, moduleCode, section])
+  @@unique([term, session, biddingWindow, moduleCode, section])
+}

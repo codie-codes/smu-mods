@@ -45,6 +45,7 @@ import { days, timeSlots } from "@/types/primitives/timetable";
 import { Logger } from "@/utils/Logger";
 import { TIMETABLE_THEMES } from "@/utils/timetable/colours";
 import {
+  getExamsFromTimetable,
   getRecurringEvents,
   getSectionFromTimetable,
 } from "@/utils/timetable/timetable";
@@ -636,7 +637,7 @@ export default function TimeTablePage({
               <DropdownMenuItem
                 onClick={() => {
                   const calendar = ical({
-                    name: "smumods-timetable",
+                    name: "smumods-classes-timetable",
                     prodId: "-//smumods.johnnyknl.me//EN",
                   });
 
@@ -646,13 +647,33 @@ export default function TimeTablePage({
                   classes.forEach((event) => {
                     calendar.createEvent(event);
                   });
+
                   const string = calendar.toString();
                   const blob = new Blob([string], {
                     type: "text/calendar;charset=utf-8",
                   });
                   download(
                     URL.createObjectURL(blob),
-                    `smumods_${APP_CONFIG.academicYear}_${APP_CONFIG.currentTerm}.ics`,
+                    `smumods_classes_${APP_CONFIG.academicYear}_${APP_CONFIG.currentTerm}.ics`,
+                  );
+
+                  const examsCalendar = ical({
+                    name: "smumods-exams-timetable",
+                    prodId: "-//smumods.johnnyknl.me//EN",
+                  });
+
+                  const exams = getExamsFromTimetable(timetable);
+                  exams.forEach((event) => {
+                    examsCalendar.createEvent(event);
+                  });
+
+                  const examsString = examsCalendar.toString();
+                  const examsBlob = new Blob([examsString], {
+                    type: "text/calendar;charset=utf-8",
+                  });
+                  download(
+                    URL.createObjectURL(examsBlob),
+                    `smumods_exams_${APP_CONFIG.academicYear}_${APP_CONFIG.currentTerm}.ics`,
                   );
                 }}
               >

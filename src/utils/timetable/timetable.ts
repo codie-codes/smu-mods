@@ -358,3 +358,24 @@ export function getSectionFromTimetable(
   }
   return module?.sections.find((section) => section.code === sectionCode);
 }
+
+export function getExamsFromTimetable(timetable: Timetable): ICalEventData[] {
+  const result: ICalEventData[] = [];
+
+  for (const module of timetable.modules) {
+    if (!module.exam) {
+      continue;
+    }
+    result.push({
+      start: module.exam.dateTime,
+      end: new Date(
+        new Date(module.exam.dateTime).getTime() +
+          (module.exam.durationInHour ?? 0) * 60 * 60 * 1000,
+      ),
+      summary: `[Final Exam] [${module.moduleCode}] ${module.name}`,
+      description: module.moduleCode,
+    });
+  }
+
+  return result;
+}

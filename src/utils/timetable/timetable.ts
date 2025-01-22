@@ -321,7 +321,7 @@ export function getRecurringEvents(timetable: Timetable): ICalEventData[] {
             end: new Date(
               `${startDate.toISOString().split("T")[0]}T${endTime}`,
             ),
-            summary: `[${moduleCode}] ${module.name}`,
+            summary: `[${moduleCode}] ${section?.code} ${module.name}`,
             location:
               (section?.location.building ?? "") +
               " " +

@@ -4,12 +4,11 @@ import {
   BookA,
   Calendar,
   ChartArea,
-  HomeIcon,
   LifeBuoy,
   Moon,
   NotebookPen,
   Settings,
-  Sun,
+  Sun
 } from "lucide-react";
 import { useTheme } from "next-themes";
 
@@ -22,8 +21,8 @@ import {
 import { APP_CONFIG } from "@/config";
 import { useConfigStore } from "@/stores/config/provider";
 
-import type { Links, MainLink } from "./nav-main";
 import { Button } from "../ui/button";
+import type { Links, MainLink } from "./nav-main";
 import { NavMain } from "./nav-main";
 import { NavSecondary } from "./nav-secondary";
 
@@ -48,12 +47,6 @@ export type SidebarData = {
 const ROOM_TITLE = "Room";
 const data: SidebarData = {
   navMain: [
-    {
-      title: ROOM_TITLE,
-      url: "/",
-      icon: HomeIcon,
-      isCollapsible: false,
-    },
     {
       title: "Timetable",
       url: `/timetable/${APP_CONFIG.currentTerm}`,

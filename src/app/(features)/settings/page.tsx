@@ -1,15 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { Calendar, Monitor, Moon, RefreshCw, Sun, X } from "lucide-react";
 import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
-import type { RoomKey } from "@/components/threed/rooms";
-import type { AcademicYear } from "@/config";
-import type { TimetableThemeName } from "@/utils/timetable/colours";
 import { GenerateQRCode } from "@/components/iSync/QRCode";
-import { Rooms } from "@/components/threed/rooms";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -18,19 +14,19 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import type { AcademicYear } from "@/config";
 import { PADDING } from "@/config";
 import { cn } from "@/lib/utils";
 import { useConfigStore } from "@/stores/config/provider";
 import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { sleep } from "@/utils/sleep";
+import type { TimetableThemeName } from "@/utils/timetable/colours";
 import { TIMETABLE_THEMES } from "@/utils/timetable/colours";
 
 export default function SettingsPage() {
   const { theme, setTheme } = useTheme();
   const [tempTheme, setTempTheme] = useState<string | undefined>("system");
   const {
-    roomTheme,
-    changeRoomTheme,
     timetableTheme,
     changeTimetableTheme,
     matriculationYear,
@@ -176,45 +172,6 @@ export default function SettingsPage() {
             </div>
           ))}
         </div>
-      </section>
-      <section className="max-w-full space-y-3 overflow-hidden rounded-lg border p-4 shadow">
-        <h2 className="text-lg font-semibold">Rooms</h2>
-        <ToggleGroup
-          type="single"
-          className="flex w-full flex-col gap-2"
-          onValueChange={(value) => {
-            changeRoomTheme(value as RoomKey);
-            if (value.length < 1) {
-              changeRoomTheme(null);
-            }
-          }}
-          value={roomTheme ?? ""}
-        >
-          <ToggleGroupItem
-            value={""}
-            variant={"primary"}
-            className="h-fit w-full p-4 text-left"
-          >
-            No Room Theme
-          </ToggleGroupItem>
-          {Object.keys(Rooms).map((roomkey, index) => (
-            <ToggleGroupItem
-              value={roomkey}
-              variant={"primary"}
-              key={index}
-              className="h-fit w-full p-4 text-left"
-            >
-              <div className="space-y-1">
-                <div className="text-center text-sm font-semibold md:text-base">
-                  {Rooms[roomkey as RoomKey].name}
-                </div>
-                <div className="text-center text-xs opacity-60">
-                  {Rooms[roomkey as RoomKey].description}
-                </div>
-              </div>
-            </ToggleGroupItem>
-          ))}
-        </ToggleGroup>
       </section>
       <section className="space-y-3 rounded-lg border p-4 shadow">
         <h3 className="text-lg font-semibold">Reset Application</h3>

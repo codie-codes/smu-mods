@@ -1,10 +1,8 @@
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
-import type { RoomKey } from "@/components/threed/rooms";
 import type { AcademicYear, Banner } from "@/config";
 import type { TimetableThemeName } from "@/utils/timetable/colours";
-import { roomKeys } from "@/components/threed/rooms";
 import { APP_CONFIG } from "@/config";
 import { env } from "@/env";
 import { Logger } from "@/utils/Logger";
@@ -18,11 +16,9 @@ export type ISyncRecord = {
 export type ConfigAction = {
   changeISyncLatestRecord: (newRecord: ISyncRecord | null) => void;
   changeTimetableTheme: (newTheme: TimetableThemeName) => void;
-  changeRoomTheme: (newTheme: RoomKey | null) => void;
   changeMatriculationYear: (matriculationYear: AcademicYear) => void;
   iSync: (
     timetableTheme: TimetableThemeName,
-    roomTheme: RoomKey,
     matriculationYear: AcademicYear,
   ) => void;
   dismissBanner: (bannerIndex: number) => void;
@@ -37,7 +33,6 @@ export type BannerState = Banner & { dismissed: boolean };
 export type ConfigStore = {
   iSyncLatestRecord: ISyncRecord | null;
   timetableTheme: TimetableThemeName;
-  roomTheme: RoomKey | null;
   matriculationYear: AcademicYear;
   banners: BannerState[];
   warningDismissedTime: number;
@@ -49,7 +44,6 @@ export const createConfigBank = (
   defaultLastRecord: ISyncRecord | null = null,
   defaultTimetableTheme: TimetableThemeName = "default",
   defaultAcademicYear: AcademicYear = APP_CONFIG.academicYear,
-  defaultRoomTheme: RoomKey | null = roomKeys[0],
   defaultBanners: BannerState[] = APP_CONFIG.banners.map((banner) => ({
     ...banner,
     dismissed: false,
@@ -60,7 +54,6 @@ export const createConfigBank = (
       (set) => ({
         iSyncLatestRecord: defaultLastRecord,
         timetableTheme: defaultTimetableTheme,
-        roomTheme: defaultRoomTheme,
         matriculationYear: defaultAcademicYear,
         banners: defaultBanners,
         warningDismissedTime: Date.now() - 1000 * 60 * 60 * 24 * 7,
@@ -72,16 +65,12 @@ export const createConfigBank = (
         changeTimetableTheme: (newTheme) => {
           set({ timetableTheme: newTheme });
         },
-        changeRoomTheme: (newTheme) => {
-          set({ roomTheme: newTheme });
-        },
         changeMatriculationYear: (newMatriculationYear) => {
           set({ matriculationYear: newMatriculationYear });
         },
-        iSync: (timetableTheme, roomTheme, matriculationYear) => {
+        iSync: (timetableTheme, matriculationYear) => {
           set({
             timetableTheme,
-            roomTheme,
             matriculationYear,
           });
         },

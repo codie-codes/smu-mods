@@ -1,10 +1,12 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { Calendar, Monitor, Moon, RefreshCw, Sun, X } from "lucide-react";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
+import type { AcademicYear } from "@/config";
+import type { TimetableThemeName } from "@/utils/timetable/colours";
 import { GenerateQRCode } from "@/components/iSync/QRCode";
 import { Button } from "@/components/ui/button";
 import {
@@ -14,13 +16,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import type { AcademicYear } from "@/config";
 import { PADDING } from "@/config";
 import { cn } from "@/lib/utils";
 import { useConfigStore } from "@/stores/config/provider";
 import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { sleep } from "@/utils/sleep";
-import type { TimetableThemeName } from "@/utils/timetable/colours";
 import { TIMETABLE_THEMES } from "@/utils/timetable/colours";
 
 export default function SettingsPage() {

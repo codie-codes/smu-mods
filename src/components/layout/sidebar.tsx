@@ -22,6 +22,7 @@ import { APP_CONFIG } from "@/config";
 
 import type { Links, MainLink } from "./nav-main";
 import { Button } from "../ui/button";
+import { NavMain } from "./nav-main";
 import { NavSecondary } from "./nav-secondary";
 
 export type SidebarProps = {
@@ -37,6 +38,12 @@ export type SidebarData = {
   navSecondary: MainLink[];
 };
 
+// timetable
+// planner
+// courses
+// stress relief
+
+const ROOM_TITLE = "Room";
 const data: SidebarData = {
   navMain: [
     {
@@ -88,6 +95,7 @@ export function AppSidebar() {
       <SidebarContent>
         <SidebarItem>
           <SidebarLabel>SMUMODS</SidebarLabel>
+          <NavMain items={data.navMain} />
         </SidebarItem>
         <SidebarItem className="mt-auto">
           <Button

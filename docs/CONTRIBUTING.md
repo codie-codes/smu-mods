@@ -2,6 +2,10 @@
 
 Thank you for wanting to contribute to SMUMods! This document outlines how to get started with our project.
 
+## Code of Conduct
+
+Before continuing please read our [Code of Conduct]().
+
 ## Getting Started
 
 This project is configured using pnpm.
@@ -31,7 +35,7 @@ Set up the environment variables, remember to enter the environment variables in
 cp .env.example .env
 ```
 
-Run the database sciprt
+Run the database script
 
 ```shell
 ./start-database.sh

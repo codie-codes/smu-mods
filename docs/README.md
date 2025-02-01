@@ -12,4 +12,4 @@ Before starting, please read our [Contribution Guide](/docs/CONTRIBUTING.md) whi
 
 ## License
 
-This project is Open Sourced under the [MIT License](/docs/LICENSE.md)
+This project is Open Sourced under the [MIT License](/LICENSE.md)

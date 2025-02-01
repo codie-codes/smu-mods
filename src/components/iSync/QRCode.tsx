@@ -21,7 +21,6 @@ export function GenerateQRCode() {
   const {
     iSyncLatestRecord: latestRecord,
     timetableTheme,
-    roomTheme,
     matriculationYear,
     changeISyncLatestRecord: changeLatestRecord,
   } = useConfigStore((state) => state);
@@ -38,7 +37,6 @@ export function GenerateQRCode() {
       timetable: timetableMap,
       planners,
       timetableTheme,
-      roomTheme,
       matriculationYear,
     });
 

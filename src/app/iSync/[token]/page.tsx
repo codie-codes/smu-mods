@@ -24,11 +24,7 @@ export default function Page({ params }: { params: { token: string } }) {
       try {
         iSyncTimeTable(data.timetable);
         iSyncPlanners(data.planners);
-        iSyncConfig(
-          data.timetableTheme,
-          data.roomTheme,
-          data.matriculationYear,
-        );
+        iSyncConfig(data.timetableTheme, data.matriculationYear);
       } catch (e) {
         Logger.error(e);
       }

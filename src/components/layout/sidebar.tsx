@@ -8,7 +8,7 @@ import {
   Moon,
   NotebookPen,
   Settings,
-  Sun
+  Sun,
 } from "lucide-react";
 import { useTheme } from "next-themes";
 
@@ -19,11 +19,9 @@ import {
   SidebarLabel,
 } from "@/components/ui/sidebar";
 import { APP_CONFIG } from "@/config";
-import { useConfigStore } from "@/stores/config/provider";
 
-import { Button } from "../ui/button";
 import type { Links, MainLink } from "./nav-main";
-import { NavMain } from "./nav-main";
+import { Button } from "../ui/button";
 import { NavSecondary } from "./nav-secondary";
 
 export type SidebarProps = {
@@ -39,12 +37,6 @@ export type SidebarData = {
   navSecondary: MainLink[];
 };
 
-// timetable
-// planner
-// courses
-// stress relief
-
-const ROOM_TITLE = "Room";
 const data: SidebarData = {
   navMain: [
     {
@@ -90,20 +82,12 @@ const data: SidebarData = {
 
 export function AppSidebar() {
   const { resolvedTheme, setTheme } = useTheme();
-  const { roomTheme } = useConfigStore((state) => state);
 
   return (
     <Sidebar>
       <SidebarContent>
         <SidebarItem>
           <SidebarLabel>SMUMODS</SidebarLabel>
-          <NavMain
-            items={
-              !roomTheme
-                ? data.navMain.filter((e) => e.title != ROOM_TITLE)
-                : data.navMain
-            }
-          />
         </SidebarItem>
         <SidebarItem className="mt-auto">
           <Button

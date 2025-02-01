@@ -8,8 +8,8 @@ Visit our [website](https://www.smumods.sg/) to start planning your mods.
 
 ## Contributing
 
-Before starting, please read our [Contribution Guide](https://github.com/codie-codes/smu-mods/blob/main/docs/CONTRIBUTING.md) which covers project installation to help you get started with our project.
+Before starting, please read our [Contribution Guide](/docs/CONTRIBUTING.md) which covers project installation to help you get started with our project.
 
 ## License
 
-This project is Open Sourced under the [MIT License](https://github.com/codie-codes/smu-mods/tree/main?tab=License-1-ov-file)
+This project is Open Sourced under the [MIT License](/docs/LICENSE.md)

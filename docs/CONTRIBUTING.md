@@ -4,7 +4,7 @@ Thank you for wanting to contribute to SMUMods! This document outlines how to ge
 
 ## Code of Conduct
 
-Before continuing please read our [Code of Conduct](https://github.com/codie-codes/smu-mods/tree/main?tab=coc-ov-file).
+Before continuing please read our [Code of Conduct](/docs/CODE_OF_CONDUCT.md).
 
 ## Getting Started
 

@@ -1,3 +1,5 @@
+"use client"
+
 import { getMatriculationYears } from "@/app/modules/settings/matriculationYear/matriculationYear";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import type { AcademicYear } from "@/config";
@@ -12,7 +14,7 @@ export function MatriculationYearSettings() {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button onClick={() => changeMatriculationYear}>
+                <Button>
                     <Calendar className="mr-2"/>
                     {matriculationYear ?? "Select Year"}
                 </Button>

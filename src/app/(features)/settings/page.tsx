@@ -1,9 +1,9 @@
-"use client";
-
 import type { setting } from "@/components/settings";
 import { settings } from "@/components/settings";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
 import { PADDING } from "@/config";
+import { Suspense } from "react";
 
 interface SettingsCardProps {
   setting: setting
@@ -16,9 +16,15 @@ function SettingsCard({setting}: SettingsCardProps) {
         <CardTitle>{setting.title}</CardTitle>
         <CardDescription>{setting.description}</CardDescription>
       </CardHeader>
-      <CardContent>{setting.children}</CardContent>
+      <Suspense fallback={<SettingsCardLoading/>}>
+        <CardContent>{setting.children}</CardContent>
+      </Suspense>
     </Card>
   )
+}
+
+function SettingsCardLoading() {
+  return <Skeleton/>
 }
 
 export default function SettingsPage() {

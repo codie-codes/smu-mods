@@ -75,7 +75,7 @@ export function GenerateQRCode() {
   const url = `${getBaseUrl(true)}/iSync/${data}`;
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-start">
       {data ? (
         <div className="flex w-full flex-col items-center justify-center gap-2">
           <QRCodeCanvas value={url} className="w-3/4 bg-white p-1" size={200} />

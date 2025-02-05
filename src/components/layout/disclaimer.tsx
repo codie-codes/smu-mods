@@ -31,9 +31,11 @@ export function Disclaimer() {
     <AlertDialog
       defaultOpen={Date.now() - warningDismissedTime > 1000 * 60 * 60 * 24 * 7}
     >
-      <AlertDialogContent>
+      <AlertDialogContent data-cy="disclaimer">
         <AlertDialogHeader>
-          <AlertDialogTitle>Disclaimer</AlertDialogTitle>
+          <AlertDialogTitle data-cy="disclaimer-title">
+            Disclaimer
+          </AlertDialogTitle>
           <AlertDialogDescription>
             This application is a work in progress and may contain bugs, module
             list may not be updated and may not be accurate. Please refer to
@@ -41,7 +43,10 @@ export function Disclaimer() {
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
-          <AlertDialogAction onClick={dismissWarning}>
+          <AlertDialogAction
+            onClick={dismissWarning}
+            data-cy="disclaimer-button"
+          >
             Dismiss
           </AlertDialogAction>
         </AlertDialogFooter>

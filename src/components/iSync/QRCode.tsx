@@ -1,9 +1,9 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import SHA256 from "crypto-js/sha256";
 import { Copy, Loader2, QrCode } from "lucide-react";
 import { QRCodeCanvas } from "qrcode.react";
-import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 import { useConfigStore } from "@/stores/config/provider";

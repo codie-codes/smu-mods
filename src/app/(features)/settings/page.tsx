@@ -1,34 +1,40 @@
-import type { setting } from "@/components/settings";
-import { settings } from "@/components/settings";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
-import { PADDING } from "@/config";
 import { Suspense } from "react";
 
+import type { setting } from "@/components/settings";
+import { settings } from "@/components/settings";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { PADDING } from "@/config";
+
 interface SettingsCardProps {
-  setting: setting
+  setting: setting;
 }
 
-function SettingsCard({setting}: SettingsCardProps) {
+function SettingsCard({ setting }: SettingsCardProps) {
   return (
     <Card>
       <CardHeader>
         <CardTitle>{setting.title}</CardTitle>
         <CardDescription>{setting.description}</CardDescription>
       </CardHeader>
-      <Suspense fallback={<SettingsCardLoading/>}>
+      <Suspense fallback={<SettingsCardLoading />}>
         <CardContent>{setting.children}</CardContent>
       </Suspense>
     </Card>
-  )
+  );
 }
 
 function SettingsCardLoading() {
-  return <Skeleton/>
+  return <Skeleton />;
 }
 
 export default function SettingsPage() {
-
   return (
     <div
       className="mx-auto max-w-md space-y-4"
@@ -37,7 +43,9 @@ export default function SettingsPage() {
       }}
     >
       <h2 className="text-xl font-bold">Settings</h2>
-      {settings.map((setting, idx) => <SettingsCard key={idx} setting={setting}/>)}
+      {settings.map((setting, idx) => (
+        <SettingsCard key={idx} setting={setting} />
+      ))}
     </div>
   );
 }

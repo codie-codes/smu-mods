@@ -371,9 +371,9 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
 
                     {isMobile &&
                       (!isMobile || isOpen.has(year) ? (
-                        <ChevronUp className="text-white" />
+                        <ChevronUp />
                       ) : (
-                        <ChevronDown className="text-white" />
+                        <ChevronDown />
                       ))}
                   </div>
                   {(!isMobile || isOpen.has(year)) && (

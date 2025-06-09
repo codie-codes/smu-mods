@@ -21,8 +21,8 @@ export type Config = {
 export const PADDING = "2rem";
 
 export const APP_CONFIG: Config = {
-  academicYear: "2024/2025",
-  currentTerm: "term-2",
+  academicYear: "2025/2026",
+  currentTerm: "term-1",
   banners: [
     {
       id: "welcome",
@@ -33,7 +33,7 @@ export const APP_CONFIG: Config = {
       message: "Don't forget to plan your timetable for the upcoming term!",
     },
   ],
-  termStartMonday: "2025-01-13",
-  termEndSunday: "2025-04-20",
+  termStartMonday: "2025-08-18",
+  termEndSunday: "2025-11-30",
   majorMigrate: "plannerStoreMigrate",
 };

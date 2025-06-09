@@ -1,19 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import { NuqsAdapter } from "nuqs/adapters/next/app";
-
-import { CustomToaster } from "@/components/custom-toaster";
-import { AppSidebar } from "@/components/layout/app-sidebar";
-import { AppVersionCheck } from "@/components/layout/AppVersionCheck";
-import { Disclaimer } from "@/components/layout/Disclaimer";
-import { NavHeader } from "@/components/layout/nav-header";
-import { ThemeProvider } from "@/components/theme-provider";
-import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import StoreProviders from "@/stores/StoreProviders";
-import { TRPCReactProvider } from "@/trpc/react";
-import { HydrateClient } from "@/trpc/server";
 
 import "./globals.css";
 
@@ -43,35 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground antialiased`}
       >
-        <TRPCReactProvider>
-          <HydrateClient>
-            <StoreProviders>
-              <ThemeProvider
-                attribute="class"
-                defaultTheme="system"
-                enableSystem
-                disableTransitionOnChange
-              >
-                <NuqsAdapter>
-                  <TooltipProvider>
-                    <SidebarProvider>
-                      <AppVersionCheck />
-                      <Disclaimer />
-                      <AppSidebar />
-                      <SidebarInset>
-                        <NavHeader />
-                        <div className="flex flex-1 flex-col gap-4 p-4">
-                          {children}
-                        </div>
-                      </SidebarInset>
-                    </SidebarProvider>
-                  </TooltipProvider>
-                </NuqsAdapter>
-                <CustomToaster />
-              </ThemeProvider>
-            </StoreProviders>
-          </HydrateClient>
-        </TRPCReactProvider>
+        {children}
       </body>
       <GoogleAnalytics gaId="G-J3GN6BMKJC" />
     </html>

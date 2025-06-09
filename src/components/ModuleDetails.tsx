@@ -1,12 +1,14 @@
 import type { ReactNode } from "react";
 import { useEffect, useState } from "react";
-import { BookOpen, Clock, Users, AlertCircle, Loader2 } from "lucide-react";
+import { AlertCircle, BookOpen, Clock, Loader2, Users } from "lucide-react";
 
 import type { Module, ModuleCode } from "@/types/primitives/module";
 import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { Logger } from "@/utils/Logger";
 
 import { ModuleTreeComponent } from "./ModuleTree";
+import { Badge } from "./ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import {
   Dialog,
   DialogContent,
@@ -15,8 +17,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "./ui/dialog";
-import { Badge } from "./ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 interface ModuleDetailsProps {
   moduleCode: ModuleCode;
@@ -53,12 +53,12 @@ export default function ModuleDetails({
   return (
     <Dialog>
       <DialogTrigger asChild>{children}</DialogTrigger>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-hidden flex flex-col">
+      <DialogContent className="flex max-h-[90vh] max-w-4xl flex-col overflow-hidden">
         {loading ? (
           <div className="flex items-center justify-center py-12">
             <div className="flex flex-col items-center space-y-4">
-              <Loader2 className="h-8 w-8 animate-spin text-muted-foreground" />
-              <p className="text-sm text-muted-foreground">
+              <Loader2 className="text-muted-foreground h-8 w-8 animate-spin" />
+              <p className="text-muted-foreground text-sm">
                 Loading module details...
               </p>
             </div>
@@ -66,10 +66,10 @@ export default function ModuleDetails({
         ) : error ? (
           <div className="flex items-center justify-center py-12">
             <div className="flex flex-col items-center space-y-4 text-center">
-              <AlertCircle className="h-12 w-12 text-destructive" />
+              <AlertCircle className="text-destructive h-12 w-12" />
               <div>
-                <h3 className="font-semibold text-lg">Unable to load module</h3>
-                <p className="text-sm text-muted-foreground mt-1">{error}</p>
+                <h3 className="text-lg font-semibold">Unable to load module</h3>
+                <p className="text-muted-foreground mt-1 text-sm">{error}</p>
               </div>
             </div>
           </div>
@@ -92,16 +92,16 @@ export default function ModuleDetails({
               </div>
             </DialogHeader>
 
-            <div className="flex-1 overflow-y-auto space-y-6">
+            <div className="flex-1 space-y-6 overflow-y-auto">
               <Card className="border shadow-none">
                 <CardHeader className="pb-3">
-                  <CardTitle className="text-lg flex items-center gap-2">
+                  <CardTitle className="flex items-center gap-2 text-lg">
                     <BookOpen className="h-5 w-5" />
                     Description
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm leading-relaxed text-muted-foreground">
+                  <p className="text-muted-foreground text-sm leading-relaxed">
                     {module.description}
                   </p>
                 </CardContent>
@@ -110,7 +110,7 @@ export default function ModuleDetails({
               {module.preReq && (
                 <Card className="border shadow-none">
                   <CardHeader className="pb-3">
-                    <CardTitle className="text-lg flex items-center gap-2">
+                    <CardTitle className="flex items-center gap-2 text-lg">
                       <Users className="h-5 w-5" />
                       Prerequisites
                     </CardTitle>
@@ -127,7 +127,7 @@ export default function ModuleDetails({
               {/* Additional module info sections can be added here */}
               <Card className="border shadow-none">
                 <CardHeader className="pb-3">
-                  <CardTitle className="text-lg flex items-center gap-2">
+                  <CardTitle className="flex items-center gap-2 text-lg">
                     <Clock className="h-5 w-5" />
                     Module Information
                   </CardTitle>
@@ -154,10 +154,10 @@ export default function ModuleDetails({
         ) : (
           <div className="flex items-center justify-center py-12">
             <div className="flex flex-col items-center space-y-4 text-center">
-              <AlertCircle className="h-12 w-12 text-muted-foreground" />
+              <AlertCircle className="text-muted-foreground h-12 w-12" />
               <div>
-                <h3 className="font-semibold text-lg">Module not found</h3>
-                <p className="text-sm text-muted-foreground mt-1">
+                <h3 className="text-lg font-semibold">Module not found</h3>
+                <p className="text-muted-foreground mt-1 text-sm">
                   The requested module could not be found.
                 </p>
               </div>

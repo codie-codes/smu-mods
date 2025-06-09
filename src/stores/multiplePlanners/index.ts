@@ -3,8 +3,8 @@ import { createJSONStorage, persist } from "zustand/middleware";
 
 import type { ModuleBank } from "@/types/banks/moduleBank";
 import type { Planner, PlannerState, Term, Year } from "@/types/planner";
-import { defaultPlanner, defaultPlannerState } from "@/types/planner";
 import type { ModuleCode } from "@/types/primitives/module";
+import { defaultPlanner, defaultPlannerState } from "@/types/planner";
 import { getPlanner } from "@/utils/planner";
 
 export type MultiplePlannerActions = {
@@ -16,7 +16,7 @@ export type MultiplePlannerActions = {
       term: Term;
     },
     moduleBank: ModuleBank,
-    plannerId: string
+    plannerId: string,
   ) => void;
   changeTerm: (
     srcYear: Year,
@@ -25,14 +25,14 @@ export type MultiplePlannerActions = {
     destTerm: Term,
     moduleCode: ModuleCode,
     moduleBank: ModuleBank,
-    plannerId: string
+    plannerId: string,
   ) => void;
   removeModule: (
     moduleCode: ModuleCode,
     year: Year,
     term: Term,
     moduleBank: ModuleBank,
-    plannerId: string
+    plannerId: string,
   ) => void;
   hideSpecial: (year: Year, plannerId: string) => void;
   iSync: (planners: MultiplePlanner) => void;
@@ -57,7 +57,7 @@ export type MultiplePlannerStore = {
 } & MultiplePlannerActions;
 
 export const createMultiplePlannerBank = (
-  initPlanners: MultiplePlanner = defaultPlanners
+  initPlanners: MultiplePlanner = defaultPlanners,
 ) => {
   return create<MultiplePlannerStore>()(
     persist(
@@ -97,7 +97,7 @@ export const createMultiplePlannerBank = (
           destTerm,
           moduleCode,
           moduleBank,
-          plannerId
+          plannerId,
         ) => {
           const original = get().planners[plannerId];
           if (!original) return;
@@ -258,18 +258,18 @@ export const createMultiplePlannerBank = (
       {
         name: "multiplePlanners",
         storage: createJSONStorage(() => localStorage),
-      }
-    )
+      },
+    ),
   );
 };
 
 export const removeModulesFromPlannerState = (
   modules: PlannerState["modules"],
-  predicate: (moduleCode: string, module: any) => boolean
+  predicate: (moduleCode: string, module: any) => boolean,
 ) => {
   return Object.fromEntries(
     Object.entries(modules).filter(
-      ([moduleCode, module]) => !predicate(moduleCode, module)
-    )
+      ([moduleCode, module]) => !predicate(moduleCode, module),
+    ),
   );
 };

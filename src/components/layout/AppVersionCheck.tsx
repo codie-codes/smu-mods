@@ -12,7 +12,7 @@ const TURN_ON_REFRESH = false;
 
 export const AppVersionCheck = () => {
   const { refreshBanners, appVersion, changeAppVersion } = useConfigStore(
-    (state) => state
+    (state) => state,
   );
   const { refreshAll } = useModuleBankStore((state) => state);
   useEffect(() => {

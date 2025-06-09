@@ -55,7 +55,7 @@ export default function Error({
         )}
         <div className="w-full">
           <p className="text-sm">Error details:</p>
-          <div className="w-full overflow-x-scroll rounded-md bg-foreground/10 p-2">
+          <div className="bg-foreground/10 w-full overflow-x-scroll rounded-md p-2">
             <code>{error.message}</code>
           </div>
         </div>

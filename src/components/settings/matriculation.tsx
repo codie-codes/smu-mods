@@ -3,7 +3,6 @@
 import { Calendar } from "lucide-react";
 
 import type { AcademicYear } from "@/config";
-import { getMatriculationYears } from "@/utils/getMatriculationYear";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,13 +10,14 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useConfigStore } from "@/stores/config/provider";
+import { getMatriculationYears } from "@/utils/getMatriculationYear";
 
 import { Button } from "../ui/button";
 
 export function MatriculationYearSettings() {
   const matriculationYears: AcademicYear[] = getMatriculationYears();
   const { matriculationYear, changeMatriculationYear } = useConfigStore(
-    (state) => state
+    (state) => state,
   );
 
   return (

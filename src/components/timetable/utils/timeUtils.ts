@@ -2,7 +2,7 @@ import type { Day } from "@/types/primitives/timetable";
 import { days } from "@/types/primitives/timetable";
 
 export function calculateCurrentTimePosition(
-  totalSlots: number
+  totalSlots: number,
 ): number | null {
   const currentDate = new Date();
   const hours = currentDate.getHours();

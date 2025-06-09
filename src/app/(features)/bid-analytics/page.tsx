@@ -1,10 +1,11 @@
 "use client";
 
+import { Suspense } from "react";
+import { useQueryState } from "nuqs";
+
 import { BidAnalytics } from "@/components/BidAnalytics";
 import { SearchModule } from "@/components/SearchModule";
 import { PADDING } from "@/config";
-import { useQueryState } from "nuqs";
-import { Suspense } from "react";
 
 function BidAnalyticsContent() {
   const [selectedModule, setSelectedModule] = useQueryState("module");

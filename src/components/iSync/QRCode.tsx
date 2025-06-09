@@ -1,9 +1,9 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import SHA256 from "crypto-js/sha256";
 import { Copy, Loader2, QrCode } from "lucide-react";
 import { QRCodeCanvas } from "qrcode.react";
-import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 import { useConfigStore } from "@/stores/config/provider";
@@ -80,7 +80,7 @@ export function GenerateQRCode() {
         <div className="flex w-full flex-col items-center justify-center gap-2">
           <QRCodeCanvas value={url} className="w-3/4 bg-white p-1" size={200} />
           <div className="flex w-full items-center justify-center gap-1">
-            <pre className="flex-grow overflow-x-scroll rounded-sm bg-accent p-1 text-center text-sm">
+            <pre className="bg-accent flex-grow overflow-x-scroll rounded-sm p-1 text-center text-sm">
               {url}
             </pre>
             <Button
@@ -94,7 +94,7 @@ export function GenerateQRCode() {
               <Copy className="size-4" />
             </Button>
           </div>
-          <p className="rounded-md bg-destructive text-center text-destructive-foreground">
+          <p className="bg-destructive text-destructive-foreground rounded-md text-center">
             This QR Code and Link are valid for next 10 minutes.
           </p>
         </div>

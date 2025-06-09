@@ -14,7 +14,7 @@ export interface TimetableStoreProviderProps {
 }
 
 const TimetableStoreContext = createContext<TimetableStoreApi | undefined>(
-  undefined
+  undefined,
 );
 
 export const TimetableStoreProvider = ({
@@ -33,13 +33,13 @@ export const TimetableStoreProvider = ({
 };
 
 export const useTimetableStore = <T,>(
-  selector: (store: TimetableStore) => T
+  selector: (store: TimetableStore) => T,
 ): T => {
   const timetableStoreContext = useContext(TimetableStoreContext);
 
   if (!timetableStoreContext) {
     throw new Error(
-      `useTimetableStore must be used within TimetableStoreProvider`
+      `useTimetableStore must be used within TimetableStoreProvider`,
     );
   }
 

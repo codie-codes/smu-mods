@@ -1,5 +1,7 @@
 "use client";
 
+import * as React from "react";
+import { usePathname } from "next/navigation";
 import {
   BookA,
   Calendar,
@@ -10,9 +12,6 @@ import {
   Settings,
   Sun,
 } from "lucide-react";
-import * as React from "react";
-
-import { APP_CONFIG } from "@/config";
 import { useTheme } from "next-themes";
 
 import {
@@ -27,7 +26,7 @@ import {
   SidebarMenuItem,
   SidebarRail,
 } from "@/components/ui/sidebar";
-import { usePathname } from "next/navigation";
+import { APP_CONFIG } from "@/config";
 
 const data = {
   navMain: [
@@ -103,8 +102,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                 setTheme(resolvedTheme === "light" ? "dark" : "light")
               }
             >
-              <Sun className="block size-4 dark:hidden mr-2" />
-              <Moon className="hidden size-4 dark:block mr-2" />
+              <Sun className="mr-2 block size-4 dark:hidden" />
+              <Moon className="mr-2 hidden size-4 dark:block" />
               <div className="flex-grow text-left">Change Mode</div>
             </SidebarMenuButton>
           </SidebarMenuItem>

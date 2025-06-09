@@ -1,5 +1,6 @@
 "use client";
 
+import { use } from "react";
 import { ChevronLeft } from "lucide-react";
 
 import CoursePlanner from "@/components/planner/coursePlanner";
@@ -11,7 +12,6 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { PADDING } from "@/config";
-import { use } from "react";
 
 interface PlannerIdPageProps {
   params: Promise<{

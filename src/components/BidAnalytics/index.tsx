@@ -31,15 +31,15 @@ export function BidAnalytics({ params }: BidAnalyticsProps) {
   const { modules } = useModuleBankStore((state) => state);
   const [selectedInstructor, setSelectedInstructor] = useQueryState(
     "instructor",
-    parseAsInteger.withDefault(0)
+    parseAsInteger.withDefault(0),
   );
   const [selectedTerm, setSelectedTerm] = useQueryState(
     "term",
-    parseAsInteger.withDefault(0)
+    parseAsInteger.withDefault(0),
   );
   const [selectedSection, setSelectedSection] = useQueryState(
     "section",
-    parseAsInteger.withDefault(0)
+    parseAsInteger.withDefault(0),
   );
 
   const {
@@ -59,7 +59,7 @@ export function BidAnalytics({ params }: BidAnalyticsProps) {
       },
       {
         enabled: !!instructors?.at(selectedInstructor),
-      }
+      },
     );
 
   const { data: sections, refetch: refetchSections } =
@@ -72,7 +72,7 @@ export function BidAnalytics({ params }: BidAnalyticsProps) {
       {
         enabled:
           !!instructors?.at(selectedInstructor) && !!terms?.at(selectedTerm),
-      }
+      },
     );
 
   const { data: chartData, refetch: refetchChart } =
@@ -88,7 +88,7 @@ export function BidAnalytics({ params }: BidAnalyticsProps) {
           !!instructors?.at(selectedInstructor) &&
           !!terms?.at(selectedTerm) &&
           !!sections?.at(selectedSection),
-      }
+      },
     );
 
   if (modules[params.moduleCode as ModuleCode] === undefined) {

@@ -9,7 +9,7 @@ import {
 
 export function ToggleTimetableTheme() {
   const { timetableTheme, changeTimetableTheme } = useConfigStore(
-    (state) => state
+    (state) => state,
   );
 
   return (
@@ -19,10 +19,10 @@ export function ToggleTimetableTheme() {
           <div
             key={index}
             className={cn(
-              "w-full rounded-lg border p-2 shadow-sm hover:border-foreground/30 md:w-fit",
+              "hover:border-foreground/30 w-full rounded-lg border p-2 shadow-sm md:w-fit",
               themeName == timetableTheme
                 ? "border-primary"
-                : "border-foreground/10"
+                : "border-foreground/10",
             )}
             onClick={() =>
               changeTimetableTheme(themeName as TimetableThemeName)

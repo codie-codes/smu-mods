@@ -5,8 +5,8 @@ import type {
   ModifiableClass,
   Timetable,
 } from "@/types/primitives/timetable";
-import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { cn } from "@/lib/utils";
+import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { timeSlots } from "@/types/primitives/timetable";
 import { Logger } from "@/utils/Logger";
 import {
@@ -92,13 +92,13 @@ export function TimetableGrid({
     const sortedTimetable = day.sort(
       (a, b) =>
         timeToMinutes(a.classTime.startTime) -
-        timeToMinutes(b.classTime.startTime)
+        timeToMinutes(b.classTime.startTime),
     );
 
     for (let index = 0; index < sortedTimetable.length; index++) {
       const currentSlot = sortedTimetable[index]!;
       const currentSlotStartMinutes = timeToMinutes(
-        currentSlot.classTime.startTime
+        currentSlot.classTime.startTime,
       );
       const currentSlotEndMinutes =
         currentSlotStartMinutes + currentSlot.classTime.duration * 60;
@@ -115,7 +115,7 @@ export function TimetableGrid({
           const existingClass = currentRow[classIndex];
           if (existingClass) {
             const existingClassStartMinutes = timeToMinutes(
-              existingClass.classTime.startTime
+              existingClass.classTime.startTime,
             );
             const existingClassEndMinutes =
               existingClassStartMinutes + existingClass.classTime.duration * 60;
@@ -135,7 +135,7 @@ export function TimetableGrid({
             ...currentSlot,
             width: calculateSlotWidth(
               currentSlot.classTime.duration,
-              totalSlots
+              totalSlots,
             ),
           });
           addedToRow = true;
@@ -175,7 +175,7 @@ export function TimetableGrid({
           continue;
         }
         const currentClassStartMinutes = timeToMinutes(
-          currentClass.classTime.startTime
+          currentClass.classTime.startTime,
         );
 
         let paddingLeft =
@@ -204,7 +204,7 @@ export function TimetableGrid({
   return (
     <div className="my-4 max-w-full overflow-x-auto">
       <div
-        className="w-full min-w-[800px] overflow-hidden rounded-lg border border-foreground/20 bg-background lg:min-w-[1200px]"
+        className="border-foreground/20 bg-background w-full min-w-[800px] overflow-hidden rounded-lg border lg:min-w-[1200px]"
         ref={elementRef}
       >
         {/* Time Labels */}
@@ -214,9 +214,9 @@ export function TimetableGrid({
             <div
               key={index}
               className={cn(
-                "flex-1 items-center border-foreground/20 py-1 text-center",
+                "border-foreground/20 flex-1 items-center py-1 text-center",
                 index % 2 === 0 ? "bg-border" : "bg-accent/50",
-                index === 0 ? "border-none" : "border-l"
+                index === 0 ? "border-none" : "border-l",
               )}
               style={{
                 width: `${100 / 14}%`,
@@ -234,11 +234,11 @@ export function TimetableGrid({
             const rowResult = getRowAssignment(timetable[day as Day], 15);
             const rowResultWithPadding = calculateSlotLeftPadding(
               rowResult,
-              15
+              15,
             );
             return (
               <div className="flex border-t" key={dayIndex}>
-                <div className="flex w-[7%] items-center justify-center bg-background text-center font-medium sm:text-xs md:w-[5%]">
+                <div className="bg-background flex w-[7%] items-center justify-center text-center font-medium sm:text-xs md:w-[5%]">
                   {day.slice(0, 3)}
                 </div>
                 <div
@@ -298,7 +298,7 @@ export function TimetableGrid({
                             return (
                               <div
                                 key={classIndex}
-                                className={`absolute cursor-pointer content-center p-1 shadow-md transition-all duration-1000 rounded-[0.5rem] ${
+                                className={`absolute cursor-pointer content-center rounded-[0.5rem] p-1 shadow-md transition-all duration-1000 ${
                                   selectedClass?.section ===
                                     fullClass.section &&
                                   selectedClass?.moduleCode ===
@@ -327,9 +327,9 @@ export function TimetableGrid({
                                         fullClass.section)
                                       ? 1
                                       : fullClass.moduleCode ===
-                                        selectedClass?.moduleCode
-                                      ? 0.6
-                                      : 1,
+                                          selectedClass?.moduleCode
+                                        ? 0.6
+                                        : 1,
                                   transition:
                                     "background-color 0.2s, transform 0.2s",
                                 }}
@@ -359,13 +359,13 @@ export function TimetableGrid({
                                       fullClass.moduleCode
                                     ]?.sections.find(
                                       (section) =>
-                                        section.code === fullClass.section
+                                        section.code === fullClass.section,
                                     )?.professor.name
                                   }
                                 </p>
                               </div>
                             );
-                          }
+                          },
                         )}
                       </div>
                     );

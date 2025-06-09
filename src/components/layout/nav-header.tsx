@@ -1,7 +1,8 @@
+import Image from "next/image";
+import Link from "next/link";
+
 import { Separator } from "@/components/ui/separator";
 import { SidebarTrigger } from "@/components/ui/sidebar";
-import Link from "next/link";
-import Image from "next/image";
 import { APP_CONFIG } from "@/config";
 import { termMap } from "@/types/planner";
 

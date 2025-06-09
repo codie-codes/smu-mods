@@ -14,7 +14,7 @@ interface ModuleListProps {
   onColorChange: (
     termId: string,
     moduleCode: ModuleCode,
-    colorIndex: number
+    colorIndex: number,
   ) => void;
 }
 

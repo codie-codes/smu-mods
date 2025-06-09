@@ -1,7 +1,7 @@
 "use client";
 
-import { ChevronDown, Star, StarOff } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { ChevronDown, Star, StarOff } from "lucide-react";
 
 import type { Module } from "@/types/primitives/module";
 // import ui components
@@ -112,15 +112,15 @@ export default function CourseCatalogue() {
               className="w-full pr-20"
             />
             {!searchQuery && (
-              <div className="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 flex items-center gap-1 text-xs text-muted-foreground">
-                <kbd className="px-1.5 py-0.5 bg-muted border border-border rounded text-[10px] font-mono">
+              <div className="text-muted-foreground pointer-events-none absolute top-1/2 right-3 flex -translate-y-1/2 items-center gap-1 text-xs">
+                <kbd className="bg-muted border-border rounded border px-1.5 py-0.5 font-mono text-[10px]">
                   {typeof navigator !== "undefined" &&
                   navigator?.platform?.toLowerCase().includes("mac")
                     ? "⌘"
                     : "Ctrl"}
                 </kbd>
                 <span>+</span>
-                <kbd className="px-1.5 py-0.5 bg-muted border border-border rounded text-[10px] font-mono">
+                <kbd className="bg-muted border-border rounded border px-1.5 py-0.5 font-mono text-[10px]">
                   K
                 </kbd>
               </div>
@@ -200,7 +200,7 @@ export default function CourseCatalogue() {
             className={cn(
               "h-[calc(100dvh-20.5rem)] w-full md:h-[calc(100dvh-17.5rem)]",
               activeBanners.length > 0 &&
-                "h-[calc(100dvh-24rem)] md:h-[calc(100dvh-21rem)]"
+                "h-[calc(100dvh-24rem)] md:h-[calc(100dvh-21rem)]",
             )}
           >
             {filteredModules.map((module) => (
@@ -210,10 +210,10 @@ export default function CourseCatalogue() {
                 key={module.moduleCode}
               >
                 {/* <div className="mb-4 flex transform cursor-pointer items-center justify-between rounded-lg border p-4 shadow-md shadow-transparent transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-primary"> */}
-                <div className="hover:border-1 my-4 flex transform cursor-pointer items-center justify-between rounded-lg border p-4 transition-all duration-200 hover:-translate-y-1 hover:border-primary dark:border-accent dark:hover:border-primary">
+                <div className="hover:border-primary dark:border-accent dark:hover:border-primary my-4 flex transform cursor-pointer items-center justify-between rounded-lg border p-4 transition-all duration-200 hover:-translate-y-1 hover:border-1">
                   <div className="flex-grow">
                     <h3 className="font-semibold">{module.name}</h3>
-                    <p className="text-sm text-foreground/70">
+                    <p className="text-foreground/70 text-sm">
                       {module.moduleCode} | {module.credit} CU | Exam Date:{" "}
                       {module.exam
                         ? new Date(module.exam.dateTime).toLocaleDateString()
@@ -225,13 +225,13 @@ export default function CourseCatalogue() {
                   <div
                     className={cn(
                       "flex w-fit items-center",
-                      isMobile ? "flex-col" : "flex-row"
+                      isMobile ? "flex-col" : "flex-row",
                     )}
                   >
                     <button
                       className={cn(
                         "right-0 mx-4 align-middle text-yellow-500",
-                        isMobile && "mb-4"
+                        isMobile && "mb-4",
                       )}
                       onClick={(e) => {
                         e.stopPropagation(); // Prevents triggering the dialog when clicking the star
@@ -243,7 +243,7 @@ export default function CourseCatalogue() {
                           "h-6 w-6 fill-current",
                           favouriteModules.includes(module.moduleCode)
                             ? "block"
-                            : "hidden"
+                            : "hidden",
                         )}
                       />
                       <StarOff
@@ -251,7 +251,7 @@ export default function CourseCatalogue() {
                           "h-6 w-6",
                           favouriteModules.includes(module.moduleCode)
                             ? "hidden"
-                            : "block"
+                            : "block",
                         )}
                       />
                     </button>

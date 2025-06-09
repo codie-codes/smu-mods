@@ -41,8 +41,8 @@ const ModuleCard = ({
         "dark:hover:shadow-[0_4px_15px_0_rgba(255,255,255,0.3)]",
 
         snapshot.isDragging
-          ? "h-fit w-fit bg-accent shadow-lg"
-          : "border bg-background hover:border-foreground"
+          ? "bg-accent h-fit w-fit shadow-lg"
+          : "bg-background hover:border-foreground border",
       )}
     >
       {conflictList.length > 0 && (

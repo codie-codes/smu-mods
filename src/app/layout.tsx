@@ -1,3 +1,7 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
+
 import { CustomToaster } from "@/components/custom-toaster";
 import { AppSidebar } from "@/components/layout/app-sidebar";
 import { AppVersionCheck } from "@/components/layout/AppVersionCheck";
@@ -9,9 +13,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import StoreProviders from "@/stores/StoreProviders";
 import { TRPCReactProvider } from "@/trpc/react";
 import { HydrateClient } from "@/trpc/server";
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import { NuqsAdapter } from "nuqs/adapters/next/app";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -38,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground antialiased`}
       >
         <TRPCReactProvider>
           <HydrateClient>

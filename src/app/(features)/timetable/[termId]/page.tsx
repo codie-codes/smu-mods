@@ -1,17 +1,12 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { use, useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
-import { SearchModule } from "@/components/SearchModule";
-import { APP_CONFIG, PADDING } from "@/config";
-import { useConfigStore } from "@/stores/config/provider";
-import { useTimetableStore } from "@/stores/timetable/provider";
 import type { TermSlug } from "@/types/planner";
-import { termMap, termSlug } from "@/types/planner";
 import type { ModuleCode } from "@/types/primitives/module";
-
+import { SearchModule } from "@/components/SearchModule";
 import {
   ExportDropdown,
   ModuleList,
@@ -27,6 +22,10 @@ import {
   calculateCurrentTimePosition,
   getCurrentDay,
 } from "@/components/timetable/utils/timeUtils";
+import { APP_CONFIG, PADDING } from "@/config";
+import { useConfigStore } from "@/stores/config/provider";
+import { useTimetableStore } from "@/stores/timetable/provider";
+import { termMap, termSlug } from "@/types/planner";
 
 export default function TimeTablePage({
   params,
@@ -48,7 +47,7 @@ export default function TimeTablePage({
   const [selectedClass, setSelectedSection] = useState<any>();
   const [hideCurrentTime, setHideCurrentTime] = useState(false);
   const [currentTimePosition, setCurrentTimePosition] = useState<number | null>(
-    null
+    null,
   );
 
   const router = useRouter();
@@ -109,14 +108,14 @@ export default function TimeTablePage({
         selectSection(
           fullClass.moduleCode,
           fullClass.section,
-          termMap[resolvedParams.termId as TermSlug]
+          termMap[resolvedParams.termId as TermSlug],
         );
         setSelectedSection(undefined);
       } else {
         selectSection(
           selectedClass.moduleCode,
           selectedClass.section,
-          termMap[resolvedParams.termId as TermSlug]
+          termMap[resolvedParams.termId as TermSlug],
         );
         setSelectedSection(undefined);
       }
@@ -125,7 +124,7 @@ export default function TimeTablePage({
         fullClass.moduleCode,
         termMap[resolvedParams.termId as TermSlug],
         timetableTheme,
-        fullClass.section
+        fullClass.section,
       );
       setSelectedSection(fullClass);
     }
@@ -184,7 +183,7 @@ export default function TimeTablePage({
               AddModuleToTimetable(
                 mod,
                 termMap[resolvedParams.termId as TermSlug],
-                timetableTheme
+                timetableTheme,
               );
             } else {
               toast.error("This module is not offered during this term.");
@@ -209,7 +208,7 @@ export default function TimeTablePage({
           changeColorOfModule(
             termMap[termId as TermSlug],
             moduleCode,
-            colorIndex
+            colorIndex,
           )
         }
       />

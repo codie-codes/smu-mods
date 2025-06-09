@@ -1,13 +1,13 @@
 "use client";
 
-import { CheckCircle, Search, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { CheckCircle, Search, X } from "lucide-react";
 
-import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import type { Module, ModuleCode } from "@/types/primitives/module";
+import { cn } from "@/lib/utils";
+import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { searchModule } from "@/utils/moduleBank";
 
-import { cn } from "@/lib/utils";
 import { Badge } from "./ui/badge";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
@@ -70,7 +70,7 @@ export function SearchModule({
       setSelectedIndex(-1);
       setFocused(false);
     },
-    [handleModSelect]
+    [handleModSelect],
   );
 
   const handleKeyDown = useCallback(
@@ -81,7 +81,7 @@ export function SearchModule({
         case "ArrowDown":
           e.preventDefault();
           setSelectedIndex((prev) =>
-            prev < filteredResults.length - 1 ? prev + 1 : prev
+            prev < filteredResults.length - 1 ? prev + 1 : prev,
           );
           break;
         case "ArrowUp":
@@ -103,7 +103,7 @@ export function SearchModule({
           break;
       }
     },
-    [focused, showResults, selectedIndex, filteredResults, handleSelectModule]
+    [focused, showResults, selectedIndex, filteredResults, handleSelectModule],
   );
 
   const clearSearch = () => {
@@ -115,18 +115,18 @@ export function SearchModule({
   const showDropdown = focused && inputValue.trim() !== "" && showResults;
 
   return (
-    <div className="w-full max-w-2xl mx-auto">
+    <div className="mx-auto w-full max-w-2xl">
       <div className="space-y-2">
         <Label
           htmlFor="searchModule"
-          className="text-sm font-medium text-foreground"
+          className="text-foreground text-sm font-medium"
         >
           Search for a module
         </Label>
 
         <div className="relative">
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
+            <Search className="text-muted-foreground absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 transform" />
             <Input
               ref={inputRef}
               id="searchModule"
@@ -140,29 +140,29 @@ export function SearchModule({
                 setTimeout(() => setFocused(false), 150);
               }}
               onKeyDown={handleKeyDown}
-              className="pl-10 pr-20 py-3 text-base border-2 focus:border-primary transition-colors"
+              className="focus:border-primary border-2 py-3 pr-20 pl-10 text-base transition-colors"
               autoComplete="off"
               spellCheck={false}
             />
             {inputValue ? (
               <button
                 onClick={clearSearch}
-                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
+                className="text-muted-foreground hover:text-foreground absolute top-1/2 right-3 -translate-y-1/2 transform transition-colors"
                 type="button"
                 aria-label="Clear search"
               >
                 <X className="h-4 w-4" />
               </button>
             ) : (
-              <div className="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 flex items-center gap-1 text-xs text-muted-foreground">
-                <kbd className="px-1.5 py-0.5 bg-muted border border-border rounded text-[10px] font-mono">
+              <div className="text-muted-foreground pointer-events-none absolute top-1/2 right-3 flex -translate-y-1/2 items-center gap-1 text-xs">
+                <kbd className="bg-muted border-border rounded border px-1.5 py-0.5 font-mono text-[10px]">
                   {typeof navigator !== "undefined" &&
                   navigator?.platform?.toLowerCase().includes("mac")
                     ? "⌘"
                     : "Ctrl"}
                 </kbd>
                 <span>+</span>
-                <kbd className="px-1.5 py-0.5 bg-muted border border-border rounded text-[10px] font-mono">
+                <kbd className="bg-muted border-border rounded border px-1.5 py-0.5 font-mono text-[10px]">
                   K
                 </kbd>
               </div>
@@ -170,19 +170,19 @@ export function SearchModule({
           </div>
 
           {showDropdown && (
-            <div className="absolute top-full left-0 right-0 z-50 mt-1 bg-popover border border-border rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-popover border-border absolute top-full right-0 left-0 z-50 mt-1 overflow-hidden rounded-lg border shadow-lg">
               {filteredResults.length === 0 ? (
-                <div className="p-4 text-center text-muted-foreground">
-                  <Search className="h-8 w-8 mx-auto mb-2 opacity-50" />
+                <div className="text-muted-foreground p-4 text-center">
+                  <Search className="mx-auto mb-2 h-8 w-8 opacity-50" />
                   <p className="text-sm">No modules found</p>
-                  <p className="text-xs mt-1">
+                  <p className="mt-1 text-xs">
                     Try adjusting your search terms
                   </p>
                 </div>
               ) : (
                 <>
-                  <div className="p-2 border-b border-border bg-muted/50">
-                    <p className="text-xs text-muted-foreground">
+                  <div className="border-border bg-muted/50 border-b p-2">
+                    <p className="text-muted-foreground text-xs">
                       {searchResults.length} module
                       {searchResults.length !== 1 ? "s" : ""} found
                       {searchResults.length > maxResults &&
@@ -205,27 +205,27 @@ export function SearchModule({
                           role="option"
                           aria-selected={isSelected}
                           className={cn(
-                            "relative px-4 py-3 cursor-pointer transition-colors border-l-4 border-transparent",
+                            "relative cursor-pointer border-l-4 border-transparent px-4 py-3 transition-colors",
                             isSelected && "bg-accent border-l-primary",
-                            !isSelected && "hover:bg-accent/50"
+                            !isSelected && "hover:bg-accent/50",
                           )}
                           onClick={() => handleSelectModule(mod)}
                         >
                           <div className="flex items-center justify-between gap-3">
-                            <div className="flex-1 min-w-0">
-                              <div className="flex items-center gap-2 mb-1">
-                                <code className="text-sm font-mono font-semibold text-primary">
+                            <div className="min-w-0 flex-1">
+                              <div className="mb-1 flex items-center gap-2">
+                                <code className="text-primary font-mono text-sm font-semibold">
                                   {mod.moduleCode}
                                 </code>
                                 {isTaken && (
                                   <CheckCircle className="h-4 w-4 text-green-600" />
                                 )}
                               </div>
-                              <p className="text-sm text-foreground font-medium line-clamp-1">
+                              <p className="text-foreground line-clamp-1 text-sm font-medium">
                                 {mod.name}
                               </p>
                               {mod.description && (
-                                <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
+                                <p className="text-muted-foreground mt-1 line-clamp-2 text-xs">
                                   {mod.description}
                                 </p>
                               )}
@@ -237,7 +237,7 @@ export function SearchModule({
                                 </Badge>
                               )}
                               {mod.credit && (
-                                <span className="text-xs text-muted-foreground">
+                                <span className="text-muted-foreground text-xs">
                                   {mod.credit} MCs
                                 </span>
                               )}
@@ -254,7 +254,7 @@ export function SearchModule({
         </div>
 
         {inputValue && !showDropdown && (
-          <p className="text-xs text-muted-foreground">
+          <p className="text-muted-foreground text-xs">
             Press Enter to search, or focus the input to see results
           </p>
         )}

@@ -30,7 +30,7 @@ export class Logger {
     const timestamp = new Date().toISOString();
     const originalMessage = args
       .map((arg) =>
-        typeof arg === "object" ? JSON.stringify(arg, null, 2) : arg
+        typeof arg === "object" ? JSON.stringify(arg, null, 2) : arg,
       )
       .join(" ");
     return `[${timestamp}] [${level}]: ${originalMessage}`;

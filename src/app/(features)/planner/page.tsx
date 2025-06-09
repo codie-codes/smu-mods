@@ -1,8 +1,8 @@
 "use client";
 
-import { Plus, Trash2 } from "lucide-react";
-import Link from "next/link";
 import { useEffect, useState } from "react";
+import Link from "next/link";
+import { Plus, Trash2 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -26,7 +26,7 @@ export default function Planner() {
 
   const { planners, addPlanner } = useMultiplePlannerStore((state) => state);
   const { planner, plannerState, isSpecialHidden } = usePlannerStore(
-    (state) => state
+    (state) => state,
   );
 
   useEffect(() => {
@@ -96,19 +96,19 @@ function PlannerCard({ planner, id }: { planner: PlannerFull; id: string }) {
   const { removePlanner } = useMultiplePlannerStore((state) => state);
 
   return (
-    <div className="flex max-w-full rounded-md border-2 p-4 hover:border-primary/50">
+    <div className="hover:border-primary/50 flex max-w-full rounded-md border-2 p-4">
       <div className="h-full w-5/6">
         <Link
           href={`/planner/${id}`}
           className="flex h-full flex-col justify-between"
         >
           <div>
-            <h3 className="break-words text-lg font-semibold">
+            <h3 className="text-lg font-semibold break-words">
               {planner.name}
             </h3>
           </div>
           <div>
-            <p className="text-wrap align-bottom text-sm">
+            <p className="align-bottom text-sm text-wrap">
               {Object.keys(planner.plannerState.modules).length} modules
             </p>
           </div>

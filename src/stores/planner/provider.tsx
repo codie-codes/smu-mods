@@ -14,7 +14,7 @@ export interface PlannerStoreProviderProps {
 }
 
 const PlannerStoreContext = createContext<PlannerStoreApi | undefined>(
-  undefined
+  undefined,
 );
 
 export const PlannerStoreProvider = ({
@@ -33,7 +33,7 @@ export const PlannerStoreProvider = ({
 };
 
 export const usePlannerStore = <T,>(
-  selector: (store: PlannerStore) => T
+  selector: (store: PlannerStore) => T,
 ): T => {
   const plannerStoreContext = useContext(PlannerStoreContext);
 

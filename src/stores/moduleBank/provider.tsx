@@ -14,7 +14,7 @@ export interface ModuleBankStoreProviderProps {
 }
 
 const ModuleBankStoreContext = createContext<ModuleBankStoreApi | undefined>(
-  undefined
+  undefined,
 );
 
 export const ModuleBankStoreProvider = ({
@@ -33,13 +33,13 @@ export const ModuleBankStoreProvider = ({
 };
 
 export const useModuleBankStore = <T,>(
-  selector: (store: ModuleBankStore) => T
+  selector: (store: ModuleBankStore) => T,
 ): T => {
   const moduleBankStoreContext = useContext(ModuleBankStoreContext);
 
   if (!moduleBankStoreContext) {
     throw new Error(
-      `useModuleBankStore must be used within ModuleBankStoreProvider`
+      `useModuleBankStore must be used within ModuleBankStoreProvider`,
     );
   }
 

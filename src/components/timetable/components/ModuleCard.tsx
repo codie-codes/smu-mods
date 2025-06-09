@@ -40,12 +40,12 @@ export function ModuleCard({
   const { modules } = useModuleBankStore((state) => state);
 
   return (
-    <div className="flex w-full rounded-sm bg-background p-4 border">
+    <div className="bg-background flex w-full rounded-sm border p-4">
       <div className="w-fit">
         <Popover>
           <PopoverTrigger asChild>
             <div
-              className="mr-2 mt-1 h-5 w-5 cursor-pointer rounded"
+              className="mt-1 mr-2 h-5 w-5 cursor-pointer rounded"
               style={{
                 backgroundColor:
                   TIMETABLE_THEMES[timetableTheme][mod.colorIndex]
@@ -77,7 +77,7 @@ export function ModuleCard({
           const section = getSectionFromTimetable(
             timetable,
             mod.moduleCode,
-            mod
+            mod,
           );
           if (section) {
             return (

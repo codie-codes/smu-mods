@@ -1,10 +1,12 @@
 "use client";
 
 import type { DropResult } from "@hello-pangea/dnd";
+import React, { useEffect, useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "@hello-pangea/dnd";
 import { CalendarArrowUp, ChevronDown, ChevronUp, Edit } from "lucide-react";
-import React, { useEffect, useState } from "react";
 
+import type { Term, Year } from "@/types/planner";
+import type { Module, ModuleCode } from "@/types/primitives/module";
 import {
   Dialog,
   DialogClose,
@@ -22,13 +24,11 @@ import { useConfigStore } from "@/stores/config/provider";
 import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { useMultiplePlannerStore } from "@/stores/multiplePlanners/provider";
 import { useTimetableStore } from "@/stores/timetable/provider";
-import type { Term, Year } from "@/types/planner";
 import {
   EXEMPTION_YEAR,
   MODSTOTAKE_TERM,
   MODSTOTAKE_YEAR,
 } from "@/types/planner";
-import type { Module, ModuleCode } from "@/types/primitives/module";
 import { type StatusNode } from "@/utils/checkPrerequisites";
 import { getUserYear } from "@/utils/getUserYear";
 import { Logger } from "@/utils/Logger";
@@ -53,14 +53,14 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
     changePlannerName,
   } = useMultiplePlannerStore((state) => state);
   const { modules, addModule: addModuleToBank } = useModuleBankStore(
-    (state) => state
+    (state) => state,
   );
 
   const { AddModuleToTimetable: addModuleTimetable } = useTimetableStore(
-    (state) => state
+    (state) => state,
   );
   const { timetableTheme, matriculationYear } = useConfigStore(
-    (state) => state
+    (state) => state,
   );
 
   const planner = planners[plannerId];
@@ -94,7 +94,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
       dest[1] as Term,
       result.draggableId as ModuleCode,
       modules,
-      plannerId
+      plannerId,
     );
   };
 
@@ -102,7 +102,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
     for (const termNo in planner.planner[year]) {
       Logger.log(planner);
       const moduleCodes = Object.keys(
-        planner.planner[year][termNo as Term]
+        planner.planner[year][termNo as Term],
       ) as ModuleCode[];
       moduleCodes.forEach((moduleCode) => {
         const temp = modules[moduleCode];
@@ -123,7 +123,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
         id: module.moduleCode,
       },
       { ...modules, [module.moduleCode]: module },
-      plannerId
+      plannerId,
     );
     toggleYear(MODSTOTAKE_YEAR, true);
   };
@@ -131,7 +131,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
   const handleRemoveModuleFromPlanner = (
     moduleCode: ModuleCode,
     year: Year,
-    term: Term
+    term: Term,
   ) => {
     removeModule(moduleCode, year, term, modules, plannerId);
   };
@@ -167,7 +167,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
         style={{ paddingRight: PADDING }}
       >
         <div className="w-fit">
-          <h1 className="break-words text-2xl font-bold">{planner.name}</h1>
+          <h1 className="text-2xl font-bold break-words">{planner.name}</h1>
         </div>
         <div className="w-fit">
           <Dialog>
@@ -229,7 +229,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
             "mb-6",
             isMobile
               ? "sticky top-12 z-20 grid grid-cols-1 gap-6"
-              : "flex flex-wrap px-1"
+              : "flex flex-wrap px-1",
           )}
           style={{
             paddingRight: PADDING,
@@ -238,14 +238,14 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
           <div
             key={MODSTOTAKE_YEAR}
             className={cn(
-              "flex flex-col overflow-hidden rounded-lg bg-muted shadow-md",
-              !isMobile && "mb-6 mr-6 w-full flex-shrink-0"
+              "bg-muted flex flex-col overflow-hidden rounded-lg shadow-md",
+              !isMobile && "mr-6 mb-6 w-full flex-shrink-0",
             )}
           >
             <div
               className={cn(
-                "flex h-14 items-center justify-between bg-smu-blue p-3",
-                isMobile && "cursor-pointer"
+                "bg-smu-blue flex h-14 items-center justify-between p-3",
+                isMobile && "cursor-pointer",
               )}
               onClick={() => isMobile && toggleYear(MODSTOTAKE_YEAR)}
             >
@@ -277,7 +277,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                             snapshot.isDraggingOver
                               ? "bg-blue-100/10"
                               : "bg-muted",
-                            !isMobile && "flex-grow"
+                            !isMobile && "flex-grow",
                           )}
                         >
                           {Object.entries(termModules).map(
@@ -303,16 +303,16 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                   />
                                 )}
                               </Draggable>
-                            )
+                            ),
                           )}
                           {provided.placeholder}
                         </div>
                       )}
                     </Droppable>
-                  )
+                  ),
                 )}
             </div>
-            <div className="my-3 ml-3 text-xs text-muted-foreground">
+            <div className="text-muted-foreground my-3 ml-3 text-xs">
               Add modules. Hold and drag them to their respective terms.
             </div>
           </div>
@@ -322,7 +322,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
             "mb-6",
             isMobile
               ? "grid grid-cols-1 gap-6"
-              : "scrollbar-hide flex flex-nowrap overflow-x-auto scroll-smooth px-1"
+              : "scrollbar-hide flex flex-nowrap overflow-x-auto scroll-smooth px-1",
           )}
           style={{
             paddingRight: !!isMobile ? PADDING : "0rem",
@@ -338,14 +338,14 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                 <div
                   key={year}
                   className={cn(
-                    "flex flex-col overflow-hidden rounded-lg bg-accent shadow-md",
-                    !isMobile && "mb-6 mr-6 w-96 flex-shrink-0"
+                    "bg-accent flex flex-col overflow-hidden rounded-lg shadow-md",
+                    !isMobile && "mr-6 mb-6 w-96 flex-shrink-0",
                   )}
                 >
                   <div
                     className={cn(
-                      "flex h-14 items-center justify-between bg-smu-gold p-3",
-                      isMobile && "cursor-pointer"
+                      "bg-smu-gold flex h-14 items-center justify-between p-3",
+                      isMobile && "cursor-pointer",
                     )}
                     onClick={() => isMobile && toggleYear(year)}
                   >
@@ -353,8 +353,8 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                       {year === EXEMPTION_YEAR
                         ? "Exemptions"
                         : year === MODSTOTAKE_YEAR
-                        ? "Plan to Take"
-                        : `Year ${year}`}
+                          ? "Plan to Take"
+                          : `Year ${year}`}
                     </h2>
 
                     {year === studentYear
@@ -422,16 +422,16 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                 year === EXEMPTION_YEAR && !isMobile
                                   ? "flex-grow"
                                   : year === MODSTOTAKE_YEAR && !isMobile
-                                  ? "flex-grow"
-                                  : "min-h-[120px]"
+                                    ? "flex-grow"
+                                    : "min-h-[120px]",
                               )}
                             >
-                              <h3 className="mb-3 font-medium text-foreground">
+                              <h3 className="text-foreground mb-3 font-medium">
                                 {year === EXEMPTION_YEAR
                                   ? ""
                                   : year === MODSTOTAKE_YEAR
-                                  ? ""
-                                  : `${term}`}
+                                    ? ""
+                                    : `${term}`}
                               </h3>
 
                               {Object.entries(termModules).map(
@@ -458,7 +458,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                           // Extracted Append Message to handle potential nested pre-req
                                           function appendMsg(
                                             preReqMod: StatusNode,
-                                            innerReqGate: string
+                                            innerReqGate: string,
                                           ) {
                                             // if it's not nested pre-req :)
                                             if (
@@ -475,13 +475,13 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                               []) {
                                               innerMsg += appendMsg(
                                                 child,
-                                                preReqMod.type
+                                                preReqMod.type,
                                               );
                                             }
 
                                             innerMsg = innerMsg.slice(
                                               0,
-                                              -(preReqMod.type.length + 2)
+                                              -(preReqMod.type.length + 2),
                                             );
                                             innerMsg += `] ${innerReqGate} `;
 
@@ -492,11 +492,11 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                             ?.statusNode?.children ?? []) {
                                             msg += appendMsg(
                                               preReqMod,
-                                              reqGate
+                                              reqGate,
                                             );
                                           }
                                           conflictList.push(
-                                            msg.slice(0, -sliceAmt)
+                                            msg.slice(0, -sliceAmt),
                                           );
                                         }
 
@@ -523,7 +523,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                             conflictList.push(msg.slice(0, -2));
                                           }
                                         }
-                                      }
+                                      },
                                     );
                                   }
 
@@ -552,7 +552,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                       )}
                                     </Draggable>
                                   );
-                                }
+                                },
                               )}
                               {provided.placeholder}
                             </div>

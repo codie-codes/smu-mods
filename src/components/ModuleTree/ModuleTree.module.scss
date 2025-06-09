@@ -54,7 +54,7 @@ $connector-size: 1rem;
 .branch::after {
   content: "";
   position: absolute;
-  @apply bg-foreground;
+  background-color: currentColor;
 }
 
 .conditional {

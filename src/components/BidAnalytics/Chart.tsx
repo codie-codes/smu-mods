@@ -31,19 +31,19 @@ export type ChartData = {
 const chartConfig = {
   befVac: {
     label: "Before Process Vacancy",
-    color: "hsl(var(--chart-1))",
+    color: "var(--chart-1)",
   },
   aftVac: {
     label: "After Process Vacancy",
-    color: "hsl(var(--chart-5))",
+    color: "var(--chart-5)",
   },
   minBid: {
     label: "Minimum Bid",
-    color: "hsl(var(--chart-2))",
+    color: "var(--chart-2)",
   },
   medBid: {
     label: "Median Bid",
-    color: "hsl(var(--chart-3))",
+    color: "var(--chart-3)",
   },
 } satisfies ChartConfig;
 

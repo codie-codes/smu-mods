@@ -1,18 +1,8 @@
-import dynamic from "next/dynamic";
-
 import { GenerateQRCode } from "../iSync/QRCode";
-import { ToggleTimetableTheme } from "../ToggleTheme";
 import { MatriculationYearSettings } from "./matriculation";
 import { RefreshModulesSetting } from "./refreshModules";
 import { ResetApplicationSetting } from "./reset";
-
-const ToggleWebsiteTheme = dynamic(
-  async () => {
-    const module = await import("@/components/ToggleTheme");
-    return module.ToggleWebsiteTheme;
-  },
-  { ssr: false },
-);
+import { ToggleTimetableTheme } from "./ToggleTimetableTheme";
 
 export type setting = {
   title: string;
@@ -35,12 +25,6 @@ export const settings: setting[] = [
     description:
       "Get the latest module list from the server. This is to ensure that you have the latest modules and their information",
     children: <RefreshModulesSetting />,
-  },
-  {
-    title: "Dark Mode",
-    description:
-      "Get the latest module list from the server. This is to ensure that you have the latest modules and their information",
-    children: <ToggleWebsiteTheme />,
   },
   {
     title: "Timetable Theme",

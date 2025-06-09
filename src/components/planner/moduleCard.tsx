@@ -35,14 +35,14 @@ const ModuleCard = ({
       {...provided.draggableProps}
       {...provided.dragHandleProps}
       className={cn(
-        "module-card-planner",
+        "mb-2 flex items-center justify-between gap-2 rounded-lg border px-2",
         "hover-effect",
         "hover:shadow-[0_4px_15px_0_rgba(8,47,73,0.3)]",
         "dark:hover:shadow-[0_4px_15px_0_rgba(255,255,255,0.3)]",
 
         snapshot.isDragging
           ? "h-fit w-fit bg-accent shadow-lg"
-          : "border bg-background hover:border-foreground",
+          : "border bg-background hover:border-foreground"
       )}
     >
       {conflictList.length > 0 && (

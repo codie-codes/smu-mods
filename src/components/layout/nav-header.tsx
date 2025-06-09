@@ -1,14 +1,18 @@
-import Image from "next/image";
-import Link from "next/link";
-
+import { Separator } from "@/components/ui/separator";
 import { SidebarTrigger } from "@/components/ui/sidebar";
+import Link from "next/link";
+import Image from "next/image";
 import { APP_CONFIG } from "@/config";
 import { termMap } from "@/types/planner";
 
-export default function NavHeader() {
+export function NavHeader() {
   return (
-    <div className="sticky top-0 z-50 flex items-center justify-start gap-2 border-b-2 border-dashed bg-background p-2">
-      <SidebarTrigger />
+    <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
+      <SidebarTrigger className="-ml-1" />
+      <Separator
+        orientation="vertical"
+        className="mr-2 data-[orientation=vertical]:h-4"
+      />
       <Link className="relative h-10 w-32" href={"/"}>
         <Image
           src="/logo_light.png"
@@ -31,6 +35,6 @@ export default function NavHeader() {
         <p>AY{APP_CONFIG.academicYear}</p>
         <p>{termMap[APP_CONFIG.currentTerm]}</p>
       </div>
-    </div>
+    </header>
   );
 }

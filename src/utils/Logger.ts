@@ -31,7 +31,7 @@ export class Logger {
     const originalMessage = args
       .map((arg) =>
         // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-        typeof arg === "object" ? JSON.stringify(arg, null, 2) : arg,
+        typeof arg === "object" ? JSON.stringify(arg, null, 2) : arg
       )
       .join(" ");
     return `[${timestamp}] [${level}]: ${originalMessage}`;

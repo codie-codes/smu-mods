@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <>
-      <div>
+      <div className="light bg-background text-foreground">
         <h1 className="text-3xl font-bold">Light</h1>
         <div className="flex flex-wrap items-center justify-start gap-4">
           <div className="flex flex-col items-center justify-center">

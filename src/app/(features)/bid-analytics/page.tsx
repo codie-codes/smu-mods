@@ -1,13 +1,12 @@
 "use client";
 
-import { useState } from "react";
-
 import { BidAnalytics } from "@/components/BidAnalytics";
 import { SearchModule } from "@/components/SearchModule";
 import { PADDING } from "@/config";
+import { useQueryState } from "nuqs";
 
 export default function BidAnalyticsPage() {
-  const [selectedModule, setSelectedModule] = useState<string>();
+  const [selectedModule, setSelectedModule] = useQueryState("module");
   return (
     <div
       style={{

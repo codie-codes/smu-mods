@@ -11,13 +11,15 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { PADDING } from "@/config";
+import { use } from "react";
 
 interface PlannerIdPageProps {
-  params: {
+  params: Promise<{
     plannerId: string;
-  };
+  }>;
 }
 export default function PlannerIdPage({ params }: PlannerIdPageProps) {
+  const resolvedParams = use(params);
   return (
     <>
       <div
@@ -40,7 +42,7 @@ export default function PlannerIdPage({ params }: PlannerIdPageProps) {
           </BreadcrumbList>
         </Breadcrumb>
       </div>
-      <CoursePlanner plannerId={params.plannerId} />
+      <CoursePlanner plannerId={resolvedParams.plannerId} />
     </>
   );
 }

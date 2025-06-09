@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { ChevronDown, Star, StarOff } from "lucide-react";
 
 import type { Module } from "@/types/primitives/module";
@@ -34,6 +34,20 @@ export default function CourseCatalogue() {
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState<"name" | "code">("name");
   const [filterByFavorites, setFilterByFavorites] = useState(false); // Toggle to filter by favorites
+
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if ((event.metaKey || event.ctrlKey) && event.key === "k") {
+        event.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, []);
 
   // Function to get all modules in a selected category
   const getModulesByCategory = (category: string) => {
@@ -89,13 +103,29 @@ export default function CourseCatalogue() {
       <div className="flex flex-col gap-4 md:flex-row">
         {/* Search Bar */}
         <div className="flex-1">
-          <Input
-            placeholder="Search modules..."
-            value={searchQuery}
-            variant="ModulesPage"
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full"
-          />
+          <div className="relative">
+            <Input
+              ref={searchInputRef}
+              placeholder="Search modules..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pr-20"
+            />
+            {!searchQuery && (
+              <div className="pointer-events-none absolute top-1/2 right-3 -translate-y-1/2 flex items-center gap-1 text-xs text-muted-foreground">
+                <kbd className="px-1.5 py-0.5 bg-muted border border-border rounded text-[10px] font-mono">
+                  {typeof navigator !== "undefined" &&
+                  navigator?.platform?.toLowerCase().includes("mac")
+                    ? "⌘"
+                    : "Ctrl"}
+                </kbd>
+                <span>+</span>
+                <kbd className="px-1.5 py-0.5 bg-muted border border-border rounded text-[10px] font-mono">
+                  K
+                </kbd>
+              </div>
+            )}
+          </div>
         </div>
         {/* Sort By Dropdown */}
         <DropdownMenu>
@@ -170,7 +200,7 @@ export default function CourseCatalogue() {
             className={cn(
               "h-[calc(100dvh-20.5rem)] w-full md:h-[calc(100dvh-17.5rem)]",
               activeBanners.length > 0 &&
-                "h-[calc(100dvh-24rem)] md:h-[calc(100dvh-21rem)]",
+                "h-[calc(100dvh-24rem)] md:h-[calc(100dvh-21rem)]"
             )}
           >
             {filteredModules.map((module) => (
@@ -180,7 +210,7 @@ export default function CourseCatalogue() {
                 key={module.moduleCode}
               >
                 {/* <div className="mb-4 flex transform cursor-pointer items-center justify-between rounded-lg border p-4 shadow-md shadow-transparent transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-primary"> */}
-                <div className="hover:border-1 my-4 flex transform cursor-pointer items-center justify-between rounded-lg border p-4 transition-all duration-200 hover:-translate-y-1 hover:border-sky-950 hover:shadow-[0_4px_15px_0_rgba(8,47,73,0.3)] dark:border-slate-500 dark:hover:border-white dark:hover:shadow-[0_4px_15px_0_rgba(255,255,255,0.6)]">
+                <div className="hover:border-1 my-4 flex transform cursor-pointer items-center justify-between rounded-lg border p-4 transition-all duration-200 hover:-translate-y-1 hover:border-primary dark:border-accent dark:hover:border-primary">
                   <div className="flex-grow">
                     <h3 className="font-semibold">{module.name}</h3>
                     <p className="text-sm text-foreground/70">
@@ -195,13 +225,13 @@ export default function CourseCatalogue() {
                   <div
                     className={cn(
                       "flex w-fit items-center",
-                      isMobile ? "flex-col" : "flex-row",
+                      isMobile ? "flex-col" : "flex-row"
                     )}
                   >
                     <button
                       className={cn(
                         "right-0 mx-4 align-middle text-yellow-500",
-                        isMobile && "mb-4",
+                        isMobile && "mb-4"
                       )}
                       onClick={(e) => {
                         e.stopPropagation(); // Prevents triggering the dialog when clicking the star
@@ -213,7 +243,7 @@ export default function CourseCatalogue() {
                           "h-6 w-6 fill-current",
                           favouriteModules.includes(module.moduleCode)
                             ? "block"
-                            : "hidden",
+                            : "hidden"
                         )}
                       />
                       <StarOff
@@ -221,7 +251,7 @@ export default function CourseCatalogue() {
                           "h-6 w-6",
                           favouriteModules.includes(module.moduleCode)
                             ? "hidden"
-                            : "block",
+                            : "block"
                         )}
                       />
                     </button>

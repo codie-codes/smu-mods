@@ -53,14 +53,14 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
     changePlannerName,
   } = useMultiplePlannerStore((state) => state);
   const { modules, addModule: addModuleToBank } = useModuleBankStore(
-    (state) => state,
+    (state) => state
   );
 
   const { AddModuleToTimetable: addModuleTimetable } = useTimetableStore(
-    (state) => state,
+    (state) => state
   );
   const { timetableTheme, matriculationYear } = useConfigStore(
-    (state) => state,
+    (state) => state
   );
 
   const planner = planners[plannerId];
@@ -94,7 +94,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
       dest[1] as Term,
       result.draggableId as ModuleCode,
       modules,
-      plannerId,
+      plannerId
     );
   };
 
@@ -102,7 +102,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
     for (const termNo in planner.planner[year]) {
       Logger.log(planner);
       const moduleCodes = Object.keys(
-        planner.planner[year][termNo as Term],
+        planner.planner[year][termNo as Term]
       ) as ModuleCode[];
       moduleCodes.forEach((moduleCode) => {
         const module = modules[moduleCode];
@@ -123,7 +123,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
         id: module.moduleCode,
       },
       { ...modules, [module.moduleCode]: module },
-      plannerId,
+      plannerId
     );
     toggleYear(MODSTOTAKE_YEAR, true);
   };
@@ -131,7 +131,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
   const handleRemoveModuleFromPlanner = (
     moduleCode: ModuleCode,
     year: Year,
-    term: Term,
+    term: Term
   ) => {
     removeModule(moduleCode, year, term, modules, plannerId);
   };
@@ -229,7 +229,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
             "mb-6",
             isMobile
               ? "sticky top-12 z-20 grid grid-cols-1 gap-6"
-              : "flex flex-wrap px-1",
+              : "flex flex-wrap px-1"
           )}
           style={{
             paddingRight: PADDING,
@@ -239,25 +239,23 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
             key={MODSTOTAKE_YEAR}
             className={cn(
               "flex flex-col overflow-hidden rounded-lg bg-muted shadow-md",
-              !isMobile && "mb-6 mr-6 w-full flex-shrink-0",
+              !isMobile && "mb-6 mr-6 w-full flex-shrink-0"
             )}
           >
             <div
               className={cn(
                 "flex h-14 items-center justify-between bg-smu-blue p-3",
-                isMobile && "cursor-pointer",
+                isMobile && "cursor-pointer"
               )}
               onClick={() => isMobile && toggleYear(MODSTOTAKE_YEAR)}
             >
-              <h2 className="text-lg font-semibold text-primary-foreground">
-                Plan to Take
-              </h2>
+              <h2 className="text-lg font-semibold">Plan to Take</h2>
 
               {isMobile &&
                 (!isMobile || isOpen.has(MODSTOTAKE_YEAR) ? (
-                  <ChevronUp className="text-primary-foreground" />
+                  <ChevronUp />
                 ) : (
-                  <ChevronDown className="text-primary-foreground" />
+                  <ChevronDown />
                 ))}
             </div>
 
@@ -279,7 +277,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                             snapshot.isDraggingOver
                               ? "bg-blue-100/10"
                               : "bg-muted",
-                            !isMobile && "flex-grow",
+                            !isMobile && "flex-grow"
                           )}
                         >
                           {Object.entries(termModules).map(
@@ -305,13 +303,13 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                   />
                                 )}
                               </Draggable>
-                            ),
+                            )
                           )}
                           {provided.placeholder}
                         </div>
                       )}
                     </Droppable>
-                  ),
+                  )
                 )}
             </div>
             <div className="my-3 ml-3 text-xs text-muted-foreground">
@@ -324,7 +322,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
             "mb-6",
             isMobile
               ? "grid grid-cols-1 gap-6"
-              : "scrollbar-hide flex flex-nowrap overflow-x-auto scroll-smooth px-1",
+              : "scrollbar-hide flex flex-nowrap overflow-x-auto scroll-smooth px-1"
           )}
           style={{
             paddingRight: !!isMobile ? PADDING : "0rem",
@@ -341,22 +339,22 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                   key={year}
                   className={cn(
                     "flex flex-col overflow-hidden rounded-lg bg-accent shadow-md",
-                    !isMobile && "mb-6 mr-6 w-96 flex-shrink-0",
+                    !isMobile && "mb-6 mr-6 w-96 flex-shrink-0"
                   )}
                 >
                   <div
                     className={cn(
                       "flex h-14 items-center justify-between bg-smu-gold p-3",
-                      isMobile && "cursor-pointer",
+                      isMobile && "cursor-pointer"
                     )}
                     onClick={() => isMobile && toggleYear(year)}
                   >
-                    <h2 className="text-lg font-semibold text-primary-foreground">
+                    <h2 className="text-lg font-semibold">
                       {year === EXEMPTION_YEAR
                         ? "Exemptions"
                         : year === MODSTOTAKE_YEAR
-                          ? "Plan to Take"
-                          : `Year ${year}`}
+                        ? "Plan to Take"
+                        : `Year ${year}`}
                     </h2>
 
                     {year === studentYear
@@ -381,11 +379,10 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                   {(!isMobile || isOpen.has(year)) && (
                     <>
                       {year !== EXEMPTION_YEAR && (
-                        <div className="flex-cols flex">
+                        <div className="flex-cols flex justify-center">
                           <Button
                             onClick={() => handleHideSpecial(year as Year)}
-                            className="show-special-terms-btn"
-                            variant={"ghost"}
+                            variant={"outline"}
                           >
                             {isHidden
                               ? "Show Special Terms"
@@ -425,16 +422,16 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                 year === EXEMPTION_YEAR && !isMobile
                                   ? "flex-grow"
                                   : year === MODSTOTAKE_YEAR && !isMobile
-                                    ? "flex-grow"
-                                    : "min-h-[120px]",
+                                  ? "flex-grow"
+                                  : "min-h-[120px]"
                               )}
                             >
                               <h3 className="mb-3 font-medium text-foreground">
                                 {year === EXEMPTION_YEAR
                                   ? ""
                                   : year === MODSTOTAKE_YEAR
-                                    ? ""
-                                    : `${term}`}
+                                  ? ""
+                                  : `${term}`}
                               </h3>
 
                               {Object.entries(termModules).map(
@@ -461,7 +458,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                           // Extracted Append Message to handle potential nested pre-req
                                           function appendMsg(
                                             preReqMod: StatusNode,
-                                            innerReqGate: string,
+                                            innerReqGate: string
                                           ) {
                                             // if it's not nested pre-req :)
                                             if (
@@ -478,13 +475,13 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                               []) {
                                               innerMsg += appendMsg(
                                                 child,
-                                                preReqMod.type,
+                                                preReqMod.type
                                               );
                                             }
 
                                             innerMsg = innerMsg.slice(
                                               0,
-                                              -(preReqMod.type.length + 2),
+                                              -(preReqMod.type.length + 2)
                                             );
                                             innerMsg += `] ${innerReqGate} `;
 
@@ -495,11 +492,11 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                             ?.statusNode?.children ?? []) {
                                             msg += appendMsg(
                                               preReqMod,
-                                              reqGate,
+                                              reqGate
                                             );
                                           }
                                           conflictList.push(
-                                            msg.slice(0, -sliceAmt),
+                                            msg.slice(0, -sliceAmt)
                                           );
                                         }
 
@@ -526,7 +523,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                             conflictList.push(msg.slice(0, -2));
                                           }
                                         }
-                                      },
+                                      }
                                     );
                                   }
 
@@ -555,7 +552,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                       )}
                                     </Draggable>
                                   );
-                                },
+                                }
                               )}
                               {provided.placeholder}
                             </div>

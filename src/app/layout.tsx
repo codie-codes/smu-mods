@@ -1,10 +1,26 @@
-import "@/styles/globals.css";
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
+import { AppSidebar } from "@/components/layout/app-sidebar";
+import { NavHeader } from "@/components/layout/nav-header";
+import { TRPCReactProvider } from "@/trpc/react";
+import { HydrateClient } from "@/trpc/server";
+import StoreProviders from "@/stores/StoreProviders";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { CustomToaster } from "@/components/custom-toaster";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 
-import { type Metadata } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
-import { GeistSans } from "geist/font/sans";
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
 
-import MainProviders from "@/providers";
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "SMU MODs",
@@ -12,26 +28,43 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.png" }],
 };
 
-export const dynamic = "force-dynamic";
-
 export default function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <html
-      lang="en"
-      className={`${GeistSans.variable}`}
-      suppressHydrationWarning
-    >
-      <GoogleAnalytics gaId="G-J3GN6BMKJC" />
-      <head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-      </head>
-      <body>
-        <MainProviders>{children}</MainProviders>
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
+      >
+        <TRPCReactProvider>
+          <HydrateClient>
+            <StoreProviders>
+              <ThemeProvider
+                attribute="class"
+                defaultTheme="system"
+                enableSystem
+                disableTransitionOnChange
+              >
+                <NuqsAdapter>
+                  <TooltipProvider>
+                    <SidebarProvider>
+                      <AppSidebar />
+                      <SidebarInset>
+                        <NavHeader />
+                        <div className="flex flex-1 flex-col gap-4 p-4">
+                          {children}
+                        </div>
+                      </SidebarInset>
+                    </SidebarProvider>
+                  </TooltipProvider>
+                </NuqsAdapter>
+                <CustomToaster />
+              </ThemeProvider>
+            </StoreProviders>
+          </HydrateClient>
+        </TRPCReactProvider>
       </body>
     </html>
   );

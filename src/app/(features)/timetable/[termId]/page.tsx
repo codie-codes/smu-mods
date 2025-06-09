@@ -1,16 +1,16 @@
 "use client";
 
-import { use, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { use, useEffect, useRef, useState } from "react";
 import { toast } from "sonner";
 
-import type { TermSlug } from "@/types/planner";
-import type { ModuleCode } from "@/types/primitives/module";
 import { SearchModule } from "@/components/SearchModule";
 import { APP_CONFIG, PADDING } from "@/config";
 import { useConfigStore } from "@/stores/config/provider";
 import { useTimetableStore } from "@/stores/timetable/provider";
+import type { TermSlug } from "@/types/planner";
 import { termMap, termSlug } from "@/types/planner";
+import type { ModuleCode } from "@/types/primitives/module";
 
 import {
   ExportDropdown,
@@ -19,14 +19,14 @@ import {
   TimetableGrid,
 } from "@/components/timetable/components";
 import {
-  calculateCurrentTimePosition,
-  getCurrentDay,
-} from "@/components/timetable/utils/timeUtils";
-import {
   exportAsPdfOrImage,
   exportClassesICal,
   exportExamsICal,
 } from "@/components/timetable/utils/exportUtils";
+import {
+  calculateCurrentTimePosition,
+  getCurrentDay,
+} from "@/components/timetable/utils/timeUtils";
 
 export default function TimeTablePage({
   params,

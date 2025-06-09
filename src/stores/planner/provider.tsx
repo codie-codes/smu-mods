@@ -14,13 +14,13 @@ export interface PlannerStoreProviderProps {
 }
 
 const PlannerStoreContext = createContext<PlannerStoreApi | undefined>(
-  undefined,
+  undefined
 );
 
 export const PlannerStoreProvider = ({
   children,
 }: PlannerStoreProviderProps) => {
-  const storeRef = useRef<PlannerStoreApi>();
+  const storeRef = useRef<PlannerStoreApi>(null);
   if (!storeRef.current) {
     storeRef.current = createPlannerBank();
   }
@@ -33,7 +33,7 @@ export const PlannerStoreProvider = ({
 };
 
 export const usePlannerStore = <T,>(
-  selector: (store: PlannerStore) => T,
+  selector: (store: PlannerStore) => T
 ): T => {
   const plannerStoreContext = useContext(PlannerStoreContext);
 

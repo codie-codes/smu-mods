@@ -1,16 +1,16 @@
 "use client";
 
-import { useEffect, useState, useRef, useCallback } from "react";
-import { Search, X, CheckCircle } from "lucide-react";
+import { CheckCircle, Search, X } from "lucide-react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
-import type { Module, ModuleCode } from "@/types/primitives/module";
 import { useModuleBankStore } from "@/stores/moduleBank/provider";
+import type { Module, ModuleCode } from "@/types/primitives/module";
 import { searchModule } from "@/utils/moduleBank";
 
+import { cn } from "@/lib/utils";
 import { Badge } from "./ui/badge";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
-import { cn } from "@/lib/utils";
 
 interface SearchModuleProps {
   handleModSelect: (mod: Module) => void;
@@ -63,6 +63,16 @@ export function SearchModule({
     }
   }, [inputValue, modules, callback]);
 
+  const handleSelectModule = useCallback(
+    (module: Module) => {
+      handleModSelect(module);
+      setInputValue("");
+      setSelectedIndex(-1);
+      setFocused(false);
+    },
+    [handleModSelect]
+  );
+
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
       if (!focused || !showResults) return;
@@ -93,17 +103,7 @@ export function SearchModule({
           break;
       }
     },
-    [focused, showResults, selectedIndex, filteredResults]
-  );
-
-  const handleSelectModule = useCallback(
-    (module: Module) => {
-      handleModSelect(module);
-      setInputValue("");
-      setSelectedIndex(-1);
-      setFocused(false);
-    },
-    [handleModSelect]
+    [focused, showResults, selectedIndex, filteredResults, handleSelectModule]
   );
 
   const clearSearch = () => {

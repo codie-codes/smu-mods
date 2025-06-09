@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
 import { ChevronDown, Star, StarOff } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 
 import type { Module } from "@/types/primitives/module";
 // import ui components
@@ -30,7 +30,7 @@ export default function CourseCatalogue() {
   const { banners } = useConfigStore((state) => state);
   const activeBanners = banners.filter((banner) => !banner.dismissed);
 
-  const [selectedCategories, _setSelectedCategories] = useState<string[]>([]);
+  const [selectedCategories] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState<"name" | "code">("name");
   const [filterByFavorites, setFilterByFavorites] = useState(false); // Toggle to filter by favorites

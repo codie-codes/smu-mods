@@ -15,7 +15,7 @@ export type PlannerActions = {
       year: Year;
       term: Term;
     },
-    moduleBank: ModuleBank,
+    moduleBank: ModuleBank
   ) => void;
   changeTerm: (
     srcYear: Year,
@@ -23,13 +23,13 @@ export type PlannerActions = {
     destYear: Year,
     destTerm: Term,
     moduleCode: ModuleCode,
-    moduleBank: ModuleBank,
+    moduleBank: ModuleBank
   ) => void;
   removeModule: (
     moduleCode: ModuleCode,
     year: Year,
     term: Term,
-    moduleBank: ModuleBank,
+    moduleBank: ModuleBank
   ) => void;
   hideSpecial: (year: Year) => void;
   // removeTerm: (year: Year, term: Term, moduleBank: ModuleBank) => void;
@@ -74,16 +74,16 @@ export const createPlannerBank = () => {
           destYear,
           destTerm,
           moduleCode,
-          moduleBank,
+          moduleBank
         ) => {
           const original = get();
           if (!original.plannerState) return;
-          const module = original.plannerState.modules[moduleCode];
-          if (!module) return;
+          const temp = original.plannerState.modules[moduleCode];
+          if (!temp) return;
 
           set((state) => {
             const updatedModule = {
-              ...module,
+              ...temp,
               year: destYear,
               term: destTerm,
             };
@@ -113,9 +113,9 @@ export const createPlannerBank = () => {
           const state = get();
           const original = state.plannerState;
           if (!original) return;
-          const module = original.modules[moduleCode];
+          const tempModule = original.modules[moduleCode];
 
-          if (!module) return state;
+          if (!tempModule) return state;
 
           // eslint-disable-next-line @typescript-eslint/no-unused-vars
           const { [moduleCode]: _, ...remainingModules } = original.modules;
@@ -206,18 +206,18 @@ export const createPlannerBank = () => {
       {
         name: "planner",
         storage: createJSONStorage(() => localStorage),
-      },
-    ),
+      }
+    )
   );
 };
 
 export const removeModulesFromPlannerState = (
   modules: PlannerState["modules"],
-  predicate: (moduleCode: string, module: any) => boolean,
+  predicate: (moduleCode: string, module: any) => boolean
 ) => {
   return Object.fromEntries(
     Object.entries(modules).filter(
-      ([moduleCode, module]) => !predicate(moduleCode, module),
-    ),
+      ([moduleCode, module]) => !predicate(moduleCode, module)
+    )
   );
 };

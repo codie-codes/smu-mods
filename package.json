@@ -2,6 +2,7 @@
   "name": "smu-mods-v2",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.4.1",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -61,6 +62,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/crypto-js": "^4.2.2",
     "@types/lodash": "^4.17.17",
     "@types/node": "^20",
     "@types/react": "^19",

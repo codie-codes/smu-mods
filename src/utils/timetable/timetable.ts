@@ -2,6 +2,8 @@ import type { ICalEventData } from "ical-generator";
 import { ICalEventRepeatingFreq } from "ical-generator";
 import { toast } from "sonner";
 
+import { APP_CONFIG } from "@/config";
+import { modules } from "@/server/data/moduleBank";
 import type { Term } from "@/types/planner";
 import type { Module, ModuleCode, Section } from "@/types/primitives/module";
 import type {
@@ -9,8 +11,6 @@ import type {
   ModifiableClass,
   Timetable,
 } from "@/types/primitives/timetable";
-import { APP_CONFIG } from "@/config";
-import { modules } from "@/server/data/moduleBank";
 import { days } from "@/types/primitives/timetable";
 
 import type { TimetableThemeName } from "./colours";
@@ -18,7 +18,7 @@ import { TIMETABLE_THEMES } from "./colours";
 
 export function findFreeColorIndex(
   timetable: Timetable,
-  theme: TimetableThemeName,
+  theme: TimetableThemeName
 ) {
   for (let i = 0; i < timetable.modules.length; i++) {
     if (!timetable.modules.find((m) => m.colorIndex === i)) {
@@ -31,7 +31,7 @@ export function findFreeColorIndex(
 export function toggleVisibility(moduleCode: ModuleCode, timetable: Timetable) {
   const updatedTimetable = JSON.parse(JSON.stringify(timetable)) as Timetable;
   const findModuleIndex = updatedTimetable.modules.findIndex(
-    (m) => m.moduleCode === moduleCode,
+    (m) => m.moduleCode === moduleCode
   );
   const findModule = updatedTimetable.modules[findModuleIndex];
   if (!findModule) {
@@ -53,7 +53,7 @@ export function toggleVisibility(moduleCode: ModuleCode, timetable: Timetable) {
             };
           }
           return classItem;
-        },
+        }
       );
     });
   return updatedTimetable;
@@ -62,11 +62,11 @@ export function toggleVisibility(moduleCode: ModuleCode, timetable: Timetable) {
 export function changeColorOfModule(
   moduleCode: ModuleCode,
   timetable: Timetable,
-  colorIndex: number,
+  colorIndex: number
 ) {
   const updatedTimetable = JSON.parse(JSON.stringify(timetable)) as Timetable;
   const findModuleIndex = updatedTimetable.modules.findIndex(
-    (m) => m.moduleCode === moduleCode,
+    (m) => m.moduleCode === moduleCode
   );
   const findModule = updatedTimetable.modules[findModuleIndex];
   if (!findModule) {
@@ -86,7 +86,7 @@ export function changeColorOfModule(
             };
           }
           return classItem;
-        },
+        }
       );
     });
   return updatedTimetable;
@@ -96,7 +96,7 @@ export function addModuleToTimetable(
   module: Module,
   timetable: Timetable,
   theme: TimetableThemeName,
-  term: Term,
+  term: Term
 ): Timetable {
   const updatedTimetable = JSON.parse(JSON.stringify(timetable)) as Timetable;
   const section = module.sections[0];
@@ -105,7 +105,7 @@ export function addModuleToTimetable(
     return updatedTimetable;
   }
   const findModule = updatedTimetable.modules.findIndex(
-    (m) => m.moduleCode === module.moduleCode,
+    (m) => m.moduleCode === module.moduleCode
   );
   if (findModule !== -1) {
     toast.error(`${module.moduleCode} already added to timetable`);
@@ -146,14 +146,14 @@ export function showAllSections(
   module: Module,
   timetable: Timetable,
   theme: TimetableThemeName,
-  currentSectionCode?: Section["code"],
+  currentSectionCode?: Section["code"]
 ): Timetable {
   const updatedTimetable = JSON.parse(JSON.stringify(timetable)) as Timetable;
   const tmp = timetable.modules.find((m) => m.moduleCode === module.moduleCode);
   module.sections.forEach((section) => {
     section.classes.forEach((classTime) => {
       updatedTimetable[classTime.day] = updatedTimetable[classTime.day].filter(
-        (c) => c.moduleCode !== module.moduleCode,
+        (c) => c.moduleCode !== module.moduleCode
       );
     });
   });
@@ -198,7 +198,7 @@ export function showAllSections(
 export function selectSection(
   module: Module,
   timetable: Timetable,
-  selectedSectionCode: string,
+  selectedSectionCode: string
 ): Timetable {
   const updatedTimetable = JSON.parse(JSON.stringify(timetable)) as Timetable;
 
@@ -207,7 +207,7 @@ export function selectSection(
       (classItem) =>
         classItem.moduleCode !== module.moduleCode ||
         (classItem.section === selectedSectionCode &&
-          classItem.moduleCode === module.moduleCode),
+          classItem.moduleCode === module.moduleCode)
     );
   });
 
@@ -304,24 +304,24 @@ export function getRecurringEvents(timetable: Timetable): ICalEventData[] {
           const startDate = new Date(termStartDate);
           startDate.setDate(startDate.getDate() + daysToAdd);
 
-          const module = modules[moduleCode];
+          const tempModule = modules[moduleCode];
 
-          if (!module) {
+          if (!tempModule) {
             continue;
           }
 
-          const section = module.sections.find(
-            (section) => section.code === modClass.section,
+          const section = tempModule.sections.find(
+            (section) => section.code === modClass.section
           );
 
           result.push({
             start: new Date(
-              `${startDate.toISOString().split("T")[0]}T${startTime}`,
+              `${startDate.toISOString().split("T")[0]}T${startTime}`
             ),
             end: new Date(
-              `${startDate.toISOString().split("T")[0]}T${endTime}`,
+              `${startDate.toISOString().split("T")[0]}T${endTime}`
             ),
-            summary: `[${moduleCode}] ${section?.code} ${module.name}`,
+            summary: `[${moduleCode}] ${section?.code} ${tempModule.name}`,
             location:
               (section?.location.building ?? "") +
               " " +
@@ -342,7 +342,7 @@ export function getRecurringEvents(timetable: Timetable): ICalEventData[] {
 export function getSectionFromTimetable(
   timetable: Timetable,
   moduleCode: ModuleCode,
-  module: Module,
+  module: Module
 ): Section | undefined {
   let sectionCode: string | undefined;
   for (const day of days) {
@@ -362,18 +362,18 @@ export function getSectionFromTimetable(
 export function getExamsFromTimetable(timetable: Timetable): ICalEventData[] {
   const result: ICalEventData[] = [];
 
-  for (const module of timetable.modules) {
-    if (!module.exam) {
+  for (const tempModule of timetable.modules) {
+    if (!tempModule.exam) {
       continue;
     }
     result.push({
-      start: module.exam.dateTime,
+      start: tempModule.exam.dateTime,
       end: new Date(
-        new Date(module.exam.dateTime).getTime() +
-          (module.exam.durationInHour ?? 0) * 60 * 60 * 1000,
+        new Date(tempModule.exam.dateTime).getTime() +
+          (tempModule.exam.durationInHour ?? 0) * 60 * 60 * 1000
       ),
-      summary: `[Final Exam] [${module.moduleCode}] ${module.name}`,
-      description: module.moduleCode,
+      summary: `[Final Exam] [${tempModule.moduleCode}] ${tempModule.name}`,
+      description: tempModule.moduleCode,
     });
   }
 

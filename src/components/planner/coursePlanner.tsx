@@ -1,12 +1,10 @@
 "use client";
 
 import type { DropResult } from "@hello-pangea/dnd";
-import React, { useEffect, useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "@hello-pangea/dnd";
 import { CalendarArrowUp, ChevronDown, ChevronUp, Edit } from "lucide-react";
+import React, { useEffect, useState } from "react";
 
-import type { Term, Year } from "@/types/planner";
-import type { Module, ModuleCode } from "@/types/primitives/module";
 import {
   Dialog,
   DialogClose,
@@ -24,11 +22,13 @@ import { useConfigStore } from "@/stores/config/provider";
 import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { useMultiplePlannerStore } from "@/stores/multiplePlanners/provider";
 import { useTimetableStore } from "@/stores/timetable/provider";
+import type { Term, Year } from "@/types/planner";
 import {
   EXEMPTION_YEAR,
   MODSTOTAKE_TERM,
   MODSTOTAKE_YEAR,
 } from "@/types/planner";
+import type { Module, ModuleCode } from "@/types/primitives/module";
 import { type StatusNode } from "@/utils/checkPrerequisites";
 import { getUserYear } from "@/utils/getUserYear";
 import { Logger } from "@/utils/Logger";
@@ -105,9 +105,9 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
         planner.planner[year][termNo as Term]
       ) as ModuleCode[];
       moduleCodes.forEach((moduleCode) => {
-        const module = modules[moduleCode];
-        if (!!module) {
-          addModuleTimetable(module, termNo as Term, timetableTheme);
+        const temp = modules[moduleCode];
+        if (!!temp) {
+          addModuleTimetable(temp, termNo as Term, timetableTheme);
         }
       });
     }
@@ -442,7 +442,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                   if (conflicts && year !== EXEMPTION_YEAR) {
                                     // eslint-disable-next-line @typescript-eslint/no-unused-vars
                                     Object.entries(conflicts).map(
-                                      ([_, conflict]) => {
+                                      ([, conflict]) => {
                                         "checkpoint";
                                         if (
                                           conflict.type === "prereq" &&

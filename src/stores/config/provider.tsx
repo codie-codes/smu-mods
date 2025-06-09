@@ -16,7 +16,7 @@ export interface ConfigStoreProviderProps {
 const ConfigStoreContext = createContext<ConfigStoreApi | undefined>(undefined);
 
 export const ConfigStoreProvider = ({ children }: ConfigStoreProviderProps) => {
-  const storeRef = useRef<ConfigStoreApi>();
+  const storeRef = useRef<ConfigStoreApi>(null);
   if (!storeRef.current) {
     storeRef.current = createConfigBank();
   }

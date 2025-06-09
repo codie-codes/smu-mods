@@ -16,7 +16,7 @@ export interface EventStoreProviderProps {
 const EventStoreContext = createContext<EventStoreApi | undefined>(undefined);
 
 export const EventStoreProvider = ({ children }: EventStoreProviderProps) => {
-  const storeRef = useRef<EventStoreApi>();
+  const storeRef = useRef<EventStoreApi>(null);
   if (!storeRef.current) {
     storeRef.current = createEventStore();
   }

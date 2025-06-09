@@ -4,8 +4,9 @@ import { BidAnalytics } from "@/components/BidAnalytics";
 import { SearchModule } from "@/components/SearchModule";
 import { PADDING } from "@/config";
 import { useQueryState } from "nuqs";
+import { Suspense } from "react";
 
-export default function BidAnalyticsPage() {
+function BidAnalyticsContent() {
   const [selectedModule, setSelectedModule] = useQueryState("module");
   return (
     <div
@@ -28,5 +29,13 @@ export default function BidAnalyticsPage() {
         />
       )}
     </div>
+  );
+}
+
+export default function BidAnalyticsPage() {
+  return (
+    <Suspense fallback={<div style={{ padding: PADDING }}>Loading...</div>}>
+      <BidAnalyticsContent />
+    </Suspense>
   );
 }

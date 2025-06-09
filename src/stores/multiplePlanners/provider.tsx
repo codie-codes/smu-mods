@@ -22,7 +22,7 @@ const MultiplePlannerStoreContext = createContext<
 export const MultiplePlannerStoreProvider = ({
   children,
 }: MultiplePlannerStoreProviderProps) => {
-  const storeRef = useRef<MultiplePlannerStoreApi>();
+  const storeRef = useRef<MultiplePlannerStoreApi>(null);
   if (!storeRef.current) {
     storeRef.current = createMultiplePlannerBank();
   }
@@ -35,13 +35,13 @@ export const MultiplePlannerStoreProvider = ({
 };
 
 export const useMultiplePlannerStore = <T,>(
-  selector: (store: MultiplePlannerStore) => T,
+  selector: (store: MultiplePlannerStore) => T
 ): T => {
   const multiplePlannerStoreContext = useContext(MultiplePlannerStoreContext);
 
   if (!multiplePlannerStoreContext) {
     throw new Error(
-      `useMultiplePlannerStore must be used within MultiplePlannerStoreProvider`,
+      `useMultiplePlannerStore must be used within MultiplePlannerStoreProvider`
     );
   }
 

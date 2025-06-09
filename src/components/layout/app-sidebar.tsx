@@ -1,18 +1,17 @@
 "use client";
 
-import * as React from "react";
 import {
+  BookA,
   Calendar,
   ChartArea,
-  NotebookPen,
-  BookA,
-  Settings,
   LifeBuoy,
   Moon,
+  NotebookPen,
+  Settings,
   Sun,
 } from "lucide-react";
+import * as React from "react";
 
-import { SearchForm } from "@/components/search-form";
 import { APP_CONFIG } from "@/config";
 import { useTheme } from "next-themes";
 
@@ -22,14 +21,12 @@ import {
   SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
-  SidebarGroupLabel,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarRail,
 } from "@/components/ui/sidebar";
-import { Button } from "../ui/button";
 import { usePathname } from "next/navigation";
 
 const data = {

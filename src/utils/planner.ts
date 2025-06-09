@@ -10,8 +10,8 @@ import type {
   PlannerState,
   Term,
 } from "@/types/planner";
-import type { Module, ModuleCode } from "@/types/primitives/module";
 import { defaultPlanner, terms } from "@/types/planner";
+import type { Module, ModuleCode } from "@/types/primitives/module";
 
 import { checkPrerequisite } from "./checkPrerequisites";
 
@@ -30,11 +30,11 @@ export const prereqConflict =
 export const semesterConflict =
   (moduleCodeMap: ModuleBank, term: Term) =>
   (moduleCode: ModuleCode): Conflict | null => {
-    const module = moduleCodeMap[moduleCode];
-    if (!module) return null;
-    if (!module.terms || module.terms.length < 1) return null;
-    if (!module.terms.includes(term)) {
-      return { type: "term", termsOffered: module.terms };
+    const temp = moduleCodeMap[moduleCode];
+    if (!temp) return null;
+    if (!temp.terms || temp.terms.length < 1) return null;
+    if (!temp.terms.includes(term)) {
+      return { type: "term", termsOffered: temp.terms };
     }
 
     return null;
@@ -44,7 +44,7 @@ export const examConflict =
   (clashes: ExamClashes) =>
   (moduleCode: ModuleCode): Conflict | null => {
     const clash = values(clashes).find((modules) =>
-      Boolean(modules.find((module) => module.moduleCode === moduleCode)),
+      Boolean(modules.find((module) => module.moduleCode === moduleCode))
     );
 
     if (clash) {
@@ -63,7 +63,7 @@ const isTermBefore = (termA: Term, termB: Term): boolean => {
 
 export const calculatePreviousModulesTaken = (
   plannerModules: Record<ModuleCode, PlannerModule>,
-  targetModule: PlannerModule,
+  targetModule: PlannerModule
 ): Set<ModuleCode> => {
   const modulesTaken = new Set<ModuleCode>();
 
@@ -112,11 +112,11 @@ export function getPlannerModuleInfo(
   plannerModule: PlannerModule,
   moduleBank: ModuleBank,
   plannerModules: PlannerState["modules"],
-  fullModules: Module[],
+  fullModules: Module[]
 ): ConflictMap[ModuleCode] {
   const modulesTaken = calculatePreviousModulesTaken(
     plannerModules,
-    plannerModule,
+    plannerModule
   );
   const conflicts = [
     prereqConflict(moduleBank, modulesTaken)(plannerModule.moduleCode),
@@ -130,12 +130,12 @@ export function getPlannerModuleInfo(
 
 export function getPlanner(
   plannerModules: PlannerState["modules"],
-  moduleBank: ModuleBank,
+  moduleBank: ModuleBank
 ): Planner {
   const planner: Planner = defaultPlanner;
 
   const fullModules = Object.keys(plannerModules).map(
-    (moduleCode) => moduleBank[moduleCode as ModuleCode],
+    (moduleCode) => moduleBank[moduleCode as ModuleCode]
   ) as Module[];
 
   for (const moduleCode in plannerModules) {
@@ -149,7 +149,7 @@ export function getPlanner(
         plannerModule,
         moduleBank,
         plannerModules,
-        fullModules,
+        fullModules
       );
   }
   return planner;

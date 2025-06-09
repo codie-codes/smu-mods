@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
 import { Plus, Trash2 } from "lucide-react";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -26,7 +26,7 @@ export default function Planner() {
 
   const { planners, addPlanner } = useMultiplePlannerStore((state) => state);
   const { planner, plannerState, isSpecialHidden } = usePlannerStore(
-    (state) => state,
+    (state) => state
   );
 
   useEffect(() => {
@@ -38,7 +38,7 @@ export default function Planner() {
       });
       localStorage.removeItem("planner");
     }
-  }, [planner, plannerState, isSpecialHidden]);
+  }, [planner, plannerState, isSpecialHidden, addPlanner]);
 
   return (
     <div
@@ -117,7 +117,7 @@ function PlannerCard({ planner, id }: { planner: PlannerFull; id: string }) {
       <div className="mt-0 w-1/6 text-end">
         <Dialog>
           <DialogTrigger asChild>
-            <Button size={"icon"} variant={"destructiveOutline"}>
+            <Button size={"icon"} variant={"destructive"}>
               <Trash2></Trash2>
             </Button>
           </DialogTrigger>

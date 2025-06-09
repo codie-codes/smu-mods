@@ -1,16 +1,18 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { CustomToaster } from "@/components/custom-toaster";
+import { AppSidebar } from "@/components/layout/app-sidebar";
+import { AppVersionCheck } from "@/components/layout/AppVersionCheck";
+import { Disclaimer } from "@/components/layout/Disclaimer";
+import { NavHeader } from "@/components/layout/nav-header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/layout/app-sidebar";
-import { NavHeader } from "@/components/layout/nav-header";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import StoreProviders from "@/stores/StoreProviders";
 import { TRPCReactProvider } from "@/trpc/react";
 import { HydrateClient } from "@/trpc/server";
-import StoreProviders from "@/stores/StoreProviders";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { CustomToaster } from "@/components/custom-toaster";
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -50,6 +52,8 @@ export default function RootLayout({
                 <NuqsAdapter>
                   <TooltipProvider>
                     <SidebarProvider>
+                      <AppVersionCheck />
+                      <Disclaimer />
                       <AppSidebar />
                       <SidebarInset>
                         <NavHeader />

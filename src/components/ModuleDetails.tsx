@@ -2,8 +2,9 @@ import type { ReactNode } from "react";
 import { useEffect, useState } from "react";
 import { AlertCircle, BookOpen, Clock, Loader2, Users } from "lucide-react";
 
-import type { Module, ModuleCode } from "@/types/primitives/module";
+import type { ModuleCode } from "@/types/primitives/module";
 import { useModuleBankStore } from "@/stores/moduleBank/provider";
+import { PlannerModule } from "@/types/planner";
 import { Logger } from "@/utils/Logger";
 
 import { ModuleTreeComponent } from "./ModuleTree";
@@ -20,19 +21,26 @@ import {
 
 interface ModuleDetailsProps {
   moduleCode: ModuleCode;
+  plannerModule?: PlannerModule["module"];
   children: ReactNode;
 }
 
 export default function ModuleDetails({
   moduleCode,
+  plannerModule,
   children,
 }: ModuleDetailsProps) {
   const { getModule } = useModuleBankStore((state) => state);
-  const [module, setModule] = useState<Module>();
+  const [module, setModule] = useState<PlannerModule["module"]>();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (plannerModule) {
+      setModule(plannerModule);
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     setError(null);
     getModule(moduleCode)

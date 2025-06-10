@@ -280,8 +280,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                           )}
                         >
                           {Object.entries(termModules).map(
-                            // eslint-disable-next-line @typescript-eslint/no-unused-vars
-                            ([moduleCode, { conflicts }], index) => (
+                            ([moduleCode], index) => (
                               <Draggable
                                 key={moduleCode}
                                 draggableId={moduleCode}
@@ -290,15 +289,16 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                 {(provided, snapshot) => (
                                   <ModuleCard
                                     moduleCode={moduleCode}
-                                    moduleName={
-                                      modules[moduleCode as ModuleCode]?.name ??
-                                      ""
-                                    }
                                     year={MODSTOTAKE_YEAR as Year}
                                     term={MODSTOTAKE_TERM as Term}
                                     provided={provided}
                                     snapshot={snapshot}
                                     removeModule={handleRemoveModuleFromPlanner}
+                                    plannerModule={
+                                      planner.plannerState.modules[
+                                        moduleCode as ModuleCode
+                                      ].module
+                                    }
                                   />
                                 )}
                               </Draggable>
@@ -535,10 +535,6 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                       {(provided, snapshot) => (
                                         <ModuleCard
                                           moduleCode={moduleCode}
-                                          moduleName={
-                                            modules[moduleCode as ModuleCode]
-                                              ?.name ?? ""
-                                          }
                                           year={year as Year}
                                           term={term as Term}
                                           provided={provided}
@@ -546,6 +542,11 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
                                           conflictList={conflictList}
                                           removeModule={
                                             handleRemoveModuleFromPlanner
+                                          }
+                                          plannerModule={
+                                            planner.plannerState.modules[
+                                              moduleCode as ModuleCode
+                                            ].module
                                           }
                                         />
                                       )}

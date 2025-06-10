@@ -1,6 +1,7 @@
+import { DraggableProvided, DraggableStateSnapshot } from "@hello-pangea/dnd";
 import { CircleAlert, X } from "lucide-react";
 
-import type { Term, Year } from "@/types/planner";
+import type { PlannerModule, Term, Year } from "@/types/planner";
 import type { ModuleCode } from "@/types/primitives/module";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -10,24 +11,24 @@ import { InteractiveTooltip } from "./customTooltip";
 
 interface ModuleCardProps {
   moduleCode: string;
-  moduleName: string;
   year: Year;
   term: Term;
-  provided: any;
-  snapshot: any;
+  provided: DraggableProvided;
+  snapshot: DraggableStateSnapshot;
   conflictList?: string[];
   removeModule: (moduleCode: ModuleCode, year: Year, term: Term) => void;
+  plannerModule: PlannerModule["module"];
 }
 
 const ModuleCard = ({
   moduleCode,
-  moduleName,
   year,
   term,
   provided,
   snapshot,
   conflictList = [],
   removeModule,
+  plannerModule,
 }: ModuleCardProps) => {
   return (
     <div
@@ -60,11 +61,14 @@ const ModuleCard = ({
         </InteractiveTooltip>
       )}
 
-      <ModuleDetails moduleCode={moduleCode as ModuleCode}>
+      <ModuleDetails
+        moduleCode={moduleCode as ModuleCode}
+        plannerModule={plannerModule}
+      >
         <div className="flex-grow text-sm">
           {/* <div className="w-fit text-nowrap pe-1"></div>
           <div></div> */}
-          {moduleCode}: {moduleName}
+          {moduleCode}: {plannerModule.name}
         </div>
       </ModuleDetails>
 

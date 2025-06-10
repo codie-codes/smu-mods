@@ -29,10 +29,10 @@ export const AppVersionCheck = () => {
       if (appVersion != "development") {
         refreshAll();
       }
-      updateMultiplePlanner(modules);
       refreshBanners();
       changeAppVersion(APP_VERSION);
     }
+    updateMultiplePlanner(modules);
   }, [appVersion, refreshAll, refreshBanners, changeAppVersion]);
   return <></>;
 };

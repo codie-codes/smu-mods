@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { Plus, Trash2 } from "lucide-react";
 
@@ -19,26 +19,11 @@ import { Input } from "@/components/ui/input";
 import { PADDING } from "@/config";
 import { type PlannerFull } from "@/stores/multiplePlanners";
 import { useMultiplePlannerStore } from "@/stores/multiplePlanners/provider";
-import { usePlannerStore } from "@/stores/planner/provider";
 
 export default function Planner() {
   const [newPlannerName, setNewPlannerName] = useState("");
 
   const { planners, addPlanner } = useMultiplePlannerStore((state) => state);
-  const { planner, plannerState, isSpecialHidden } = usePlannerStore(
-    (state) => state,
-  );
-
-  useEffect(() => {
-    if (!!planner && !!plannerState && !!isSpecialHidden) {
-      addPlanner("Default", {
-        planner,
-        plannerState,
-        isSpecialHidden,
-      });
-      localStorage.removeItem("planner");
-    }
-  }, [planner, plannerState, isSpecialHidden, addPlanner]);
 
   return (
     <div

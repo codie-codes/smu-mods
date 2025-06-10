@@ -93,7 +93,6 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
       dest[0] as Year,
       dest[1] as Term,
       result.draggableId as ModuleCode,
-      modules,
       plannerId,
     );
   };
@@ -133,7 +132,7 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
     year: Year,
     term: Term,
   ) => {
-    removeModule(moduleCode, year, term, modules, plannerId);
+    removeModule(moduleCode, year, term, plannerId);
   };
 
   const toggleYear = (year: string, forceOpen = false) => {

@@ -19,7 +19,7 @@ export function ToggleTimetableTheme() {
           <div
             key={index}
             className={cn(
-              "hover:border-foreground/30 w-full rounded-lg border p-2 shadow-sm md:w-fit",
+              "hover:border-foreground/60 w-full rounded-lg border p-2 shadow-sm md:w-fit",
               themeName == timetableTheme
                 ? "border-primary"
                 : "border-foreground/10",

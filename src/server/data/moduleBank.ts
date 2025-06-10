@@ -4502,507 +4502,507 @@ export const modules: ModuleBank = {
     credit: 1,
     terms: ["Term 2", "Term 1"],
   },
-  COR2100: {
-    name: "Economics and Society",
-    moduleCode: "COR2100",
-    description:
-      "In this course, we introduce students to the economic way of thinking about societal issues. We use the themes of incentives and empiricism to illustrate the power of simple economic ideas, and their ability to explain, predict, and improve what happens in the world. The course will examine how market activities are shaped by both the private and public sector. It will allow students to appreciate how free markets and government policies affect society, creating winners and losers, and to understand the societal trade-offs implicated in an economy. The course will also examine debates on the importance of social institutions in contributing to economic growth, and on economic policies surrounding the world financial crisis. Two topics related to Growth in Asia will be covered in the course.",
-    sections: [
-      {
-        code: "G1",
-        professor: {
-          name: "BEI HONG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-4",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Monday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G2",
-        professor: {
-          name: "BEI HONG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-4",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Monday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G3",
-        professor: {
-          name: "BEI HONG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-10",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Wednesday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G4",
-        professor: {
-          name: "BEI HONG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-10",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Wednesday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G5",
-        professor: {
-          name: "ERIC FESSELMEYER",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 3-1",
-          level: 3,
-        },
-        classes: [
-          {
-            day: "Wednesday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G6",
-        professor: {
-          name: "ERIC FESSELMEYER",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 3-1",
-          level: 3,
-        },
-        classes: [
-          {
-            day: "Thursday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G7",
-        professor: {
-          name: "ERIC FESSELMEYER",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-5",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Friday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G8",
-        professor: {
-          name: "WONG FOT CHYI",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-1",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Friday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G9",
-        professor: {
-          name: "HO KONG WENG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-5",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Thursday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G10",
-        professor: {
-          name: "HO KONG WENG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-5",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Thursday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G11",
-        professor: {
-          name: "HO KONG WENG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-4",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Friday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G12",
-        professor: {
-          name: "HO KONG WENG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-4",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Friday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G13",
-        professor: {
-          name: "KOSMAS MARINAKIS",
-        },
-        location: {
-          building: "SOSS/CIS",
-          room: "Classroom 3-2",
-          level: 0,
-        },
-        classes: [
-          {
-            day: "Wednesday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G14",
-        professor: {
-          name: "KOSMAS MARINAKIS",
-        },
-        location: {
-          building: "SOSS/CIS",
-          room: "Classroom 3-2",
-          level: 0,
-        },
-        classes: [
-          {
-            day: "Wednesday",
-            startTime: "15:30",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G15",
-        professor: {
-          name: "KOSMAS MARINAKIS",
-        },
-        location: {
-          building: "SOSS/CIS",
-          room: "Classroom 3-2",
-          level: 0,
-        },
-        classes: [
-          {
-            day: "Thursday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G16",
-        professor: {
-          name: "KOSMAS MARINAKIS",
-        },
-        location: {
-          building: "SOSS/CIS",
-          room: "Classroom 3-2",
-          level: 0,
-        },
-        classes: [
-          {
-            day: "Thursday",
-            startTime: "15:30",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G17",
-        professor: {
-          name: "NONA PEPITO",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-5",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Monday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G18",
-        professor: {
-          name: "NONA PEPITO",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-5",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Monday",
-            startTime: "15:30",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G19",
-        professor: {
-          name: "NONA PEPITO",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room B1-2",
-          level: "B1",
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G20",
-        professor: {
-          name: "NONA PEPITO",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room B1-2",
-          level: "B1",
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G21",
-        professor: {
-          name: "TAN SWEE LIANG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 3-1",
-          level: 3,
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G22",
-        professor: {
-          name: "TAN SWEE LIANG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 3-1",
-          level: 3,
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G23",
-        professor: {
-          name: "TAN SWEE LIANG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room B1-1",
-          level: "B1",
-        },
-        classes: [
-          {
-            day: "Wednesday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G24",
-        professor: {
-          name: "YANG CHENYING",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-5",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G25",
-        professor: {
-          name: "YANG CHENYING",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-5",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "15:30",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G26",
-        professor: {
-          name: "LAM SAN LING",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-10",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Thursday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G27",
-        professor: {
-          name: "WONG FOT CHYI",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 2-1",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Friday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-    ],
-    mutuallyExclusive: ["ECON001", "COR004"],
-    credit: 1,
-    terms: ["Term 1", "Term 2"],
-    exam: {
-      dateTime: new Date("2025-04-21T00:30:00.000Z"),
-      durationInHour: 2,
-    },
-  },
+  // COR2100: {
+  //   name: "Economics and Society",
+  //   moduleCode: "COR2100",
+  //   description:
+  //     "In this course, we introduce students to the economic way of thinking about societal issues. We use the themes of incentives and empiricism to illustrate the power of simple economic ideas, and their ability to explain, predict, and improve what happens in the world. The course will examine how market activities are shaped by both the private and public sector. It will allow students to appreciate how free markets and government policies affect society, creating winners and losers, and to understand the societal trade-offs implicated in an economy. The course will also examine debates on the importance of social institutions in contributing to economic growth, and on economic policies surrounding the world financial crisis. Two topics related to Growth in Asia will be covered in the course.",
+  //   sections: [
+  //     {
+  //       code: "G1",
+  //       professor: {
+  //         name: "BEI HONG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-4",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Monday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G2",
+  //       professor: {
+  //         name: "BEI HONG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-4",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Monday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G3",
+  //       professor: {
+  //         name: "BEI HONG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-10",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Wednesday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G4",
+  //       professor: {
+  //         name: "BEI HONG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-10",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Wednesday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G5",
+  //       professor: {
+  //         name: "ERIC FESSELMEYER",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 3-1",
+  //         level: 3,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Wednesday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G6",
+  //       professor: {
+  //         name: "ERIC FESSELMEYER",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 3-1",
+  //         level: 3,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Thursday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G7",
+  //       professor: {
+  //         name: "ERIC FESSELMEYER",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-5",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Friday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G8",
+  //       professor: {
+  //         name: "WONG FOT CHYI",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-1",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Friday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G9",
+  //       professor: {
+  //         name: "HO KONG WENG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-5",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Thursday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G10",
+  //       professor: {
+  //         name: "HO KONG WENG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-5",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Thursday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G11",
+  //       professor: {
+  //         name: "HO KONG WENG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-4",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Friday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G12",
+  //       professor: {
+  //         name: "HO KONG WENG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-4",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Friday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G13",
+  //       professor: {
+  //         name: "KOSMAS MARINAKIS",
+  //       },
+  //       location: {
+  //         building: "SOSS/CIS",
+  //         room: "Classroom 3-2",
+  //         level: 0,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Wednesday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G14",
+  //       professor: {
+  //         name: "KOSMAS MARINAKIS",
+  //       },
+  //       location: {
+  //         building: "SOSS/CIS",
+  //         room: "Classroom 3-2",
+  //         level: 0,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Wednesday",
+  //           startTime: "15:30",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G15",
+  //       professor: {
+  //         name: "KOSMAS MARINAKIS",
+  //       },
+  //       location: {
+  //         building: "SOSS/CIS",
+  //         room: "Classroom 3-2",
+  //         level: 0,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Thursday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G16",
+  //       professor: {
+  //         name: "KOSMAS MARINAKIS",
+  //       },
+  //       location: {
+  //         building: "SOSS/CIS",
+  //         room: "Classroom 3-2",
+  //         level: 0,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Thursday",
+  //           startTime: "15:30",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G17",
+  //       professor: {
+  //         name: "NONA PEPITO",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-5",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Monday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G18",
+  //       professor: {
+  //         name: "NONA PEPITO",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-5",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Monday",
+  //           startTime: "15:30",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G19",
+  //       professor: {
+  //         name: "NONA PEPITO",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room B1-2",
+  //         level: "B1",
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Tuesday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G20",
+  //       professor: {
+  //         name: "NONA PEPITO",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room B1-2",
+  //         level: "B1",
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Tuesday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G21",
+  //       professor: {
+  //         name: "TAN SWEE LIANG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 3-1",
+  //         level: 3,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Tuesday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G22",
+  //       professor: {
+  //         name: "TAN SWEE LIANG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 3-1",
+  //         level: 3,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Tuesday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G23",
+  //       professor: {
+  //         name: "TAN SWEE LIANG",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room B1-1",
+  //         level: "B1",
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Wednesday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G24",
+  //       professor: {
+  //         name: "YANG CHENYING",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-5",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Tuesday",
+  //           startTime: "12:00",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G25",
+  //       professor: {
+  //         name: "YANG CHENYING",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-5",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Tuesday",
+  //           startTime: "15:30",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G26",
+  //       professor: {
+  //         name: "LAM SAN LING",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-10",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Thursday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       code: "G27",
+  //       professor: {
+  //         name: "WONG FOT CHYI",
+  //       },
+  //       location: {
+  //         building: "SOE/SCIS2",
+  //         room: "Seminar Room 2-1",
+  //         level: 2,
+  //       },
+  //       classes: [
+  //         {
+  //           day: "Friday",
+  //           startTime: "08:15",
+  //           duration: 3.25,
+  //         },
+  //       ],
+  //     },
+  //   ],
+  //   mutuallyExclusive: ["ECON001", "COR004"],
+  //   credit: 1,
+  //   terms: ["Term 1", "Term 2"],
+  //   exam: {
+  //     dateTime: new Date("2025-04-21T00:30:00.000Z"),
+  //     durationInHour: 2,
+  //   },
+  // },
   COR3001: {
     name: "Big Questions",
     moduleCode: "COR3001",

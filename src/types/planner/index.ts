@@ -1,6 +1,10 @@
 import { type StatusNode } from "@/utils/checkPrerequisites";
 
-import type { Module, ModuleCode } from "../primitives/module";
+import type {
+  Module,
+  ModuleCode,
+  ModuleForPlanner,
+} from "../primitives/module";
 
 export type ExamConflict = {
   type: "exam";
@@ -52,7 +56,8 @@ export type PlannerModule = {
   year: Year;
   term: Term;
 
-  moduleCode: ModuleCode;
+  moduleCode?: ModuleCode;
+  module: ModuleForPlanner;
 };
 
 export type PlannerState = {

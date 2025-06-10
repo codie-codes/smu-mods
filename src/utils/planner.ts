@@ -10,7 +10,11 @@ import type {
   PlannerState,
   Term,
 } from "@/types/planner";
-import type { Module, ModuleCode } from "@/types/primitives/module";
+import type {
+  Module,
+  ModuleCode,
+  ModuleForPlanner,
+} from "@/types/primitives/module";
 import { defaultPlanner, terms } from "@/types/planner";
 
 import { checkPrerequisite } from "./checkPrerequisites";
@@ -110,29 +114,32 @@ export function findExamClashes(modules: Module[]): ExamClashes {
 
 export function getPlannerModuleInfo(
   plannerModule: PlannerModule,
-  moduleBank: ModuleBank,
   plannerModules: PlannerState["modules"],
   fullModules: Module[],
 ): ConflictMap[ModuleCode] {
+  const moduleBank = getModuleBankFromPlannerState(plannerModules);
+
   const modulesTaken = calculatePreviousModulesTaken(
     plannerModules,
     plannerModule,
   );
   const conflicts = [
-    prereqConflict(moduleBank, modulesTaken)(plannerModule.moduleCode),
-    semesterConflict(moduleBank, plannerModule.term)(plannerModule.moduleCode),
-    examConflict(findExamClashes(fullModules))(plannerModule.moduleCode),
+    prereqConflict(moduleBank, modulesTaken)(plannerModule.module.moduleCode),
+    semesterConflict(
+      moduleBank,
+      plannerModule.term,
+    )(plannerModule.module.moduleCode),
+    examConflict(findExamClashes(fullModules))(plannerModule.module.moduleCode),
   ].filter((conflict) => conflict !== null);
   return {
     conflicts: conflicts,
   };
 }
 
-export function getPlanner(
-  plannerModules: PlannerState["modules"],
-  moduleBank: ModuleBank,
-): Planner {
+export function getPlanner(plannerModules: PlannerState["modules"]): Planner {
   const planner: Planner = defaultPlanner;
+
+  const moduleBank = getModuleBankFromPlannerState(plannerModules);
 
   const fullModules = Object.keys(plannerModules).map(
     (moduleCode) => moduleBank[moduleCode as ModuleCode],
@@ -145,12 +152,26 @@ export function getPlanner(
     }
 
     planner[plannerModule.year][plannerModule.term][moduleCode as ModuleCode] =
-      getPlannerModuleInfo(
-        plannerModule,
-        moduleBank,
-        plannerModules,
-        fullModules,
-      );
+      getPlannerModuleInfo(plannerModule, plannerModules, fullModules);
   }
   return planner;
+}
+
+export function getPlannerModule(
+  moduleCode: ModuleCode,
+  moduleBank: ModuleBank,
+): ModuleForPlanner {
+  const { sections, exam, ...module } = moduleBank[moduleCode];
+  return module;
+}
+
+export function getModuleBankFromPlannerState(
+  plannerStateModules: PlannerState["modules"],
+): ModuleBank {
+  return Object.fromEntries(
+    Object.entries(plannerStateModules).map(([moduleCode, module]) => [
+      moduleCode,
+      module.module,
+    ]),
+  ) as ModuleBank;
 }

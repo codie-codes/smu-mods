@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { env } from "@/env";
 import { useConfigStore } from "@/stores/config/provider";
 import { useModuleBankStore } from "@/stores/moduleBank/provider";
+import { useMultiplePlannerStore } from "@/stores/multiplePlanners/provider";
 import { Logger } from "@/utils/Logger";
 
 const APP_VERSION = env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA;
@@ -14,7 +15,10 @@ export const AppVersionCheck = () => {
   const { refreshBanners, appVersion, changeAppVersion } = useConfigStore(
     (state) => state,
   );
-  const { refreshAll } = useModuleBankStore((state) => state);
+  const { update: updateMultiplePlanner } = useMultiplePlannerStore(
+    (state) => state,
+  );
+  const { refreshAll, modules } = useModuleBankStore((state) => state);
   useEffect(() => {
     if (
       appVersion != APP_VERSION ||
@@ -28,6 +32,7 @@ export const AppVersionCheck = () => {
       refreshBanners();
       changeAppVersion(APP_VERSION);
     }
+    updateMultiplePlanner(modules);
   }, [appVersion, refreshAll, refreshBanners, changeAppVersion]);
   return <></>;
 };

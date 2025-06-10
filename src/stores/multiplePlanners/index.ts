@@ -5,7 +5,7 @@ import type { ModuleBank } from "@/types/banks/moduleBank";
 import type { Planner, PlannerState, Term, Year } from "@/types/planner";
 import type { ModuleCode } from "@/types/primitives/module";
 import { defaultPlanner, defaultPlannerState } from "@/types/planner";
-import { getPlanner } from "@/utils/planner";
+import { getPlanner, getPlannerModule } from "@/utils/planner";
 
 export type MultiplePlannerActions = {
   addModule: (
@@ -24,14 +24,12 @@ export type MultiplePlannerActions = {
     destYear: Year,
     destTerm: Term,
     moduleCode: ModuleCode,
-    moduleBank: ModuleBank,
     plannerId: string,
   ) => void;
   removeModule: (
     moduleCode: ModuleCode,
     year: Year,
     term: Term,
-    moduleBank: ModuleBank,
     plannerId: string,
   ) => void;
   hideSpecial: (year: Year, plannerId: string) => void;
@@ -39,6 +37,7 @@ export type MultiplePlannerActions = {
   changePlannerName: (plannerId: string, name: string) => void;
   removePlanner: (plannerId: string) => void;
   addPlanner: (name: string, plannerFull?: Omit<PlannerFull, "name">) => void;
+  update: (moduleBank?: ModuleBank) => void;
 };
 
 export type PlannerFull = {
@@ -63,6 +62,55 @@ export const createMultiplePlannerBank = (
     persist(
       (set, get) => ({
         planners: initPlanners,
+        update: (moduleBank?: ModuleBank) => {
+          if (!moduleBank) return;
+
+          set((state) => {
+            const updatedPlanners = { ...state.planners };
+            let hasAnyChanges = false;
+
+            for (const [plannerId, planner] of Object.entries(
+              updatedPlanners,
+            )) {
+              const updatedModules = { ...planner.plannerState.modules };
+              let hasChanges = false;
+
+              for (const [moduleCode, plannerModule] of Object.entries(
+                updatedModules,
+              )) {
+                // Check if this is old format (has moduleCode but no module property)
+                const plannerModuleAny = plannerModule as any;
+                if (plannerModuleAny.moduleCode && !plannerModuleAny.module) {
+                  // Migrate to new format
+                  const { moduleCode: _, ...moduleWithoutCode } =
+                    plannerModuleAny;
+                  (updatedModules as any)[moduleCode] = {
+                    ...moduleWithoutCode,
+                    module: getPlannerModule(
+                      plannerModuleAny.moduleCode,
+                      moduleBank,
+                    ),
+                  };
+                  hasChanges = true;
+                  hasAnyChanges = true;
+                }
+              }
+
+              if (hasChanges) {
+                updatedPlanners[plannerId] = {
+                  ...planner,
+                  plannerState: {
+                    ...planner.plannerState,
+                    modules: updatedModules,
+                  },
+                  planner: getPlanner(updatedModules),
+                };
+              }
+            }
+
+            return hasAnyChanges ? { planners: updatedPlanners } : state;
+          });
+        },
         addModule: (moduleCode, attributes, moduleBank, plannerId) => {
           const original = get().planners[plannerId];
           if (!original) return;
@@ -74,7 +122,7 @@ export const createMultiplePlannerBank = (
               [moduleCode]: {
                 year: attributes.year,
                 term: attributes.term,
-                moduleCode,
+                module: getPlannerModule(moduleCode, moduleBank),
               },
             },
           };
@@ -85,7 +133,7 @@ export const createMultiplePlannerBank = (
               [plannerId]: {
                 ...original,
                 plannerState: newPlannerState,
-                planner: getPlanner(newPlannerState.modules, moduleBank),
+                planner: getPlanner(newPlannerState.modules),
               },
             },
           }));
@@ -96,7 +144,6 @@ export const createMultiplePlannerBank = (
           destYear,
           destTerm,
           moduleCode,
-          moduleBank,
           plannerId,
         ) => {
           const original = get().planners[plannerId];
@@ -126,7 +173,7 @@ export const createMultiplePlannerBank = (
 
             const stateTemp = {
               name: planner.name,
-              planner: getPlanner(newPlannerState.modules, moduleBank),
+              planner: getPlanner(newPlannerState.modules),
               plannerState: newPlannerState,
               isSpecialHidden: planner.isSpecialHidden,
             };
@@ -136,7 +183,7 @@ export const createMultiplePlannerBank = (
             return { planners: { ...state.planners, [plannerId]: stateTemp } };
           });
         },
-        removeModule: (moduleCode, year, term, moduleBank, plannerId) => {
+        removeModule: (moduleCode, year, term, plannerId) => {
           const planner = get().planners[plannerId];
           if (!planner) return;
           const original = planner.plannerState;
@@ -153,7 +200,7 @@ export const createMultiplePlannerBank = (
               ...original,
               modules: remainingModules,
             },
-            planner: getPlanner(planner.plannerState.modules, moduleBank),
+            planner: getPlanner(planner.plannerState.modules),
             isSpecialHidden: planner.isSpecialHidden,
           };
           delete temp.planner[year][term][moduleCode];
@@ -164,7 +211,7 @@ export const createMultiplePlannerBank = (
               [plannerId]: {
                 ...temp,
                 plannerState: temp.plannerState,
-                planner: getPlanner(temp.plannerState.modules, moduleBank),
+                planner: getPlanner(temp.plannerState.modules),
               },
             },
           }));

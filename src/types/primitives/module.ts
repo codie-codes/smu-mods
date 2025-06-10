@@ -17,6 +17,8 @@ export type Module = {
   preReq?: PreReqTree;
 };
 
+export type ModuleForPlanner = Omit<Module, "sections" | "exam">;
+
 export type PreReqTree =
   | ModuleCode
   | { and: PreReqTree[] }

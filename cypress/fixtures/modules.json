@@ -1,0 +1,196 @@
+{
+  "CS1010": {
+    "moduleCode": "CS1010",
+    "title": "Programming Methodology",
+    "moduleCredit": 4,
+    "description": "This module introduces fundamental programming concepts and techniques needed to solve computational problems.",
+    "terms": ["TERM_1", "TERM_2"],
+    "exam": {
+      "dateTime": "2024-05-01T09:00:00.000Z",
+      "duration": 120
+    },
+    "sections": [
+      {
+        "code": "G1",
+        "classes": [
+          {
+            "day": "MONDAY",
+            "startTime": "09:00",
+            "endTime": "11:00",
+            "venue": "COM1-0207",
+            "classNo": "01",
+            "lessonType": "LECTURE"
+          },
+          {
+            "day": "WEDNESDAY",
+            "startTime": "14:00",
+            "endTime": "16:00",
+            "venue": "COM1-B112",
+            "classNo": "01",
+            "lessonType": "TUTORIAL"
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "classes": [
+          {
+            "day": "TUESDAY",
+            "startTime": "10:00",
+            "endTime": "12:00",
+            "venue": "COM1-0208",
+            "classNo": "02",
+            "lessonType": "LECTURE"
+          },
+          {
+            "day": "THURSDAY",
+            "startTime": "15:00",
+            "endTime": "17:00",
+            "venue": "COM1-B113",
+            "classNo": "02",
+            "lessonType": "TUTORIAL"
+          }
+        ]
+      }
+    ],
+    "preReq": null
+  },
+  "CS2030": {
+    "moduleCode": "CS2030",
+    "title": "Programming Methodology II",
+    "moduleCredit": 4,
+    "description": "This module is a follow up to CS1010. It explores two modern programming paradigms, object-oriented programming and functional programming.",
+    "terms": ["TERM_1", "TERM_2"],
+    "exam": {
+      "dateTime": "2024-05-02T14:00:00.000Z",
+      "duration": 120
+    },
+    "sections": [
+      {
+        "code": "G1",
+        "classes": [
+          {
+            "day": "TUESDAY",
+            "startTime": "10:00",
+            "endTime": "12:00",
+            "venue": "COM1-0208",
+            "classNo": "01",
+            "lessonType": "LECTURE"
+          },
+          {
+            "day": "FRIDAY",
+            "startTime": "09:00",
+            "endTime": "11:00",
+            "venue": "COM1-B114",
+            "classNo": "01",
+            "lessonType": "TUTORIAL"
+          }
+        ]
+      }
+    ],
+    "preReq": {
+      "and": ["CS1010"]
+    }
+  },
+  "CS2040": {
+    "moduleCode": "CS2040",
+    "title": "Data Structures and Algorithms",
+    "moduleCredit": 4,
+    "description": "This module introduces students to the design and implementation of fundamental data structures and algorithms.",
+    "terms": ["TERM_1", "TERM_2"],
+    "exam": {
+      "dateTime": "2024-05-03T09:00:00.000Z",
+      "duration": 150
+    },
+    "sections": [
+      {
+        "code": "G1",
+        "classes": [
+          {
+            "day": "MONDAY",
+            "startTime": "14:00",
+            "endTime": "16:00",
+            "venue": "LT19",
+            "classNo": "01",
+            "lessonType": "LECTURE"
+          },
+          {
+            "day": "WEDNESDAY",
+            "startTime": "10:00",
+            "endTime": "12:00",
+            "venue": "COM1-B115",
+            "classNo": "01",
+            "lessonType": "TUTORIAL"
+          }
+        ]
+      }
+    ],
+    "preReq": {
+      "and": ["CS1010"]
+    }
+  },
+  "IS1103": {
+    "moduleCode": "IS1103",
+    "title": "Ethics in Computing",
+    "moduleCredit": 3,
+    "description": "This module aims to sensitize students to ethical issues related to the use of computers and preparation of computer-based solutions to problems.",
+    "terms": ["TERM_1", "TERM_2"],
+    "exam": {
+      "dateTime": "2024-05-04T14:00:00.000Z",
+      "duration": 120
+    },
+    "sections": [
+      {
+        "code": "G1",
+        "classes": [
+          {
+            "day": "THURSDAY",
+            "startTime": "09:00",
+            "endTime": "12:00",
+            "venue": "LT17",
+            "classNo": "01",
+            "lessonType": "SEMINAR"
+          }
+        ]
+      }
+    ],
+    "preReq": null
+  },
+  "CS3230": {
+    "moduleCode": "CS3230",
+    "title": "Design and Analysis of Algorithms",
+    "moduleCredit": 4,
+    "description": "This module introduces different techniques of designing and analyzing algorithms.",
+    "terms": ["TERM_1"],
+    "exam": {
+      "dateTime": "2024-05-05T09:00:00.000Z",
+      "duration": 120
+    },
+    "sections": [
+      {
+        "code": "G1",
+        "classes": [
+          {
+            "day": "TUESDAY",
+            "startTime": "14:00",
+            "endTime": "16:00",
+            "venue": "LT15",
+            "classNo": "01",
+            "lessonType": "LECTURE"
+          },
+          {
+            "day": "FRIDAY",
+            "startTime": "14:00",
+            "endTime": "16:00",
+            "venue": "COM1-B116",
+            "classNo": "01",
+            "lessonType": "TUTORIAL"
+          }
+        ]
+      }
+    ],
+    "preReq": {
+      "and": ["CS2040"]
+    }
+  }
+}

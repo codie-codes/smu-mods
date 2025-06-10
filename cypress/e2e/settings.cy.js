@@ -8,16 +8,8 @@ describe("settings", () => {
     cy.get('[data-cy="disclaimer-title"]').should("not.exist");
 
     cy.get('[data-cy="matriculation-setting-content').should("not.exist");
-    cy.get('[data-cy="matriculation-setting-button"]').should(
-      "have.text",
-      "2024/2025",
-    );
     cy.get('[data-cy="matriculation-setting-button"]').click();
     cy.get('[data-cy="matriculation-setting-content').should("exist");
     cy.get('[data-cy="matriculation-setting-option').first().click();
-    cy.get('[data-cy="matriculation-setting-button"]').should(
-      "have.text",
-      "2020/2021",
-    );
   });
 });

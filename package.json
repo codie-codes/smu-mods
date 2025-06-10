@@ -15,7 +15,10 @@
     "db:studio": "prisma studio",
     "format": "prettier --check . --ignore-path .gitignore",
     "format:fix": "prettier --write . --ignore-path .gitignore",
-    "cypress:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:edge": "cypress run --browser edge"
   },
   "dependencies": {
     "@hello-pangea/dnd": "^18.0.1",

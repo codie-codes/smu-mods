@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
+import { env } from "@/env";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -32,7 +34,9 @@ export default function RootLayout({
       >
         {children}
       </body>
-      <GoogleAnalytics gaId="G-J3GN6BMKJC" />
+      {env.NEXT_PUBLIC_NODE_ENV === "production" && (
+        <GoogleAnalytics gaId="G-J3GN6BMKJC" />
+      )}
     </html>
   );
 }

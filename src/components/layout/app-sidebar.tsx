@@ -6,6 +6,7 @@ import {
   BookA,
   Calendar,
   ChartArea,
+  Github,
   LifeBuoy,
   Moon,
   NotebookPen,
@@ -94,9 +95,21 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
-      <SidebarFooter>
+      <SidebarFooter className="mt-auto">
         <SidebarMenu>
-          <SidebarMenuItem className="mt-auto">
+          <SidebarMenuItem>
+            <SidebarMenuButton asChild>
+              <a
+                href="https://github.com/codie-codes/smu-mods"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="mr-2 size-4" />
+                GitHub
+              </a>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+          <SidebarMenuItem>
             <SidebarMenuButton
               onClick={() =>
                 setTheme(resolvedTheme === "light" ? "dark" : "light")
@@ -111,7 +124,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             <SidebarMenuButton asChild>
               <a href="mailto:knyanlin@johnnyknl.com">
                 <LifeBuoy className="mr-2 size-4" />
-                Help
+                Contact Us
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>

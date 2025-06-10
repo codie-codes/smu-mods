@@ -15,7 +15,6 @@ export type Config = {
   banners: Banner[];
   termStartMonday: string;
   termEndSunday: string;
-  majorMigrate: string;
 };
 
 export const PADDING = "2rem";
@@ -35,5 +34,4 @@ export const APP_CONFIG: Config = {
   ],
   termStartMonday: "2025-08-18",
   termEndSunday: "2025-11-30",
-  majorMigrate: "plannerStoreMigrate",
 };

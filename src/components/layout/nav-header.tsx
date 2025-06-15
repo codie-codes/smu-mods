@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Link from "next/link";
-
 import { Separator } from "@/components/ui/separator";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { APP_CONFIG } from "@/config";
 import { termMap } from "@/types/planner";
+
+import { Logo } from "../Logo";
 
 export function NavHeader() {
   return (
@@ -14,24 +13,7 @@ export function NavHeader() {
         orientation="vertical"
         className="mr-2 data-[orientation=vertical]:h-4"
       />
-      <Link className="relative h-10 w-32" href={"/"}>
-        <Image
-          src="/logo_light.png"
-          fill
-          alt="Logo"
-          className="block object-contain dark:hidden"
-          sizes="100%"
-          priority
-        />
-        <Image
-          src="/logo_dark.png"
-          fill
-          alt="Logo"
-          className="hidden object-contain dark:block"
-          sizes="100%"
-          priority
-        />
-      </Link>
+      <Logo />
       <div className="flex-grow text-right text-sm">
         <p>AY{APP_CONFIG.academicYear}</p>
         <p>{termMap[APP_CONFIG.currentTerm]}</p>

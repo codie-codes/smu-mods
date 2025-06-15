@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
+import { ThemeProvider } from "@/components/theme-provider";
 import { env } from "@/env";
+import { TRPCReactProvider } from "@/trpc/react";
+import { HydrateClient } from "@/trpc/server";
 
 import "./globals.css";
 
@@ -32,7 +35,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-background text-foreground antialiased`}
       >
-        {children}
+        <TRPCReactProvider>
+          <HydrateClient>
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="system"
+              enableSystem
+              disableTransitionOnChange
+            >
+              {children}
+            </ThemeProvider>
+          </HydrateClient>
+        </TRPCReactProvider>
       </body>
       {env.NEXT_PUBLIC_NODE_ENV === "production" && (
         <GoogleAnalytics gaId="G-J3GN6BMKJC" />

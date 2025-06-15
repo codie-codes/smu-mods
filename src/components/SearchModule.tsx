@@ -36,6 +36,7 @@ export function SearchModule({
 
   const inputRef = useRef<HTMLInputElement>(null);
   const resultsRef = useRef<HTMLUListElement>(null);
+  const blurTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const [searchResults, setSearchResults] = useState<Module[]>([]);
 
@@ -50,7 +51,13 @@ export function SearchModule({
     };
 
     document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      // Clean up any pending blur timeout on unmount
+      if (blurTimeoutRef.current) {
+        clearTimeout(blurTimeoutRef.current);
+      }
+    };
   }, []);
 
   useEffect(() => {
@@ -65,10 +72,17 @@ export function SearchModule({
 
   const handleSelectModule = useCallback(
     (module: Module) => {
+      // Clear any pending blur timeout
+      if (blurTimeoutRef.current) {
+        clearTimeout(blurTimeoutRef.current);
+        blurTimeoutRef.current = null;
+      }
+
       handleModSelect(module);
       setInputValue("");
       setSelectedIndex(-1);
       setFocused(false);
+      inputRef.current?.blur();
     },
     [handleModSelect],
   );
@@ -109,7 +123,11 @@ export function SearchModule({
   const clearSearch = () => {
     setInputValue("");
     setSelectedIndex(-1);
-    inputRef.current?.focus();
+    // Keep focus
+    if (inputRef.current) {
+      inputRef.current.focus();
+      setFocused(true);
+    }
   };
 
   const showDropdown = focused && inputValue.trim() !== "" && showResults;
@@ -134,10 +152,20 @@ export function SearchModule({
               placeholder={placeholder}
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
-              onFocus={() => setFocused(true)}
+              onFocus={() => {
+                // Clear any pending blur timeout
+                if (blurTimeoutRef.current) {
+                  clearTimeout(blurTimeoutRef.current);
+                  blurTimeoutRef.current = null;
+                }
+                setFocused(true);
+              }}
               onBlur={() => {
                 // Delay blur to allow click events on results
-                setTimeout(() => setFocused(false), 150);
+                blurTimeoutRef.current = setTimeout(() => {
+                  setFocused(false);
+                  blurTimeoutRef.current = null;
+                }, 150);
               }}
               onKeyDown={handleKeyDown}
               className="focus:border-primary border-2 py-3 pr-20 pl-10 text-base transition-colors"

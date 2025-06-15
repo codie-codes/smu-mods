@@ -17,11 +17,11 @@ export type Config = {
   termEndSunday: string;
 };
 
-export const PADDING = "2rem";
+export const PADDING = "0.5rem";
 
 export const APP_CONFIG: Config = {
   academicYear: "2025/2026",
-  currentTerm: "term-1",
+  currentTerm: "term-2",
   banners: [
     {
       id: "welcome",

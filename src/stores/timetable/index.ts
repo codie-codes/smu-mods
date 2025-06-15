@@ -6,6 +6,8 @@ import type { Term } from "@/types/planner";
 import type { Module, ModuleCode, Section } from "@/types/primitives/module";
 import type { Timetable, TimetableMap } from "@/types/primitives/timetable";
 import type { TimetableThemeName } from "@/utils/timetable/colours";
+import { APP_CONFIG } from "@/config";
+import { termMap } from "@/types/planner";
 import { defaultTimetableMap } from "@/types/primitives/timetable";
 import {
   addModuleToTimetable,
@@ -81,6 +83,10 @@ export const createTimetableStore = (
           const timetable = get().timetableMap[term];
           if (timetable.modules.length > 7) {
             toast.error("Maximum of 8 modules allowed");
+            return;
+          }
+          if (term !== termMap[APP_CONFIG.currentTerm]) {
+            toast.error("You can only add modules to the current term");
             return;
           }
           const newTimeTable = addModuleToTimetable(

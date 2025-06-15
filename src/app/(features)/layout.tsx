@@ -35,7 +35,7 @@ export default function Layout({
                   <AppSidebar />
                   <SidebarInset>
                     <NavHeader />
-                    <div className="flex flex-1 flex-col gap-4 p-4">
+                    <div className="flex flex-1 flex-col gap-4 p-2">
                       {children}
                     </div>
                   </SidebarInset>

@@ -13,28 +13,83 @@ export const exportAsPdfOrImage = async (
   element: HTMLDivElement,
   type: "png" | "pdf",
 ) => {
-  if (type === "pdf") {
-    const canvas = await toCanvas(element, {
-      quality: 1,
-    });
-    const imgData = canvas.toDataURL("image/png");
-    const pdf = new jsPDF({
-      orientation: "landscape",
-      unit: "px",
-      format: [canvas.width, canvas.height],
-    });
-    pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height);
-    pdf.save(
-      `smumods_${APP_CONFIG.academicYear}_${APP_CONFIG.currentTerm}.pdf`,
-    );
-  } else {
-    const image = await toPng(element, {
-      quality: 1,
-    });
-    download(
-      image,
-      `smumods_${APP_CONFIG.academicYear}_${APP_CONFIG.currentTerm}.png`,
-    );
+  // Get the timetable container (first child with min-width)
+  const timetableContainer = element.querySelector(
+    '[class*="min-w-"]',
+  ) as HTMLElement;
+
+  if (!timetableContainer) {
+    // Fallback to original behavior if container not found
+    if (type === "pdf") {
+      const canvas = await toCanvas(element, { quality: 1 });
+      const imgData = canvas.toDataURL("image/png");
+      const pdf = new jsPDF({
+        orientation: "landscape",
+        unit: "px",
+        format: [canvas.width, canvas.height],
+      });
+      pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height);
+      pdf.save(
+        `smumods_${APP_CONFIG.academicYear}_${APP_CONFIG.currentTerm}.pdf`,
+      );
+    } else {
+      const image = await toPng(element, { quality: 1 });
+      download(
+        image,
+        `smumods_${APP_CONFIG.academicYear}_${APP_CONFIG.currentTerm}.png`,
+      );
+    }
+    return;
+  }
+
+  // Store original styles
+  const originalTransform = timetableContainer.style.transform;
+  const originalTransformOrigin = timetableContainer.style.transformOrigin;
+  const originalHeight = element.style.height;
+
+  // Calculate scale factor to fit viewport
+  const viewportWidth = window.innerWidth;
+  const containerWidth = timetableContainer.scrollWidth;
+  const containerHeight = timetableContainer.scrollHeight;
+  const scale = Math.min(1, (viewportWidth * 0.85) / containerWidth); // 85% of viewport for padding
+
+  // Apply scale and adjust container height
+  timetableContainer.style.transformOrigin = "top left";
+  timetableContainer.style.transform = `scale(${scale})`;
+
+  // Adjust parent container height to match scaled content
+  const scaledHeight = containerHeight * scale;
+  element.style.height = `${scaledHeight}px`;
+
+  try {
+    if (type === "pdf") {
+      const canvas = await toCanvas(element, {
+        quality: 1,
+      });
+      const imgData = canvas.toDataURL("image/png");
+      const pdf = new jsPDF({
+        orientation: "landscape",
+        unit: "px",
+        format: [canvas.width, canvas.height],
+      });
+      pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height);
+      pdf.save(
+        `smumods_${APP_CONFIG.academicYear}_${APP_CONFIG.currentTerm}.pdf`,
+      );
+    } else {
+      const image = await toPng(element, {
+        quality: 1,
+      });
+      download(
+        image,
+        `smumods_${APP_CONFIG.academicYear}_${APP_CONFIG.currentTerm}.png`,
+      );
+    }
+  } finally {
+    // Restore original styles
+    timetableContainer.style.transform = originalTransform;
+    timetableContainer.style.transformOrigin = originalTransformOrigin;
+    element.style.height = originalHeight;
   }
 };
 

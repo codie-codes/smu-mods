@@ -2,7 +2,7 @@ import { format } from "date-fns";
 import { Eye, EyeOff, Trash2 } from "lucide-react";
 
 import type { Module, ModuleCode } from "@/types/primitives/module";
-import type { Day, Timetable } from "@/types/primitives/timetable";
+import type { Timetable } from "@/types/primitives/timetable";
 import BidAnalyticsPopover from "@/components/BidAnalytics/Popover";
 import ModuleDetails from "@/components/ModuleDetails";
 import { Button } from "@/components/ui/button";
@@ -11,7 +11,6 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import {
   TIMETABLE_THEMES,
   TimetableThemeName,
@@ -32,13 +31,10 @@ export function ModuleCard({
   module: mod,
   timetable,
   timetableTheme,
-  termId,
   onRemove,
   onToggleVisibility,
   onColorChange,
 }: ModuleCardProps) {
-  const { modules } = useModuleBankStore((state) => state);
-
   return (
     <div className="bg-background flex w-full rounded-sm border p-4">
       <div className="w-fit">

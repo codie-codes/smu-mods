@@ -8,6 +8,7 @@ import type { TermSlug } from "@/types/planner";
 import type { ModuleCode } from "@/types/primitives/module";
 import { SearchModule } from "@/components/SearchModule";
 import {
+  ExamTable,
   ExportDropdown,
   ModuleList,
   TermNavigation,
@@ -22,6 +23,7 @@ import {
   calculateCurrentTimePosition,
   getCurrentDay,
 } from "@/components/timetable/utils/timeUtils";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { APP_CONFIG, PADDING } from "@/config";
 import { useConfigStore } from "@/stores/config/provider";
 import { useTimetableStore } from "@/stores/timetable/provider";
@@ -140,7 +142,7 @@ export default function TimeTablePage({
   }
 
   return (
-    <div style={{ padding: PADDING }}>
+    <div style={{ padding: PADDING }} className="flex flex-col gap-4">
       <h1 className="text-2xl font-bold">Plan Your Timetable</h1>
 
       <TermNavigation
@@ -151,47 +153,57 @@ export default function TimeTablePage({
         canGoNext={currentTermIdx < termSlug.length - 1}
       />
 
-      <div ref={elementRef}>
-        <TimetableGrid
-          timetable={timetable}
-          timetableTheme={timetableTheme}
-          selectedClass={selectedClass}
-          currentTimePosition={currentTimePosition}
-          hideCurrentTime={hideCurrentTime}
-          getCurrentDay={getCurrentDay}
-          onClassClick={handleClassClick}
-        />
-      </div>
+      <SearchModule
+        handleModSelect={(mod) => {
+          if (mod.terms.includes(termMap[resolvedParams.termId as TermSlug])) {
+            AddModuleToTimetable(
+              mod,
+              termMap[resolvedParams.termId as TermSlug],
+              timetableTheme,
+            );
+          } else {
+            toast.error("This module is not offered during this term.");
+          }
+        }}
+        takenModule={addedMods()}
+      />
 
-      <div>
-        <ExportDropdown
-          disabled={!!selectedClass}
-          isCurrentTerm={APP_CONFIG.currentTerm === resolvedParams.termId}
-          onExportClassesICal={() => exportClassesICal(timetable)}
-          onExportExamsICal={() => exportExamsICal(timetable)}
-          onExportPDF={() => handleExportPdfOrImage("pdf")}
-          onExportPNG={() => handleExportPdfOrImage("png")}
-        />
-      </div>
+      <Tabs defaultValue="timetable" className="w-full">
+        <TabsList className="grid grid-cols-2">
+          <TabsTrigger value="timetable">Class Timetable</TabsTrigger>
+          <TabsTrigger value="exams">Exam Schedule</TabsTrigger>
+        </TabsList>
 
-      <div className="my-5">
-        <SearchModule
-          handleModSelect={(mod) => {
-            if (
-              mod.terms.includes(termMap[resolvedParams.termId as TermSlug])
-            ) {
-              AddModuleToTimetable(
-                mod,
-                termMap[resolvedParams.termId as TermSlug],
-                timetableTheme,
-              );
-            } else {
-              toast.error("This module is not offered during this term.");
-            }
-          }}
-          takenModule={addedMods()}
-        />
-      </div>
+        <TabsContent value="timetable" className="space-y-4">
+          <div ref={elementRef}>
+            <TimetableGrid
+              timetable={timetable}
+              timetableTheme={timetableTheme}
+              selectedClass={selectedClass}
+              currentTimePosition={currentTimePosition}
+              hideCurrentTime={hideCurrentTime}
+              getCurrentDay={getCurrentDay}
+              onClassClick={handleClassClick}
+            />
+          </div>
+
+          <ExportDropdown
+            disabled={!!selectedClass}
+            isCurrentTerm={APP_CONFIG.currentTerm === resolvedParams.termId}
+            onExportClassesICal={() => exportClassesICal(timetable)}
+            onExportExamsICal={() => exportExamsICal(timetable)}
+            onExportPDF={() => handleExportPdfOrImage("pdf")}
+            onExportPNG={() => handleExportPdfOrImage("png")}
+          />
+        </TabsContent>
+
+        <TabsContent value="exams" className="space-y-4">
+          <ExamTable
+            modules={timetable.modules}
+            timetableTheme={timetableTheme}
+          />
+        </TabsContent>
+      </Tabs>
 
       <ModuleList
         modules={timetable.modules}

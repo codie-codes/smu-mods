@@ -18,26 +18,28 @@ export function TermNavigation({
   canGoNext,
 }: TermNavigationProps) {
   return (
-    <div className="flex items-center justify-center gap-24">
-      <Button
-        variant="outline"
-        size="icon"
-        onClick={onPrevious}
-        disabled={!canGoPrevious}
-      >
-        <ChevronLeft className="size-4" />
-      </Button>
+    <div className="flex items-center justify-center">
+      <div className="flex max-w-xs items-center justify-between gap-4">
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={onPrevious}
+          disabled={!canGoPrevious}
+        >
+          <ChevronLeft className="size-4" />
+        </Button>
 
-      <h1 className="my-5 font-semibold">Term {currentTermNum}</h1>
+        <h1 className="font-semibold">Term {currentTermNum}</h1>
 
-      <Button
-        variant="outline"
-        size="icon"
-        onClick={onNext}
-        disabled={!canGoNext}
-      >
-        <ChevronRight className="size-4" />
-      </Button>
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={onNext}
+          disabled={!canGoNext}
+        >
+          <ChevronRight className="size-4" />
+        </Button>
+      </div>
     </div>
   );
 }

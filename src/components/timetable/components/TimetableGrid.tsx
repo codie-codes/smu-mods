@@ -6,7 +6,6 @@ import type {
   Timetable,
 } from "@/types/primitives/timetable";
 import { cn } from "@/lib/utils";
-import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { timeSlots } from "@/types/primitives/timetable";
 import { Logger } from "@/utils/Logger";
 import {
@@ -46,7 +45,6 @@ export function TimetableGrid({
   getCurrentDay,
   onClassClick,
 }: TimetableGridProps) {
-  const { modules } = useModuleBankStore((state) => state);
   const elementRef = useRef<HTMLDivElement>(null);
 
   function timeToMinutes(timeStr: string): number {
@@ -202,7 +200,7 @@ export function TimetableGrid({
   }
 
   return (
-    <div className="my-4 max-w-full overflow-x-auto">
+    <div className="max-w-full overflow-x-auto">
       <div
         className="border-foreground/20 bg-background w-full min-w-[800px] overflow-hidden rounded-lg border lg:min-w-[1200px]"
         ref={elementRef}
@@ -355,12 +353,14 @@ export function TimetableGrid({
                                 </p>
                                 <p className="text-xs">
                                   {
-                                    modules[
-                                      fullClass.moduleCode
-                                    ]?.sections.find(
-                                      (section) =>
-                                        section.code === fullClass.section,
-                                    )?.professor.name
+                                    timetable.modules
+                                      .find(
+                                        (m) =>
+                                          m.moduleCode === fullClass.moduleCode,
+                                      )
+                                      ?.sections.find(
+                                        (s) => s.code === fullClass.section,
+                                      )?.professor.name
                                   }
                                 </p>
                               </div>

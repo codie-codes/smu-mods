@@ -106,7 +106,7 @@ function PlannerCard({ planner, id }: { planner: PlannerFull; id: string }) {
               <Trash2></Trash2>
             </Button>
           </DialogTrigger>
-          <DialogContent>
+          <DialogContent className="max-w-xs">
             <DialogHeader>
               <DialogTitle>Delete Planner</DialogTitle>
               <DialogDescription>

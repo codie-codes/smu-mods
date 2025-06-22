@@ -2,6 +2,7 @@
 
 import { use, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { Download } from "lucide-react";
 import { toast } from "sonner";
 
 import type { TermSlug } from "@/types/planner";
@@ -23,6 +24,7 @@ import {
   calculateCurrentTimePosition,
   getCurrentDay,
 } from "@/components/timetable/utils/timeUtils";
+import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { APP_CONFIG, PADDING } from "@/config";
 import { useConfigStore } from "@/stores/config/provider";
@@ -202,6 +204,10 @@ export default function TimeTablePage({
             modules={timetable.modules}
             timetableTheme={timetableTheme}
           />
+          <Button variant="outline" onClick={() => exportExamsICal(timetable)}>
+            <Download className="mr-2 size-4" />
+            Exams iCal
+          </Button>
         </TabsContent>
       </Tabs>
 

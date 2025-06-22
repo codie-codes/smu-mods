@@ -20,7 +20,7 @@ export type Config = {
 export const PADDING = "0.5rem";
 
 export const APP_CONFIG: Config = {
-  academicYear: "2025/2026",
+  academicYear: "2024/2025",
   currentTerm: "term-2",
   banners: [
     {

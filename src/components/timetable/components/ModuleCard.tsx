@@ -81,9 +81,14 @@ export function ModuleCard({
                 moduleCode={mod.moduleCode}
                 instructor={section.professor.name}
               >
-                <p className="cursor-pointer text-sm hover:underline">
-                  {section.professor.name} - {section.code}
-                </p>
+                <div className="cursor-pointer text-sm hover:underline">
+                  <p>
+                    {section.professor.name} - {section.code}
+                  </p>
+                  <p>
+                    {section.location.building} {section.location.room}
+                  </p>
+                </div>
               </BidAnalyticsPopover>
             );
           }

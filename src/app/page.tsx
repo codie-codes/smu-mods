@@ -169,12 +169,12 @@ const NavBar = () => {
   const { resolvedTheme, setTheme } = useTheme();
 
   return (
-    <nav className="bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 flex w-screen justify-center border-y backdrop-blur">
+    <nav className="bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 flex w-screen justify-center border-y px-4 backdrop-blur">
       <div className="container flex h-14 items-center justify-between">
         <Logo />
 
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" asChild>
+          <Button variant="ghost" asChild className="hidden md:flex">
             <Link href={`/timetable/${APP_CONFIG.currentTerm}`}>
               <Calendar className="mr-2 h-4 w-4" />
               Timetable

@@ -41,10 +41,6 @@ export function ExportDropdown({
                 <Calendar className="mr-2 size-4" />
                 Classes iCal
               </DropdownMenuItem>
-              <DropdownMenuItem onClick={onExportExamsICal}>
-                <Calendar className="mr-2 size-4" />
-                Exams iCal
-              </DropdownMenuItem>
             </>
           )}
           <DropdownMenuItem onClick={onExportPDF}>

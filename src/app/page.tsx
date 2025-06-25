@@ -257,8 +257,7 @@ export default function Home() {
                 </div>
                 <CardTitle>Module Search</CardTitle>
                 <CardDescription>
-                  Find and filter through all available SMU modules with
-                  advanced search capabilities
+                  Find and filter through all available SMU modules
                 </CardDescription>
               </CardHeader>
               <CardContent>

@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
+  BarChart3,
   BookOpen,
   Calendar,
   CheckCircle,
@@ -247,18 +249,27 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2">
             <Card className="text-center">
               <CardHeader>
-                <div className="bg-primary/10 mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg">
+                <div className="bg-primary/10 mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-md">
                   <Search className="text-primary h-6 w-6" />
                 </div>
                 <CardTitle>Module Search</CardTitle>
                 <CardDescription>
-                  Find and filter through all available SMU modules with
-                  advanced search capabilities
+                  Find and filter through all available SMU modules
                 </CardDescription>
               </CardHeader>
+              <CardContent>
+                <div className="relative mx-auto h-48 w-full overflow-hidden rounded-md">
+                  <Image
+                    src="/module_video.gif"
+                    alt="Module search demonstration"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </CardContent>
             </Card>
 
             <Card className="text-center">
@@ -272,6 +283,16 @@ export default function Home() {
                   timetable builder
                 </CardDescription>
               </CardHeader>
+              <CardContent>
+                <div className="relative mx-auto h-48 w-full overflow-hidden rounded-lg">
+                  <Image
+                    src="/timetable_video.gif"
+                    alt="Timetable planning demonstration"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </CardContent>
             </Card>
 
             <Card className="text-center">
@@ -279,12 +300,45 @@ export default function Home() {
                 <div className="bg-primary/10 mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg">
                   <BookOpen className="text-primary h-6 w-6" />
                 </div>
-                <CardTitle>Module Information</CardTitle>
+                <CardTitle>Course Planner</CardTitle>
                 <CardDescription>
-                  Access comprehensive details about each module including
-                  prerequisites and descriptions
+                  Plan your entire degree with our comprehensive course planning
+                  tools
                 </CardDescription>
               </CardHeader>
+              <CardContent>
+                <div className="relative mx-auto h-48 w-full overflow-hidden rounded-lg">
+                  <Image
+                    src="/planner_video.gif"
+                    alt="Course planner demonstration"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center">
+              <CardHeader>
+                <div className="bg-primary/10 mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg">
+                  <BarChart3 className="text-primary h-6 w-6" />
+                </div>
+                <CardTitle>Bid Analytics</CardTitle>
+                <CardDescription>
+                  Analyze bidding patterns and make informed decisions with
+                  data-driven insights
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="relative mx-auto h-48 w-full overflow-hidden rounded-lg">
+                  <Image
+                    src="/bid_analytics_video.gif"
+                    alt="Bid analytics demonstration"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </CardContent>
             </Card>
           </div>
         </div>

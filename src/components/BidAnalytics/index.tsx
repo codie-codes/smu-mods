@@ -106,7 +106,6 @@ export function BidAnalytics({ params }: BidAnalyticsProps) {
   return (
     <div className="space-y-4">
       <h2 className="text-xl font-semibold">
-        Bid Price Analytics for {params.moduleCode} -{" "}
         {modules[params.moduleCode as ModuleCode]!.name}
       </h2>
       <div className="flex flex-wrap items-center justify-start gap-2">

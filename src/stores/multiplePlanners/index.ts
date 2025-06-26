@@ -309,14 +309,3 @@ export const createMultiplePlannerBank = (
     ),
   );
 };
-
-export const removeModulesFromPlannerState = (
-  modules: PlannerState["modules"],
-  predicate: (moduleCode: string, module: any) => boolean,
-) => {
-  return Object.fromEntries(
-    Object.entries(modules).filter(
-      ([moduleCode, module]) => !predicate(moduleCode, module),
-    ),
-  );
-};

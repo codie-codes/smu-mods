@@ -71,6 +71,7 @@ export const basketCodes = [
   "QF",
   "SMT",
   "SOCG",
+  "SSOC",
   "SE",
   "STAT",
   "TRAD",

@@ -21,7 +21,10 @@ export const timeSlots = [
 
 export const startingTime = [
   "08:15",
+  "09:00",
+  "09:15",
   "10:00",
+  "10:45",
   "12:00",
   "13:45",
   "15:30",
@@ -29,7 +32,7 @@ export const startingTime = [
   "19:00",
   "20:45",
 ] as const;
-export const duration = [1.5, 3.25, 2.25] as const;
+export const duration = [0.75, 1.5, 3.25, 2.25] as const;
 
 export type StartingTime = (typeof startingTime)[number];
 export type Duration = (typeof duration)[number];

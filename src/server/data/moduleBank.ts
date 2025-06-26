@@ -22626,7 +22626,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "Sustainable entrepreneurship is an area of importance globally as communities, institutions, and individuals seek to find new ways to address societal needs that are not met by, or inadequately provided for, by government and society. In this course, you will learn concepts, frameworks, and practical skills to strategize, organize, and take action to address societal needs through a commercial enterprise. This course is designed for students who are primarily interested in organizing to create local, regional, or international impact by addressing societal issues such as poverty, inequality, hunger, exploitation, social mobility, and educational access.",
     terms: ["Term 1"],
   },
   MGMT232: {
@@ -22671,7 +22672,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "The SMU-X course “Business Consulting” is jointly offered by SMU and the University of St.Gallen. It is designed to allow students to translate classroom knowledge into professional experience. It is a unique oppor-tunity to learn more about consulting services and apply theoretical knowledge to a real business project. The core focus of this class rests on a group work built around a real world business project offered by one of our corpo-rarte partners. For each session (G1 and G2), we are collaborating with more than twelve different corporate partners with each student group benefitting from an exclusive relationship to their own corporate partner. The corporate projects cover different industries and different topics. Students are invited to share their preferences with which corporate partner (and thereby in which industry or on what topic focus) they wish to work and gain experience. This SMU-X course is a combination of advanced in-class learning and practical interaction with the business world via project work and guest lecturers who work/have worked with major consultancy companies such as McKinsey, BCG, or Bain. The lectures introduce the world of consulting by teaching the basic steps and tools used during the consulting process. You will learn how consultants frame, analyse and solve problems and how they present their solutions to their clients. You will obtain tools and frameworks to reduce complexity and structure a project. Sev-eral mini cases and lived situations with your corporate partner will help you to develop an understanding of how to approach a business project and manage the relationship with your corporate partner as a client. Guest lectures will provide you with industry insights and hands-on experiences about the day-to-day business of a consultant. The unique opportunity to explore, learn, and directly apply competencies in a real life, multidisciplinary, team-based consulting experience with a company/organization is the distinguishing feature of this course. You will be working in teams for (large) corporations or smaller startups, acting as student consultants working on real challenges the organizations presently face. The solutions you develop will be presented to the senior management of the compa-nies. In previous semesters, our corporate partners included DBS (banking), Adidas (sports apparel), WWF (nature conservancy), Nestlé (nutrition), SingPost (logistics), Lufthansa (airline), CapitaLand (real estate), Sygnum (fintech), Lazada (E-commerce) and many more.",
     terms: ["Term 1"],
   },
   MGMT233: {
@@ -22698,7 +22700,13 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description: `This course is designed to give students opportunities to interact with about 10 CEOs/MDs during the semester. The invited speakers will share with students their views on leadership and management.
+
+Before each CEO session, class will meet to analyze the transforming power of leadership and how its practice changes individuals, organizations and societies. Students will examine different perspectives of leadership in the business world as well as in politics and the arts. They will learn how leadership is developed in different organizational and cultural settings and how it is portrayed in different media including films, plays and novels.
+
+Are great leaders born or made? Can training or coaching make a difference? This course analyses the transforming power of leadership and how its practice changes individuals, organizations and societies. It seeks to expose students to different perspectives of leadership in the business world as well as in politics and the arts.
+
+It will examine how leadership is developed in different organizational and cultural settings and how it is portrayed in different media including films, plays and novels. The focus of the course will not be on the identification of critical leadership traits or tasks but on the interactions between a leader, the organization and the context in which leadership evolves. Weekly CEO talks will form an integral part of the course.`,
     terms: ["Term 1"],
   },
   MKTG208: {
@@ -22729,8 +22737,10 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course is intended to introduce students to the role and importance of selling as a complement to marketing function in an organization. The two concepts are overlapping that one often says that “marketing needs selling” and “no selling can take place without marketing.” The instructor will guide students on how the sales function is operationalized in different kinds of marketing organizations as the scope can vary from consumer and retail marketing, trade marketing, services marketing, and business-to-business marketing. Students will cover this course under two parallel themes–the process of selling and the role of the professional sales team through the process of sales management. Students will learn the underlying body of marketing theory that underpins the study of sales management and personal selling. You will also learn some of the important principles of effective presentations related to sales proposals to organizational customers. A key delivery for this course would be for students to develop a case scenario to simulate a sales strategy involving target prospect calling, sales presentation and negotiations leading to sales conversion. The sales management course is focused on consumer trade marketing (pushing products through the channel) as well as business-to-business marketing applications for sales of business products and services to corporate customers.",
     terms: ["Term 1"],
+    preReq: "MKTG101",
   },
   MKTG313: {
     name: "Pricing",
@@ -22760,8 +22770,10 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course aims to provide students with a roadmap to pricing strategically that would enable organizations to use pricing as a tool to drive profitability and sustainable growth. Students will learn new perspectives for determining product and service pricing to maximize a firm’s profits through creating and capturing customers. This course provides insights into the strategies that managers can employ to determine the appropriate price to capture the value provided to customers. It addresses the major pricing decisions confronting managers in today’s competitive business environment by providing a comprehensive approach to managing pricing decisions.",
     terms: ["Term 1"],
+    preReq: "MKTG101",
   },
   OBHR224: {
     name: "Human Capital Strategy",
@@ -22791,8 +22803,10 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course introduces you to the importance of implementing business strategies through people strategies. The pedagogy of the course is designed to develop your practical perspective on Human Capital Strategy and its critical importance for the success of an organization. We will explore Human Capital practices and processes through three amalgamated approaches. • Academic knowledge- We will understand the concepts of different strategic models to drive business growth. You will learn the various aspects of culture, structure, compensation, talent, and leadership that shape the human capital strategy of the organizations. • Business Insights- We will analyze latest events, unicorns, business case studies and articles to appreciate the changing business landscape. You will get opportunities to interact with established business/HR leaders to share the industry insights during the module. • Action Learning- We will engage in the Human Capital Challenge (HCC) strategic business simulation game to help you learn by doing. You will make decisions based on human capital concepts and various market conditions to improve your own company performance.",
     terms: ["Term 1"],
+    preReq: "OBHR201",
   },
   OBHR232: {
     name: "Employment Law for Business Professionals",
@@ -22822,8 +22836,12 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "As a business professional, a firm understanding of employment law is crucial for driving business outcomes. At the minimum, this ensures that your legal obligations surrounding employees are always met. Yet, its importance extends far beyond legal compliance – employment law considerations are also vital in informing strategic management decisions across key areas, from workforce planning (e.g. cross-border recruitment, restructuring/downsizing), ESG performance (e.g. managing diversity and inclusion, workplace safety, grievances), risk management (e.g. protecting company assets, managing dispute resolution), stakeholder relations (e.g. managing unions), to expansion into new markets (e.g. navigating local laws). In this regard, this course is designed to impart to you an understanding of the employment law regime in Singapore. You will acquire an awareness of the employment landscape and key employment-related laws in Singapore. You will learn to identify and address key issues that impact employment and affect employment relationships. You will develop a working understanding of the key ‘buckets’ of employment law, from hiring, managing, terminating, to post-termination matters. You will develop an appreciation of how these legal requirements not only apply to daily operational issues, but also how they form the crucial basis for higher-level strategic management decisions. You will hence study requirements and issues relating to the following non-exhaustive list of topics: • Hiring employees, including looking at fair hiring guidelines on non-discriminatory and ‘locals-first’ policies in Singapore; and hiring of foreign manpower; • Managing employees, including looking at employers’ and employees’ rights and obligations under law; employment contracts, including what they comprise and how they govern an employment relationship; and workplace safety and health matters, an area under significant scrutiny following COVID-19; • Terminating employees, including whether and how employees can be dismissed from the workplace; how retrenchment exercises work; and the respective pitfalls; • Industrial relations, including how they affect the hiring, managing and termination phases of the employment relationship; and • Post-termination concerns, including confidentiality and non-competition/solicitation obligations. Through the course, you will be exposed to the different sources of employment law, including legislation, case law, tripartite guidelines, advisories issued by the Ministry of Manpower, amongst others. You will understand how the tripartite relationship between the Government, employers and unions work and affect these. In this respect, this is a very grounded course, which will require you to develop a clear understanding of the employment legal regime and then think practically on how to anticipate, manage, and navigate employment issues, as well as apply them to broader organizational objectives. This course will be especially pertinent to students aspiring to careers as a HR professional or in management. In either role, a firm grasp of employment law means that you will be able to proactively identify and flag potential issues, hence becoming a valued strategic partner to your employer. The course will also be relevant to students who are interested in consulting work or business in general.",
     terms: ["Term 1"],
+    preReq: {
+      or: ["OBHR101", "OBHR201"],
+    },
   },
   OBHR234: {
     name: "Power and Politics in Organisations",
@@ -22867,7 +22885,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "Power, status, and influence are topics that make many people a little uncomfortable. However, power is a fundamental reality in much (maybe all) of organizational and social life. Power and influence are key mechanisms by which things get done. This course is designed so that you will learn concepts useful for understanding power and influence, and ways of analyzing power dynamics in organizations. Even more importantly, the course encourages you to think about and develop your own personal path to power (which can include, of course, a path away from power), as well as to develop your skills in exercising power and influence—to make you more comfortable with “managing with power.” The course will also introduce difficult ethical questions associated with the use of power and influence, and challenge you to define for yourself what constitutes the ethical exercise of power and influence in your life. The materials and ideas that form the basis for much of the course have been selected because they challenge many aspects of conventional wisdom or the taken-for-granted assumptions that many people hold about the sources of success and influence. The ideas and concepts are, however, well grounded in empirical literature in the behavioral and social sciences. If some of the readings or discussions disagree with your ideas or cause you to feel uncomfortable, that discomfort is part and parcel of the learning process.",
     terms: ["Term 1"],
   },
   OPIM322: {
@@ -22898,8 +22917,13 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description: `As the world becomes more globalized many companies achieve competitive advantage by paying substantial attention on effective supply chain operations. Warehouses are consolidation hubs of various products in a supply chain. To support business that covers a wide range of markets it is common for a warehouse to store hundreds of thousands of products. These products pass through the warehouse in huge volume daily, and so it is important to run it efficiently.
+
+Besides the traditional storage function, warehouses are increasingly forced to perform responsive and accurate customer order fulfillment and other value-added services. High performance in product warehousing and order fulfillment becomes crucial to the success of many companies in today's competitive business environment. We will introduce various operation models that are theoretically appealing and practically feasible. Some case studies will also be discussed.
+
+This course is especially useful for those who are interested in consulting careers in logistics and supply chain management.`,
     terms: ["Term 1"],
+    preReq: "OPIM201",
   },
   OPIM346: {
     name: "Operations and Supply Chain Management in Healthcare",
@@ -22929,7 +22953,8 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 3,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "Given the trend of an aging population and rising healthcare costs in many countries around the world, it is important for healthcare service providers to minimise the costs of service delivery while maintaining high quality of health care services, safety and patient satisfaction. This course presents elementary operations management and supply chain management principles before applying them to the healthcare sector. Those topics include, but are not limited to, process analysis and optimization, capacity management, quality control, queuing, and inventory management. Students are introduced to a mix of analytical and simulation tools to address operations challenges inspired from the local healthcare context and beyond. The application of the operations management tools and methods is tailored to the healthcare context, which the students will explore through a mix of case study discussions and guest speakers. The students will also independently explore an emerging topic in healthcare from an operations management perspective to gain a better understanding of future challenges and opportunities in this industry.",
     terms: ["Term 1"],
   },
   OPIM349: {
@@ -22960,8 +22985,10 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "With the convenience of the Internet at our fingertips, e-commerce has grown into a huge industry and the world of business is changing rapidly beyond brick and mortar. Customers not only shop through different retail channels - in store, on the web, and through Apps on mobile devices, but also expect a consistent buying experience across these channels. This creates a host of new business models, such as online marketplaces, online platforms, and omni-channel retailing, that require new sets of skills and concepts to manage. The objective of this course is to provide students with these necessary skills and concepts. Topics that will be discussed include online retailing, online marketplaces, analytics and AI, logistics and technologies for online retailing, service-oriented platforms, and omni-channel retailing.",
     terms: ["Term 1"],
+    preReq: "OPIM101",
   },
   POSC224: {
     name: "The Ethics and Politics of Environmental Sustainability",
@@ -22987,7 +23014,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course examines prominent issues in contemporary environmental ethics, focussing particularly on the question of environmental sustainability. As a course in political theory, it approaches the topic in broadly philosophical terms. Among the matters it considers are conceptual issues (what do we mean by sustainability?), questions of value (whose interests should we serve—those of humanity and future generations in particular, or non-human animals, or nature more broadly?), theoretical problems of how we make trade-offs or balance competing ends (economic development and growth to reduce global poverty or reducing carbon emissions?), and the specific dilemmas posed by climate change (what is the right balance between mitigation vs adaptation strategies?). The course also considers the political problems posed by the imperative to deal with environmental concerns: can major global ethical problems of sustainability be address through democratic institutions or while respecting national sovereignty?",
     terms: ["Term 1"],
   },
   POSC225: {
@@ -23014,7 +23042,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course introduces the core topics and major issues in American politics. Students will develop the toolkit needed to understand American political institutions such as Congress, the Presidency, and the Supreme Court, and provide social scientific theories which describe how these institutions function. The course will then examine organizations that mediate the relationship between political institutions and the American public, such as parties and interest groups, and study how these organizations engage with the American public through polling and campaigns. We will conclude with a focus on contemporary political challenges in American politics such as race, inequality, polarization, and foreign policy, which, in turn, we will use to analyse the rise of President Donald Trump.",
     terms: ["Term 1"],
   },
   POSC325: {
@@ -23041,7 +23070,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course examines the concept of “capitalism” and introduces students to the debates that began in the eighteenth century and continue into the twenty-first century, over the nature and merits of commercial society and of alternative economic systems. It considers definitional questions in an attempt to understand what capitalism is, but it also explores historical, sociological and political theories of the way in which capitalist societies operate and considers critiques and defences of capitalism as a mode of production or a form of life.",
     terms: ["Term 1"],
   },
   POSC327: {
@@ -23072,7 +23102,8 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "China has long been of interest to students of International Relations due to its historical role as the major power of East Asia, and its current status as a great power with influence in geopolitics, world trade, and global governance. The course examines the development of China’s relations with the world in terms of history, culture, and policy-making. It analyses China’s approach to major powers and its neighbours in the Indo-Pacific region, and explores topical issues of Chinese diplomacy, grand strategy, the Belt and Road Initiative, the environment, Chinese IR theory, and Chinese world orders (including historical, current, and futuristic).",
     terms: ["Term 1"],
   },
   PPPM101: {
@@ -23103,7 +23134,8 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "The primary objective of this course is to introduce students to the evolution and basic principles of public sector management, the key management issues that confront public agencies, and the innovations that are occurring during a time where taxpayers and policymakers are demanding significant change in the way public sector organizations operate. Topics include: bureaucratic behavior, core values of public organizations, public budgeting and finance, policy networks, public-private partnerships(PPP), and e-governance.",
     terms: ["Term 1"],
   },
   PPPM201: {
@@ -23135,7 +23167,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course introduces students to environmental policies at the local, national, and supranational level. The course analyses alternative views concerning problems of climate change with specific attention paid to social, political, and economic issues and discourses pertaining to energy, air and water pollution, food waste and plastics, biodiversity and deforestation. The course also addresses major controversies regarding values, institutions, public opinion, and education, the role of business and society, environmental risk, competing approaches to regulation, environmental justice, sovereignty, and non-traditional security issues.",
     terms: ["Term 1"],
   },
   PPPM204: {
@@ -23166,7 +23199,8 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "Why do people choose to participate in politics and the policy process? What effect does citizen input have on policymaking? This course explores these questions by examining the relationship between political participation and policy. We will examine both familiar forms of participation such as voting and collective action, as well as newer institutions designed to increase citizen participation in the policy process, including participatory budgeting and community-led development. The course considers how institutions and individual attributes shape citizen participation and its influence over the policy process. Throughout the course, we will draw connections between academic literature and real-world policy issues in Southeast Asia and around the world.",
     terms: ["Term 1"],
   },
   PSYC103: {
@@ -23197,8 +23231,10 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 3,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course introduces students to the cognitive basis of behaviors and provides a framework of how human beings perceive, retain, and process information. It will cover topics such as attention, pattern recognition, concept formation, memory, language, reasoning, problem solving, and judgment and decision making.",
     terms: ["Term 1"],
+    preReq: { and: ["PSYC001", "PSYC110"] },
   },
   PSYC209: {
     name: "Psychology of Close Relationships",
@@ -23246,8 +23282,10 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "There is reason to believe that close relationships are hugely influential to our emotional and physical well-being. This course will provide students with an introduction to how psychologists think about, study, and improve close relationships. Major theories of close relationships and their empirical findings will be emphasized. In addition, research related to topics such as attraction, relationship development, maintenance and dissolution, and technology will be examined. Using a theory- and evidence-based approach, this course will address these issues and explore many other questions about human intimacy.",
     terms: ["Term 1"],
+    preReq: { and: ["PSYC001", "PSYC110"] },
   },
   SE101: {
     name: "Operating Systems and Networking",
@@ -23295,7 +23333,8 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 3,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This is a hybrid course that aims to equip students with foundational knowledge on operating systems and computer networking. Operating Systems: knowledge of the mainstream operating systems, Microsoft Windows and Linux, security and access control strategies, shell commands and scripting, as well as enterprise-level features of various OSes. Students should be able to demonstrate ability to compare and contrast these two OSes. Students should also be comfortable with using the command line interface, including skills to troubleshoot issues pertaining to environment variables and misbehaving applications. Students should also get experience with installing Windows and Linux from scratch either on a real laptop/PC or a virtual machine. Networking: foundational networking concepts useful for programming, including TCP/IP concepts, ports, routing concepts, basic network-related security issues. Students are expected to work on real switches and routers as well as set up a simple LAN, configure the network settings for Windows, Linux, and optionally MacOS machines, to join this network, and perform basic network-related troubleshooting. Students should also be able to appreciate how the Internet works, including knowledge on DNS, gateways, the client/server architecture of Web servers and how a packet is routed from origin to destination. Students should also be able to write simple high-level programs in Python that communicate across the network. This course is specially designed to be industry-focused with hands-on practice.",
     terms: ["Term 1"],
   },
   SMT481: {
@@ -23322,8 +23361,17 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course delves into the quantitative methods of operations research, with a strong focus on urban operations, efficiency, and sustainability. It explores how these techniques can enhance efficiency and sustainability in smart city domains such as transportation, logistics, delivery, e-commerce, and healthcare systems. The curriculum emphasizes the planning, analysis, and eco-friendly operations of urban services, integrating a comprehensive study of probability models and optimization techniques. It aims to equip students with the skills to implement practical, diverse, and sustainable solutions in the context of smart city infrastructure.",
     terms: ["Term 1"],
+    preReq: {
+      and: [
+        { or: ["SMT101", "IS111", "SE101", "COR-IS1702", "COR-IS1704"] },
+        {
+          or: ["IS217", "MGMT108", "CS105"],
+        },
+      ],
+    },
   },
   SOCG203: {
     name: "Gender and Family",
@@ -23349,7 +23397,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course integrates theories and findings from the sociology of gender and sociology of family. Topics include gender inequality in the workplace, dual-career families, gender equity and fertility, gender division of unpaid household labour, intergenerational relationships, and family diversity, with comparative perspectives from Singapore and the broader Asian region.",
     terms: ["Term 1"],
   },
   SOCG402: {
@@ -23370,8 +23419,12 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course provides students with the opportunity to develop research skills beyond the basic methods taught in the regular social science curriculum. Under the guidance of a faculty member, students will conduct empirical research work that may include components such as: formulating research questions and rigorous research designs, collecting and/or analysing primary or secondary data (through methods such as surveys, interviews, ethnography, or existing datasets), and writing scholarly research reports. The specific research methodology and focus will vary depending on the faculty member’s expertise and the nature of the project. This hands-on research experience will allow students to learn more specialized techniques in conducting social research, including the use of research software. These skills will be useful for students interested in evidence-based policy work, postgraduate studies, and other research-oriented professions.",
     terms: ["Term 1"],
+    preReq: {
+      or: ["PSYC110", "IDIS100"],
+    },
   },
   SSOC110: {
     name: "Sustainability Practicum",
@@ -23397,7 +23450,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "The Sustainability Practicum is a required compulsory course for the Sustainable Societies major. Each section of the course will focus on 1-2 specific UN Sustainable Development Goals (SDGs) and a specific measurable indicator therein. Led by the faculty instructor, the practicum will be organised around a specific real-world problem that is set in collaboration with an external partner. The students will work on assignments and deliberation-focused class activities that engages with the chosen theme and will culminate into a final deliverable to the external partner (eg. in the form of a report, presentation etc.). All BSocSc students may also take this course to fulfil their Social Science Practicum requirement.",
     terms: ["Term 1"],
   },
   STAT311: {
@@ -23428,7 +23482,11 @@ After completing this course, students will be able to use what they have learnt
       durationInHour: 2,
     },
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "This course covers the following topics: insurance loss models, claim frequency and claim severity distributions, mixture distributions and compound distributions, tail properties of distributions, evaluation and impacts of coverage modifications, deductibles, policy limits and coinsurance, theory of risk measures, VaR and CTE, credibility theory: classical approach, Buhlmann and Buhlmann-Straub models, and Bayesian approach, empirical implementation of credibility: nonparametric, semi-parametric and parametric methods.",
     terms: ["Term 1"],
+    preReq: {
+      and: ["STAT201", "DSA201"],
+    },
   },
 };

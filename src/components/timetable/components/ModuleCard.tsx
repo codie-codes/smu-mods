@@ -97,7 +97,7 @@ export function ModuleCard({
         <p className="text-sm">
           Exam:{" "}
           {mod.exam?.dateTime
-            ? format(new Date(mod.exam.dateTime), "M/dd/yyyy h:mm a")
+            ? format(new Date(mod.exam.dateTime), "MMM dd, yyyy h:mm a")
             : "No exam scheduled"}
         </p>
       </div>

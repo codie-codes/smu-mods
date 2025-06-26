@@ -10,7 +10,11 @@ import { useTimetableStore } from "@/stores/timetable/provider";
 import { api } from "@/trpc/react";
 import { Logger } from "@/utils/Logger";
 
-export default function Page({ params }: { params: { token: string } }) {
+export default function Page({
+  params,
+}: {
+  params: Promise<{ token: string }>;
+}) {
   const { mutateAsync: getToken } = api.iSync.getContent.useMutation();
   const { iSync: iSyncTimeTable } = useTimetableStore((state) => state);
   const { iSync: iSyncPlanners } = useMultiplePlannerStore((state) => state);
@@ -19,7 +23,8 @@ export default function Page({ params }: { params: { token: string } }) {
 
   useEffect(() => {
     const fetchContent = async () => {
-      const { content } = await getToken({ token: params.token });
+      const { token } = await params;
+      const { content } = await getToken({ token });
       const data = JSON.parse(content);
       try {
         iSyncTimeTable(data.timetable);

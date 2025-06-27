@@ -13561,7 +13561,7 @@ export const modules: ModuleBank = {
     moduleCode: "LAW103_603",
     description:
       "This course will introduce students to the basic principles and various aspects of criminal law. The criminal law in Singapore is contained in the Penal Code (Cap. 224) and provisions in other statutes. Case law interpreting and applying the elements and provisions of the various offences will also be examined. The student will first approach criminal law from a jurisprudential viewpoint and consider its objectives, functions and theoretical basis. A greater part of the course will be spent examining the various substantive areas of criminal law.",
-    credit: 1,
+    credit: 1.25,
     terms: ["Term 2", "Term 1"],
     sections: [
       {
@@ -13667,7 +13667,7 @@ export const modules: ModuleBank = {
     moduleCode: "LAW105_605",
     description:
       "This course will discuss general principles of tort law as well as covering a selected number of torts in greater depth. The goals and objectives of tort law will be examined in the context of the relationship between torts, contract, criminal law and property law. There will be emphasis placed on the different range of interests protected by torts (property, economic, personal etc) and the need to achieve a proper balance between competing interests. Different classification systems for torts will be examined: by interest, by the nature of the interference (intention, recklessness, carelessness, strict liability) and by whether consequential harm is needed (torts actionable per se). One goal will be to demonstrate the dynamic nature of law and its development to meet changing social and economic conditions. Before an examination of the various torts, the students will learn about the internal classification of torts and the relationship of the law of torts to other legal obligations.",
-    credit: 1,
+    credit: 1.5,
     terms: ["Term 2", "Term 1"],
     sections: [
       {
@@ -13704,7 +13704,7 @@ export const modules: ModuleBank = {
     moduleCode: "LAW107_607",
     description:
       "The objective of           this course is to develop skills in practical legal research, writing and drafting, interviewing and advising and advocacy in first-year students. These skills will be taught in the context of legal problems in contract law, criminal law, and the law of torts, previously covered or concurrently taught in the first year.",
-    credit: 0,
+    credit: 0.5,
     terms: ["Term 2"],
     sections: [],
   },
@@ -13713,7 +13713,7 @@ export const modules: ModuleBank = {
     moduleCode: "LAW201_621",
     description:
       "Under Singapore law, there are different ways in which businesspeople may organise commercial\n                  activities with a view to maximising operational efficiency and minimising exposure to personal\n                  risk. Most, however, will opt to incorporate a company for the purpose. This is however no indication\n                  that the company is a simple structure. On the contrary, as the company is effectively a web of\n                  different interests, rights and obligations, it is a highly complex structure. As such, the corporate form\n                  is fittingly the most regulated of all business entities. In this course, we will examine how a company\n                  is formed, the consequences of incorporation, how it is managed and controlled, what responsibilities\n                  are visited upon those who exercise control over a company's assets, how a company transacts with\n                  third parties, and how it raises capital. The course will also expose the student to issues relating to\n                  shareholder rights and to creditor protection mechanisms. In addition, the student will be introduced\n                  to corporate rescue and insolvency laws, as well as to corporate finance.",
-    credit: 1,
+    credit: 1.5,
     terms: ["Term 2", "Term 1"],
     sections: [
       {
@@ -13754,7 +13754,7 @@ export const modules: ModuleBank = {
     moduleCode: "LAW204_624",
     description:
       "This course introduces principles of Singapore constitutional law and administrative law.\n                  Constitutional law is concerned with the organisation of the state and the relationship between the\n                  government, civil society, and the individual. Administrative law is about the governance of public\n                  bodies exercising statutory or other powers or performing public duties.\n                  In this course, we will be concerned with how law, institutions and norms promote good governance,\n                  how political power and public law functions are legitimated, how abuses of public power are\n                  prevented or remedied, and how to understand the proper relationship between the individual and\n                  the state.\n                  NB: This is a reading-intensive 1.5 cu course. This means that, as a general guideline, you should put it\n                  at least 11/2 times the amount of time and effort that you do for your other 1.0 cu modules. ",
-    credit: 1,
+    credit: 1.5,
     terms: ["Term 2"],
     sections: [],
   },
@@ -21662,7 +21662,7 @@ This course will benefit students who are seeking a career in Corporate Finance,
       dateTime: new Date("2025-11-27T00:30:00.000Z"),
       durationInHour: 2,
     },
-    credit: 0,
+    credit: 0.5,
     description:
       "This course will examine the various legal cultures and traditions within Asia. The historical background of these traditions in Asia including the Western and colonialist (and post-colonialist) influences will also be explored. In this increasingly globalised economy, the lawyer needs to be conversant with the legal traditions and cultures of Asia especially that of Southeast Asia, India and China.",
     terms: ["Term 1"],
@@ -21772,7 +21772,7 @@ This course will benefit students who are seeking a career in Corporate Finance,
       dateTime: new Date("2025-11-25T05:00:00.000Z"),
       durationInHour: 3,
     },
-    credit: 1,
+    credit: 1.25,
     description:
       "This course aims to introduce students to the basic principles of common law and equity as applied to property, both immoveable and moveable including intellectual property. Beginning with an exploration of what ownership of land means, this course will consider how land can be dealt with at common law and in equity, before taking a look at how some of these complexities have receded, given the adoption and universal application of the Torrens registration system in Singapore. In the middle part of this course, the question of ownership and transfer of moveable property at common law and in equity will be considered with particular attention to the difficulties posed by intangible moveable property in the form of intellectual property rights as well as other choices in action. The final part of the course examines the creation of security interests over immoveable and moveable property and the problems relating to determining the priorities of competing security interests. Comparisons may be drawn with alternative systems of property law, e.g. the scheme of security interests set out in the Uniform Commercial Code and the treatment of property generally in the American Restatement on Property.",
     terms: ["Term 1"],

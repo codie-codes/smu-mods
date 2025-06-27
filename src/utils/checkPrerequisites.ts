@@ -20,7 +20,15 @@ export function checkPrerequisite(
     if (typeof tree === "string") {
       return {
         type: "module",
-        fulfilled: completedModules.has(tree),
+        fulfilled: completedModules.has(tree)
+          ? true
+          : tree.startsWith("LAW")
+            ? // LAW modules are special, they have modifiers like 601, 602, etc.
+              // so we need to check if any of the completed modules have the same prefix
+              Array.from(completedModules).some((module) =>
+                module.startsWith(tree),
+              )
+            : false,
         module: tree,
       };
     }

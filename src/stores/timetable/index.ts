@@ -81,10 +81,6 @@ export const createTimetableStore = (
           theme: TimetableThemeName,
         ) => {
           const timetable = get().timetableMap[term];
-          if (timetable.modules.length > 7) {
-            toast.error("Maximum of 8 modules allowed");
-            return;
-          }
           if (term !== termMap[APP_CONFIG.currentTerm]) {
             toast.error("You can only add modules to the current term");
             return;

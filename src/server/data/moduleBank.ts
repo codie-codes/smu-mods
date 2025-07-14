@@ -23634,7 +23634,8 @@ export const modules: ModuleBank = {
       },
     ],
     credit: 1,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "The course incorporates a planned visit to one or more cities/countries in Asia, so that students may get a better appreciation of the business and socio-cultural environment of the cities/countries studied. The course typically begins with a series of classes on campus and culminates in a short but intensive overseas trip. While overseas, visits are made to companies, NPOs, government agencies, and/or universities.",
     terms: ["Term 1"],
   },
   PLE401: {
@@ -23655,7 +23656,8 @@ export const modules: ModuleBank = {
       },
     ],
     credit: 2,
-    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    description:
+      "The Senior Thesis in Politics, Law and Economics is an intensive course designed for BSocSc students who are planning to pursue graduate studies. Students will conduct an original theoretical or empirical research study under the supervision of a Political Science, Law or Economics faculty. Eligible students should first approach a relevant faculty and secure his or her agreement to supervise the thesis before applying for the course. The student will be actively involved in all stages of the research study including but not limited to the formulation of a research question, reviewing the literature, and writing up of the final thesis report. In the case of empirical research, this will also include design of empirical study, development of measurement and procedures, data collection, and data analysis. In the case of theoretical research, the literature review should lead to an integration of different theoretical perspectives and/or the proposal of a new theory. The thesis will be done over two consecutive terms in one academic year. Students will submit their final thesis report two weeks before the oral defense of the thesis to the supervisor and appointed co-examiner. The oral defense will typically be held on Week 14 of the second term.",
     terms: ["Term 1"],
   },
 };

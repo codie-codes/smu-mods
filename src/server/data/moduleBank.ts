@@ -564,7 +564,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "",
+          name: "RAND HIRMIZ",
         },
         location: {
           building: "SOSS/CIS",
@@ -618,7 +618,7 @@ export const modules: ModuleBank = {
       {
         code: "G4",
         professor: {
-          name: "",
+          name: "RAND HIRMIZ",
         },
         location: {
           building: "SOSS/CIS",
@@ -744,7 +744,7 @@ export const modules: ModuleBank = {
       {
         code: "G11",
         professor: {
-          name: "",
+          name: "RAND HIRMIZ",
         },
         location: {
           building: "SOSS/CIS",
@@ -1354,7 +1354,7 @@ export const modules: ModuleBank = {
       {
         code: "G6",
         professor: {
-          name: "THOMAS MENKHOFF, KAN SIEW NING",
+          name: "THOMAS MENKHOFF, KAN SIEW NING, KEVIN CHEONG",
         },
         location: {
           building: "LKCSB",
@@ -1584,14 +1584,14 @@ export const modules: ModuleBank = {
           name: "AKANKSHA RATH",
         },
         location: {
-          building: "LKCSB",
-          room: "Seminar Room 3-3",
+          building: "SOE/SCIS2",
+          room: "Seminar Room 3-6",
           level: 3,
         },
         classes: [
           {
             day: "Thursday",
-            startTime: "12:00",
+            startTime: "15:30",
             duration: 3.25,
           },
         ],
@@ -2588,7 +2588,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "CHONG YIN TENG",
+          name: "LOKE MICHELLE",
         },
         location: {
           building: "LKCSB",
@@ -2611,7 +2611,7 @@ export const modules: ModuleBank = {
       {
         code: "G2",
         professor: {
-          name: "CHONG YIN TENG",
+          name: "VINEETHA NAIR",
         },
         location: {
           building: "SOE/SCIS2",
@@ -2634,7 +2634,7 @@ export const modules: ModuleBank = {
       {
         code: "G3",
         professor: {
-          name: "CHONG YIN TENG",
+          name: "MARK NICHOLAS PAPAYOANOU",
         },
         location: {
           building: "SOE/SCIS2",
@@ -2887,7 +2887,7 @@ export const modules: ModuleBank = {
       {
         code: "G14",
         professor: {
-          name: "NORA SAHEER",
+          name: "VINEETHA NAIR",
         },
         location: {
           building: "SOE/SCIS2",
@@ -2956,7 +2956,7 @@ export const modules: ModuleBank = {
       {
         code: "G17",
         professor: {
-          name: "",
+          name: "ROY LOUIS KHENG KIM HWANG",
         },
         location: {
           building: "SOE/SCIS2",
@@ -2979,7 +2979,7 @@ export const modules: ModuleBank = {
       {
         code: "G18",
         professor: {
-          name: "",
+          name: "ROY LOUIS KHENG KIM HWANG",
         },
         location: {
           building: "SOE/SCIS2",
@@ -3345,7 +3345,7 @@ export const modules: ModuleBank = {
         ],
       },
       {
-        code: "G34A",
+        code: "G41",
         professor: {
           name: "TAN CHIA MIEN",
         },
@@ -3368,7 +3368,7 @@ export const modules: ModuleBank = {
         ],
       },
       {
-        code: "G35A",
+        code: "G42",
         professor: {
           name: "OUYANG XIN",
         },
@@ -3711,7 +3711,7 @@ export const modules: ModuleBank = {
       {
         code: "G17",
         professor: {
-          name: "",
+          name: "TAN LING HUI",
         },
         location: {
           building: "SOE/SCIS2",
@@ -3729,7 +3729,7 @@ export const modules: ModuleBank = {
       {
         code: "G18",
         professor: {
-          name: "",
+          name: "TAN LING HUI",
         },
         location: {
           building: "SOE/SCIS2",
@@ -4276,7 +4276,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "",
+          name: "ONG ING KHIM, RUSSELL",
         },
         location: {
           building: "YPHSL",
@@ -4438,7 +4438,7 @@ export const modules: ModuleBank = {
       {
         code: "G10",
         professor: {
-          name: "",
+          name: "NEO YU FAN",
         },
         location: {
           building: "YPHSL",
@@ -5222,7 +5222,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "BENJAMIN GAN KOK SIEW",
+          name: "BENJAMIN GAN",
         },
         location: {
           building: "SCIS1",
@@ -5240,7 +5240,7 @@ export const modules: ModuleBank = {
       {
         code: "G2",
         professor: {
-          name: "BENJAMIN GAN KOK SIEW",
+          name: "BENJAMIN GAN",
         },
         location: {
           building: "SCIS1",
@@ -5258,7 +5258,7 @@ export const modules: ModuleBank = {
       {
         code: "G3",
         professor: {
-          name: "BENJAMIN GAN KOK SIEW",
+          name: "BENJAMIN GAN",
         },
         location: {
           building: "SCIS1",
@@ -5276,7 +5276,7 @@ export const modules: ModuleBank = {
       {
         code: "G4",
         professor: {
-          name: "BENJAMIN GAN KOK SIEW",
+          name: "BENJAMIN GAN",
         },
         location: {
           building: "SCIS1",
@@ -5763,24 +5763,6 @@ export const modules: ModuleBank = {
       "This course focuses on fundamental concepts of developing programs using an object orientated approach. There will be an emphasis on writing clean and efficient code, and the ability to use an appropriate data structure or algorithm to solve problems. The Java programming language will be taught in depth. Students are expected to have a strong foundation in programming.\n\n            This is a compulsory course for IS (Software Development Track) for 2017 intake and onwards.\n\n            Upon completion of the course, students will be able to:\n            1. Practice problem solving skills\n            2. Read UML sequence and class diagrams\n            3. Apply basic concepts of Object Orientation to a given scenario/context\n            4. Apply good programming practices and design concepts to develop software\n            5. Appreciate the role of algorithms and in problem solving",
     sections: [
       {
-        code: "G1",
-        professor: {
-          name: "ZHANG ZHIYUAN",
-        },
-        location: {
-          building: "SCIS1",
-          room: "Seminar Room 2-3",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
         code: "G2",
         professor: {
           name: "BIN ZHU",
@@ -5846,8 +5828,8 @@ export const modules: ModuleBank = {
         },
         location: {
           building: "SCIS1",
-          room: "Seminar Room 3-3",
-          level: 3,
+          room: "Seminar Room 2-4",
+          level: 2,
         },
         classes: [
           {
@@ -5952,24 +5934,6 @@ export const modules: ModuleBank = {
         classes: [
           {
             day: "Monday",
-            startTime: "19:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G2",
-        professor: {
-          name: "SIM CHER BOON",
-        },
-        location: {
-          building: "SCIS1",
-          room: "Seminar Room 2-3",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Thursday",
             startTime: "19:00",
             duration: 3.25,
           },
@@ -6080,14 +6044,14 @@ export const modules: ModuleBank = {
           name: "DING XUHUA",
         },
         location: {
-          building: "SCIS1",
-          room: "Seminar Room 2-2",
-          level: 2,
+          building: "SOE/SCIS2",
+          room: "Seminar Room 3-8",
+          level: 3,
         },
         classes: [
           {
-            day: "Thursday",
-            startTime: "15:30",
+            day: "Wednesday",
+            startTime: "08:15",
             duration: 3.25,
           },
         ],
@@ -6810,6 +6774,18 @@ export const modules: ModuleBank = {
         },
         classes: [],
       },
+      {
+        code: "G3",
+        professor: {
+          name: "",
+        },
+        location: {
+          building: "",
+          room: "",
+          level: 0,
+        },
+        classes: [],
+      },
     ],
     preReq: {
       or: ["IS212", "CS203"],
@@ -7087,6 +7063,24 @@ export const modules: ModuleBank = {
           },
         ],
       },
+      {
+        code: "G15",
+        professor: {
+          name: "SERENA GOH",
+        },
+        location: {
+          building: "SOE/SCIS2",
+          room: "Seminar Room 3-6",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Wednesday",
+            startTime: "15:30",
+            duration: 3.25,
+          },
+        ],
+      },
     ],
     mutuallyExclusive: ["IS111", "CS101", "COR-IS1702"],
     exam: {
@@ -7234,7 +7228,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "HADY WIRAWAN LAUW",
+          name: "HADY W. LAUW",
         },
         location: {
           building: "SCIS1",
@@ -7252,7 +7246,7 @@ export const modules: ModuleBank = {
       {
         code: "G2",
         professor: {
-          name: "HADY WIRAWAN LAUW",
+          name: "HADY W. LAUW",
         },
         location: {
           building: "SCIS1",
@@ -7494,24 +7488,6 @@ export const modules: ModuleBank = {
     terms: ["Term 2", "Term 1"],
     sections: [
       {
-        code: "G1",
-        professor: {
-          name: "ANTOINE LEDENT",
-        },
-        location: {
-          building: "SCIS1",
-          room: "Seminar Room 2-4",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Friday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
         code: "G2",
         professor: {
           name: "ANTOINE LEDENT",
@@ -7739,14 +7715,14 @@ export const modules: ModuleBank = {
           name: "LIM YI SHENG",
         },
         location: {
-          building: "SCIS1",
-          room: "Classroom B1-1",
-          level: "B1",
+          building: "SOE/SCIS2",
+          room: "Seminar Room 3-8",
+          level: 3,
         },
         classes: [
           {
             day: "Monday",
-            startTime: "08:15",
+            startTime: "19:00",
             duration: 3.25,
           },
         ],
@@ -7847,7 +7823,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "DING XUHUA",
+          name: "THIVYA KANDAPPU",
         },
         location: {
           building: "",
@@ -7860,6 +7836,18 @@ export const modules: ModuleBank = {
         code: "G2",
         professor: {
           name: "SUNIL JIWATRAM DADLANI",
+        },
+        location: {
+          building: "",
+          room: "",
+          level: 0,
+        },
+        classes: [],
+      },
+      {
+        code: "G3",
+        professor: {
+          name: "",
         },
         location: {
           building: "",
@@ -8328,7 +8316,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "RANDALL EUGENE DURAN",
+          name: "RANDALL E. DURAN",
         },
         location: {
           building: "SOE/SCIS2",
@@ -8346,7 +8334,7 @@ export const modules: ModuleBank = {
       {
         code: "G2",
         professor: {
-          name: "RANDALL EUGENE DURAN",
+          name: "RANDALL E. DURAN",
         },
         location: {
           building: "SOE/SCIS2",
@@ -8607,7 +8595,7 @@ export const modules: ModuleBank = {
       {
         code: "G5",
         professor: {
-          name: "THIVYA KANDAPPU",
+          name: "",
         },
         location: {
           building: "",
@@ -9123,7 +9111,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "THOMAS MENKHOFF, KAN SIEW NING",
+          name: "THOMAS MENKHOFF, KAN SIEW NING, KEVIN CHEONG",
         },
         location: {
           building: "LKCSB",
@@ -10833,6 +10821,24 @@ export const modules: ModuleBank = {
           },
         ],
       },
+      {
+        code: "G2",
+        professor: {
+          name: "CHAN WENJIE",
+        },
+        location: {
+          building: "SOE/SCIS2",
+          room: "Seminar Room 3-6",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Wednesday",
+            startTime: "19:00",
+            duration: 3.25,
+          },
+        ],
+      },
     ],
     mutuallyExclusive: ["ACCT305"],
     preReq: {
@@ -11257,6 +11263,24 @@ export const modules: ModuleBank = {
           },
         ],
       },
+      {
+        code: "G3",
+        professor: {
+          name: "SUNGJONG ROH",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 2-2",
+          level: 2,
+        },
+        classes: [
+          {
+            day: "Monday",
+            startTime: "12:00",
+            duration: 3.25,
+          },
+        ],
+      },
     ],
   },
   COMM360: {
@@ -11596,7 +11620,7 @@ export const modules: ModuleBank = {
       {
         code: "G2",
         professor: {
-          name: "",
+          name: "CAO WENJIA",
         },
         location: {
           building: "SOE/SCIS2",
@@ -11614,7 +11638,7 @@ export const modules: ModuleBank = {
       {
         code: "G3",
         professor: {
-          name: "",
+          name: "DENNIS LIM",
         },
         location: {
           building: "SOE/SCIS2",
@@ -11811,7 +11835,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "",
+          name: "TAN KIM SONG",
         },
         location: {
           building: "SOE/SCIS2",
@@ -12643,6 +12667,24 @@ export const modules: ModuleBank = {
           },
         ],
       },
+      {
+        code: "G19",
+        professor: {
+          name: "LEE KA SING",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 3-5",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Friday",
+            startTime: "08:15",
+            duration: 3.25,
+          },
+        ],
+      },
     ],
     preReq: {
       and: ["COR-STAT1202", "ACCT101"],
@@ -12925,6 +12967,24 @@ export const modules: ModuleBank = {
           {
             day: "Tuesday",
             startTime: "15:30",
+            duration: 3.25,
+          },
+        ],
+      },
+      {
+        code: "G7",
+        professor: {
+          name: "JOHN SEQUEIRA",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 3-4",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Wednesday",
+            startTime: "08:15",
             duration: 3.25,
           },
         ],
@@ -13422,7 +13482,7 @@ export const modules: ModuleBank = {
       {
         code: "G3",
         professor: {
-          name: "",
+          name: "GEORGE WONG",
         },
         location: {
           building: "SOSS/CIS",
@@ -13613,7 +13673,7 @@ export const modules: ModuleBank = {
       {
         code: "G3",
         professor: {
-          name: "",
+          name: "BHARAT S PUNJABI",
         },
         location: {
           building: "YPHSL",
@@ -13636,7 +13696,7 @@ export const modules: ModuleBank = {
       {
         code: "G4",
         professor: {
-          name: "",
+          name: "YVONNE POON",
         },
         location: {
           building: "YPHSL",
@@ -13673,7 +13733,7 @@ export const modules: ModuleBank = {
       {
         code: "G50",
         professor: {
-          name: "",
+          name: "ETHAN JEREMIAH TEO YONG QI",
         },
         location: {
           building: "YPHSL",
@@ -14276,7 +14336,7 @@ export const modules: ModuleBank = {
       {
         code: "G10",
         professor: {
-          name: "",
+          name: "EZRA LIM PIN",
         },
         location: {
           building: "YPHSL",
@@ -14323,6 +14383,24 @@ export const modules: ModuleBank = {
           {
             day: "Monday",
             startTime: "08:15",
+            duration: 3.25,
+          },
+        ],
+      },
+      {
+        code: "G13",
+        professor: {
+          name: "KOH BOON TIONG DAVID",
+        },
+        location: {
+          building: "YPHSL",
+          room: "Seminar Room 3-11",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Monday",
+            startTime: "15:30",
             duration: 3.25,
           },
         ],
@@ -14665,6 +14743,24 @@ export const modules: ModuleBank = {
           },
         ],
       },
+      {
+        code: "G13",
+        professor: {
+          name: "LINNY NG",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 2-8",
+          level: 2,
+        },
+        classes: [
+          {
+            day: "Thursday",
+            startTime: "08:15",
+            duration: 3.25,
+          },
+        ],
+      },
     ],
     exam: {
       dateTime: new Date("2025-12-01T05:00:00.000Z"),
@@ -14743,6 +14839,24 @@ export const modules: ModuleBank = {
           },
         ],
       },
+      {
+        code: "G3",
+        professor: {
+          name: "GILBERT TAN YIP WEI",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 3-5",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Tuesday",
+            startTime: "19:00",
+            duration: 3.25,
+          },
+        ],
+      },
     ],
     exam: {
       dateTime: new Date("2025-11-24T05:00:00.000Z"),
@@ -14770,6 +14884,24 @@ export const modules: ModuleBank = {
         classes: [
           {
             day: "Thursday",
+            startTime: "19:00",
+            duration: 3.25,
+          },
+        ],
+      },
+      {
+        code: "G2",
+        professor: {
+          name: "GOH SIONG THYE",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 2-6",
+          level: 2,
+        },
+        classes: [
+          {
+            day: "Tuesday",
             startTime: "19:00",
             duration: 3.25,
           },
@@ -15081,7 +15213,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "EDMUND TAN",
+          name: "EDMUND TAN, WILLIAM FONG",
         },
         location: {
           building: "SMUC",
@@ -15142,24 +15274,6 @@ export const modules: ModuleBank = {
     terms: ["Term 2", "Term 1"],
     sections: [
       {
-        code: "G1",
-        professor: {
-          name: "SIMON SCHILLEBEECKX",
-        },
-        location: {
-          building: "SMUC",
-          room: "Active Learning CR 3-2",
-          level: 3,
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
         code: "G2",
         professor: {
           name: "PATRICIA ANNE SHARMA",
@@ -15180,7 +15294,7 @@ export const modules: ModuleBank = {
       {
         code: "G3",
         professor: {
-          name: "VIVIEN KOH",
+          name: "VIVIEN KOH, RUTH CHIANG",
         },
         location: {
           building: "SMUC",
@@ -15343,7 +15457,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "ANDREW MIN HAN CHIN",
+          name: "ANDREW MIN HAN CHIN, JAY WONG",
         },
         location: {
           building: "SMUC",
@@ -15389,7 +15503,7 @@ export const modules: ModuleBank = {
       {
         code: "G2",
         professor: {
-          name: "CHEN XIN",
+          name: "XIN CHEN",
         },
         location: {
           building: "LKCSB",
@@ -15407,7 +15521,7 @@ export const modules: ModuleBank = {
       {
         code: "G3",
         professor: {
-          name: "CHEN XIN",
+          name: "XIN CHEN",
         },
         location: {
           building: "LKCSB",
@@ -15425,7 +15539,7 @@ export const modules: ModuleBank = {
       {
         code: "G4",
         professor: {
-          name: "CHEN XIN",
+          name: "XIN CHEN",
         },
         location: {
           building: "LKCSB",
@@ -15443,7 +15557,7 @@ export const modules: ModuleBank = {
       {
         code: "G5",
         professor: {
-          name: "CHEN XIN",
+          name: "XIN CHEN",
         },
         location: {
           building: "LKCSB",
@@ -15497,7 +15611,7 @@ export const modules: ModuleBank = {
       {
         code: "G8",
         professor: {
-          name: "JOSEPHINE TAN HUIPING",
+          name: "TAN HUIPING, JOSEPHINE",
         },
         location: {
           building: "LKCSB",
@@ -15515,7 +15629,7 @@ export const modules: ModuleBank = {
       {
         code: "G9",
         professor: {
-          name: "JOSEPHINE TAN HUIPING",
+          name: "TAN HUIPING, JOSEPHINE",
         },
         location: {
           building: "LKCSB",
@@ -15767,7 +15881,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "PATRICIA LUI",
+          name: "PATRICIA LUI, CLEMENT TOH",
         },
         location: {
           building: "LKCSB",
@@ -15816,7 +15930,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "DENNIS NG",
+          name: "DENNIS NG, JONATHAN TEE",
         },
         location: {
           building: "LKCSB",
@@ -15874,7 +15988,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "PATRICIA LUI",
+          name: "PATRICIA LUI, HAZEL THENG, MELVIN SIM",
         },
         location: {
           building: "LKCSB",
@@ -15892,7 +16006,7 @@ export const modules: ModuleBank = {
       {
         code: "G2",
         professor: {
-          name: "PATRICIA LUI",
+          name: "PATRICIA LUI, HAZEL THENG, MELVIN SIM",
         },
         location: {
           building: "LKCSB",
@@ -17029,6 +17143,24 @@ export const modules: ModuleBank = {
           },
         ],
       },
+      {
+        code: "G14",
+        professor: {
+          name: "TAN CHOR HOONG",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 3-6",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Thursday",
+            startTime: "08:15",
+            duration: 3.25,
+          },
+        ],
+      },
     ],
     exam: {
       dateTime: new Date("2025-11-26T05:00:00.000Z"),
@@ -17389,7 +17521,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "",
+          name: "CHRISTIANNA PARR",
         },
         location: {
           building: "SOSS/CIS",
@@ -17696,7 +17828,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "",
+          name: "SARAH SHI HUI WONG",
         },
         location: {
           building: "YPHSL",
@@ -17732,7 +17864,7 @@ export const modules: ModuleBank = {
       {
         code: "G3",
         professor: {
-          name: "",
+          name: "SARAH SHI HUI WONG",
         },
         location: {
           building: "SOSS/CIS",
@@ -18014,44 +18146,7 @@ export const modules: ModuleBank = {
       "People often have to make choices under situations involving uncertainty and risk. To understand how people make choices or decisions, we need to understand the thinking, reasoning and judgment processes involved. In addition, decision and choice situations often involve making tradeoffs (e.g. price versus quality) or evaluating multiple different options and alternatives. With limited human cognitive capacity and the multiple task demands involved in choice and decision making, it appears that reasoning or decision-making processes are challenging. This course will help you understand these complexities and processes. It will cover topics such as judgments of risk and uncertainty, affect and decision making, self-control, heuristics and biases. In addition, we will connect decision-making theories to other areas of application, such as negotiation, consumer behaviour, and team processes.",
     credit: 1,
     terms: ["Term 2", "Term 1"],
-    sections: [
-      {
-        code: "G1",
-        professor: {
-          name: "TSAI MING-HONG",
-        },
-        location: {
-          building: "SOSS/CIS",
-          room: "Seminar Room 1-3",
-          level: 1,
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-      {
-        code: "G2",
-        professor: {
-          name: "TSAI MING-HONG",
-        },
-        location: {
-          building: "SOSS/CIS",
-          room: "Seminar Room 1-3",
-          level: 1,
-        },
-        classes: [
-          {
-            day: "Thursday",
-            startTime: "12:00",
-            duration: 3.25,
-          },
-        ],
-      },
-    ],
+    sections: [],
     preReq: {
       and: ["PSYC001", "PSYC110"],
     },
@@ -18063,26 +18158,7 @@ export const modules: ModuleBank = {
       "This course aims to teach students the adaptive explanations of why people think, feel, and behave the way they do. Students will learn about evolved psychological mechanisms that underlie various areas of human behavior.",
     credit: 1,
     terms: ["Term 2", "Term 1"],
-    sections: [
-      {
-        code: "G1",
-        professor: {
-          name: "",
-        },
-        location: {
-          building: "SOSS/CIS",
-          room: "Seminar Room 1-1",
-          level: 1,
-        },
-        classes: [
-          {
-            day: "Tuesday",
-            startTime: "19:00",
-            duration: 3.25,
-          },
-        ],
-      },
-    ],
+    sections: [],
     preReq: {
       and: [
         "PSYC001",
@@ -18098,10 +18174,6 @@ export const modules: ModuleBank = {
           ],
         },
       ],
-    },
-    exam: {
-      dateTime: new Date("2025-11-25T05:00:00.000Z"),
-      durationInHour: 3,
     },
   },
   PSYC208: {
@@ -18111,26 +18183,7 @@ export const modules: ModuleBank = {
       "This course builds on the methodological concepts and procedures discussed in PSYC110 Psychology Research Methods I. The course focuses on the knowledge and skills necessary for planning, implementing (i.e., conducting and analyzing data), and presenting a research project. Students will be provided with hands-on experience in empirical studies relating to design, measurement, and analysis issues in psychological research.",
     credit: 1,
     terms: ["Term 2", "Term 1"],
-    sections: [
-      {
-        code: "G1",
-        professor: {
-          name: "LEE HUEY WOON",
-        },
-        location: {
-          building: "SOSS/CIS",
-          room: "Seminar Room 2-1",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Thursday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-    ],
+    sections: [],
     preReq: {
       and: [
         "PSYC001",
@@ -18146,10 +18199,6 @@ export const modules: ModuleBank = {
           ],
         },
       ],
-    },
-    exam: {
-      dateTime: new Date("2025-11-27T00:30:00.000Z"),
-      durationInHour: 2,
     },
   },
   PSYC213: {
@@ -18167,10 +18216,33 @@ export const modules: ModuleBank = {
     description:
       "What is Quantitative Finance? Why quantitative? Increasingly, mathematical and statistical methods have been applied to analyse financial markets. Quantitative finance models are derived to extract critical information from the data collected in investment and trading activities. These models are used in pricing assets, managing risks, developing trading strategies, and making investment decisions. Strong quantitative skills have become an essential competence for the modern finance industry. This 101 course introduces you to the fundamentals of quantitative finance models. It covers the foundational mathematical concepts and techniques that are used in quantitative modelling. Attention is given to topics such as rules for functions, solving systems of linear equations, solutions of differential equations, option pricing application, and optimization. This course provides the mathematical tools that can be used to solve problems encountered in financial markets.",
     credit: 1,
-    terms: ["Term 2"],
-    sections: [],
+    terms: ["Term 2", "Term 1"],
+    sections: [
+      {
+        code: "G1",
+        professor: {
+          name: "ZHAO YIBAO",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 3-1",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Thursday",
+            startTime: "08:15",
+            duration: 3.25,
+          },
+        ],
+      },
+    ],
     preReq: {
       or: ["COR1202", "COR1201"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-02T05:00:00.000Z"),
+      durationInHour: 2,
     },
   },
   QF102: {
@@ -18179,8 +18251,27 @@ export const modules: ModuleBank = {
     description:
       "Have you ever wondered how do outstanding asset managers consistently outperform the market and generate alpha? How can we predict important financial time series like earning, volatility, volume, and return? The answer lies in clever use of investment statistical techniques. This course teaches you how to extract patterns from historical data, create investment strategies, and test profitability and hypothesis.\n\n    The application of statistical methods to investment and trading is one of the areas experiencing the fastest pace of growth and development in the world of investment banks, hedge funds and asset managers. Mathematical models for trading and investment management are rapidly growing both in terms of sophistication and scope. On the buy side, hedge funds and asset managers make constant use of empirical statistical models to analyse financial time series for optimal investment decision. On the sell side, front office trading teams in investment banks employ risk-neutral probability models to price and risk manage their portfolio to hedge their exposure. Students aspiring to careers in the financial market ought to be proficient in investment statistics to fully comprehend the dynamics behind the financial market.",
     credit: 1,
-    terms: ["Term 2"],
-    sections: [],
+    terms: ["Term 2", "Term 1"],
+    sections: [
+      {
+        code: "G1",
+        professor: {
+          name: "TEE CHYNG WEN",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 2-1",
+          level: 2,
+        },
+        classes: [
+          {
+            day: "Thursday",
+            startTime: "12:00",
+            duration: 3.25,
+          },
+        ],
+      },
+    ],
     preReq: {
       or: [
         {
@@ -18190,6 +18281,10 @@ export const modules: ModuleBank = {
         "COR-STAT1203",
       ],
     },
+    exam: {
+      dateTime: new Date("2025-12-05T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   QF205: {
     name: "Computing Technology For Finance",
@@ -18197,8 +18292,31 @@ export const modules: ModuleBank = {
     description:
       "This course aims to expose students to the use and usefulness of computing technology in the realm of finance. From the collation of data, analysis of data in order to tease out relevant information, to the presentation and visualization of information, computing technology plays an important role that is increasingly essential as one faces the need to assimilate an astronomical amount of information in today’s world. The course is structured in such a way as to employ topics in finance to motivate the discourse on computing technology. Equipped with the computing skills, in turn, students are motivated to handle more challenging problems in finance.",
     credit: 1,
-    terms: ["Term 2"],
-    sections: [],
+    terms: ["Term 2", "Term 1"],
+    sections: [
+      {
+        code: "G1",
+        professor: {
+          name: "ZHAO YIBAO",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 3-1",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Thursday",
+            startTime: "15:30",
+            duration: 3.25,
+          },
+        ],
+      },
+    ],
+    exam: {
+      dateTime: new Date("2025-11-27T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   QF206: {
     name: "Quantitative Trading Strategies",
@@ -18215,10 +18333,33 @@ export const modules: ModuleBank = {
     description:
       "Machine learning represent different modeling principles and techniques and underpin many successful financial applications. This course covers common machine learning models, including deep neural networks and reinforcement learning, with financial applications such as stock price prediction and portfolio management. This course is designed to combine both theory and practice/implementation of model development, focusing on developing the core data analytics skills of the students and presenting specialized exposure to quantitative finance.",
     credit: 1,
-    terms: ["Term 2"],
-    sections: [],
+    terms: ["Term 2", "Term 1"],
+    sections: [
+      {
+        code: "G1",
+        professor: {
+          name: "LIU PENG",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 3-3",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Monday",
+            startTime: "12:00",
+            duration: 3.25,
+          },
+        ],
+      },
+    ],
     preReq: {
       or: ["COR1202", "COR1201"],
+    },
+    exam: {
+      dateTime: new Date("2025-11-25T05:00:00.000Z"),
+      durationInHour: 2,
     },
   },
   QF210: {
@@ -18227,10 +18368,33 @@ export const modules: ModuleBank = {
     description:
       "This course helps students explore the intersection of advanced machine learning techniques and strategic financial management practices. It starts by building a good foundation of both reinforcement learning and portfolio optimisation, followed by an interplay between these two exciting fields. Aimed at navigating and mastering the complexities of investment strategies, the course offers practical applications in Python to construct and adapt dynamic portfolios, driving decision-making in the evolving landscape of finance.",
     credit: 1,
-    terms: ["Term 2"],
-    sections: [],
+    terms: ["Term 2", "Term 1"],
+    sections: [
+      {
+        code: "G1",
+        professor: {
+          name: "LIU PENG",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 3-4",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Friday",
+            startTime: "12:00",
+            duration: 3.25,
+          },
+        ],
+      },
+    ],
     preReq: {
       or: ["COR1202", "COR1201"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-01T05:00:00.000Z"),
+      durationInHour: 2,
     },
   },
   QF307: {
@@ -18252,26 +18416,7 @@ export const modules: ModuleBank = {
       "Effective planning and management of smart cities require urban planners to integrate and share data from multiple sources to the urban users so that they can be active participants in the smart city planning process. GIS with its capability to capture, manage, display, and analyse information spatially is emerging as one of the important enabling tool in smart city planning. This course provides students with an introduction to practical applications of GIS in smart city management and planning. Emphasis will be placed on - locating, acquiring and integrating multi-sources of data into GIS, - understanding the principles and methodologies of geocoding and geo referencing, - become familiar with geovisualisation and GIS analysis techniques, and - exploring the technologies and possibilities of GIS-enabled Planning Support Systems for smart city management.",
     credit: 1,
     terms: ["Term 2", "Term 1"],
-    sections: [
-      {
-        code: "G1",
-        professor: {
-          name: "KAM TIN SEONG",
-        },
-        location: {
-          building: "SCIS1",
-          room: "Seminar Room 3-2",
-          level: 3,
-        },
-        classes: [
-          {
-            day: "Monday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-    ],
+    sections: [],
   },
   SMT203: {
     name: "Computational Social Science: Principles and Applications",
@@ -18342,7 +18487,7 @@ export const modules: ModuleBank = {
       {
         code: "G3",
         professor: {
-          name: "YASMIN ORTIGA",
+          name: "GEORGE WONG",
         },
         location: {
           building: "SOSS/CIS",
@@ -18370,7 +18515,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "OHJAE GOWEN",
+          name: "YASMIN ORTIGA",
         },
         location: {
           building: "YPHSL",
@@ -18418,7 +18563,7 @@ export const modules: ModuleBank = {
       {
         code: "G1",
         professor: {
-          name: "FORREST ZHANG QIAN",
+          name: "Q FORREST ZHANG",
         },
         location: {
           building: "SOSS/CIS",
@@ -18835,42 +18980,20 @@ export const modules: ModuleBank = {
         ],
       },
     ],
+    credit: 1,
+    description:
+      'This course provides the student with a basic understanding of accounting as "the language of business". It introduces students to the basic concepts, principles, procedures and approaches underlying the accounting process. This basic understanding facilitates the interpretation of financial information, which is necessary for making business decisions.',
+    terms: ["Term 1"],
+    mutuallyExclusive: ["ACCT101", "ACCT103", "ACCT105"],
     exam: {
       dateTime: new Date("2025-11-26T00:30:00.000Z"),
       durationInHour: 3,
     },
-    credit: 1,
-    description: `This course provides the student with a basic understanding of accounting as "the language of business". It introduces students to the basic concepts, principles, procedures and approaches underlying the accounting process. This basic understanding facilitates the interpretation of financial information, which is necessary for making business decisions.`,
-    terms: ["Term 1"],
-    mutuallyExclusive: ["ACCT101", "ACCT103", "ACCT105"],
   },
   ACCT401: {
     name: "Strategic Management Accounting",
     moduleCode: "ACCT401",
-    sections: [
-      {
-        code: "G1",
-        professor: {
-          name: "CHENG NAM SANG",
-        },
-        location: {
-          building: "SOA",
-          room: "Seminar Room 2-2",
-          level: 2,
-        },
-        classes: [
-          {
-            day: "Monday",
-            startTime: "08:15",
-            duration: 3.25,
-          },
-        ],
-      },
-    ],
-    exam: {
-      dateTime: new Date("2025-11-28T00:30:00.000Z"),
-      durationInHour: 2,
-    },
+    sections: [],
     credit: 1,
     description:
       "This course aims at providing students with an understanding of topical issues in Management accounting in an organizational setting. This course will examine the use of different value creating management accounting and strategic tools in both the manufacturing and service industries. Topics cover strategy, culture, sustainability and its reporting, group setup for transfer price planning, and selective advanced controlling tools.",
@@ -18900,14 +19023,9 @@ export const modules: ModuleBank = {
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-03T05:00:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
-    description: `This course aims to provide knowledge of the activities involved in the day-to-day running of a corporation’s financial operations as well as advanced analytical techniques which can help create value to companies and organizations. It aims to develop students’ ability to use the techniques involved in analyzing and evaluating corporate managerial problems and making sound decisions.
-
-It is excellent for students who are less keen on auditing and would like to pursue a career in the financial area of a corporation or a career with banks and other financial institutions servicing the needs of a corporate client. It will also be a great foundation for students who want to embark on a senior general management career from a finance specialization.`,
+    description:
+      "This course aims to provide knowledge of the activities involved in the day-to-day running of a corporation’s financial operations as well as advanced analytical techniques which can help create value to companies and organizations. It aims to develop students’ ability to use the techniques involved in analyzing and evaluating corporate managerial problems and making sound decisions.\n\nIt is excellent for students who are less keen on auditing and would like to pursue a career in the financial area of a corporation or a career with banks and other financial institutions servicing the needs of a corporate client. It will also be a great foundation for students who want to embark on a senior general management career from a finance specialization.",
     preReq: {
       and: [
         "ACCT102",
@@ -18917,6 +19035,10 @@ It is excellent for students who are less keen on auditing and would like to pur
       ],
     },
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-12-03T05:00:00.000Z"),
+      durationInHour: 3,
+    },
   },
   ACCT431: {
     name: "Sustainability Accounting and Reporting",
@@ -18941,16 +19063,16 @@ It is excellent for students who are less keen on auditing and would like to pur
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-02T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "What is the role of accountants in helping the world achieve sustainability goals? How can sustainability accounting help individual organizations and various stakeholders better assess environmental, social, and economic aspects of activities? This course presents a review and analysis of the theoretical foundations of sustainability accounting and its reporting issues in practice. The course will focus on existing and emerging frameworks for developing corporate environmental, social, and governance (ESG) performance metrics, assessing their reliability, reporting to stakeholders, and incentivizing managers based on ESG metrics. Specifically, we will examine both 1) the accounting for an organization’s environmental, social, and economic impacts via its activities as well as 2) how an organization is dependent on and affected by the environmental, social, and economic context in which it operates. The course will focus on the real world via case studies and live examples. You will be organized into groups to research and analyze case studies and present team research projects.",
     terms: ["Term 1"],
     preReq: "ACCT111",
     mutuallyExclusive: ["ACCT401", "COR1314"],
+    exam: {
+      dateTime: new Date("2025-12-02T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   ACCT433: {
     name: "Robotic Process Automation for Accounting",
@@ -18975,15 +19097,15 @@ It is excellent for students who are less keen on auditing and would like to pur
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-01T00:30:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course on Robotic Process Automation (RPA) in accounting explores the integration of RPA into business operations. You will learn a structured framework for RPA implementation, assess process suitability for automation, and gain hands-on experience with leading RPA software like UiPath and Power Automate through a series of lab based sessions. The curriculum includes project-based learning, where you will design and develop an RPA application for a specific accounting function. Additionally, the course covers the compliance and risk management aspects of RPA, equipping students with the skills to navigate the complex landscape of business technology transformation.",
     terms: ["Term 1"],
     preReq: "ACCT221",
+    exam: {
+      dateTime: new Date("2025-12-01T00:30:00.000Z"),
+      durationInHour: 3,
+    },
   },
   "COR-COMM1315": {
     name: "COMM1315 - Misinformation Management",
@@ -19036,15 +19158,15 @@ It is excellent for students who are less keen on auditing and would like to pur
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-02T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "Sustainability reporting is the practice of disclosing an organization's economic, environmental, social, and governance (ESG) performance and impacts. This course presents a review and analysis of the theoretical foundations of sustainability accounting and its reporting issues in practice. The course will focus on existing and emerging frameworks for developing corporate environmental, social, and governance (ESG) performance metrics, assessing their reliability, reporting to stakeholders, and incentivizing managers based on ESG metrics. Specifically, the course will focus on the user perspective of sustainability reporting so that individuals and organizations can make informed decisions, drive positive social and environmental change, and contribute to a more sustainable and responsible global economy.",
     terms: ["Term 1"],
     mutuallyExclusive: ["ACCT431"],
+    exam: {
+      dateTime: new Date("2025-12-02T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   COR2250: {
     name: "Intelligent Systems: AI-Driven Healthcare and Social Media Insights",
@@ -19074,14 +19196,14 @@ It is excellent for students who are less keen on auditing and would like to pur
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-25T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course explores the transformative role of artificial intelligence (AI) in addressing challenges at the intersection of healthcare, mental health, and society, with a particular focus on fostering innovation that promotes equity, inclusivity, and sustainability. Students will delve into the use of AI-driven tools, such as machine learning applications, natural language processing (NLP), and digital therapeutics, alongside social media analytics, to uncover scalable solutions for mental health care and public health strategies. Through engaging discussions, practical activities, and real-world case studies, students will analyze how AI is applied to public health trends, digital trust frameworks, and health tech policy. The course emphasizes the integration of digital trust and sustainability frameworks, highlighting their critical role in building ethical, energy-efficient, and cost-effective health systems that reduce social disparities while generating economic benefits. By the end of the course, students will be equipped to critically assess the societal, environmental, and ethical implications of AI innovations and contribute to data-driven strategies that enhance global mental health outcomes, foster health equity, and support sustainable technological growth.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-11-25T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   COR2601: {
     name: "Urban Cultures",
@@ -19140,8 +19262,8 @@ It is excellent for students who are less keen on auditing and would like to pur
         },
         location: {
           building: "YPHSL",
-          room: "Seminar Room 3-10",
-          level: 3,
+          room: "Seminar Room B2-01",
+          level: "B2",
         },
         classes: [
           {
@@ -19318,19 +19440,14 @@ It is excellent for students who are less keen on auditing and would like to pur
         ],
       },
     ],
+    credit: 1,
+    description:
+      "What is law? How is law related to justice? This course enables law students to step back to reflect upon what they have learnt in law school thus far by engaging philosophical concepts of law and justice through studying selected representative works of jurisprudence. Non-law students who are interested in philosophy or in thinking about law’s nature and its role in society will also have the opportunity to study these ideas as expounded by famous legal philosophers.\n\nWe will consider accounts of law offered by several legal positivists and modern natural law theorists, and challenges posed by alternative critical accounts. How do modern and critical accounts of law shape our thinking about the nature and purpose of law? How does adopting a particular account of law impact the practice of law? How can we, as lawyers or citizenry, harness law’s potential as a tool for transforming society?\n\nThrough this course, students will have a unique opportunity to engage their hearts and minds in relation to the concepts of law and justice. Students will also be encouraged to relate the theories studied to current contexts (e.g. laws that restrict personal liberty, unjust laws, how judges decide cases, and so on). The course's focus is on critique of ideas and not mere description of doctrine. The methods of assessment will be intentionally geared towards facilitating critical thought. This course encourages students to formulate their own theses about law and justice, and meaningfully understand their purpose in the legal process.\n\nThis course also offers law students a chance to study selected representative texts in jurisprudence in greater detail than in the law core module, Legal Theory & Philosophy. Students are not required to have done Legal Theory & Philosophy before taking this course.",
+    terms: ["Term 1"],
     exam: {
       dateTime: new Date("2025-11-26T05:00:00.000Z"),
       durationInHour: 2,
     },
-    credit: 1,
-    description: `What is law? How is law related to justice? This course enables law students to step back to reflect upon what they have learnt in law school thus far by engaging philosophical concepts of law and justice through studying selected representative works of jurisprudence. Non-law students who are interested in philosophy or in thinking about law’s nature and its role in society will also have the opportunity to study these ideas as expounded by famous legal philosophers.
-
-We will consider accounts of law offered by several legal positivists and modern natural law theorists, and challenges posed by alternative critical accounts. How do modern and critical accounts of law shape our thinking about the nature and purpose of law? How does adopting a particular account of law impact the practice of law? How can we, as lawyers or citizenry, harness law’s potential as a tool for transforming society?
-
-Through this course, students will have a unique opportunity to engage their hearts and minds in relation to the concepts of law and justice. Students will also be encouraged to relate the theories studied to current contexts (e.g. laws that restrict personal liberty, unjust laws, how judges decide cases, and so on). The course's focus is on critique of ideas and not mere description of doctrine. The methods of assessment will be intentionally geared towards facilitating critical thought. This course encourages students to formulate their own theses about law and justice, and meaningfully understand their purpose in the legal process.
-
-This course also offers law students a chance to study selected representative texts in jurisprudence in greater detail than in the law core module, Legal Theory & Philosophy. Students are not required to have done Legal Theory & Philosophy before taking this course.`,
-    terms: ["Term 1"],
   },
   "COR-SOCG2608": {
     name: "SOCG2608 - Understanding China's Economic Miracle: Social Origins and Social Impact",
@@ -19339,7 +19456,7 @@ This course also offers law students a chance to study selected representative t
       {
         code: "G1",
         professor: {
-          name: "FORREST ZHANG QIAN",
+          name: "Q FORREST ZHANG",
         },
         location: {
           building: "SOSS/CIS",
@@ -19402,8 +19519,8 @@ This course also offers law students a chance to study selected representative t
       },
     ],
     credit: 1,
-    description: `“Globalization” is one of the most important concepts for understanding the nature of the contemporary world, where various connections and interdependencies continue to proliferate and intensify across national borders. Especially in Singapore, we live globalization on a daily basis; for example, the mixing of various cultures and peoples from the East and the West, and the growing business interests and financial investments from all over the world. Moreover, the postcolonial context of Singapore sheds light on historical connections between contemporary globalization and legacies of imperialism. Thus, Singapore is a “natural laboratory” for studying the trajectories and frontiers of globalization. In this course, we will examine both theories and case studies of globalization to understand changing realities of Singapore and the world at large.
-`,
+    description:
+      "“Globalization” is one of the most important concepts for understanding the nature of the contemporary world, where various connections and interdependencies continue to proliferate and intensify across national borders. Especially in Singapore, we live globalization on a daily basis; for example, the mixing of various cultures and peoples from the East and the West, and the growing business interests and financial investments from all over the world. Moreover, the postcolonial context of Singapore sheds light on historical connections between contemporary globalization and legacies of imperialism. Thus, Singapore is a “natural laboratory” for studying the trajectories and frontiers of globalization. In this course, we will examine both theories and case studies of globalization to understand changing realities of Singapore and the world at large.\n",
     terms: ["Term 1"],
   },
   CS101: {
@@ -19483,15 +19600,15 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-25T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course introduces students to computational concepts and basic programming. Students will learn the basic programming constructs, and programming techniques to solve problem. An imperative language called C is used as the vehicle of exploration. There is an emphasis on producing clear, robust, and reasonably efficient code using top-down design, and effective testing and debugging.",
     terms: ["Term 1"],
     mutuallyExclusive: ["IS111", "COR-IS1704"],
+    exam: {
+      dateTime: new Date("2025-11-25T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   CS103: {
     name: "Linear Algebra for Computing Applications",
@@ -19570,14 +19687,14 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-26T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This is an introductory course in Linear Algebra. It teaches the mathematical foundations of Linear Algebra so as to illustrate their relevance to computer science and applications. It prepares the students for advanced numeric methods in computing, especially in machine learning and data analytics.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-11-26T05:00:00.000Z"),
+      durationInHour: 2,
+    },
   },
   CS104: {
     name: "Mathematical Foundations of Computing",
@@ -19656,14 +19773,14 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-02T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course serves as an introduction to the theory of discrete mathematics, which lays the foundation for computer science courses such as data structures, algorithms, relational database theory and cryptography. The topics covered in this course are mathematical logic, elementary number theory, recursion, set theory, functions, combinatorics and graphs. The course will consist of lectures and tutorials to help students understand the covered topics.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-12-02T05:00:00.000Z"),
+      durationInHour: 2,
+    },
   },
   CS203: {
     name: "Collaborative Software Development",
@@ -19672,7 +19789,7 @@ This course also offers law students a chance to study selected representative t
       {
         code: "G1",
         professor: {
-          name: "TA NGUYEN BINH DUONG",
+          name: "DON TA",
         },
         location: {
           building: "SOE/SCIS2",
@@ -19690,7 +19807,7 @@ This course also offers law students a chance to study selected representative t
       {
         code: "G2",
         professor: {
-          name: "TA NGUYEN BINH DUONG",
+          name: "DON TA",
         },
         location: {
           building: "SCIS1",
@@ -19760,16 +19877,16 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-24T05:00:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course exposes students to web and micro services development, software design issues, agile processes and project management techniques. The focus is to allow students to experience agile software development and project management by working in a team to develop a web based application.",
     terms: ["Term 1"],
     preReq: "CS102",
     mutuallyExclusive: ["IS212"],
+    exam: {
+      dateTime: new Date("2025-11-24T05:00:00.000Z"),
+      durationInHour: 3,
+    },
   },
   CS302: {
     name: "IT Solution Lifecycle Management",
@@ -19848,10 +19965,6 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-01T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "Historically, the software development process was linear, and code was deployed infrequently. Today, it couldn't be more different: companies like Amazon reportedly deploy new code every 11.7 seconds, and software development culture in general has shifted towards iterating with agility. In IT Solution Lifecycle Management, students will be introduced to some state-of-the-art practices for building, testing, deploying, and maintaining software, in a way that supports frequent and rapid iterations. In particular, they will study the 'DevOps' approach, which embodies the idea that development and operation teams should work closely together throughout the entire software lifecycle. As well as studying examples of this culture through some real-world case studies, students will also gain hands-on experience, by learning how to build loosely coupled systems based on microservices, and automating the process of testing, containerising, and orchestrating them using a modern continuous integration / continuous delivery (CI/CD) pipeline.",
@@ -19860,6 +19973,10 @@ This course also offers law students a chance to study selected representative t
       or: ["IS212", "CS203"],
     },
     mutuallyExclusive: ["IS213"],
+    exam: {
+      dateTime: new Date("2025-12-01T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   CS422: {
     name: "Reasoning, Planning and Learning under Uncertainty",
@@ -19868,7 +19985,7 @@ This course also offers law students a chance to study selected representative t
       {
         code: "G1",
         professor: {
-          name: "PRADEEP VARAKANTHAM",
+          name: "PRADEEP REDDY VARAKANTHAM",
         },
         location: {
           building: "SOE/SCIS2",
@@ -19884,15 +20001,15 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-26T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "A key challenge in many AI systems is being able to handle (reason, plan or learn) problems with uncertainty. For instance, a self-driving car needs to handle imperfect visibility of the world and also uncertainty about the movements of other cars or obstacles. Similarly, in aggregation systems (e.g., Grab, Food Panda), positioning supply (taxis, delivery boys) at the right locations requires handling uncertainty about customer demand. Playing strategic games like Go, Chess etc. requires learning strategy that works against opponents whose strategy is not known in advance. This course will equip students with core concepts and practical experience in doing reasoning, learning and planning in the presence of uncertainty.",
     terms: ["Term 1"],
     preReq: "CS420",
+    exam: {
+      dateTime: new Date("2025-11-26T05:00:00.000Z"),
+      durationInHour: 2,
+    },
   },
   CS425: {
     name: "Generative AI for Natural Language Communication",
@@ -19904,13 +20021,13 @@ This course also offers law students a chance to study selected representative t
           name: "GAO WEI",
         },
         location: {
-          building: "SCIS1",
-          room: "Seminar Room 3-4",
+          building: "SOE/SCIS2",
+          room: "Seminar Room 3-9",
           level: 3,
         },
         classes: [
           {
-            day: "Tuesday",
+            day: "Monday",
             startTime: "08:15",
             duration: 3.25,
           },
@@ -19922,14 +20039,14 @@ This course also offers law students a chance to study selected representative t
           name: "GAO WEI",
         },
         location: {
-          building: "SCIS1",
-          room: "Seminar Room 3-1",
+          building: "SOE/SCIS2",
+          room: "Seminar Room 3-9",
           level: 3,
         },
         classes: [
           {
-            day: "Thursday",
-            startTime: "08:15",
+            day: "Monday",
+            startTime: "15:30",
             duration: 3.25,
           },
         ],
@@ -19966,10 +20083,6 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-04T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course introduces undergraduate students to fundamental access control techniques that are essential to ensure data security and privacy. The focus of this course is on (A) access control on mobile platforms, and (B) access control on cloud. The topics to be covered in the area of access control on mobile platforms include mobile platform security model, Android overview, SELinux, and SEAndroid. The topics to be covered in the area of access control on cloud include an overview from PKI to ABE, math foundation and IBE, fuzzy IBE, KP-ABE, and CP-ABE.",
@@ -19981,6 +20094,10 @@ This course also offers law students a chance to study selected representative t
           or: ["IS112", "IS105", "DSA201", "IS217"],
         },
       ],
+    },
+    exam: {
+      dateTime: new Date("2025-12-04T00:30:00.000Z"),
+      durationInHour: 2,
     },
   },
   CS446: {
@@ -20006,15 +20123,15 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-28T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "The Offensive Cybersecurity course aims to equip students with knowledge and technical skills in the fields of Penetration Testing and Offensive Security Tactics. The course will introduce the tools used in these fields and provide students hands-on experience to accomplish a mock engagement. Students will also learn the reporting structure and professional standards of a Security Engineer. The course also aims to equip students with skills that can be used and/or transferred to professional certifications exams/courses recognized by the industry. Upon completion of the course, students will be able to: ❖ Apply the key tools and methodologies used in Offensive Security ❖ Assess the ethical considerations to perform Offensive Security ❖ Analyse and evaluate Offensive Security test projects ❖ Satisfy the reporting requirements for Offensive Security",
     terms: ["Term 1"],
     preReq: "CS440",
+    exam: {
+      dateTime: new Date("2025-11-28T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   DSA312: {
     name: "Data Science with Python",
@@ -20039,10 +20156,6 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-05T00:30:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course seeks to introduce students to the various steps in data science via coding in the Python language. Students will be introduced to the basics of coding in Python, as well as various data wrangling and data visualization techniques using Python. Students will then have the opportunity to engage in exploratory data analysis. Thereafter, students will get the opportunity to be exposed to the theoretical knowledge underpinning machine learning. After learning the theoretical knowledge, students will have hands on experience to apply what they have learnt to model real data using machine learning techniques. No prior knowledge in Python is required, but prior knowledge in programming will be helpful. Topics include: Data visualization, data wrangling, exploratory data analysis, theoretical machine learning and applications of machine learning.",
@@ -20055,6 +20168,10 @@ This course also offers law students a chance to study selected representative t
           and: ["DSA211", "DSA212"],
         },
       ],
+    },
+    exam: {
+      dateTime: new Date("2025-12-05T00:30:00.000Z"),
+      durationInHour: 3,
     },
   },
   ECON206: {
@@ -20098,16 +20215,16 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-04T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This is an advanced course in game theory. Students will learn the mathematical foundations of non-cooperative and cooperative game theory, and be exposed to the application of game-theoretic models to various fields in economics, including labor economics, macroeconomics, international economics, social choice and industrial organisation. Multi-stage repeated games with or without perfect information will be discussed in the course. Students will learn the solution concept of Perfect Bayesian Nash equilibrium, and apply it to solve for a broad class of games of incomplete information.",
     terms: ["Term 1"],
     preReq: {
       or: ["ECON251", "ECON111"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-04T00:30:00.000Z"),
+      durationInHour: 2,
     },
   },
   ECON207: {
@@ -20133,15 +20250,15 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-27T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course provides a thorough understanding of econometric analysis of cross section and panel data. The course starts off with the notion of causality; discusses the endogeneity problem arising from omitted variables, measurement errors, and simultaneity; introduce methods for estimating causal relationships, such as multiple regression methods, instrumental variable methods, and panel data methods; and ends by presenting microeconometric models of discrete, censored, and truncated outcomes.",
     terms: ["Term 1"],
     preReq: "ECON107",
+    exam: {
+      dateTime: new Date("2025-11-27T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   ECON209: {
     name: "Labour Economics",
@@ -20165,35 +20282,17 @@ This course also offers law students a chance to study selected representative t
           },
         ],
       },
-      {
-        code: "G2",
-        professor: {
-          name: "GERALD FOONG",
-        },
-        location: {
-          building: "SOE/SCIS2",
-          room: "Seminar Room 3-8",
-          level: 3,
-        },
-        classes: [
-          {
-            day: "Thursday",
-            startTime: "15:30",
-            duration: 3.25,
-          },
-        ],
-      },
     ],
-    exam: {
-      dateTime: new Date("2025-12-02T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course introduces theory, applications, and empirical evidence in a wide range of topics in modern labour economics. We start with the principles of supply and demand in a competitive labour market to evaluate the impact of the tax and transfer system, the minimum wage, the employment protection legislation, and immigration on wages and employment. We then consider monopsony, job amenities, human capital, labour mobility, discrimination, and incentive pay to understand the nature and causes of wage differentials. Throughout the course, we discuss many stylized facts of labour markets and some econometric methods for policy evaluation.",
     terms: ["Term 1"],
     preReq: {
       or: ["ECON251", "ECON111"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-02T05:00:00.000Z"),
+      durationInHour: 2,
     },
   },
   ECON210: {
@@ -20219,10 +20318,6 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-05T06:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course aims to strengthen our understanding of some of the most basic questions in monetary economics: How does money promote economic exchange? What should serve as money? What causes inflation? What is the cost of inflation? Our approach is to build the microeconomic foundations of monetary and other macroeconomic topics, that is, we seek to explain aggregate economic phenomena as the implications of the choices of rational individuals who aim to improve their welfare within their limited means. We begin our study with questions of the demand for fiat money, go on to introduce banking and financial intermediation, and finally look at the effects of money on saving, investment, and output.",
@@ -20236,6 +20331,10 @@ This course also offers law students a chance to study selected representative t
           and: ["ECON111", "ECON112"],
         },
       ],
+    },
+    exam: {
+      dateTime: new Date("2025-12-05T06:30:00.000Z"),
+      durationInHour: 2,
     },
   },
   ECON211: {
@@ -20279,15 +20378,16 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-24T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
-    description: `The module begins by revisiting the conceptual basis for the "minimum" role of a government in a free market economy and focuses attention on different types of market failure in which a wider role for the government could be considered. An appreciation for the potential scope of government failure is also developed here to allow for a more holistic approach when contemplating intervention. It then proceeds to discuss the economics underlying social transfer schemes and a variety of other public sector programs that falls outside the ambit of the so-called "minimum" role. Here, governmental expenditure programs such as programs on health care, social security and education come into focus. Finally, the module discusses the financing of government programs bringing into focus the taxation system. The efficiency and distributional effects of different taxes and their implication on the choice of financing method and on project evaluation are some of the issues that will be discussed here. An introduction to optimal taxation theory is also included here. From time to time, during the exposition of the module, reference will be made to the US experience and to the Singapore experience to provide the practical motivation underlying a number of the ideas covered.`,
+    description:
+      'The module begins by revisiting the conceptual basis for the "minimum" role of a government in a free market economy and focuses attention on different types of market failure in which a wider role for the government could be considered. An appreciation for the potential scope of government failure is also developed here to allow for a more holistic approach when contemplating intervention. It then proceeds to discuss the economics underlying social transfer schemes and a variety of other public sector programs that falls outside the ambit of the so-called "minimum" role. Here, governmental expenditure programs such as programs on health care, social security and education come into focus. Finally, the module discusses the financing of government programs bringing into focus the taxation system. The efficiency and distributional effects of different taxes and their implication on the choice of financing method and on project evaluation are some of the issues that will be discussed here. An introduction to optimal taxation theory is also included here. From time to time, during the exposition of the module, reference will be made to the US experience and to the Singapore experience to provide the practical motivation underlying a number of the ideas covered.',
     terms: ["Term 1"],
     preReq: {
       or: ["ECON111", "ECON251"],
+    },
+    exam: {
+      dateTime: new Date("2025-11-24T00:30:00.000Z"),
+      durationInHour: 2,
     },
   },
   ECON220: {
@@ -20313,10 +20413,6 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-03T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "The income per capita in the United States and Western Europe is around fifty times greater than in much of sub-Saharan Africa. This prompts the question: Why are some countries rich and others poor? From around 1870 until the Second World War, Japan’s income per capita remained around 25 percent of U.S. income per capita. After the substantial reforms put in place at the end of the war, Japanese relative income rose sharply so that today Japanese standard of living is roughly two-thirds that of the U.S. level. The rapid catch-up was also achieved in the post-war period by several other Asian economies including Singapore. What is it that makes it possible for countries to produce growth miracles? For much of world history, people lived at subsistence levels well described by Thomas Malthus. Around the nineteenth century, however, there was an escape from Malthusian stagnation beginning in Europe. What is the engine of economic growth? Gasoline contributes to air pollution as it powers our cars. The release of carbon dioxide as oil and gasoline are burned contributes to global warming. What is the relationship between economic growth and environmental quality? These are the questions that we will pursue in this course.",
@@ -20330,6 +20426,10 @@ This course also offers law students a chance to study selected representative t
           and: ["ECON111", "ECON112"],
         },
       ],
+    },
+    exam: {
+      dateTime: new Date("2025-12-03T05:00:00.000Z"),
+      durationInHour: 2,
     },
   },
   ECON234: {
@@ -20360,16 +20460,16 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-26T00:30:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course examines the economic determinants of cross-country trade patterns and welfare properties of trade policies. We first introduce economic models that focus on cross-country differences (in technology, in factor endowment), imperfect competition, or increasing returns to scale as the rationale for trade and the consequences of opening to trade on national welfare and on income distribution within and across countries. We then examine the economic causes and effects of increasing trade in intermediate goods or services through international outsourcing and foreign direct investment. In the third component of the course, we examine efficiency properties of frequently used trade measures, the political economy of trade protection, and welfare effects of preferential trade liberalizations such as free trade agreements against the backdrop of multilateral trade liberalizations sponsored by the WTO. Economics first major students who do this course must do International Macroeconomics as well to replace International Economics.",
     terms: ["Term 1"],
     preReq: {
       and: ["ECON111", "ECON251"],
+    },
+    exam: {
+      dateTime: new Date("2025-11-26T00:30:00.000Z"),
+      durationInHour: 3,
     },
   },
   ECON240: {
@@ -20395,10 +20495,6 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-02T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "Students will learn about the economic approach of analyzing issues related to the family and the society: the marriage market, fertility choice, decision makings of families in terms of human capital accumulation, and intergenerational mobility. Students will work on projects to examine parental choice of primary school, interaction of youths across socioeconomic groups, work-family balance, coping strategies of the sandwiched generation, impact on and responses by families and the government to an aging population, and impact of changing social attitudes on families. Specific topics will be incorporated or will even replace some of the above given the experiential nature of the course; in fact, the topics to be investigated as group projects will be jointly formulated by the students, the faculty, and the partners based on issues and problems they are facing currently.",
@@ -20411,6 +20507,10 @@ This course also offers law students a chance to study selected representative t
         "ECON111",
         "ECON112",
       ],
+    },
+    exam: {
+      dateTime: new Date("2025-12-02T00:30:00.000Z"),
+      durationInHour: 2,
     },
   },
   ECON244: {
@@ -20454,15 +20554,15 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-25T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course is a primer on behavioural economics, which examines how psychological, social, and cognitive factors influence economic decision-making. Behavioural economics challenge and enrich the rational-choice framework that permeates neoclassical economics by emphasizing that economic choices are also conditioned by social and cultural forces. In behavioural economics, psychological insights intersect with economic theory to demonstrate how individuals, groups, and organizations make decisions that depart from the predictions of traditional economic models. Students will gain a deep understanding of prospect theory, cognitive biases, and heuristics—the building blocks of behavioural theory. At the same time, students will also explore how social preferences, shared values, beliefs, norms, customs and institutions influence economic choices. Understanding the interplay between these aspects of culture and behavioural economics is crucial for creating policies, interventions, and business strategies that are both effective and culturally sensitive. This course is ideal for students in economics, business, psychology, social sciences and related fields who are interested in understanding the behavioural and social aspects of decision-making. The course will help equip students with the knowledge and skills to analyse, explain, and predict real-world behaviour especially in contexts characterised by risk and uncertainty, including consumer choices, marketing, financial decision-making, public policy, political outcomes, and organizational strategy, and to learn how to evaluate and design interventions and strategies to influence decisions and improve outcomes in these settings. Students will enhance their critical and interdisciplinary thinking, analytical skills, and creativity by integrating behavioural concepts with traditional economic frameworks, preparing them to address complex challenges in academia, industry, or government roles.",
     terms: ["Term 1"],
     preReq: "ECON111",
+    exam: {
+      dateTime: new Date("2025-11-25T05:00:00.000Z"),
+      durationInHour: 2,
+    },
   },
   ECON248: {
     name: "Overseas Project Experience (Macroeconomics in Asia)",
@@ -20552,16 +20652,16 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-24T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course provides students with a foundational study of the concepts and theories underlying economic interactions in markets and public organisations. The approach combines economic intuition with a rigorous treatment of the concepts taught. Students will learn about public goods, externalities, monopoly and monopsony, and oligopoly. In addition, students will learn the tools to deal with decisions under risk and how asymmetries of information affect economic institutions. Finally, students are introduced the basic concept from Game Theory, which provides a rigorous treatment of strategic decision making. During the course, the applicability of these concepts to practical situations and their linkages to various economic electives will be discussed.",
     terms: ["Term 1"],
     preReq: {
       and: ["ECON111", "ECON104"],
+    },
+    exam: {
+      dateTime: new Date("2025-11-24T05:00:00.000Z"),
+      durationInHour: 2,
     },
   },
   ECON301: {
@@ -20587,16 +20687,16 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-04T05:00:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course is a continuation of Intermediate Microeconomics. The objective of this course is to provide students with a systematic foundation of microeconomics in the hope that they are well equipped to take upper-level economics courses. The course is designed to deal with the topics that were not fully addressed in the Intermediate level. The topics include general equilibrium, uncertainty, asymmetric information, mechanism design, and market failure. Various applications will be selected to understand how theoretical frameworks are used to analyze real-world problems and provide policy implications.",
     terms: ["Term 1"],
     preReq: {
       and: ["ECON111", "ECON251", "ECON104"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-04T05:00:00.000Z"),
+      durationInHour: 3,
     },
   },
   ECON350: {
@@ -20632,7 +20732,9 @@ This course also offers law students a chance to study selected representative t
         "ECON104",
         "ECON111",
         "ECON112",
-        { or: ["ECON203", "ECON234", "ECON235"] },
+        {
+          or: ["ECON203", "ECON234", "ECON235"],
+        },
       ],
     },
   },
@@ -20659,15 +20761,15 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-27T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course is specially customized to serve as an introduction to business finance for the legal profession. The aim is to provide aspiring lawyers with a strong foundation in finance. There will be a strong emphasis on financial statement analysis and valuation. Students will be exposed to key financial concepts and tools commonly used by managers in making sound financial decisions, which include time value of money, risk-return analysis, asset pricing and cost of capital. The course focuses on basic financial activities undertaken by a firm to create value for its shareholders. These activities include financial planning and management, investing and financing.",
     terms: ["Term 1"],
     mutuallyExclusive: ["FNCE101"],
+    exam: {
+      dateTime: new Date("2025-11-27T05:00:00.000Z"),
+      durationInHour: 2,
+    },
   },
   FNCE218: {
     name: "Wealth Management and the Law",
@@ -20692,14 +20794,9 @@ This course also offers law students a chance to study selected representative t
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-27T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
-    description: `This course will introduce students to the private wealth management industry in Singapore and to the legal and regulatory framework that governs the industry. It will acquaint students with relevant provisions of the Securities and Futures Act, the Financial Advisors Act and applicable regulations, notices, guidelines and will include discussions on licensing and business conduct requirements. Applicable anti-money laundering regulations are also covered as part of the required due diligence process of understanding client’s needs and source of funds.
-
-The course will also introduce students to legal structuring vehicles often used in private wealth management such as trusts, foundations and passive investment companies for wealth preservation and wealth transfer purposes. The various types of trusts, how they are set up and how they meet various client objectives, the key parties involved and duties of trustees will be discussed. The laws under which foundations are established, the essential features of and the main differences between trusts and foundations will be considered. Finally, students will be expected to apply the applicable legal principles and concepts to case studies.`,
+    description:
+      "This course will introduce students to the private wealth management industry in Singapore and to the legal and regulatory framework that governs the industry. It will acquaint students with relevant provisions of the Securities and Futures Act, the Financial Advisors Act and applicable regulations, notices, guidelines and will include discussions on licensing and business conduct requirements. Applicable anti-money laundering regulations are also covered as part of the required due diligence process of understanding client’s needs and source of funds.\n\nThe course will also introduce students to legal structuring vehicles often used in private wealth management such as trusts, foundations and passive investment companies for wealth preservation and wealth transfer purposes. The various types of trusts, how they are set up and how they meet various client objectives, the key parties involved and duties of trustees will be discussed. The laws under which foundations are established, the essential features of and the main differences between trusts and foundations will be considered. Finally, students will be expected to apply the applicable legal principles and concepts to case studies.",
     terms: ["Term 1"],
     preReq: {
       and: [
@@ -20715,6 +20812,10 @@ The course will also introduce students to legal structuring vehicles often used
           ],
         },
       ],
+    },
+    exam: {
+      dateTime: new Date("2025-11-27T05:00:00.000Z"),
+      durationInHour: 2,
     },
   },
   FNCE229: {
@@ -20740,16 +20841,16 @@ The course will also introduce students to legal structuring vehicles often used
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-24T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course is structured to provide participants with a conceptual foundation about corporate banking solutions and commercial lending considerations in financial institutions. The course will cover the different components of the corporate banking industry value chain such as cash management services, treasury management, receivables financing and project financing. In addition, factors governing loan issuance, credit risk management, and monitoring to achieve loan repayment will be explored. Lastly, corporate banking is being transformed by digitization. The course will also cover recent fintech disruptions to the industry and how commercial banks are leveraging ecosystems built on the free flow of data between banks, their clients, and third parties to respond to these new challenges. This course will benefit students who are seeking a career in Corporate Finance, Investment Banking, or Commercial Banking.",
     terms: ["Term 1"],
     preReq: {
       or: ["FNCE103", "FNCE101"],
+    },
+    exam: {
+      dateTime: new Date("2025-11-24T00:30:00.000Z"),
+      durationInHour: 2,
     },
   },
   FNCE232: {
@@ -20775,22 +20876,16 @@ The course will also introduce students to legal structuring vehicles often used
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-03T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
-    description: `The course focuses primarily on large projects - those costing at least USD200 million. Through this course, students will learn the mechanics of project finance and the critical success factors for such transactions, including creating value and managing risks. Students will learn how to structure a robust Project Finance Term Sheet to facilitate investment and financing decisions.
-
-The course will include discussions on China’s “One Belt One Road” Initiative (“OBOR”), and strategies to capture the opportunities arising from OBOR through Project Finance pathways. Students will also appreciate how finance, economic and political forces are interwoven into project financing especially in the Asia Pacific region.
-
-In 2016, USD228 billion worth of project finance transactions were signed globally, of which USD96 billion were transacted in the Asia Pacific. This transaction volume is expected to grow in the years ahead.
-
-This course will benefit students who are seeking a career in Corporate Finance, Investment Banking, or Commercial Banking.
-`,
+    description:
+      "The course focuses primarily on large projects - those costing at least USD200 million. Through this course, students will learn the mechanics of project finance and the critical success factors for such transactions, including creating value and managing risks. Students will learn how to structure a robust Project Finance Term Sheet to facilitate investment and financing decisions.\n\nThe course will include discussions on China’s “One Belt One Road” Initiative (“OBOR”), and strategies to capture the opportunities arising from OBOR through Project Finance pathways. Students will also appreciate how finance, economic and political forces are interwoven into project financing especially in the Asia Pacific region.\n\nIn 2016, USD228 billion worth of project finance transactions were signed globally, of which USD96 billion were transacted in the Asia Pacific. This transaction volume is expected to grow in the years ahead.\n\nThis course will benefit students who are seeking a career in Corporate Finance, Investment Banking, or Commercial Banking.\n",
     terms: ["Term 1"],
     preReq: {
       or: ["FNCE103", "FNCE101"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-03T05:00:00.000Z"),
+      durationInHour: 2,
     },
   },
   FNCE318: {
@@ -20816,16 +20911,16 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-04T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "Today’s corporates are operating in various degrees of maturity and awareness of sustainable business practices in the respective sectors they operate in. With emerging community and public conscience for sustainability, together with greater regulatory and national or international pledges to meet climate and other sustainability targets, corporates across the Asia Pacific region are in a unique position to gain a competitive edge in sustainability, or simply to maintain their social license to operate. Financial institutions are also increasingly interested and under increasing pressure to direct finance to environmentally and socially responsible outcomes. Sustainable finance instruments present levers for corporates to raise capital specifically directed to accelerating the company’s and the sector’s sustainable operations, investments, and standards. This course couples established and emerging theory on how finance can be used to address sustainability challenges. It covers diverse aspects of sustainable finance, including the structuring of financial instruments with sustainability elements to target varying customer/ sectoral needs. The course also explores the power of corporate engagement as a lever for sustainability, steering strategic direction, enabling sustainable finance leading to materially impactful outcomes. By the end of this course, students will gain a foundation in sustainable finance instruments and corporate engagement strategies.",
     terms: ["Term 1"],
     preReq: {
       or: ["FNCE103", "FNCE101"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-04T00:30:00.000Z"),
+      durationInHour: 2,
     },
   },
   FNCE321: {
@@ -20851,16 +20946,16 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-27T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "Carbon markets are important today for different reasons including climate change mitigation, economic efficiency, global corporation, transparency, sustainability and innovation. By recognizing the importance of carbon markets, businesses can work to harness their potential to address climate change, promote sustainable development, and support a low-carbon future. This course will cover established and emerging theories on how companies and individuals can use carbon markets to compensate for their greenhouse gas emissions by purchasing carbon credits from entities that remove or reduce greenhouse gas emissions. It will share insights on the global regulations and various aspects with the backdrop of ESG, impact investing, social responsibility, human rights and fintech. The course will explore the meaning of sustainable carbon markets and how carbon projects respect and protect local communities' rights and interests through several case studies and simple econometric analyses. By the end of this course, students will gain a foundation in the understanding of how regulations and market forces provide incentives that encourage desired corporate and investor behaviors.",
     terms: ["Term 1"],
     preReq: {
       or: ["FNCE103", "FNCE101"],
+    },
+    exam: {
+      dateTime: new Date("2025-11-27T00:30:00.000Z"),
+      durationInHour: 2,
     },
   },
   IDIS201: {
@@ -20929,7 +21024,7 @@ This course will benefit students who are seeking a career in Corporate Finance,
       {
         code: "G1",
         professor: {
-          name: "RANDALL EUGENE DURAN",
+          name: "RANDALL E. DURAN",
         },
         location: {
           building: "SOE/SCIS2",
@@ -20947,7 +21042,7 @@ This course will benefit students who are seeking a career in Corporate Finance,
       {
         code: "G2",
         professor: {
-          name: "RANDALL EUGENE DURAN",
+          name: "RANDALL E. DURAN",
         },
         location: {
           building: "SOE/SCIS2",
@@ -21022,14 +21117,14 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-25T05:00:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course explores the corporate and institutional banking functional domain and technology, as well as the emerging non-bank FinTech alternatives. This course module begins by reviewing banking solution delivery processes and identifying the various corporate banking customer segments and their needs. These considerations are then examined in different corporate banking business contexts. In the context of corporate customer needs, the traditional product areas of corporate lending, cash management & payments, trade finance, and corporate treasury are covered. In the later part of the course, we cover institutional banking customers and products, and their role in the credit crisis of 2008 to understand what happened and the implications going forward. Finally, we will cover cybersecurity, operational and compliance risk. Emphasis is placed throughout the course on analysing real-world situations using case studies and gaining hands-on experience with banking systems.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-11-25T05:00:00.000Z"),
+      durationInHour: 3,
+    },
   },
   IS452: {
     name: "Blockchain Applications in Financial Services",
@@ -21054,14 +21149,14 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-01T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course explores blockchains and smart contracts in the context of financial services. The fundamentals of blockchains and smart contracts are first explained and then the similarities and differences of public and private blockchains are shown. Various blockchain platforms are considered as well as the end-to-end implementation of a range of services, for example supply chain financing. The course has hands-on development, deployment and execution of smart contracts using Solidity for Ethereum and the FISCO BCOS blockchain platform. Emphasis is placed throughout the course on analysing real-world situations using case studies and gaining hands-on experience with financial systems.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-12-01T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   IS467: {
     name: "Low Code Solution Development",
@@ -21102,8 +21197,8 @@ This course will benefit students who are seeking a career in Corporate Finance,
         },
         location: {
           building: "SCIS1",
-          room: "Seminar Room 2-4",
-          level: 2,
+          room: "Seminar Room 3-3",
+          level: 3,
         },
         classes: [
           {
@@ -21353,15 +21448,15 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-02T05:00:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "Contracts are the foundation of commercial life. This course aims to equip students with a firm appreciation of the unique character of contracts as a form of voluntary undertakings. This course begins by examining the concepts relating to the formation of contract, as well as how an otherwise validly formed contract may have its effect nullified by issues such as misrepresentation, duress, undue influence, etc. Contract Law 1 will be followed in the second semester by LAW102 Contract Law 2 which will go on to look at issues relating to how a contract may be discharged, what sort of remedies are available when a contractual obligation is breached, as well as certain issues relating to contracts for the sale of goods. Over the two courses, the student will be sensitized to the role of the law in facilitating commerce, respecting legitimate expectations, and guarding against unfair exploitation of economic or social weakness. The study of the subject will also provide students with an excellent opportunity to observe, evaluate and critique developments in the law as it responds to the fast-changing and dynamic environment of the world of commerce.",
     terms: ["Term 1"],
     mutuallyExclusive: ["LGST101"],
+    exam: {
+      dateTime: new Date("2025-12-02T05:00:00.000Z"),
+      durationInHour: 3,
+    },
   },
   LAW106_606: {
     name: "Legal Research and Writing I",
@@ -21388,7 +21483,7 @@ This course will benefit students who are seeking a career in Corporate Finance,
       {
         code: "G2",
         professor: {
-          name: "",
+          name: "TAI YUANMIN, ESTELLE",
         },
         location: {
           building: "YPHSL",
@@ -21658,10 +21753,6 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-27T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 0.5,
     description:
       "This course will examine the various legal cultures and traditions within Asia. The historical background of these traditions in Asia including the Western and colonialist (and post-colonialist) influences will also be explored. In this increasingly globalised economy, the lawyer needs to be conversant with the legal traditions and cultures of Asia especially that of Southeast Asia, India and China.",
@@ -21670,6 +21761,10 @@ This course will benefit students who are seeking a career in Corporate Finance,
       or: ["LAW108_608", "LGST102"],
     },
     mutuallyExclusive: ["LAW109_609", "LAW203_623"],
+    exam: {
+      dateTime: new Date("2025-11-27T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   LAW202_622: {
     name: "Law of Property",
@@ -21768,16 +21863,16 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-25T05:00:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1.25,
     description:
       "This course aims to introduce students to the basic principles of common law and equity as applied to property, both immoveable and moveable including intellectual property. Beginning with an exploration of what ownership of land means, this course will consider how land can be dealt with at common law and in equity, before taking a look at how some of these complexities have receded, given the adoption and universal application of the Torrens registration system in Singapore. In the middle part of this course, the question of ownership and transfer of moveable property at common law and in equity will be considered with particular attention to the difficulties posed by intangible moveable property in the form of intellectual property rights as well as other choices in action. The final part of the course examines the creation of security interests over immoveable and moveable property and the problems relating to determining the priorities of competing security interests. Comparisons may be drawn with alternative systems of property law, e.g. the scheme of security interests set out in the Uniform Commercial Code and the treatment of property generally in the American Restatement on Property.",
     terms: ["Term 1"],
     preReq: {
       and: ["LAW101_601", "LAW102_602", "LAW105_605"],
+    },
+    exam: {
+      dateTime: new Date("2025-11-25T05:00:00.000Z"),
+      durationInHour: 3,
     },
   },
   LAW301_631: {
@@ -21875,14 +21970,14 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-28T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "The course aims to provide an introduction to the underlying philosophies and theories for the existence of a legal system and its laws, the interaction between Law and other disciplines such as Ethics, Society and Business, the different perspectives and approaches to the Law as well as specific topics on Asian Values and Adjudication. The application of the various jurisprudential theories will be illustrated through local legislation such as the Women’s Charter.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-11-28T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   LAW307_637: {
     name: "Law of Evidence",
@@ -21979,15 +22074,16 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-03T00:30:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
-    description: `The Law of Evidence is primarily concerned with the Evidence Act's conceptualisation of relevance and admissibility of evidence in Singapore. "Exclusionary" rules such as hearsay, similar fact, and expert opinion will be explored. Other topics include standard and burden of proof, privilege, and statements. The relationship between the Evidence Act and the common law, as well as certain features of Singapore's justice system, are key themes.`,
+    description:
+      "The Law of Evidence is primarily concerned with the Evidence Act's conceptualisation of relevance and admissibility of evidence in Singapore. \"Exclusionary\" rules such as hearsay, similar fact, and expert opinion will be explored. Other topics include standard and burden of proof, privilege, and statements. The relationship between the Evidence Act and the common law, as well as certain features of Singapore's justice system, are key themes.",
     terms: ["Term 1"],
     preReq: {
       or: ["LGST101", "LGST201", "LAW101_601"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-03T00:30:00.000Z"),
+      durationInHour: 3,
     },
   },
   LAW4012: {
@@ -21997,7 +22093,7 @@ This course will benefit students who are seeking a career in Corporate Finance,
       {
         code: "G1",
         professor: {
-          name: "NG WAI KING",
+          name: "JOLYNN LIM, NG WAI KING",
         },
         location: {
           building: "YPHSL",
@@ -22044,15 +22140,15 @@ This course will benefit students who are seeking a career in Corporate Finance,
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-05T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "Information Technology is the use of technology to manage and process information. It involves the development and use of computer hardware and software for every aspect of the ‘life’ of information, goods and services as well as the ‘process’ of communication. As technology develops and changes, new challenges emerge for law and policy-makers to deal with the impact that they may have on society. Existing laws have to adapt to the digital medium and subject matter, and in some cases entirely new areas of law are crafted. This course on Information Technology and the Law examines the legal issues and regulations arising out of the use of information technology in major areas of law, such as electronic contracting in e-commerce, intellectual property rights on the Internet, the domain name regime, data protection and privacy rights in relation to electronic information, torts committed online, content regulation, computer crimes and cybercrime.",
     terms: ["Term 1"],
     mutuallyExclusive: ["COR-LAW2242"],
+    exam: {
+      dateTime: new Date("2025-12-05T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   LAW4058: {
     name: "Corporate Deals",
@@ -22140,11 +22236,8 @@ This course will benefit students who are seeking a career in Corporate Finance,
       },
     ],
     credit: 1,
-    description: `International commercial arbitration has held itself out to be a fast, convenient and confidential means of binding dispute resolution. Since 1958, the wide spread recognition of arbitration awards by different countries, the promulgation of a model law of arbitration and a growing acceptance of a uniform set of best practices has increased the profile of arbitration. This is more so in Asia than anywhere else. In a region of varied court systems, arbitration offers certainty, due process, confidentiality and a quiet resolution. Or does it?
-
-As arbitration is consensual, almost all arbitrations arise from a clause in an agreement. The agreement itself can address a myriad of dealings from joint ventures to distributorships to acquisitions. Lawyers in all commercial disciplines need to appreciate what their clients agree to when an arbitration clause is in their document.
-
-The course is a study of the core principles applicable to international commercial arbitration, the main international rules and of the values adopted by Singapore in its efforts to become an international commercial arbitration centre.`,
+    description:
+      "International commercial arbitration has held itself out to be a fast, convenient and confidential means of binding dispute resolution. Since 1958, the wide spread recognition of arbitration awards by different countries, the promulgation of a model law of arbitration and a growing acceptance of a uniform set of best practices has increased the profile of arbitration. This is more so in Asia than anywhere else. In a region of varied court systems, arbitration offers certainty, due process, confidentiality and a quiet resolution. Or does it?\n\nAs arbitration is consensual, almost all arbitrations arise from a clause in an agreement. The agreement itself can address a myriad of dealings from joint ventures to distributorships to acquisitions. Lawyers in all commercial disciplines need to appreciate what their clients agree to when an arbitration clause is in their document.\n\nThe course is a study of the core principles applicable to international commercial arbitration, the main international rules and of the values adopted by Singapore in its efforts to become an international commercial arbitration centre.",
     terms: ["Term 1"],
   },
   LAW4067: {
@@ -22199,10 +22292,6 @@ The course is a study of the core principles applicable to international commerc
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-24T05:00:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course offers an introduction to insurance law with a focus on the marine aspect, from which insurance law developed – many of the fundamental principles of insurance were historically established by leading marine insurance cases, and they now apply both in marine and non-marine insurance. It seeks to provide students with an understanding of the key principles in this key component of commercial law. The course will primarily focus on Singapore and English law – the London insurance market is traditionally regarded as the industry leader in the development of insurance law and practice. Notably, Lloyd's of London and the London Company Market insure risks placed all over the globe. As such, English law has an outsized influence in the development of insurance law and practice. Students can expect to have a wider comprehension of risk assessment and assess the terms of contracts of insurance with a view to protecting the interests of the insured at the conclusion of a contract of insurance.",
@@ -22210,10 +22299,19 @@ The course is a study of the core principles applicable to international commerc
     preReq: {
       and: [
         {
-          and: ["LAW101_601", { or: ["LAW102_602", "LGST101"] }],
+          and: [
+            "LAW101_601",
+            {
+              or: ["LAW102_602", "LGST101"],
+            },
+          ],
         },
         "LAW105_605",
       ],
+    },
+    exam: {
+      dateTime: new Date("2025-11-24T05:00:00.000Z"),
+      durationInHour: 3,
     },
   },
   LAW4072: {
@@ -22239,15 +22337,15 @@ The course is a study of the core principles applicable to international commerc
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-25T00:30:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course provides an overview to financial crime compliance with a specific focus on concepts such as anti-money laundering (AML), countering the financing of terrorism (CFT), Corruption, Anti-Scam and Sanctions compliance. The course will address legal and regulatory requirements/expectations under the laws of Singapore for each of these five concepts. This course will take a closer look at the Financial Action Task Force’s recommendations/standards and better understand how these recommendations/standards impact the Singapore regime. This course will also provide a brief introduction to international legal cooperation across countries, investigations processes and procedures, and cooperation with Singapore law enforcement authorities. This course will examine the global impact of compliance, through sanctions imposed by the highest international body – the United Nations and other international sanctions regimes imposed by the US Department of Treasury Office of Foreign Assets Control, UK HM Treasury, and the European Union. Finally, this course will address some emerging risks and criminal typologies (such as the risks associated with virtual currencies and De-FI).",
     terms: ["Term 1"],
     mutuallyExclusive: ["LGST236", "LAW495"],
+    exam: {
+      dateTime: new Date("2025-11-25T00:30:00.000Z"),
+      durationInHour: 3,
+    },
   },
   LAW4084: {
     name: "International Law through a Practical Lens",
@@ -22300,10 +22398,6 @@ The course is a study of the core principles applicable to international commerc
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-27T05:00:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course will examine different ways in which value may be extracted from the ownership of intellectual property rights (IPRs). We will start with an overview of the various IPRs around the world and the more important differences between particular countries, which are important when considering an international IP strategy. The course will then turn to look at different ways of dealing with IPRs: assignment or sale, licensing, and joint ventures; and the different challenges they present. We will look in detail at the provisions to be included in assignments and licence agreements of the different IPRs. After that, we will look at how to conduct IP due diligence in corporate transactions, what to look for and how to negotiate the documentation. After that, IP issues in the IT industry will be discussed, as well as those you will come across in relation to using the Internet or setting up an Internet-based business. Finally, we will consider how the enforcement of IPRs plays a critical role in extracting value.",
@@ -22315,6 +22409,10 @@ The course is a study of the core principles applicable to international commerc
         },
         "LGST101",
       ],
+    },
+    exam: {
+      dateTime: new Date("2025-11-27T05:00:00.000Z"),
+      durationInHour: 3,
     },
   },
   LAW445: {
@@ -22340,14 +22438,14 @@ The course is a study of the core principles applicable to international commerc
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-01T00:30:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "The prevention of unjust enrichment as an independent legal principle, capable of founding causes of action, gained currency as an independent branch of the common law in England and Singapore only as recently as in the 1990s. This course introduces students to the central concepts and disputes in the law of restitution, focussing on unjust enrichment and restitution for wrongs as organising themes.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-12-01T00:30:00.000Z"),
+      durationInHour: 3,
+    },
   },
   LAW447: {
     name: "International Construction Law",
@@ -22372,19 +22470,16 @@ The course is a study of the core principles applicable to international commerc
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-04T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
-    description: `Construction and infrastructure projects are increasingly international in nature and with such projects are on the rise given their economic benefit, it is crucial for legal practitioners to be aware of the various issues that arise from them.
-
-This course is intended to introduce students to the practice and law relating to international construction and infrastructure projects. The various methods of procurement and the legal issues concerning the construction process involved will be reviewed in conjunction with the standard forms of contract used for such projects -- such as the FIDIC, JCT and NEC forms, among others. Issues such as defects, time and cost overruns and the implications therefrom (and how these matters are dealt with in an international context) will also be covered.
-
-The course will provide students with an understanding of how international construction projects are procured, planned and administered as well as give an insight into the legal and commercial issues that arise during the construction process.`,
+    description:
+      "Construction and infrastructure projects are increasingly international in nature and with such projects are on the rise given their economic benefit, it is crucial for legal practitioners to be aware of the various issues that arise from them.\n\nThis course is intended to introduce students to the practice and law relating to international construction and infrastructure projects. The various methods of procurement and the legal issues concerning the construction process involved will be reviewed in conjunction with the standard forms of contract used for such projects -- such as the FIDIC, JCT and NEC forms, among others. Issues such as defects, time and cost overruns and the implications therefrom (and how these matters are dealt with in an international context) will also be covered.\n\nThe course will provide students with an understanding of how international construction projects are procured, planned and administered as well as give an insight into the legal and commercial issues that arise during the construction process.",
     terms: ["Term 1"],
     preReq: {
       or: ["LAW101_601", "LGST101", "LGST201"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-04T05:00:00.000Z"),
+      durationInHour: 2,
     },
   },
   LAW451: {
@@ -22475,16 +22570,8 @@ The course will provide students with an understanding of how international cons
       },
     ],
     credit: 1,
-    description: `This course deals with the rapidly growing area of private international mediation and multi-tiered dispute resolution processes that have mediation as an element. It offers participants a framework for understanding cross-border law and practice in this field.
-
-Imagine the following scenario: A Singaporean mediator is asked to mediate a professional negligence dispute. The plaintiff is based in Indonesia, the defendant accounting firm is in the Netherlands, and the defendant’s insurer has its headquarters in the United States. All agree to attend mediation in Singapore. The preliminary discussions and meetings, however, take place via email and video-conference with all parties in their home countries. The mediation occurs and the parties reach a settlement, which the parties’ legal representatives draft into contractual form.
-
-Such cross-border mediations involve:
-• international and intercultural competencies;
-• online and face-to-face mediation protocols; and
-• knowledge of private international law in relation to the substantive and procedural aspects of mediation.
-
-The course will address these and other topical issues, including enforceability of international mediated settlement agreements, to provide participants with a current overview of international legal practice and trends in this field. Participants will have the opportunity to develop specialised mediation skills relevant to cross-border settings.`,
+    description:
+      "This course deals with the rapidly growing area of private international mediation and multi-tiered dispute resolution processes that have mediation as an element. It offers participants a framework for understanding cross-border law and practice in this field.\n\nImagine the following scenario: A Singaporean mediator is asked to mediate a professional negligence dispute. The plaintiff is based in Indonesia, the defendant accounting firm is in the Netherlands, and the defendant’s insurer has its headquarters in the United States. All agree to attend mediation in Singapore. The preliminary discussions and meetings, however, take place via email and video-conference with all parties in their home countries. The mediation occurs and the parties reach a settlement, which the parties’ legal representatives draft into contractual form.\n\nSuch cross-border mediations involve:\n• international and intercultural competencies;\n• online and face-to-face mediation protocols; and\n• knowledge of private international law in relation to the substantive and procedural aspects of mediation.\n\nThe course will address these and other topical issues, including enforceability of international mediated settlement agreements, to provide participants with a current overview of international legal practice and trends in this field. Participants will have the opportunity to develop specialised mediation skills relevant to cross-border settings.",
     terms: ["Term 1"],
   },
   LAW486: {
@@ -22528,19 +22615,14 @@ The course will address these and other topical issues, including enforceability
         ],
       },
     ],
+    credit: 1,
+    description:
+      "In the information age, the production and management of data will define the future of governance and businesses. The ‘data economy’ renders digitized information - promulgating at ever increasing speed – a valuable asset through the use of data analytics. It has also led to a fundamental shift in power and markets. The emergence of disruptive technological and business innovations is one prominent example of such a change. New economies are formed, such as from the use of artificial intelligence (AI), the development of ‘cognitive services’, the digitization of goods and the provision of storage/sharing and management services. Governments, including the Singapore public sector, are also aware of the importance of data to governance and to the future of the economy and are driving innovations and technology usage within that sector as well as in society generally through the Smart Nation initiative and Digital Economy drive. Substantial research and development are also encouraged in this field.\n\nThese fundamental shifts also lead to many problems and challenges related to different types of data and data sets. For Critical Information Infrastructure (CII) and the data economy generally, cybersecurity is a major concern. In relation to personal data and digital communications, there are various threats to different forms of privacy. Other current issues surrounding data are the ‘fake news’ phenomenon and the persistent threats to intellectual property. On the flipside, these developments have also led to new industries (and careers) such as in the areas of cybersecurity and data protection.\n\nThe objective of this course is to prepare students who are interested in data protection law and may have an interest in making a career in this nascent industry that is set to grow. Students will first be introduced to the data economy as a concept and to the real changes to the market and to society as well as the various forms and categorisations of data and the legal aspects to these data sets. The second part of the course will then focus on privacy law and its relationship with data protection (DP) law. In this context, comparative study will be made of privacy and DP regimes of significance (e.g. OECD, EU, APEC, etc.). Third, students will then focus their study on the Singapore Personal Data Protection Act (and other relevant laws) – in particular, the data protection and do not call provisions - by looking at its history, objective, scope/application and possible future developments e.g. Data Protection Ecosystem and PDPA Act Review. Comparative study of similar concepts and processes in other jurisdictions will also be assessed in the course of the study of the Singapore PDPA. The fundamental concepts and workings of the PDPA will be examined in depth. In the fourth part of the course, practitioners from the PDPC and the private sector will provide their perspectives on this process and a holistic and practical viewpoint to the study.\n\nAfter completing this course, students will be able to use what they have learnt to obtain professional certification such as from the International Association of Privacy Professionals (IAPP) and PDPC with a view to practice in this area as a privacy counsel, privacy professional, manager and/or technologist. This will prepare students for a career in this growing field, or at least provide them with the skills and knowledge when dealing with such issues as a TMT lawyer, legal counsel or even as a general legal practitioner that will possibly encounter these issues at work.",
+    terms: ["Term 1"],
     exam: {
       dateTime: new Date("2025-12-02T05:00:00.000Z"),
       durationInHour: 2,
     },
-    credit: 1,
-    description: `In the information age, the production and management of data will define the future of governance and businesses. The ‘data economy’ renders digitized information - promulgating at ever increasing speed – a valuable asset through the use of data analytics. It has also led to a fundamental shift in power and markets. The emergence of disruptive technological and business innovations is one prominent example of such a change. New economies are formed, such as from the use of artificial intelligence (AI), the development of ‘cognitive services’, the digitization of goods and the provision of storage/sharing and management services. Governments, including the Singapore public sector, are also aware of the importance of data to governance and to the future of the economy and are driving innovations and technology usage within that sector as well as in society generally through the Smart Nation initiative and Digital Economy drive. Substantial research and development are also encouraged in this field.
-
-These fundamental shifts also lead to many problems and challenges related to different types of data and data sets. For Critical Information Infrastructure (CII) and the data economy generally, cybersecurity is a major concern. In relation to personal data and digital communications, there are various threats to different forms of privacy. Other current issues surrounding data are the ‘fake news’ phenomenon and the persistent threats to intellectual property. On the flipside, these developments have also led to new industries (and careers) such as in the areas of cybersecurity and data protection.
-
-The objective of this course is to prepare students who are interested in data protection law and may have an interest in making a career in this nascent industry that is set to grow. Students will first be introduced to the data economy as a concept and to the real changes to the market and to society as well as the various forms and categorisations of data and the legal aspects to these data sets. The second part of the course will then focus on privacy law and its relationship with data protection (DP) law. In this context, comparative study will be made of privacy and DP regimes of significance (e.g. OECD, EU, APEC, etc.). Third, students will then focus their study on the Singapore Personal Data Protection Act (and other relevant laws) – in particular, the data protection and do not call provisions - by looking at its history, objective, scope/application and possible future developments e.g. Data Protection Ecosystem and PDPA Act Review. Comparative study of similar concepts and processes in other jurisdictions will also be assessed in the course of the study of the Singapore PDPA. The fundamental concepts and workings of the PDPA will be examined in depth. In the fourth part of the course, practitioners from the PDPC and the private sector will provide their perspectives on this process and a holistic and practical viewpoint to the study.
-
-After completing this course, students will be able to use what they have learnt to obtain professional certification such as from the International Association of Privacy Professionals (IAPP) and PDPC with a view to practice in this area as a privacy counsel, privacy professional, manager and/or technologist. This will prepare students for a career in this growing field, or at least provide them with the skills and knowledge when dealing with such issues as a TMT lawyer, legal counsel or even as a general legal practitioner that will possibly encounter these issues at work.`,
-    terms: ["Term 1"],
   },
   LAW491: {
     name: "Law and Digital Commerce",
@@ -22593,14 +22675,14 @@ After completing this course, students will be able to use what they have learnt
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-27T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 0,
     description:
       "Law is a tool for problem-solving. This course examines the underlying problems that law is meant to solve, and how existing legal structures are a response to these problems. The focus is on principles of law and their application. After taking this course, students should have: 1. A working understanding of the Singapore legal system, including: a. Constitutional structure, including separation of powers; b. The common law system, and the relationship between legislation and case law; c. Hierarchy of courts, and the doctrine of stare decisis; d. The division between criminal and civil law, and the role each type of law plays in society; e. The role of Organs of State (e.g. The Attorney-General’s Chambers) in making, administering, and enforcing the law; and f. Practical implications of the legal system, on both lawyers and non-lawyers. 2. Competence in basic legal skills, including: a. Basic logic; b. Legal analysis; c. Legal research and interpretation; d. Legal writing (advisory and litigation); and e. Practical application of legal skills to real-world problems.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-11-27T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   MGMT223: {
     name: "Sustainable Entrepreneurship",
@@ -22700,13 +22782,8 @@ After completing this course, students will be able to use what they have learnt
       },
     ],
     credit: 1,
-    description: `This course is designed to give students opportunities to interact with about 10 CEOs/MDs during the semester. The invited speakers will share with students their views on leadership and management.
-
-Before each CEO session, class will meet to analyze the transforming power of leadership and how its practice changes individuals, organizations and societies. Students will examine different perspectives of leadership in the business world as well as in politics and the arts. They will learn how leadership is developed in different organizational and cultural settings and how it is portrayed in different media including films, plays and novels.
-
-Are great leaders born or made? Can training or coaching make a difference? This course analyses the transforming power of leadership and how its practice changes individuals, organizations and societies. It seeks to expose students to different perspectives of leadership in the business world as well as in politics and the arts.
-
-It will examine how leadership is developed in different organizational and cultural settings and how it is portrayed in different media including films, plays and novels. The focus of the course will not be on the identification of critical leadership traits or tasks but on the interactions between a leader, the organization and the context in which leadership evolves. Weekly CEO talks will form an integral part of the course.`,
+    description:
+      "This course is designed to give students opportunities to interact with about 10 CEOs/MDs during the semester. The invited speakers will share with students their views on leadership and management.\n\nBefore each CEO session, class will meet to analyze the transforming power of leadership and how its practice changes individuals, organizations and societies. Students will examine different perspectives of leadership in the business world as well as in politics and the arts. They will learn how leadership is developed in different organizational and cultural settings and how it is portrayed in different media including films, plays and novels.\n\nAre great leaders born or made? Can training or coaching make a difference? This course analyses the transforming power of leadership and how its practice changes individuals, organizations and societies. It seeks to expose students to different perspectives of leadership in the business world as well as in politics and the arts.\n\nIt will examine how leadership is developed in different organizational and cultural settings and how it is portrayed in different media including films, plays and novels. The focus of the course will not be on the identification of critical leadership traits or tasks but on the interactions between a leader, the organization and the context in which leadership evolves. Weekly CEO talks will form an integral part of the course.",
     terms: ["Term 1"],
   },
   MKTG208: {
@@ -22732,15 +22809,15 @@ It will examine how leadership is developed in different organizational and cult
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-26T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course is intended to introduce students to the role and importance of selling as a complement to marketing function in an organization. The two concepts are overlapping that one often says that “marketing needs selling” and “no selling can take place without marketing.” The instructor will guide students on how the sales function is operationalized in different kinds of marketing organizations as the scope can vary from consumer and retail marketing, trade marketing, services marketing, and business-to-business marketing. Students will cover this course under two parallel themes–the process of selling and the role of the professional sales team through the process of sales management. Students will learn the underlying body of marketing theory that underpins the study of sales management and personal selling. You will also learn some of the important principles of effective presentations related to sales proposals to organizational customers. A key delivery for this course would be for students to develop a case scenario to simulate a sales strategy involving target prospect calling, sales presentation and negotiations leading to sales conversion. The sales management course is focused on consumer trade marketing (pushing products through the channel) as well as business-to-business marketing applications for sales of business products and services to corporate customers.",
     terms: ["Term 1"],
     preReq: "MKTG101",
+    exam: {
+      dateTime: new Date("2025-11-26T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   MKTG313: {
     name: "Pricing",
@@ -22765,15 +22842,15 @@ It will examine how leadership is developed in different organizational and cult
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-25T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course aims to provide students with a roadmap to pricing strategically that would enable organizations to use pricing as a tool to drive profitability and sustainable growth. Students will learn new perspectives for determining product and service pricing to maximize a firm’s profits through creating and capturing customers. This course provides insights into the strategies that managers can employ to determine the appropriate price to capture the value provided to customers. It addresses the major pricing decisions confronting managers in today’s competitive business environment by providing a comprehensive approach to managing pricing decisions.",
     terms: ["Term 1"],
     preReq: "MKTG101",
+    exam: {
+      dateTime: new Date("2025-11-25T05:00:00.000Z"),
+      durationInHour: 2,
+    },
   },
   OBHR224: {
     name: "Human Capital Strategy",
@@ -22798,15 +22875,15 @@ It will examine how leadership is developed in different organizational and cult
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-01T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course introduces you to the importance of implementing business strategies through people strategies. The pedagogy of the course is designed to develop your practical perspective on Human Capital Strategy and its critical importance for the success of an organization. We will explore Human Capital practices and processes through three amalgamated approaches. • Academic knowledge- We will understand the concepts of different strategic models to drive business growth. You will learn the various aspects of culture, structure, compensation, talent, and leadership that shape the human capital strategy of the organizations. • Business Insights- We will analyze latest events, unicorns, business case studies and articles to appreciate the changing business landscape. You will get opportunities to interact with established business/HR leaders to share the industry insights during the module. • Action Learning- We will engage in the Human Capital Challenge (HCC) strategic business simulation game to help you learn by doing. You will make decisions based on human capital concepts and various market conditions to improve your own company performance.",
     terms: ["Term 1"],
     preReq: "OBHR201",
+    exam: {
+      dateTime: new Date("2025-12-01T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   OBHR232: {
     name: "Employment Law for Business Professionals",
@@ -22831,16 +22908,16 @@ It will examine how leadership is developed in different organizational and cult
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-24T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "As a business professional, a firm understanding of employment law is crucial for driving business outcomes. At the minimum, this ensures that your legal obligations surrounding employees are always met. Yet, its importance extends far beyond legal compliance – employment law considerations are also vital in informing strategic management decisions across key areas, from workforce planning (e.g. cross-border recruitment, restructuring/downsizing), ESG performance (e.g. managing diversity and inclusion, workplace safety, grievances), risk management (e.g. protecting company assets, managing dispute resolution), stakeholder relations (e.g. managing unions), to expansion into new markets (e.g. navigating local laws). In this regard, this course is designed to impart to you an understanding of the employment law regime in Singapore. You will acquire an awareness of the employment landscape and key employment-related laws in Singapore. You will learn to identify and address key issues that impact employment and affect employment relationships. You will develop a working understanding of the key ‘buckets’ of employment law, from hiring, managing, terminating, to post-termination matters. You will develop an appreciation of how these legal requirements not only apply to daily operational issues, but also how they form the crucial basis for higher-level strategic management decisions. You will hence study requirements and issues relating to the following non-exhaustive list of topics: • Hiring employees, including looking at fair hiring guidelines on non-discriminatory and ‘locals-first’ policies in Singapore; and hiring of foreign manpower; • Managing employees, including looking at employers’ and employees’ rights and obligations under law; employment contracts, including what they comprise and how they govern an employment relationship; and workplace safety and health matters, an area under significant scrutiny following COVID-19; • Terminating employees, including whether and how employees can be dismissed from the workplace; how retrenchment exercises work; and the respective pitfalls; • Industrial relations, including how they affect the hiring, managing and termination phases of the employment relationship; and • Post-termination concerns, including confidentiality and non-competition/solicitation obligations. Through the course, you will be exposed to the different sources of employment law, including legislation, case law, tripartite guidelines, advisories issued by the Ministry of Manpower, amongst others. You will understand how the tripartite relationship between the Government, employers and unions work and affect these. In this respect, this is a very grounded course, which will require you to develop a clear understanding of the employment legal regime and then think practically on how to anticipate, manage, and navigate employment issues, as well as apply them to broader organizational objectives. This course will be especially pertinent to students aspiring to careers as a HR professional or in management. In either role, a firm grasp of employment law means that you will be able to proactively identify and flag potential issues, hence becoming a valued strategic partner to your employer. The course will also be relevant to students who are interested in consulting work or business in general.",
     terms: ["Term 1"],
     preReq: {
       or: ["OBHR101", "OBHR201"],
+    },
+    exam: {
+      dateTime: new Date("2025-11-24T00:30:00.000Z"),
+      durationInHour: 2,
     },
   },
   OBHR234: {
@@ -22912,18 +22989,15 @@ It will examine how leadership is developed in different organizational and cult
         ],
       },
     ],
+    credit: 1,
+    description:
+      "As the world becomes more globalized many companies achieve competitive advantage by paying substantial attention on effective supply chain operations. Warehouses are consolidation hubs of various products in a supply chain. To support business that covers a wide range of markets it is common for a warehouse to store hundreds of thousands of products. These products pass through the warehouse in huge volume daily, and so it is important to run it efficiently.\n\nBesides the traditional storage function, warehouses are increasingly forced to perform responsive and accurate customer order fulfillment and other value-added services. High performance in product warehousing and order fulfillment becomes crucial to the success of many companies in today's competitive business environment. We will introduce various operation models that are theoretically appealing and practically feasible. Some case studies will also be discussed.\n\nThis course is especially useful for those who are interested in consulting careers in logistics and supply chain management.",
+    terms: ["Term 1"],
+    preReq: "OPIM201",
     exam: {
       dateTime: new Date("2025-12-04T05:00:00.000Z"),
       durationInHour: 2,
     },
-    credit: 1,
-    description: `As the world becomes more globalized many companies achieve competitive advantage by paying substantial attention on effective supply chain operations. Warehouses are consolidation hubs of various products in a supply chain. To support business that covers a wide range of markets it is common for a warehouse to store hundreds of thousands of products. These products pass through the warehouse in huge volume daily, and so it is important to run it efficiently.
-
-Besides the traditional storage function, warehouses are increasingly forced to perform responsive and accurate customer order fulfillment and other value-added services. High performance in product warehousing and order fulfillment becomes crucial to the success of many companies in today's competitive business environment. We will introduce various operation models that are theoretically appealing and practically feasible. Some case studies will also be discussed.
-
-This course is especially useful for those who are interested in consulting careers in logistics and supply chain management.`,
-    terms: ["Term 1"],
-    preReq: "OPIM201",
   },
   OPIM346: {
     name: "Operations and Supply Chain Management in Healthcare",
@@ -22948,14 +23022,14 @@ This course is especially useful for those who are interested in consulting care
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-24T05:00:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "Given the trend of an aging population and rising healthcare costs in many countries around the world, it is important for healthcare service providers to minimise the costs of service delivery while maintaining high quality of health care services, safety and patient satisfaction. This course presents elementary operations management and supply chain management principles before applying them to the healthcare sector. Those topics include, but are not limited to, process analysis and optimization, capacity management, quality control, queuing, and inventory management. Students are introduced to a mix of analytical and simulation tools to address operations challenges inspired from the local healthcare context and beyond. The application of the operations management tools and methods is tailored to the healthcare context, which the students will explore through a mix of case study discussions and guest speakers. The students will also independently explore an emerging topic in healthcare from an operations management perspective to gain a better understanding of future challenges and opportunities in this industry.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-11-24T05:00:00.000Z"),
+      durationInHour: 3,
+    },
   },
   OPIM349: {
     name: "E-Commerce and Marketplace Operations",
@@ -22980,15 +23054,15 @@ This course is especially useful for those who are interested in consulting care
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-25T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "With the convenience of the Internet at our fingertips, e-commerce has grown into a huge industry and the world of business is changing rapidly beyond brick and mortar. Customers not only shop through different retail channels - in store, on the web, and through Apps on mobile devices, but also expect a consistent buying experience across these channels. This creates a host of new business models, such as online marketplaces, online platforms, and omni-channel retailing, that require new sets of skills and concepts to manage. The objective of this course is to provide students with these necessary skills and concepts. Topics that will be discussed include online retailing, online marketplaces, analytics and AI, logistics and technologies for online retailing, service-oriented platforms, and omni-channel retailing.",
     terms: ["Term 1"],
     preReq: "OPIM101",
+    exam: {
+      dateTime: new Date("2025-11-25T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   POSC224: {
     name: "The Ethics and Politics of Environmental Sustainability",
@@ -23025,7 +23099,7 @@ This course is especially useful for those who are interested in consulting care
       {
         code: "G1",
         professor: {
-          name: "",
+          name: "JEFFREY GROVE",
         },
         location: {
           building: "SOSS/CIS",
@@ -23097,14 +23171,14 @@ This course is especially useful for those who are interested in consulting care
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-04T05:00:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "China has long been of interest to students of International Relations due to its historical role as the major power of East Asia, and its current status as a great power with influence in geopolitics, world trade, and global governance. The course examines the development of China’s relations with the world in terms of history, culture, and policy-making. It analyses China’s approach to major powers and its neighbours in the Indo-Pacific region, and explores topical issues of Chinese diplomacy, grand strategy, the Belt and Road Initiative, the environment, Chinese IR theory, and Chinese world orders (including historical, current, and futuristic).",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-12-04T05:00:00.000Z"),
+      durationInHour: 2,
+    },
   },
   PPPM101: {
     name: "Public Sector Management",
@@ -23113,7 +23187,7 @@ This course is especially useful for those who are interested in consulting care
       {
         code: "G1",
         professor: {
-          name: "CHO BEOMGEUN",
+          name: "BEOMGEUN CHO",
         },
         location: {
           building: "SOSS/CIS",
@@ -23129,14 +23203,14 @@ This course is especially useful for those who are interested in consulting care
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-25T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "The primary objective of this course is to introduce students to the evolution and basic principles of public sector management, the key management issues that confront public agencies, and the innovations that are occurring during a time where taxpayers and policymakers are demanding significant change in the way public sector organizations operate. Topics include: bureaucratic behavior, core values of public organizations, public budgeting and finance, policy networks, public-private partnerships(PPP), and e-governance.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-11-25T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   PPPM201: {
     name: "Environmental Policy",
@@ -23194,14 +23268,14 @@ This course is especially useful for those who are interested in consulting care
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-28T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "Why do people choose to participate in politics and the policy process? What effect does citizen input have on policymaking? This course explores these questions by examining the relationship between political participation and policy. We will examine both familiar forms of participation such as voting and collective action, as well as newer institutions designed to increase citizen participation in the policy process, including participatory budgeting and community-led development. The course considers how institutions and individual attributes shape citizen participation and its influence over the policy process. Throughout the course, we will draw connections between academic literature and real-world policy issues in Southeast Asia and around the world.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-11-28T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   PSYC103: {
     name: "Cognitive Psychology",
@@ -23226,15 +23300,17 @@ This course is especially useful for those who are interested in consulting care
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-05T00:30:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This course introduces students to the cognitive basis of behaviors and provides a framework of how human beings perceive, retain, and process information. It will cover topics such as attention, pattern recognition, concept formation, memory, language, reasoning, problem solving, and judgment and decision making.",
     terms: ["Term 1"],
-    preReq: { and: ["PSYC001", "PSYC110"] },
+    preReq: {
+      and: ["PSYC001", "PSYC110"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-05T00:30:00.000Z"),
+      durationInHour: 3,
+    },
   },
   PSYC209: {
     name: "Psychology of Close Relationships",
@@ -23277,15 +23353,17 @@ This course is especially useful for those who are interested in consulting care
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-04T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "There is reason to believe that close relationships are hugely influential to our emotional and physical well-being. This course will provide students with an introduction to how psychologists think about, study, and improve close relationships. Major theories of close relationships and their empirical findings will be emphasized. In addition, research related to topics such as attraction, relationship development, maintenance and dissolution, and technology will be examined. Using a theory- and evidence-based approach, this course will address these issues and explore many other questions about human intimacy.",
     terms: ["Term 1"],
-    preReq: { and: ["PSYC001", "PSYC110"] },
+    preReq: {
+      and: ["PSYC001", "PSYC110"],
+    },
+    exam: {
+      dateTime: new Date("2025-12-04T00:30:00.000Z"),
+      durationInHour: 2,
+    },
   },
   SE101: {
     name: "Operating Systems and Networking",
@@ -23328,14 +23406,14 @@ This course is especially useful for those who are interested in consulting care
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-11-24T00:30:00.000Z"),
-      durationInHour: 3,
-    },
     credit: 1,
     description:
       "This is a hybrid course that aims to equip students with foundational knowledge on operating systems and computer networking. Operating Systems: knowledge of the mainstream operating systems, Microsoft Windows and Linux, security and access control strategies, shell commands and scripting, as well as enterprise-level features of various OSes. Students should be able to demonstrate ability to compare and contrast these two OSes. Students should also be comfortable with using the command line interface, including skills to troubleshoot issues pertaining to environment variables and misbehaving applications. Students should also get experience with installing Windows and Linux from scratch either on a real laptop/PC or a virtual machine. Networking: foundational networking concepts useful for programming, including TCP/IP concepts, ports, routing concepts, basic network-related security issues. Students are expected to work on real switches and routers as well as set up a simple LAN, configure the network settings for Windows, Linux, and optionally MacOS machines, to join this network, and perform basic network-related troubleshooting. Students should also be able to appreciate how the Internet works, including knowledge on DNS, gateways, the client/server architecture of Web servers and how a packet is routed from origin to destination. Students should also be able to write simple high-level programs in Python that communicate across the network. This course is specially designed to be industry-focused with hands-on practice.",
     terms: ["Term 1"],
+    exam: {
+      dateTime: new Date("2025-11-24T00:30:00.000Z"),
+      durationInHour: 3,
+    },
   },
   SMT481: {
     name: "Smart-City Operations Research",
@@ -23366,7 +23444,9 @@ This course is especially useful for those who are interested in consulting care
     terms: ["Term 1"],
     preReq: {
       and: [
-        { or: ["SMT101", "IS111", "SE101", "COR-IS1702", "COR-IS1704"] },
+        {
+          or: ["SMT101", "IS111", "SE101", "COR-IS1702", "COR-IS1704"],
+        },
         {
           or: ["IS217", "MGMT108", "CS105"],
         },
@@ -23404,20 +23484,7 @@ This course is especially useful for those who are interested in consulting care
   SOCG402: {
     name: "Guided Research in Social Science (Sociology)",
     moduleCode: "SOCG402",
-    sections: [
-      {
-        code: "G1",
-        professor: {
-          name: "CHENG CHENG",
-        },
-        location: {
-          building: "",
-          room: "",
-          level: 0,
-        },
-        classes: [],
-      },
-    ],
+    sections: [],
     credit: 1,
     description:
       "This course provides students with the opportunity to develop research skills beyond the basic methods taught in the regular social science curriculum. Under the guidance of a faculty member, students will conduct empirical research work that may include components such as: formulating research questions and rigorous research designs, collecting and/or analysing primary or secondary data (through methods such as surveys, interviews, ethnography, or existing datasets), and writing scholarly research reports. The specific research methodology and focus will vary depending on the faculty member’s expertise and the nature of the project. This hands-on research experience will allow students to learn more specialized techniques in conducting social research, including the use of research software. These skills will be useful for students interested in evidence-based policy work, postgraduate studies, and other research-oriented professions.",
@@ -23477,10 +23544,6 @@ This course is especially useful for those who are interested in consulting care
         ],
       },
     ],
-    exam: {
-      dateTime: new Date("2025-12-04T00:30:00.000Z"),
-      durationInHour: 2,
-    },
     credit: 1,
     description:
       "This course covers the following topics: insurance loss models, claim frequency and claim severity distributions, mixture distributions and compound distributions, tail properties of distributions, evaluation and impacts of coverage modifications, deductibles, policy limits and coinsurance, theory of risk measures, VaR and CTE, credibility theory: classical approach, Buhlmann and Buhlmann-Straub models, and Bayesian approach, empirical implementation of credibility: nonparametric, semi-parametric and parametric methods.",
@@ -23488,5 +23551,111 @@ This course is especially useful for those who are interested in consulting care
     preReq: {
       and: ["STAT201", "DSA201"],
     },
+    exam: {
+      dateTime: new Date("2025-12-04T00:30:00.000Z"),
+      durationInHour: 2,
+    },
+  },
+  MGMT301: {
+    name: "Business Study Mission (Asian Studies)",
+    moduleCode: "MGMT301",
+    sections: [
+      {
+        code: "G1",
+        professor: {
+          name: "SESHAN RAMASWAMI",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 2-1",
+          level: 2,
+        },
+        classes: [
+          {
+            day: "Tuesday",
+            startTime: "12:00",
+            duration: 3.25,
+          },
+        ],
+      },
+      {
+        code: "G2",
+        professor: {
+          name: "HSU CHIEH",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 3-10",
+          level: 3,
+        },
+        classes: [
+          {
+            day: "Wednesday",
+            startTime: "08:15",
+            duration: 3.25,
+          },
+        ],
+      },
+      {
+        code: "G3",
+        professor: {
+          name: "HSU CHIEH",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 2-1",
+          level: 2,
+        },
+        classes: [
+          {
+            day: "Tuesday",
+            startTime: "08:15",
+            duration: 3.25,
+          },
+        ],
+      },
+      {
+        code: "G4",
+        professor: {
+          name: "MAX VON ZEDTWITZ",
+        },
+        location: {
+          building: "LKCSB",
+          room: "Seminar Room 2-4",
+          level: 2,
+        },
+        classes: [
+          {
+            day: "Tuesday",
+            startTime: "15:30",
+            duration: 3.25,
+          },
+        ],
+      },
+    ],
+    credit: 1,
+    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    terms: ["Term 1"],
+  },
+  PLE401: {
+    name: "Senior Thesis in Politics, Law and Economics",
+    moduleCode: "PLE401",
+    sections: [
+      {
+        code: "G1",
+        professor: {
+          name: "PATRICK QUINTON-BROWN",
+        },
+        location: {
+          building: "",
+          room: "",
+          level: 0,
+        },
+        classes: [],
+      },
+    ],
+    credit: 2,
+    description: "NEEDS_MANUAL_INTERVENTION: Description required",
+    terms: ["Term 1"],
   },
 };

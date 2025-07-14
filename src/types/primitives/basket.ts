@@ -66,6 +66,7 @@ export const basketCodes = [
   "OBHR",
   "OPIM",
   "POSC",
+  "PLE",
   "PPPM",
   "PSYC",
   "QF",

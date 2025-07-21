@@ -56,7 +56,7 @@ export default function ModuleDetails({
         setModule(mod);
       })
       .finally(() => setLoading(false));
-  }, [moduleCode, getModule]);
+  }, [moduleCode, getModule, plannerModule]);
 
   return (
     <Dialog>

@@ -37,7 +37,7 @@ export default function Page({
     };
 
     fetchContent();
-  }, []);
+  }, [getToken, iSyncTimeTable, iSyncPlanners, iSyncConfig, router, params]);
 
   return (
     <div className="flex h-dvh w-dvw items-center justify-center">

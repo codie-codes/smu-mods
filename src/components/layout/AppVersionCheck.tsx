@@ -33,6 +33,13 @@ export const AppVersionCheck = () => {
       changeAppVersion(APP_VERSION);
     }
     updateMultiplePlanner(modules);
-  }, [appVersion, refreshAll, refreshBanners, changeAppVersion]);
+  }, [
+    appVersion,
+    refreshAll,
+    refreshBanners,
+    changeAppVersion,
+    updateMultiplePlanner,
+    modules,
+  ]);
   return <></>;
 };

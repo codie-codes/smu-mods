@@ -6,7 +6,6 @@
  */
 export type Subtract<T extends K, K> = Omit<T, keyof K>;
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type AnyFunction = (...args: any[]) => any;
 
 export type FunctionPropertyNames<T> = {
@@ -53,7 +52,6 @@ export function assertNever(value: never): never {
  * assertNever, but does not throw in case you want to do something else like
  * log instead.
  */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function verifyNever(_value: never) {
   // Body left intentionally empty
 }

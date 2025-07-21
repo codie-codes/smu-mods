@@ -439,7 +439,6 @@ const CoursePlanner = ({ plannerId }: { plannerId: string }) => {
 
                                   // For each module, check the conflicts present
                                   if (conflicts && year !== EXEMPTION_YEAR) {
-                                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
                                     Object.entries(conflicts).map(
                                       ([, conflict]) => {
                                         "checkpoint";

@@ -36,8 +36,8 @@ export function ExamTable({ modules, timetableTheme }: ExamTableProps) {
         !!mod.exam?.dateTime && mod.visible,
     )
     .sort((a, b) => {
-      const dateA = new Date(a.exam!.dateTime);
-      const dateB = new Date(b.exam!.dateTime);
+      const dateA = new Date(a.exam.dateTime);
+      const dateB = new Date(b.exam.dateTime);
       return dateA.getTime() - dateB.getTime();
     });
 
@@ -108,13 +108,13 @@ export function ExamTable({ modules, timetableTheme }: ExamTableProps) {
                   <TableCell>{mod.name}</TableCell>
                   <TableCell>
                     {format(
-                      new Date(mod.exam!.dateTime),
+                      new Date(mod.exam.dateTime),
                       "MMM dd, yyyy 'at' h:mm a",
                     )}
                   </TableCell>
                   <TableCell>
-                    {mod.exam!.durationInHour} hour
-                    {mod.exam!.durationInHour !== 1 ? "s" : ""}
+                    {mod.exam.durationInHour} hour
+                    {mod.exam.durationInHour !== 1 ? "s" : ""}
                   </TableCell>
                 </TableRow>
               );

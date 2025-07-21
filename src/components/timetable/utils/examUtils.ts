@@ -43,4 +43,4 @@ export function findExamConflicts(
   }
 
   return conflictingModules;
-} 
+}

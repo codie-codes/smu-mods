@@ -5808,7 +5808,7 @@ export const modules: ModuleBank = {
     credit: 1,
     terms: ["Term 1", "Term 2"],
     preReq: {
-      or: [],
+      or: ["IS111", "SMT111", "CS101", "COR-IS1704"],
     },
     exam: {
       dateTime: new Date("2025-11-24T05:00:00.000Z"),

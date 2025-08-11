@@ -12,6 +12,7 @@ import {
   NotebookPen,
   Settings,
   Sun,
+  BookOpen,
 } from "lucide-react";
 import { useTheme } from "next-themes";
 
@@ -27,6 +28,7 @@ import {
   SidebarMenuItem,
   SidebarRail,
 } from "@/components/ui/sidebar";
+import { useTutorial } from "@/hooks/use-tutorial";
 import { APP_CONFIG } from "@/config";
 
 const data = {
@@ -66,6 +68,7 @@ const data = {
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { resolvedTheme, setTheme } = useTheme();
+  const { openTutorial } = useTutorial();
   const pathname = usePathname();
   return (
     <Sidebar {...props}>
@@ -97,6 +100,14 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarContent>
       <SidebarFooter className="mt-auto">
         <SidebarMenu>
+          <SidebarMenuItem>
+            <SidebarMenuButton
+              onClick={openTutorial}
+            >
+              <BookOpen className="mr-2 size-4" />
+              <div className="flex-grow text-left">Tutorial</div>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <a

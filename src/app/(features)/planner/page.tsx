@@ -41,7 +41,7 @@ export default function Planner() {
               Add
             </Button>
           </DialogTrigger>
-          <DialogContent>
+          <DialogContent className="max-w-96">
             <DialogHeader>
               <DialogTitle>Add Planner</DialogTitle>
               <DialogDescription>

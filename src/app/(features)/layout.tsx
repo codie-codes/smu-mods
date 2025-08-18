@@ -5,6 +5,7 @@ import { AppSidebar } from "@/components/layout/app-sidebar";
 import { AppVersionCheck } from "@/components/layout/AppVersionCheck";
 import { Disclaimer } from "@/components/layout/Disclaimer";
 import { NavHeader } from "@/components/layout/nav-header";
+import { OnboardingTutorial, TutorialProvider } from "@/components/tutorial";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import StoreProviders from "@/stores/StoreProviders";
@@ -18,15 +19,18 @@ export default function Layout({
     <StoreProviders>
       <NuqsAdapter>
         <TooltipProvider>
-          <SidebarProvider>
-            <AppVersionCheck />
-            <Disclaimer />
-            <AppSidebar />
-            <SidebarInset>
-              <NavHeader />
-              <div className="flex flex-1 flex-col gap-4 p-2">{children}</div>
-            </SidebarInset>
-          </SidebarProvider>
+          <TutorialProvider>
+            <SidebarProvider>
+              <AppVersionCheck />
+              <Disclaimer />
+              <AppSidebar />
+              <SidebarInset>
+                <NavHeader />
+                <div className="flex flex-1 flex-col gap-4 p-2">{children}</div>
+              </SidebarInset>
+            </SidebarProvider>
+            <OnboardingTutorial />
+          </TutorialProvider>
         </TooltipProvider>
       </NuqsAdapter>
       <CustomToaster />

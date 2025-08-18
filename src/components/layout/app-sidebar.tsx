@@ -4,6 +4,7 @@ import * as React from "react";
 import { usePathname } from "next/navigation";
 import {
   BookA,
+  BookOpen,
   Calendar,
   ChartArea,
   Github,
@@ -28,6 +29,7 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar";
 import { APP_CONFIG } from "@/config";
+import { useTutorial } from "@/hooks/use-tutorial";
 
 const data = {
   navMain: [
@@ -66,6 +68,7 @@ const data = {
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { resolvedTheme, setTheme } = useTheme();
+  const { openTutorial } = useTutorial();
   const pathname = usePathname();
   return (
     <Sidebar {...props}>
@@ -97,6 +100,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarContent>
       <SidebarFooter className="mt-auto">
         <SidebarMenu>
+          <SidebarMenuItem>
+            <SidebarMenuButton onClick={openTutorial}>
+              <BookOpen className="mr-2 size-4" />
+              <div className="flex-grow text-left">Tutorial</div>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <a

@@ -21063,6 +21063,25 @@ export const modules: ModuleBank = {
       "Financial Institutions are among the most intensive and innovative users of information technology. Voice- and paper-based trading have been replaced with electronic channels linking up market participants globally. Technology has equipped traders with real-time price and market information, and enables performance of complex data analytics to advance competitive edge. Open outcry trading floors at exchanges have been replaced by automated trade matching and straight-thru-processing (STP) has replaced error-prone paper-based settlements processing resulting in shorter settlement cycles. But amid the loss of colorful trading jackets and the hype around technological advances, the fundamentals of markets, trading and risk management have not changed. And in order to provide products and services salient to the financial market community, one must understand these fundamentals. This course introduces the roles within the types of markets, products and services, and how associated risks are harnessed and managed. Focus will be placed on the foreign exchange and equities products and the processes that support the trading and settlement of these instruments. The course will include the schematic architecture and design of the systems that support these processes. Learners will be placed in multiple simulations, taking on different roles from broker, to trader to risk manager, allowing them to gain insights to the practical application of what otherwise remains theory.",
     terms: ["Term 1"],
   },
+  IS430: {
+    name: "Digital Payments & Innovations",
+    moduleCode: "IS430",
+    sections: [],
+    credit: 1,
+    description:
+      `A payment is a transfer of monetary value.  Under the hood of payment transactions are the products, the companies, the legal framework, the technology, and the financial institutions we rely on to facilitate the timely and uninterrupted exchange of value from one entity to another.  In times of crisis, the importance of having a robust, efficient, and secure national and even global payment systems that market participants can rely on is even more pronounced. 
+      
+      A payment system (legal definition) is an arrangement which supports the transfer of value in fulfilment of a monetary obligation.  Simply put, a payment system consists of the mechanisms - including the institutions, people, rules and technologies - that make the exchange of monetary value possible.
+      
+      This course “Digital Payments & innovations” takes an overall look at the payment landscape viewing consumer, business and wholesale payments.  It presents a depiction of the changing environment and delineates the dynamic payment ecosystem, helping us understand the possibilities as well as the limits to change.  It covers payments for individuals, organisations and banks, and all of their possible permutations.
+      
+      The course is aimed at students who are interested in both domestic' and cross border payment systems, particularly those who aspire to; a) work in a bank's T&O (technology and operations) as an architect, business analyst or project manager, or b) work in a non-bank FinTech provider of alternative payment services.
+`,
+    terms: ["Term 1"],
+    preReq: {
+      or: ["IS216", "IS213", "SMT203", "CS302"],
+    },
+  },
   IS434: {
     name: "Social Analytics and Applications",
     moduleCode: "IS434",

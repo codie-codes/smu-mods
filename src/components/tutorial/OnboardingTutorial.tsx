@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useEffect } from 'react';
-import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { ChevronLeft, ChevronRight, X } from 'lucide-react';
+import { useEffect } from 'react';
 import { useTutorial } from './TutorialProvider';
 import { tutorialSteps } from './tutorialSteps';
 

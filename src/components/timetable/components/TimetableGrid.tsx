@@ -258,7 +258,7 @@ export function TimetableGrid({
                   {Object.keys(rowResultWithPadding).map((rowIndexStr) => {
                     const rowIndex = parseInt(rowIndexStr, 10);
                     const slotId = `${day}Slot${rowIndex}`;
-                    let minHeight = 60;
+                    let minHeight = 72;
 
                     if (typeof document !== "undefined") {
                       const row = document.getElementById(slotId);
@@ -293,6 +293,13 @@ export function TimetableGrid({
                             if (!fullClass.isVisible) {
                               return null;
                             }
+                            const section = timetable.modules
+                              .find(
+                                (m) => m.moduleCode === fullClass.moduleCode,
+                              )
+                              ?.sections.find(
+                                (s) => s.code === fullClass.section,
+                              );
                             return (
                               <div
                                 key={classIndex}
@@ -352,16 +359,12 @@ export function TimetableGrid({
                                   {`${fullClass.classTime.startTime} (${fullClass.classTime.duration} hrs)`}
                                 </p>
                                 <p className="text-xs">
-                                  {
-                                    timetable.modules
-                                      .find(
-                                        (m) =>
-                                          m.moduleCode === fullClass.moduleCode,
-                                      )
-                                      ?.sections.find(
-                                        (s) => s.code === fullClass.section,
-                                      )?.professor.name
-                                  }
+                                  {section?.location.building +
+                                    " " +
+                                    section?.location.room}
+                                </p>
+                                <p className="text-xs">
+                                  {section?.professor.name}
                                 </p>
                               </div>
                             );

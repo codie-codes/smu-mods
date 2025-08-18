@@ -21068,8 +21068,7 @@ export const modules: ModuleBank = {
     moduleCode: "IS430",
     sections: [],
     credit: 1,
-    description:
-      `A payment is a transfer of monetary value.  Under the hood of payment transactions are the products, the companies, the legal framework, the technology, and the financial institutions we rely on to facilitate the timely and uninterrupted exchange of value from one entity to another.  In times of crisis, the importance of having a robust, efficient, and secure national and even global payment systems that market participants can rely on is even more pronounced. 
+    description: `A payment is a transfer of monetary value.  Under the hood of payment transactions are the products, the companies, the legal framework, the technology, and the financial institutions we rely on to facilitate the timely and uninterrupted exchange of value from one entity to another.  In times of crisis, the importance of having a robust, efficient, and secure national and even global payment systems that market participants can rely on is even more pronounced. 
       
       A payment system (legal definition) is an arrangement which supports the transfer of value in fulfilment of a monetary obligation.  Simply put, a payment system consists of the mechanisms - including the institutions, people, rules and technologies - that make the exchange of monetary value possible.
       

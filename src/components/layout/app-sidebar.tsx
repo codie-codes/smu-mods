@@ -4,6 +4,7 @@ import * as React from "react";
 import { usePathname } from "next/navigation";
 import {
   BookA,
+  BookOpen,
   Calendar,
   ChartArea,
   Github,
@@ -12,7 +13,6 @@ import {
   NotebookPen,
   Settings,
   Sun,
-  BookOpen,
 } from "lucide-react";
 import { useTheme } from "next-themes";
 
@@ -28,8 +28,8 @@ import {
   SidebarMenuItem,
   SidebarRail,
 } from "@/components/ui/sidebar";
-import { useTutorial } from "@/hooks/use-tutorial";
 import { APP_CONFIG } from "@/config";
+import { useTutorial } from "@/hooks/use-tutorial";
 
 const data = {
   navMain: [
@@ -101,9 +101,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       <SidebarFooter className="mt-auto">
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton
-              onClick={openTutorial}
-            >
+            <SidebarMenuButton onClick={openTutorial}>
               <BookOpen className="mr-2 size-4" />
               <div className="flex-grow text-left">Tutorial</div>
             </SidebarMenuButton>

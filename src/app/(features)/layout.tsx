@@ -5,9 +5,9 @@ import { AppSidebar } from "@/components/layout/app-sidebar";
 import { AppVersionCheck } from "@/components/layout/AppVersionCheck";
 import { Disclaimer } from "@/components/layout/Disclaimer";
 import { NavHeader } from "@/components/layout/nav-header";
+import { OnboardingTutorial, TutorialProvider } from "@/components/tutorial";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { TutorialProvider, OnboardingTutorial } from "@/components/tutorial";
 import StoreProviders from "@/stores/StoreProviders";
 
 export default function Layout({
@@ -30,7 +30,6 @@ export default function Layout({
               </SidebarInset>
             </SidebarProvider>
             <OnboardingTutorial />
-            
           </TutorialProvider>
         </TooltipProvider>
       </NuqsAdapter>

@@ -1,11 +1,13 @@
 "use client";
 
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { ChevronLeft, ChevronRight, X } from 'lucide-react';
-import { useEffect } from 'react';
-import { useTutorial } from './TutorialProvider';
-import { tutorialSteps } from './tutorialSteps';
+import { useEffect } from "react";
+import { ChevronLeft, ChevronRight, X } from "lucide-react";
+
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+
+import { useTutorial } from "./TutorialProvider";
+import { tutorialSteps } from "./tutorialSteps";
 
 export function OnboardingTutorial() {
   const {
@@ -28,13 +30,13 @@ export function OnboardingTutorial() {
 
     const handleKeyDown = (event: KeyboardEvent) => {
       switch (event.key) {
-        case 'Escape':
+        case "Escape":
           closeTutorial();
           break;
-        case 'ArrowLeft':
+        case "ArrowLeft":
           if (!isFirstStep) previousStep();
           break;
-        case 'ArrowRight':
+        case "ArrowRight":
           if (isLastStep) {
             completeTutorial();
           } else {
@@ -44,20 +46,28 @@ export function OnboardingTutorial() {
       }
     };
 
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen, isFirstStep, isLastStep, closeTutorial, previousStep, nextStep, completeTutorial]);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [
+    isOpen,
+    isFirstStep,
+    isLastStep,
+    closeTutorial,
+    previousStep,
+    nextStep,
+    completeTutorial,
+  ]);
 
   // Prevent body scroll when tutorial is open
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = "unset";
     }
 
     return () => {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = "unset";
     };
   }, [isOpen]);
 
@@ -73,7 +83,7 @@ export function OnboardingTutorial() {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
-      <Card className="mx-4 w-full max-w-4xl max-h-[90vh] overflow-auto">
+      <Card className="mx-4 max-h-[90vh] w-full max-w-4xl overflow-auto">
         <CardContent className="p-0">
           {/* Header */}
           <div className="flex items-center justify-between border-b p-6">
@@ -98,14 +108,15 @@ export function OnboardingTutorial() {
             {/* Media */}
             {currentStepData.media && (
               <div className="mb-6 flex justify-center">
-                <div className="rounded-lg border bg-muted/30 p-6">
-                  {currentStepData.media.type === 'gif' || currentStepData.media.type === 'image' ? (
+                <div className="bg-muted/30 rounded-lg border p-6">
+                  {currentStepData.media.type === "gif" ||
+                  currentStepData.media.type === "image" ? (
                     <img
                       src={currentStepData.media.src}
                       alt={currentStepData.media.alt || currentStepData.title}
                       className="max-h-80 w-auto rounded-md"
                     />
-                  ) : currentStepData.media.type === 'video' ? (
+                  ) : currentStepData.media.type === "video" ? (
                     <video
                       src={currentStepData.media.src}
                       className="max-h-80 w-auto rounded-md"
@@ -123,7 +134,7 @@ export function OnboardingTutorial() {
           <div className="flex items-center justify-between border-t p-6">
             {/* Step counter */}
             <div className="flex items-center space-x-2">
-              <span className="text-sm text-muted-foreground">
+              <span className="text-muted-foreground text-sm">
                 Step {currentStep + 1} of {totalSteps}
               </span>
               <div className="flex space-x-1">
@@ -132,10 +143,10 @@ export function OnboardingTutorial() {
                     key={index}
                     className={`h-2 w-2 rounded-full ${
                       index === currentStep
-                        ? 'bg-primary'
+                        ? "bg-primary"
                         : index < currentStep
-                        ? 'bg-primary/60'
-                        : 'bg-muted'
+                          ? "bg-primary/60"
+                          : "bg-muted"
                     }`}
                   />
                 ))}
@@ -157,7 +168,7 @@ export function OnboardingTutorial() {
                 onClick={handleNext}
                 className="flex items-center space-x-1"
               >
-                <span>{isLastStep ? 'Complete' : 'Next'}</span>
+                <span>{isLastStep ? "Complete" : "Next"}</span>
                 {!isLastStep && <ChevronRight className="h-4 w-4" />}
               </Button>
             </div>

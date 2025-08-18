@@ -3,12 +3,12 @@ export interface TutorialStep {
   title: string;
   description: string;
   media?: {
-    type: 'gif' | 'video' | 'image';
+    type: "gif" | "video" | "image";
     src: string;
     alt?: string;
   };
   targetElement?: string; // CSS selector for highlighting specific elements
-  position?: 'center' | 'top' | 'bottom' | 'left' | 'right';
+  position?: "center" | "top" | "bottom" | "left" | "right";
 }
 
 export interface TutorialState {

@@ -2,10 +2,18 @@ import { GetObjectCommand } from "@aws-sdk/client-s3";
 
 import { ModuleBank } from "@/types/banks/moduleBank";
 
+import { redis } from "../lib/redis";
 import { S3_BUCKET, s3Client } from "../lib/s3";
 
 export async function getModuleJson() {
   try {
+    await redis.connect();
+    const cachedData = await redis.get("modules");
+    if (cachedData) {
+      redis.destroy();
+      const jsonData = JSON.parse(cachedData);
+      return jsonData as ModuleBank;
+    }
     const command = new GetObjectCommand({
       Bucket: S3_BUCKET,
       Key: "modules.json",
@@ -22,6 +30,9 @@ export async function getModuleJson() {
 
     // Parse JSON
     const jsonData = JSON.parse(bodyString);
+
+    await redis.set("modules", JSON.stringify(jsonData));
+    redis.destroy();
 
     return jsonData as ModuleBank;
   } catch (error) {

@@ -24,6 +24,7 @@
     "cy:run:edge": "cypress run --browser edge"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.888.0",
     "@hello-pangea/dnd": "^18.0.1",
     "@next/third-parties": "^15.3.3",
     "@prisma/client": "^6.9.0",

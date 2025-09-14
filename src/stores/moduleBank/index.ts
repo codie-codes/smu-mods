@@ -7,7 +7,6 @@ import type { Basket } from "@/types/primitives/basket";
 import type { Track } from "@/types/primitives/major";
 import type { Module, ModuleCode } from "@/types/primitives/module";
 import { baskets } from "@/server/data/basket";
-import { modules } from "@/server/data/moduleBank";
 import { Logger } from "@/utils/Logger";
 
 export type ModuleBankActions = {
@@ -27,7 +26,7 @@ export type ModuleBankStore = {
   baskets: Basket<Track>[];
 } & ModuleBankActions;
 
-export const defaultInitState: ModuleBank = modules;
+export const defaultInitState: ModuleBank = {};
 export const defaultBaskets: Basket<Track>[] = baskets;
 export const defaultFavouriteModules: ModuleCode[] = [];
 

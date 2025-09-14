@@ -10,7 +10,7 @@ import type {
   Timetable,
 } from "@/types/primitives/timetable";
 import { APP_CONFIG } from "@/config";
-import { modules } from "@/server/data/moduleBank";
+import { ModuleBank } from "@/types/banks/moduleBank";
 import { days } from "@/types/primitives/timetable";
 
 import type { TimetableThemeName } from "./colours";
@@ -266,7 +266,10 @@ export function getClassEndTime(startTime: string, duration: number) {
   return `${formattedHours}:${formattedMinutes}`;
 }
 
-export function getRecurringEvents(timetable: Timetable): ICalEventData[] {
+export function getRecurringEvents(
+  timetable: Timetable,
+  moduleBank: ModuleBank,
+): ICalEventData[] {
   const { termStartMonday, termEndSunday } = APP_CONFIG;
 
   const result: ICalEventData[] = [];
@@ -304,7 +307,7 @@ export function getRecurringEvents(timetable: Timetable): ICalEventData[] {
           const startDate = new Date(termStartDate);
           startDate.setDate(startDate.getDate() + daysToAdd);
 
-          const tempModule = modules[moduleCode];
+          const tempModule = moduleBank[moduleCode];
 
           if (!tempModule) {
             continue;

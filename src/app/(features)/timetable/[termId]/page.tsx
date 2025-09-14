@@ -28,6 +28,7 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { APP_CONFIG, PADDING } from "@/config";
 import { useConfigStore } from "@/stores/config/provider";
+import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { useTimetableStore } from "@/stores/timetable/provider";
 import { termMap, termSlug } from "@/types/planner";
 
@@ -47,6 +48,7 @@ export default function TimeTablePage({
     changeColorOfModule,
   } = useTimetableStore((state) => state);
   const { timetableTheme } = useConfigStore((state) => state);
+  const { modules } = useModuleBankStore((state) => state);
 
   const [selectedClass, setSelectedSection] = useState<any>();
   const [hideCurrentTime, setHideCurrentTime] = useState(false);
@@ -192,7 +194,7 @@ export default function TimeTablePage({
           <ExportDropdown
             disabled={!!selectedClass}
             isCurrentTerm={APP_CONFIG.currentTerm === resolvedParams.termId}
-            onExportClassesICal={() => exportClassesICal(timetable)}
+            onExportClassesICal={() => exportClassesICal(timetable, modules)}
             onExportExamsICal={() => exportExamsICal(timetable)}
             onExportPDF={() => handleExportPdfOrImage("pdf")}
             onExportPNG={() => handleExportPdfOrImage("png")}

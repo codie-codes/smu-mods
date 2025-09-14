@@ -4,6 +4,7 @@ import jsPDF from "jspdf";
 
 import type { Timetable } from "@/types/primitives/timetable";
 import { APP_CONFIG } from "@/config";
+import { ModuleBank } from "@/types/banks/moduleBank";
 import {
   getExamsFromTimetable,
   getRecurringEvents,
@@ -93,7 +94,10 @@ export const exportAsPdfOrImage = async (
   }
 };
 
-export const exportClassesICal = (timetable: Timetable) => {
+export const exportClassesICal = (
+  timetable: Timetable,
+  moduleBank: ModuleBank,
+) => {
   const calendar = ical({
     name: "smumods-classes-timetable",
     prodId: "-//smumods.johnnyknl.me//EN",
@@ -101,7 +105,7 @@ export const exportClassesICal = (timetable: Timetable) => {
 
   calendar.method(ICalCalendarMethod.PUBLISH);
 
-  const classes = getRecurringEvents(timetable);
+  const classes = getRecurringEvents(timetable, moduleBank);
   classes.forEach((event) => {
     calendar.createEvent(event);
   });

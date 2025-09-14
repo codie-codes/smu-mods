@@ -35,10 +35,16 @@ Set up the environment variables, remember to enter the environment variables in
 cp .env.example .env
 ```
 
-Run the database script
+Run docker to spawn local minio (S3 Compatible storage and postgres)
 
 ```shell
-./start-database.sh
+docker compose up -d
+```
+
+Run database migrations
+
+```shell
+pnpm run db:push
 ```
 
 ### Running the development server

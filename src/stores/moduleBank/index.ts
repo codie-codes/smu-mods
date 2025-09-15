@@ -7,6 +7,7 @@ import type { Basket } from "@/types/primitives/basket";
 import type { Track } from "@/types/primitives/major";
 import type { Module, ModuleCode } from "@/types/primitives/module";
 import { baskets } from "@/server/data/basket";
+import { asyncApi } from "@/trpc/react";
 import { Logger } from "@/utils/Logger";
 
 export type ModuleBankActions = {
@@ -80,8 +81,12 @@ export const createModuleBank = (
         },
         fetchAndAddModule: async (moduleCode) => {
           try {
-            const res = await fetch(`/api/module/get?moduleCode=${moduleCode}`);
-            const moduleData = (await res.json()) as Module;
+            const moduleData = await asyncApi.module.getModule.mutate({
+              moduleCode,
+            });
+            if (!moduleData) {
+              throw new Error(`Module ${moduleCode} not found`);
+            }
             get().addModule(moduleData);
             return moduleData;
           } catch (error) {
@@ -91,8 +96,7 @@ export const createModuleBank = (
         },
         refreshModuleBank: async () => {
           try {
-            const res = await fetch(`/api/module/getAll`);
-            const moduleData = (await res.json()) as ModuleBank;
+            const moduleData = await asyncApi.module.getAllModules.query();
             set((state) => {
               return {
                 ...state,
@@ -107,8 +111,7 @@ export const createModuleBank = (
         },
         refreshBaskets: async () => {
           try {
-            const res = await fetch(`/api/basket/getAll`);
-            const basketData = (await res.json()) as Basket<Track>[];
+            const basketData = await asyncApi.basket.getAllBaskets.query();
             set((state) => {
               return {
                 ...state,

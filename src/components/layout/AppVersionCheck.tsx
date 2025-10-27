@@ -20,19 +20,22 @@ export const AppVersionCheck = () => {
   );
   const { refreshAll, modules } = useModuleBankStore((state) => state);
   useEffect(() => {
-    if (
-      appVersion != APP_VERSION ||
-      (appVersion == "development" && TURN_ON_REFRESH)
-    ) {
-      Logger.log("Version:", appVersion, true);
-      Logger.log("New version detected, refreshing data...", true);
-      if (appVersion != "development") {
-        refreshAll();
+    const refresh = async () => {
+      if (
+        appVersion != APP_VERSION ||
+        (appVersion == "development" && TURN_ON_REFRESH)
+      ) {
+        Logger.log("Version:", appVersion, true);
+        Logger.log("New version detected, refreshing data...", true);
+        if (appVersion != "development") {
+          await refreshAll();
+        }
+        refreshBanners();
+        changeAppVersion(APP_VERSION);
       }
-      refreshBanners();
-      changeAppVersion(APP_VERSION);
-    }
-    updateMultiplePlanner(modules);
+      updateMultiplePlanner(modules);
+    };
+    refresh();
   }, [
     appVersion,
     refreshAll,

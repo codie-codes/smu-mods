@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Marketing Strategy",
+    "moduleCode": "MKTG207",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TAN HUIPING, JOSEPHINE"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "TAN HUIPING, JOSEPHINE"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

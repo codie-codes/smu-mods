@@ -1,42 +1,26 @@
-import { GetObjectCommand } from "@aws-sdk/client-s3";
-
 import { ModuleBank } from "@/types/banks/moduleBank";
+import { terms } from "@/types/planner";
+import { loadModulesFromBackup } from "../data/moduleBank";
 
-import { redis } from "../lib/redis";
-import { S3_BUCKET, s3Client } from "../lib/s3";
-
-export async function getModuleJson() {
+export function getModuleJson(): ModuleBank {
   try {
-    await redis.connect();
-    const cachedData = await redis.get("modules");
-    if (cachedData) {
-      redis.destroy();
-      const jsonData = JSON.parse(cachedData);
-      return jsonData as ModuleBank;
-    }
-    const command = new GetObjectCommand({
-      Bucket: S3_BUCKET,
-      Key: "modules.json",
+    const modules = loadModulesFromBackup();
+
+    // Normalize: ensure all modules have required properties
+    Object.values(modules).forEach((module) => {
+      // If terms is missing, default to all terms
+      if (!module.terms || !Array.isArray(module.terms)) {
+        module.terms = [...terms];
+      }
+      // Ensure sections exists
+      if (!module.sections) {
+        module.sections = [];
+      }
     });
 
-    const response = await s3Client.send(command);
-
-    if (!response.Body) {
-      throw new Error("No data received from S3");
-    }
-
-    // Convert stream to string
-    const bodyString = await response.Body.transformToString();
-
-    // Parse JSON
-    const jsonData = JSON.parse(bodyString);
-
-    await redis.set("modules", JSON.stringify(jsonData));
-    redis.destroy();
-
-    return jsonData as ModuleBank;
+    return modules;
   } catch (error) {
-    console.error("Error downloading and parsing JSON from S3:", error);
+    console.error("Error loading modules:", error);
     throw error;
   }
 }

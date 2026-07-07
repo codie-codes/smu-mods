@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Integrative Studies Work-Study Elective",
+    "moduleCode": "INTS303",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THEODOR COJOIANU"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 2
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Quantitative Finance",
+    "moduleCode": "QF101",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ZHAO YIBAO"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Investment Statistics",
+    "moduleCode": "QF102",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TEE CHYNG WEN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Computing Technology For Finance",
+    "moduleCode": "QF205",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ZHAO YIBAO"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Machine Learning in Quantitative Finance",
+    "moduleCode": "QF209",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIU PENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-7",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Reinforcement Learning in Quantitative Finance",
+    "moduleCode": "QF210",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIU PENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

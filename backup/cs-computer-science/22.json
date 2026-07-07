@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Open-Source Software Systems",
+    "moduleCode": "CS467",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHRISTOPH TREUDE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

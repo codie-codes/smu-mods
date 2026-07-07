@@ -1,0 +1,81 @@
+[
+  {
+    "name": "The Singapore Legal System",
+    "moduleCode": "LAW108_608",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "AARON YOONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "AARON YOONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "AARON YOONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-12",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 0
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Fundamentals of Media Engagement",
+    "moduleCode": "COMM121",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "AUGUSTINE PANG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

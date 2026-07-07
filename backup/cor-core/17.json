@@ -1,0 +1,36 @@
+[
+  {
+    "name": "French",
+    "moduleCode": "COR2406",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "FRANCOIS BRETAULT"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 1-2",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

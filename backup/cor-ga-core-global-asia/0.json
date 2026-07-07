@@ -1,0 +1,27 @@
+[
+  {
+    "name": "GA2634 - Exploring Asian Identities",
+    "moduleCode": "COR-GA2634",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 1-2",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

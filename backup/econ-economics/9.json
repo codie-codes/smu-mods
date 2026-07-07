@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Game Theory",
+    "moduleCode": "ECON206",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PAULO DANIEL SALLES RAMOS"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

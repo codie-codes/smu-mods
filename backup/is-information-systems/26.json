@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Machine Learning and Applications",
+    "moduleCode": "IS460",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WANG ZHAOXIA"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

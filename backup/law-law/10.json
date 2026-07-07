@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Corporate Law",
+    "moduleCode": "LAW201_621",
+    "sections": [
+      {
+        "code": "G50",
+        "professor": {
+          "name": "STEPHEN BULL"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          },
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T07:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

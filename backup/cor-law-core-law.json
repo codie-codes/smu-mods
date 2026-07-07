@@ -1,0 +1,102 @@
+[
+  {
+    "name": "LAW2215 - Digital Intelligence for Lawyers",
+    "moduleCode": "COR-LAW2215",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIM HOW KHANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "LAW2245 - Sustainability Law in Business Practice",
+    "moduleCode": "COR-LAW2245",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PRESTON WONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "LAW2630 - Introduction to Chinese History, Culture, Economy, Politics and Law",
+    "moduleCode": "COR-LAW2630",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HENRY GAO"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "LAW2649 - The Future of the Singapore Legal Profession: Wellbeing and the Sustainability of the Profession",
+    "moduleCode": "COR-LAW2649",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LAU KWAN HO, DANIEL SEAH, BRYAN LEOW CHIN SENG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

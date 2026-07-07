@@ -1,0 +1,31 @@
+[
+  {
+    "name": "SOCG2609 - Global and Transnational Sociology",
+    "moduleCode": "COR-SOCG2609",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALWYN LIM"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-3",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

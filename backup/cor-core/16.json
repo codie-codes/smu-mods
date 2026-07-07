@@ -1,0 +1,27 @@
+[
+  {
+    "name": "A Good Enough Ancestor",
+    "moduleCode": "COR2261",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "IJLAL NAQVI"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Family Business",
+    "moduleCode": "MGMT222",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ROGER LOW"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

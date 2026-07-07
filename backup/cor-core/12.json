@@ -1,0 +1,81 @@
+[
+  {
+    "name": "AI and Humanity",
+    "moduleCode": "COR2221",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KOH, ANDREW"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "KOH, ANDREW"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "KOH, ANDREW"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "KOH, ANDREW"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

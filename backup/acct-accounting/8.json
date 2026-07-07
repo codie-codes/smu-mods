@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Audit and Assurance",
+    "moduleCode": "ACCT331",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHUA WAN RONG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHUA WAN RONG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "CHUA WAN RONG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

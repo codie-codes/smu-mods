@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Low Code Solution Development",
+    "moduleCode": "IS467",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALAN MEGARGEL"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

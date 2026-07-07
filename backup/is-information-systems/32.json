@@ -1,0 +1,33 @@
+[
+  {
+    "name": "IS Project Experience [FinTech]",
+    "moduleCode": "IS484",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PAUL ROBERT GRIFFIN"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ANG KIAN WEE"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 1
+  }
+]

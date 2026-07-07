@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Developmental Psychology",
+    "moduleCode": "PSYC104",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "YANG HWAJIN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Forensic Accounting and Investigation",
+    "moduleCode": "ACCT425",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BENJAMIN EE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

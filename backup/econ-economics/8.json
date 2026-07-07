@@ -1,0 +1,67 @@
+[
+  {
+    "name": "International Economics",
+    "moduleCode": "ECON203",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MEI YUAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MEI YUAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "MEI YUAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

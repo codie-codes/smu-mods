@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Analysis of Fixed-Income Securities",
+    "moduleCode": "FNCE204",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SONG ZHAOGANG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SONG ZHAOGANG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Consumer Behaviour",
+    "moduleCode": "MKTG102",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HAN MINJU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "HAN MINJU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

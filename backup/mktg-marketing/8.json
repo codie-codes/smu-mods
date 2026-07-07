@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Customer Relationship Management",
+    "moduleCode": "MKTG225",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RAYMOND TEO"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Supply Chain Management",
+    "moduleCode": "OPIM321",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALAN WILLIAM ZELLER"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "AU YANG SIAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-7",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

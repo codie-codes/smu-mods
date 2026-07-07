@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Development, Underdevelopment and Poverty",
+    "moduleCode": "POSC310",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JOHN A DONALDSON"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-11",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "17:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "17:15",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

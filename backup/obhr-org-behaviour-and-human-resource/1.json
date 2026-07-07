@@ -1,0 +1,63 @@
+[
+  {
+    "name": "OBHR2247 - The Science and Practice of Mindfulness at Work",
+    "moduleCode": "COR-OBHR2247",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SIM SU-HSIEN, SAMANTHA"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SIM SU-HSIEN, SAMANTHA"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "EVA KATHARINA PETERS"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Smart Building Analytics",
+    "moduleCode": "IS4001",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SACHIN GUPTA"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

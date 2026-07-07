@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Corporate Reporting and Financial Analysis",
+    "moduleCode": "ACCT201",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHO, YOUNG JUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHO, YOUNG JUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "CHO, YOUNG JUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "CHO, YOUNG JUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

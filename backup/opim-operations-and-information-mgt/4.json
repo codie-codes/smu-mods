@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Sustainable Operations",
+    "moduleCode": "OPIM318",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BUKET AVCI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

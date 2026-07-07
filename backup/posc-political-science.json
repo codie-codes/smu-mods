@@ -1,0 +1,402 @@
+[
+  {
+    "name": "POSC2604 - Politics of South East Asia",
+    "moduleCode": "COR-POSC2604",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RICKS, JACOB"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Introduction to Political and Policy Studies",
+    "moduleCode": "POSC003",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JOSHI, DEVIN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "JOSHI, DEVIN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "JOSHI, DEVIN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "NATHAN PENG"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-3",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Introduction to Public Policy",
+    "moduleCode": "POSC101",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHRISTIANNA PARR"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "World Politics",
+    "moduleCode": "POSC103",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CALLAHAN, WILLIAM A."
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Global Security",
+    "moduleCode": "POSC208",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICK QUINTON-BROWN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Political Theory",
+    "moduleCode": "POSC219",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ANTONG LIU"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Contemporary American Politics",
+    "moduleCode": "POSC225",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JEFFREY GROVE"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-3",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Intervention and Justice in International Relations",
+    "moduleCode": "POSC309",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICK QUINTON-BROWN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Development, Underdevelopment and Poverty",
+    "moduleCode": "POSC310",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JOHN A DONALDSON"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-11",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "17:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "17:15",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "The Politics of Water in Asia",
+    "moduleCode": "POSC316",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RICKS, JACOB"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Global Politics of China",
+    "moduleCode": "POSC327",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CALLAHAN, WILLIAM A."
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 1-2",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Ethnic and National Identity Politics",
+    "moduleCode": "POSC328",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

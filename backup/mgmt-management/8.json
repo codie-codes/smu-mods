@@ -1,0 +1,49 @@
+[
+  {
+    "name": "International Business",
+    "moduleCode": "MGMT205",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "DAPHNE YIU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-10",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "DAPHNE YIU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

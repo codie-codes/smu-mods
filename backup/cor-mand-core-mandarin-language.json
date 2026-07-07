@@ -1,0 +1,27 @@
+[
+  {
+    "name": "MAND2404 - Mandarin",
+    "moduleCode": "COR-MAND2404",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WANG SHENGYU"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

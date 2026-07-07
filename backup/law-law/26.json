@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Civil Litigation – Pre-trial Practice",
+    "moduleCode": "LAW4094",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIN CHUNLONG, FRANK OH SHENG LOONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

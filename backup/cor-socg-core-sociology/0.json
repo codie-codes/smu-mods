@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SOCG2251 - Food, Environment and Sustainability",
+    "moduleCode": "COR-SOCG2251",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "Q FORREST ZHANG"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

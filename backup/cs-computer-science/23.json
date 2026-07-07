@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Computer Science Project Experience",
+    "moduleCode": "CS480",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PAUL ROBERT GRIFFIN"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SUNIL JIWATRAM DADLANI"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 1
+  }
+]

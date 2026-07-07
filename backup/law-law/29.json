@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Professional Mediation Skills",
+    "moduleCode": "LAW478",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NADJA ALEXANDER, ANGELA RAY TUMANAN ABALA"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

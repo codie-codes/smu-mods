@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Healthcare Management",
+    "moduleCode": "ECON155",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHAN KAY MIN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Legal Research and Writing I",
+    "moduleCode": "LAW106_606",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIU SHENG, NICHOLAS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LIU SHENG, NICHOLAS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "ONG EE ING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "ONG EE ING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "TAI YUANMIN, ESTELLE"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "QUEK ANDERSON, DORCAS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "FONG WEI LI"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

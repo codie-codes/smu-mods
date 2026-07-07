@@ -2,19 +2,21 @@ import { toast } from "sonner";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
+import { APP_CONFIG } from "@/config";
+import type { ModuleBank } from "@/types/banks/moduleBank";
 import type { Term } from "@/types/planner";
+import { termMap } from "@/types/planner";
 import type { Module, ModuleCode, Section } from "@/types/primitives/module";
 import type { Timetable, TimetableMap } from "@/types/primitives/timetable";
-import type { TimetableThemeName } from "@/utils/timetable/colours";
-import { APP_CONFIG } from "@/config";
-import { termMap } from "@/types/planner";
 import { defaultTimetableMap } from "@/types/primitives/timetable";
+import type { TimetableThemeName } from "@/utils/timetable/colours";
 import {
-  addModuleToTimetable,
-  changeColorOfModule,
-  selectSection,
-  showAllSections,
-  toggleVisibility,
+    addModuleToTimetable,
+    changeColorOfModule,
+    refreshTimetableMap,
+    selectSection,
+    showAllSections,
+    toggleVisibility,
 } from "@/utils/timetable/timetable";
 
 export type TimetableActions = {
@@ -42,6 +44,7 @@ export type TimetableActions = {
     moduleCode: ModuleCode,
     colorIndex: number,
   ) => void;
+  refreshFromModuleBank: (moduleBank: ModuleBank) => void;
 };
 
 export type TimetableStore = {
@@ -184,6 +187,12 @@ export const createTimetableStore = (
           set((state) => ({
             ...state,
             timetableMap: data,
+          }));
+        },
+        refreshFromModuleBank: (moduleBank: ModuleBank) => {
+          set((state) => ({
+            ...state,
+            timetableMap: refreshTimetableMap(state.timetableMap, moduleBank),
           }));
         },
       }),

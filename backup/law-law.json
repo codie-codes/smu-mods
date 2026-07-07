@@ -1,0 +1,1492 @@
+[
+  {
+    "name": "LAW2215 - Digital Intelligence for Lawyers",
+    "moduleCode": "COR-LAW2215",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIM HOW KHANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "LAW2245 - Sustainability Law in Business Practice",
+    "moduleCode": "COR-LAW2245",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PRESTON WONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "LAW2630 - Introduction to Chinese History, Culture, Economy, Politics and Law",
+    "moduleCode": "COR-LAW2630",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HENRY GAO"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "LAW2649 - The Future of the Singapore Legal Profession: Wellbeing and the Sustainability of the Profession",
+    "moduleCode": "COR-LAW2649",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LAU KWAN HO, DANIEL SEAH, BRYAN LEOW CHIN SENG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Contract Law 1",
+    "moduleCode": "LAW101_601",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALISTAIR MILLS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "PHANG, RACHEL"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "PHANG, RACHEL"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "LOCKNIE HSU"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G50",
+        "professor": {
+          "name": "LOO WEE LING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Criminal Law",
+    "moduleCode": "LAW103_603",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHAN WING CHEONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHAN WING CHEONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "WALTER WOON"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "09:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "NICHOLAS SENG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 2.25
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Law of Torts",
+    "moduleCode": "LAW105_605",
+    "sections": [
+      {
+        "code": "G50",
+        "professor": {
+          "name": "MUK CHEN YEEN JONATHAN"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Legal Research and Writing I",
+    "moduleCode": "LAW106_606",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIU SHENG, NICHOLAS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LIU SHENG, NICHOLAS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "ONG EE ING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "ONG EE ING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "TAI YUANMIN, ESTELLE"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "QUEK ANDERSON, DORCAS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-03",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "FONG WEI LI"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "The Singapore Legal System",
+    "moduleCode": "LAW108_608",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "AARON YOONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "AARON YOONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "AARON YOONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-12",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 0
+  },
+  {
+    "name": "Comparative Legal Systems",
+    "moduleCode": "LAW109_609",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MAARTJE DE VISSER"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MAARTJE DE VISSER"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "MAARTJE DE VISSER"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "PANG CHENG KIT, KIT"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 0
+  },
+  {
+    "name": "Corporate Law",
+    "moduleCode": "LAW201_621",
+    "sections": [
+      {
+        "code": "G50",
+        "professor": {
+          "name": "STEPHEN BULL"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          },
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T07:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Law of Property",
+    "moduleCode": "LAW202_622",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALVIN SEE WEI LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ALVIN SEE WEI LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 2.25
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "ALVIN SEE WEI LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "ALVIN SEE WEI LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 2.25
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Legal Theory & Philosophy",
+    "moduleCode": "LAW301_631",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GARY CHAN KOK YEW"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-11",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LIU SHENG, NICHOLAS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "TAN SEOW HON"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "NICK CHIAM"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Law of Evidence",
+    "moduleCode": "LAW307_637",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ANDREW ROBERTS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ANDREW ROBERTS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "ANDREW ROBERTS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "TAN BOON HENG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Entrepreneurship in Singapore - From Cradle To Grave",
+    "moduleCode": "LAW4012",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NG WAI KING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Dispute Resolution Advocacy",
+    "moduleCode": "LAW4018",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MARK MCLAUGHLIN, MARIAM GOTSIRIDZE"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Community Based Projects in the Real World",
+    "moduleCode": "LAW4039",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHAN WING CHEONG, RUBY LEE"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 4-1",
+          "level": 4
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Information Technology and the Law",
+    "moduleCode": "LAW405",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WARREN B. CHIK"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "International Commercial Arbitration",
+    "moduleCode": "LAW406",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "DARIUS CHAN"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "AI Literacy and Digital Innovation for Lawyers",
+    "moduleCode": "LAW4067",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RODNEY YAP"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Law of Insurance",
+    "moduleCode": "LAW4069",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RENNIE WHANG, ERIK WIDJAJA, HO PEY YANN"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Foundations of Financial Crime Compliance",
+    "moduleCode": "LAW4072",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KOH MUN KEONG (XU WENQIANG)"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Rule of Law in Singapore: Approach, Application, and Autochthony",
+    "moduleCode": "LAW4085",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "EUGENE TAN KHENG BOON"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Commercial Remedies in Litigation and Arbitration",
+    "moduleCode": "LAW4089",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TAY YONG SENG, ALEXANDER YEO, ANG ANN LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "The Economics of Corporate, Finance and Business Law",
+    "moduleCode": "LAW4091",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Law of Emerging Technologies: Cybersecurity, Cryptocurrency and Artificial Intelligence",
+    "moduleCode": "LAW4092",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NICHOLAS SENG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Civil Litigation – Pre-trial Practice",
+    "moduleCode": "LAW4094",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIN CHUNLONG, FRANK OH SHENG LOONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "World Trade Organization: Law and Policy",
+    "moduleCode": "LAW410",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HENRY GAO"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Maritime and Admiralty Law in International Commerce",
+    "moduleCode": "LAW423",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TING YONG HONG, KENDALL TAN, TOH KIAN SING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-11",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Professional Mediation Skills",
+    "moduleCode": "LAW478",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NADJA ALEXANDER, ANGELA RAY TUMANAN ABALA"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "International Mediation Law and Practice",
+    "moduleCode": "LAW481",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NADJA ALEXANDER, ZHANG YUYING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Deal-making and Dispute Resolution: Negotiation in an Age of Disruption",
+    "moduleCode": "LAW482",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "QUEK ANDERSON, DORCAS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Privacy and Data Protection Law",
+    "moduleCode": "LAW486",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WARREN B. CHIK, LANX GOH"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G50",
+        "professor": {
+          "name": "WARREN B. CHIK"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Law and Digital Commerce",
+    "moduleCode": "LAW491",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LOCKNIE HSU"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

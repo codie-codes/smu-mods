@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Data Modelling and Visualisation",
+    "moduleCode": "ACCT418",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BENJAMIN LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

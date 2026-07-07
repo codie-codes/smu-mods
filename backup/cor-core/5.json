@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Accounting for Entrepreneurs",
+    "moduleCode": "COR1307",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "YUANTO KUSNADI, KEVIN LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

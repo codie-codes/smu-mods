@@ -1,0 +1,27 @@
+[
+  {
+    "name": "MGMT2238 - Doing Business with Artificial Intelligence",
+    "moduleCode": "COR-MGMT2238",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THOMAS MENKHOFF, KAN SIEW NING"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

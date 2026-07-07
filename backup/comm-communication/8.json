@@ -1,0 +1,45 @@
+[
+  {
+    "name": "COMM1312 - Communication Strategies in the Digital Age",
+    "moduleCode": "COR-COMM1312",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TRACY LOH"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "TRACY LOH"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

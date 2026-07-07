@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Dispute Resolution Advocacy",
+    "moduleCode": "LAW4018",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MARK MCLAUGHLIN, MARIAM GOTSIRIDZE"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

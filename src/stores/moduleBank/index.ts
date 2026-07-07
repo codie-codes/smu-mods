@@ -2,12 +2,12 @@ import { toast } from "sonner";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
+import { baskets } from "@/server/data/basket";
+import { asyncApi } from "@/trpc/react";
 import type { ModuleBank } from "@/types/banks/moduleBank";
 import type { Basket } from "@/types/primitives/basket";
 import type { Track } from "@/types/primitives/major";
 import type { Module, ModuleCode } from "@/types/primitives/module";
-import { baskets } from "@/server/data/basket";
-import { asyncApi } from "@/trpc/react";
 import { Logger } from "@/utils/Logger";
 
 export type ModuleBankActions = {
@@ -16,9 +16,9 @@ export type ModuleBankActions = {
   fetchAndAddModule: (moduleCode: ModuleCode) => Promise<Module>;
   toggleFavourites: (moduleCode: ModuleCode) => void;
   getFavouriteModules: () => ModuleCode[];
-  refreshModuleBank: () => Promise<void>;
+  refreshModuleBank: () => Promise<ModuleBank>;
   refreshBaskets: () => Promise<void>;
-  refreshAll: () => Promise<void>;
+  refreshAll: () => Promise<ModuleBank>;
 };
 
 export type ModuleBankStore = {
@@ -104,6 +104,7 @@ export const createModuleBank = (
               };
             });
             toast.success("Module Bank refreshed!");
+            return moduleData;
           } catch (error) {
             Logger.error(`Error fetching all modules:`, error);
             throw error;
@@ -125,8 +126,9 @@ export const createModuleBank = (
           }
         },
         refreshAll: async () => {
-          await get().refreshModuleBank();
+          const moduleData = await get().refreshModuleBank();
           await get().refreshBaskets();
+          return moduleData;
         },
       }),
       {

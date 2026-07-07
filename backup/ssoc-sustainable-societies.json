@@ -1,0 +1,61 @@
+[
+  {
+    "name": "SSOC2227 - Sustainability and Society",
+    "moduleCode": "COR-SSOC2227",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ANNIKA RIEGER"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Sustainability Practicum",
+    "moduleCode": "SSOC110",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JOHN A DONALDSON"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

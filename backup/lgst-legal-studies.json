@@ -1,0 +1,377 @@
+[
+  {
+    "name": "Business Law",
+    "moduleCode": "LGST101",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LOO WEE LING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LOO WEE LING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "TERENCE ANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "RYAN TAN ZIXU"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-11",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "EZRA LIM PIN"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "BHARAT S PUNJABI"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "DON HO JIA HAO"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "GEROME GOH"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "JORDAN CHIA"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "NEO YU FAN"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "LIEW DOMINIC JUNIOR"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "ALLEN CHONG WEI XUAN"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G13",
+        "professor": {
+          "name": "KOH BOON TIONG DAVID"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G14",
+        "professor": {
+          "name": "KOH BOON TIONG DAVID"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-11",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G15",
+        "professor": {
+          "name": "KOH BOON TIONG DAVID"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-11",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "The Singapore Legal System and Legal Analysis Skills",
+    "moduleCode": "LGST102",
+    "sections": [
+      {
+        "code": "G50",
+        "professor": {
+          "name": "BRYAN LEOW CHIN SENG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 2.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 0
+  },
+  {
+    "name": "Company Law",
+    "moduleCode": "LGST201",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "STEPHEN BULL"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "STEPHEN BULL"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "SAMUEL NG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

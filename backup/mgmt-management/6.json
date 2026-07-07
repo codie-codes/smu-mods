@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Introduction to Organisations",
+    "moduleCode": "MGMT106",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THIA SIM PENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "PATRICIA SHARMA"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

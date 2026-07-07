@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Sustainability Accounting and Reporting",
+    "moduleCode": "ACCT431",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HOLLY YANG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

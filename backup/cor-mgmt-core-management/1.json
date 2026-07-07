@@ -1,0 +1,27 @@
+[
+  {
+    "name": "MGMT1303 - Entrepreneurship and Business Creation",
+    "moduleCode": "COR-MGMT1303",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NG XU WEN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

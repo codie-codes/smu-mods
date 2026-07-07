@@ -1,0 +1,189 @@
+[
+  {
+    "name": "Leadership and Team Building",
+    "moduleCode": "COR1301",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TAN RANI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "TAN RANI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "TAN RANI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "TAN RANI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "THOMAS MENKHOFF, KEVIN CHEONG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "THOMAS MENKHOFF, ONG GEOK CHWEE"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-7",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "LOW CHIN HENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "LOW CHIN HENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "LOW CHIN HENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "LOW CHIN HENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

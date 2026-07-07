@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Integrated Marketing Communications: A Brand Perspective",
+    "moduleCode": "MKTG227",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SHILPA MADAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SHILPA MADAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

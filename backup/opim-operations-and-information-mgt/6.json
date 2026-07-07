@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Global Supply Chains",
+    "moduleCode": "OPIM324",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "AU YANG SIAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

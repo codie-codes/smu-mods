@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Risk Theory and Loss Models",
+    "moduleCode": "STAT311",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JACKIE LI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

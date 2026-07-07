@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Contract Law 1",
+    "moduleCode": "LAW101_601",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALISTAIR MILLS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "PHANG, RACHEL"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "PHANG, RACHEL"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "LOCKNIE HSU"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G50",
+        "professor": {
+          "name": "LOO WEE LING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

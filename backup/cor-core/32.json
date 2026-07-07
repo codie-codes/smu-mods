@@ -1,0 +1,55 @@
+[
+  {
+    "name": "JPAN2401 - Japanese",
+    "moduleCode": "COR-JPAN2401",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "AKIKO ITO"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-11",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "AKIKO ITO"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-11",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

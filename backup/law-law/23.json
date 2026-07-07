@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Commercial Remedies in Litigation and Arbitration",
+    "moduleCode": "LAW4089",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TAY YONG SENG, ALEXANDER YEO, ANG ANN LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

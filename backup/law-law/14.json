@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Entrepreneurship in Singapore - From Cradle To Grave",
+    "moduleCode": "LAW4012",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NG WAI KING"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

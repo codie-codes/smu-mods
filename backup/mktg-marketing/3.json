@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Services Marketing",
+    "moduleCode": "MKTG204",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICIA LUI, CLEMENT TOH PIN YAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

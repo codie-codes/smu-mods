@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Economics of Ageing",
+    "moduleCode": "ECON216",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JESLYN TAN SIOK HONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

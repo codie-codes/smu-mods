@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Operations and Supply Chain Management in Healthcare",
+    "moduleCode": "OPIM346",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CRAMA PASCALE"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-6",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

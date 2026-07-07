@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Ethics and Society for the Social Sciences",
+    "moduleCode": "COR3305",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BRANDON YIP"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

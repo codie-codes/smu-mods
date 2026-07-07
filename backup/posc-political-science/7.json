@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Intervention and Justice in International Relations",
+    "moduleCode": "POSC309",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICK QUINTON-BROWN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

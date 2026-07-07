@@ -1,0 +1,883 @@
+[
+  {
+    "name": "Writing and Reasoning",
+    "moduleCode": "COR1100",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JUSTYN OLBY"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHONG YIN TENG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "TAN CHIA MIEN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "TIMOTHY CHAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "PAMELA PEH MEI LIN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "LEE SIEW YAN AGNES"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "17:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "17:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "JANNY FRITZEN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 4-3",
+          "level": 4
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "JULYN KANG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "JULYN KANG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "NOR ASHIKIN BINTE KADER SAHEER"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "NOR ASHIKIN BINTE KADER SAHEER"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "VINEETHA NAIR"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G13",
+        "professor": {
+          "name": "VINEETHA NAIR"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G14",
+        "professor": {
+          "name": "VINEETHA NAIR"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G15",
+        "professor": {
+          "name": "WINNY WILSON"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G16",
+        "professor": {
+          "name": "WINNY WILSON"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G17",
+        "professor": {
+          "name": "JANNY FRITZEN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 4-3",
+          "level": 4
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G18",
+        "professor": {
+          "name": "ALTHEA TOH"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G19",
+        "professor": {
+          "name": "ALTHEA TOH"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G20",
+        "professor": {
+          "name": "DARYL TAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G21",
+        "professor": {
+          "name": "DARYL TAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G22",
+        "professor": {
+          "name": "DARYL TAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G23",
+        "professor": {
+          "name": "LIU KOOI LIN, EVELYN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G24",
+        "professor": {
+          "name": "LOW BEE HONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G25",
+        "professor": {
+          "name": "LOW BEE HONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G26",
+        "professor": {
+          "name": "NICOLA HELEN GREEN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G27",
+        "professor": {
+          "name": "NICOLA HELEN GREEN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "17:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "17:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G28",
+        "professor": {
+          "name": "PHOEBE SEOW SU KIAN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G29",
+        "professor": {
+          "name": "PHOEBE SEOW SU KIAN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G30",
+        "professor": {
+          "name": "LIM SEE CHEN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G31",
+        "professor": {
+          "name": "LIM SEE CHEN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G32",
+        "professor": {
+          "name": "LOKE MICHELLE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G33",
+        "professor": {
+          "name": "LOKE MICHELLE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "17:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "17:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G34",
+        "professor": {
+          "name": "MARK NICHOLAS PAPAYOANOU"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G35",
+        "professor": {
+          "name": "MARK NICHOLAS PAPAYOANOU"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G45",
+        "professor": {
+          "name": "CHONG YIN TENG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G46",
+        "professor": {
+          "name": "TAN CHIA MIEN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G47",
+        "professor": {
+          "name": "TIMOTHY CHAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

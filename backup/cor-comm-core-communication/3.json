@@ -1,0 +1,27 @@
+[
+  {
+    "name": "COMM1315 - Misinformation Management",
+    "moduleCode": "COR-COMM1315",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HO JACK YONG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

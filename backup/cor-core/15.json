@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Paper, Pixels and 'Tortured Poets': Reading, Literature and Technology Today",
+    "moduleCode": "COR2249",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "EMILY SOON"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

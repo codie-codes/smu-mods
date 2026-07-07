@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Psychology of Close Relationships",
+    "moduleCode": "PSYC209",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KENNETH TAN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

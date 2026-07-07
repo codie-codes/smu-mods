@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Algorithms and Programming",
+    "moduleCode": "IS115",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ZHANG ZHIYUAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ZHANG ZHIYUAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "DOAN HOANG LINH KAESTNER"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "DOAN HOANG LINH KAESTNER"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "DOAN HOANG LINH KAESTNER"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "MAI ANH TIEN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "MAI ANH TIEN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

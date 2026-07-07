@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Sustainable Digital Cities",
+    "moduleCode": "IS468",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KAN SIEW NING"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

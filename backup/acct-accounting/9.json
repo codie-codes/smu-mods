@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Accounting Thought and Governance",
+    "moduleCode": "ACCT332",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "FANG BINGXU"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "FANG BINGXU"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "FANG BINGXU"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

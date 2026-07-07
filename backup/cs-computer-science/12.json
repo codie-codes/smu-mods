@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Reasoning, Planning and Learning under Uncertainty",
+    "moduleCode": "CS422",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PRADEEP REDDY VARAKANTHAM"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

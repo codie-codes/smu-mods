@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Professional Writing",
+    "moduleCode": "WRIT300",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JUSTYN OLBY"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Classroom 4-3",
+          "level": 4
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Law of Insurance",
+    "moduleCode": "LAW4069",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RENNIE WHANG, ERIK WIDJAJA, HO PEY YANN"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

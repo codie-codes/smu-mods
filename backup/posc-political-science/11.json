@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Ethnic and National Identity Politics",
+    "moduleCode": "POSC328",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "name": "THAI2403 - Thai",
+    "moduleCode": "COR-THAI2403",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SUKSRI LUMPRASERT"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SUKSRI LUMPRASERT"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

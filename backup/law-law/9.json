@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Comparative Legal Systems",
+    "moduleCode": "LAW109_609",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MAARTJE DE VISSER"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MAARTJE DE VISSER"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "MAARTJE DE VISSER"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "PANG CHENG KIT, KIT"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 0
+  }
+]

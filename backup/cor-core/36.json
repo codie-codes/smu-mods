@@ -1,0 +1,27 @@
+[
+  {
+    "name": "LAW2630 - Introduction to Chinese History, Culture, Economy, Politics and Law",
+    "moduleCode": "COR-LAW2630",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HENRY GAO"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Social Psychology",
+    "moduleCode": "PSYC108",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JACINTH TAN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Human Capital Strategy",
+    "moduleCode": "OBHR224",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KUMAR ABHISHEK"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

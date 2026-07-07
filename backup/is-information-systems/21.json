@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Smart Healthcare in Asia",
+    "moduleCode": "IS447",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ASHISH KUMAR, SEAN LAM"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

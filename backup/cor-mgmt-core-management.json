@@ -1,0 +1,304 @@
+[
+  {
+    "name": "MGMT1302 - Business, Government and Society",
+    "moduleCode": "COR-MGMT1302",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LOO KHEE SHENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LOO KHEE SHENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "LOO KHEE SHENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "MOHAMED IRSHAD ABBAS ALI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "MOHAMED IRSHAD ABBAS ALI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "MOHAMED IRSHAD ABBAS ALI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "CHAN KAY MIN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "CHAN KAY MIN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "GILBERT TAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "GILBERT TAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-6",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "LIEW YAH LING"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "LIEW YAH LING"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "MGMT1303 - Entrepreneurship and Business Creation",
+    "moduleCode": "COR-MGMT1303",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NG XU WEN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "MGMT2207 - Innovations for Asia’s Smart Cities",
+    "moduleCode": "COR-MGMT2207",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THOMAS MENKHOFF, KAN SIEW NING, KEVIN CHEONG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "MGMT2238 - Doing Business with Artificial Intelligence",
+    "moduleCode": "COR-MGMT2238",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THOMAS MENKHOFF, KAN SIEW NING"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

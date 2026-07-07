@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Imagining the Self: Literature, Ethnicity and Gender in Asia",
+    "moduleCode": "COR2626",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "EMILY SOON"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "EMILY SOON"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "EMILY SOON"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

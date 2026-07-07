@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Data Structures and Algorithms",
+    "moduleCode": "CS201",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HADY W. LAUW"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "HUO YINTONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "HUO YINTONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "KOH KWAN CHIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

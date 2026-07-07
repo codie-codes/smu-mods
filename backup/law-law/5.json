@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Criminal Law",
+    "moduleCode": "LAW103_603",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHAN WING CHEONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHAN WING CHEONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "WALTER WOON"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "09:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "NICHOLAS SENG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 2.25
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

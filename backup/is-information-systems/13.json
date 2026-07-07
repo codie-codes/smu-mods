@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Financial Services AI Immersion Program",
+    "moduleCode": "IS4002",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RANDALL E. DURAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

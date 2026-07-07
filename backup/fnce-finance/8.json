@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Wealth Management and the Law",
+    "moduleCode": "FNCE218",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THAM, TZE MINN MANDY, ERIC YEE SHIN CHONG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

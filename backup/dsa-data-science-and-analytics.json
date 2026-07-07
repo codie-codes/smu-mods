@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Statistical Inference for Data Science",
+    "moduleCode": "DSA201",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "DANIEL PREVE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Statistical Learning",
+    "moduleCode": "DSA211",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIU SHEW FAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Data Analytics with R",
+    "moduleCode": "DSA212",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GOH JING RONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "GOH JING RONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Machine Learning with Applications in Economics",
+    "moduleCode": "DSA311",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KWONG KOON SHING"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T07:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Data Science with Python",
+    "moduleCode": "DSA312",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GOH JING RONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

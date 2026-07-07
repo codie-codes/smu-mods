@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Blockchain Applications in Financial Services",
+    "moduleCode": "IS452",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PAUL ROBERT GRIFFIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

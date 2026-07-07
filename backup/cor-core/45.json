@@ -1,0 +1,27 @@
+[
+  {
+    "name": "PHIL2257 - Ethics of Artificial Intelligence",
+    "moduleCode": "COR-PHIL2257",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RAND HIRMIZ"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

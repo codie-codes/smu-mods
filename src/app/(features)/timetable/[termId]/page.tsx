@@ -159,7 +159,8 @@ export default function TimeTablePage({
 
       <SearchModule
         handleModSelect={(mod) => {
-          if (mod.terms.includes(termMap[resolvedParams.termId as TermSlug])) {
+          const moduleTerms = mod.terms || [];
+          if (moduleTerms.includes(termMap[resolvedParams.termId as TermSlug])) {
             AddModuleToTimetable(
               mod,
               termMap[resolvedParams.termId as TermSlug],

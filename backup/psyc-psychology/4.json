@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Psychology Research Methods I",
+    "moduleCode": "PSYC110",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "EVELYN AU"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "EVELYN AU"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "ANDREE HARTANTO"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

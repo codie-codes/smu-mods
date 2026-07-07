@@ -1,0 +1,31 @@
+[
+  {
+    "name": "IT Audit and Data Protection",
+    "moduleCode": "CS447",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

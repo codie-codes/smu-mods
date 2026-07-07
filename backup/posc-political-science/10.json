@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Global Politics of China",
+    "moduleCode": "POSC327",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CALLAHAN, WILLIAM A."
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 1-2",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Public Policy Task Force",
+    "moduleCode": "PPPM301",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JUDE KURNIAWAN"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

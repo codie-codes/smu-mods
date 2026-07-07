@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Digital Marketing",
+    "moduleCode": "MKTG220",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICIA LUI, HAZEL THENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,300 @@
+[
+  {
+    "name": "SOCG2251 - Food, Environment and Sustainability",
+    "moduleCode": "COR-SOCG2251",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "Q FORREST ZHANG"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "SOCG2607 - Contemporary South Asian Societies",
+    "moduleCode": "COR-SOCG2607",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "IJLAL NAQVI"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "SOCG2608 - Understanding China's Economic Miracle: Social Origins and Social Impact",
+    "moduleCode": "COR-SOCG2608",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "Q FORREST ZHANG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-2",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "SOCG2609 - Global and Transnational Sociology",
+    "moduleCode": "COR-SOCG2609",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALWYN LIM"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-3",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "SOCG2637 - Deconstructing Singapore Society",
+    "moduleCode": "COR-SOCG2637",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALWYN LIM"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-3",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Understanding Societies",
+    "moduleCode": "SOCG001",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GEORGE WONG"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "GEORGE WONG"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "GEORGE WONG"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Gender and Family",
+    "moduleCode": "SOCG203",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PAULIN TAY STRAUGHAN"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-3",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Introduction to Sociological Theory",
+    "moduleCode": "SOCG215",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIU JIAQI"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-11",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Sociology of Education",
+    "moduleCode": "SOCG223",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JACQUELINE HO"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

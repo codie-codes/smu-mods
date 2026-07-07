@@ -1,0 +1,31 @@
+[
+  {
+    "name": "AI Literacy for Accounting Professionals",
+    "moduleCode": "ACCT437",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BENJAMIN LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Research Methods in Sociology and Political Science",
+    "moduleCode": "IDIS100",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHENG CHENG"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

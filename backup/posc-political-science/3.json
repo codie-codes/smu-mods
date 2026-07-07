@@ -1,0 +1,27 @@
+[
+  {
+    "name": "World Politics",
+    "moduleCode": "POSC103",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CALLAHAN, WILLIAM A."
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

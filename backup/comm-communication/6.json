@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Financial Communication in Asia",
+    "moduleCode": "COMM360",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CLARENCE FU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

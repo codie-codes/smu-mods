@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Creating Integrative Solutioning through Projects (CIS Projects)",
+    "moduleCode": "INTS202",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TSE, JUSTIN K, QIUZHUANG SUN"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 0
+  }
+]

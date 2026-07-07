@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Cities of Paradox: Exploring Hong Kong/Singapore, Histories and Cultures",
+    "moduleCode": "COR2646",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JACK GREATREX"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

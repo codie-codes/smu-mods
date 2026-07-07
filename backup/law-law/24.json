@@ -1,0 +1,31 @@
+[
+  {
+    "name": "The Economics of Corporate, Finance and Business Law",
+    "moduleCode": "LAW4091",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-05",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

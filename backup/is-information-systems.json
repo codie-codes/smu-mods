@@ -1,0 +1,2346 @@
+[
+  {
+    "name": "IS1704 - Computational Thinking and Programming",
+    "moduleCode": "COR-IS1704",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "QIAN TANG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "QIAN TANG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "QIAN TANG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "JOELLE ELMALEH"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "JOELLE ELMALEH"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "ARNE JONNI SUPPE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "ARNE JONNI SUPPE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "ARNE JONNI SUPPE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "XUE, HAIYANG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "XUE, HAIYANG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "XUE, HAIYANG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "TANG, TONY"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G13",
+        "professor": {
+          "name": "TANG, TONY"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G14",
+        "professor": {
+          "name": "LEE YEOW LEONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G15",
+        "professor": {
+          "name": "SERENA GOH"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Business Data Management",
+    "moduleCode": "IS105",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SWETHA GOTTIPATI"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SWETHA GOTTIPATI"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "OKKAR KYAW"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Web Application Development I",
+    "moduleCode": "IS113",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WONG CHEE CHEIN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Computing Fundamentals",
+    "moduleCode": "IS114",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PIUS LEE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Computing Lab B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "PIUS LEE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Computing Lab B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "PIUS LEE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Computing Lab B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "PIUS LEE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Computing Lab B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "CHEN DONGYAO"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "CHEN DONGYAO"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "CHEN DONGYAO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "FIONA LEE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Computing Lab B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "FIONA LEE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Computing Lab B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "MICHELLE KAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Computing Lab B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Algorithms and Programming",
+    "moduleCode": "IS115",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ZHANG ZHIYUAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ZHANG ZHIYUAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "DOAN HOANG LINH KAESTNER"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "DOAN HOANG LINH KAESTNER"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "DOAN HOANG LINH KAESTNER"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "MAI ANH TIEN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "MAI ANH TIEN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Business Process Analysis & Solutioning",
+    "moduleCode": "IS210",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KE PING FAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "KE PING FAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "KE PING FAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "SWAPNA GOTTIPATI"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "SWAPNA GOTTIPATI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "RAFAEL J. BARROS"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "RAFAEL J. BARROS"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "RAFAEL J. BARROS"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "LAU YI MENG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "LAU YI MENG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Interaction Design and Prototyping",
+    "moduleCode": "IS211",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BENJAMIN GAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "BENJAMIN GAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "BENJAMIN GAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "BENJAMIN GAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "LEE, MIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "LEE, MIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "LEE, MIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "HARA, KOTARO"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "HARA, KOTARO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "OUH ENG LIEH"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "OUH ENG LIEH"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "OUH ENG LIEH"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G13",
+        "professor": {
+          "name": "OUH ENG LIEH"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G14",
+        "professor": {
+          "name": "WENDY TAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Software Project Management",
+    "moduleCode": "IS212",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHRIS POSKITT"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHRIS POSKITT"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "RAJESH KRISHNA BALAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "RAJESH KRISHNA BALAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "RAJESH KRISHNA BALAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "LAU YI MENG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "LAU YI MENG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "YUNGHANS IRAWAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "LOK WEI XIONG GABRIEL"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Digital Business - Technologies and Transformation",
+    "moduleCode": "IS215",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LO SIAW LING"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Web Application Development II",
+    "moduleCode": "IS216",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SHAR LWIN KHIN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SHAR LWIN KHIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "KYONG JIN SHIM"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "KYONG JIN SHIM"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "MOK, HENG NGEE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "MOK, HENG NGEE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "MOK, HENG NGEE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "FWA HUA LEONG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "FWA HUA LEONG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "FWA HUA LEONG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "JASON CHUI"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Analytics Foundation",
+    "moduleCode": "IS217",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "FWA HUA LEONG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "FWA HUA LEONG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "SERENA GOH"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Application of AI in Financial Services",
+    "moduleCode": "IS4000",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RANDALL E. DURAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Smart Building Analytics",
+    "moduleCode": "IS4001",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SACHIN GUPTA"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Financial Services AI Immersion Program",
+    "moduleCode": "IS4002",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RANDALL E. DURAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Retail Banking and Mobile Technology",
+    "moduleCode": "IS419",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KANNAN KARTHIKEYAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Data Mining and Business Analytics",
+    "moduleCode": "IS424",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WANG ZHAOXIA"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "WANG ZHAOXIA"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Visual Analytics for Business Intelligence",
+    "moduleCode": "IS428",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIAO LIZI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LIAO LIZI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Object Oriented Programming",
+    "moduleCode": "IS442",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BIN ZHU"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "BIN ZHU"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Digital Banking Enterprise Architecture",
+    "moduleCode": "IS444",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALAN MEGARGEL"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Corporate Banking Technology",
+    "moduleCode": "IS445",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RAMAPRASAD RAMAKRISHNAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Corporate Banking Technology",
+    "moduleCode": "IS445",
+    "sections": [],
+    "credit": 0
+  },
+  {
+    "name": "Smart Healthcare in Asia",
+    "moduleCode": "IS447",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ASHISH KUMAR, SEAN LAM"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Blockchain Applications in Financial Services",
+    "moduleCode": "IS452",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PAUL ROBERT GRIFFIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Financial Analytics",
+    "moduleCode": "IS453",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RANDALL E. DURAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "RANDALL E. DURAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Cloud Management and Engineering",
+    "moduleCode": "IS458",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ZHOU YU XUAN, SOPHIA"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Big Data Architecture",
+    "moduleCode": "IS459",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SACHIN GUPTA"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "INDU SANDYA"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Machine Learning and Applications",
+    "moduleCode": "IS460",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WANG ZHAOXIA"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Digital Technologies for Environmental Sustainability",
+    "moduleCode": "IS463",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KIRUTHIKA RAMANATHAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Low Code Solution Development",
+    "moduleCode": "IS467",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALAN MEGARGEL"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Sustainable Digital Cities",
+    "moduleCode": "IS468",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KAN SIEW NING"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Generative AI with LLMs: From Development to Applications",
+    "moduleCode": "IS469",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WYNTER LAURA"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "WYNTER LAURA"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "IS/SMT/C&L Project Experience (Applications)",
+    "moduleCode": "IS483",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HOE SIU LOON"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "DEBIN GAO"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "KYONG JIN SHIM"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "NYAN TUN ZAW"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "LO SIAW LING"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "IS Project Experience [FinTech]",
+    "moduleCode": "IS484",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PAUL ROBERT GRIFFIN"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ANG KIAN WEE"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 1
+  }
+]

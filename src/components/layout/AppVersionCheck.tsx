@@ -6,6 +6,7 @@ import { env } from "@/env";
 import { useConfigStore } from "@/stores/config/provider";
 import { useModuleBankStore } from "@/stores/moduleBank/provider";
 import { useMultiplePlannerStore } from "@/stores/multiplePlanners/provider";
+import { useTimetableStore } from "@/stores/timetable/provider";
 import { Logger } from "@/utils/Logger";
 
 const APP_VERSION = env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA;
@@ -19,8 +20,11 @@ export const AppVersionCheck = () => {
     (state) => state,
   );
   const { refreshAll, modules } = useModuleBankStore((state) => state);
+  const { refreshFromModuleBank } = useTimetableStore((state) => state);
   useEffect(() => {
     const refresh = async () => {
+      let moduleBankToSync = modules;
+
       if (
         appVersion != APP_VERSION ||
         (appVersion == "development" && TURN_ON_REFRESH)
@@ -28,12 +32,13 @@ export const AppVersionCheck = () => {
         Logger.log("Version:", appVersion, true);
         Logger.log("New version detected, refreshing data...", true);
         if (appVersion != "development") {
-          await refreshAll();
+          moduleBankToSync = await refreshAll();
+          refreshFromModuleBank(moduleBankToSync);
         }
         refreshBanners();
         changeAppVersion(APP_VERSION);
       }
-      updateMultiplePlanner(modules);
+      updateMultiplePlanner(moduleBankToSync);
     };
     refresh();
   }, [
@@ -43,6 +48,7 @@ export const AppVersionCheck = () => {
     changeAppVersion,
     updateMultiplePlanner,
     modules,
+    refreshFromModuleBank,
   ]);
   return <></>;
 };

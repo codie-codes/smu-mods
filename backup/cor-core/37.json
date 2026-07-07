@@ -1,0 +1,27 @@
+[
+  {
+    "name": "LAW2649 - The Future of the Singapore Legal Profession: Wellbeing and the Sustainability of the Profession",
+    "moduleCode": "COR-LAW2649",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LAU KWAN HO, DANIEL SEAH, BRYAN LEOW CHIN SENG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

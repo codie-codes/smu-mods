@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Law and Digital Commerce",
+    "moduleCode": "LAW491",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LOCKNIE HSU"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

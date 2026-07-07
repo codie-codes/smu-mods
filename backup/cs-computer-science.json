@@ -1,0 +1,1246 @@
+[
+  {
+    "name": "Programming Fundamentals I",
+    "moduleCode": "CS101",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LEE YEOW LEONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LEE YEOW LEONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "JASON CHAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "JASON CHAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Programming Fundamentals II",
+    "moduleCode": "CS102",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ZHANG ZHIYUAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ZHANG ZHIYUAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Linear Algebra for Machine Learning",
+    "moduleCode": "CS103",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MANOJ THULASIDAS"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MANOJ THULASIDAS"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "MANOJ THULASIDAS"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "MANOJ THULASIDAS"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Mathematical Foundations of Computing",
+    "moduleCode": "CS104",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LI YUCHEN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LI YUCHEN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "LUO DONGSHENG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "LUO DONGSHENG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Data Structures and Algorithms",
+    "moduleCode": "CS201",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HADY W. LAUW"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "HUO YINTONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "HUO YINTONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "KOH KWAN CHIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Human-AI Collaborative Software Development",
+    "moduleCode": "CS203",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHRISTOPH TREUDE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHRISTOPH TREUDE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "CHRISTOPH TREUDE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "VINCENT OH YAN MING"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Operating Systems",
+    "moduleCode": "CS205",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NGO CHONG WAH"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "NGO CHONG WAH"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "NGO CHONG WAH"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "LOW SIOW MENG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Software Product Management",
+    "moduleCode": "CS206",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BENJAMIN GAN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Solution Architecture",
+    "moduleCode": "CS301",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KOH KWAN CHIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "KOH KWAN CHIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "KOH KWAN CHIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "OUH ENG LIEH"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "DevOps Principles and Practices",
+    "moduleCode": "CS302",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHRIS POSKITT"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-6",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHRIS POSKITT"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-6",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "SWETHA GOTTIPATI"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "SWETHA GOTTIPATI"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Artificial Intelligence Fundamentals",
+    "moduleCode": "CS420",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "AKSHAT KUMAR"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ANTOINE LEDENT"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "ANTOINE LEDENT"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Principles of Machine Learning",
+    "moduleCode": "CS421",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ANTOINE LEDENT"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Reasoning, Planning and Learning under Uncertainty",
+    "moduleCode": "CS422",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PRADEEP REDDY VARAKANTHAM"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Generative AI for Natural Language Communication",
+    "moduleCode": "CS425",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WEI GAO"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "WEI GAO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Foundations of Cybersecurity",
+    "moduleCode": "CS440",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "DING XUHUA"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "DING XUHUA"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Data Security and Privacy",
+    "moduleCode": "CS442",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "YANG GUOMIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Cyber Threat Intelligence",
+    "moduleCode": "CS445",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIM YI HAO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Offensive Cybersecurity",
+    "moduleCode": "CS446",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SIM CHER BOON"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "IT Audit and Data Protection",
+    "moduleCode": "CS447",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Digital Forensics",
+    "moduleCode": "CS448",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Foundations of Cyber-Physical Systems",
+    "moduleCode": "CS460",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "AARTHI KANNALAGAN"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Full Stack Development",
+    "moduleCode": "CS464",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIM YI SHENG"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Open-Source Software Systems",
+    "moduleCode": "CS467",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHRISTOPH TREUDE"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Computer Science Project Experience",
+    "moduleCode": "CS480",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PAUL ROBERT GRIFFIN"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SUNIL JIWATRAM DADLANI"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "New Product Development",
+    "moduleCode": "MKTG215",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "DENNIS NG, TEE KEH LEONG JONATHAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

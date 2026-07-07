@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Sustainable Finance",
+    "moduleCode": "FNCE314",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "YAO TIANHAO"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

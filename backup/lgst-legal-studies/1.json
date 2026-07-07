@@ -1,0 +1,31 @@
+[
+  {
+    "name": "The Singapore Legal System and Legal Analysis Skills",
+    "moduleCode": "LGST102",
+    "sections": [
+      {
+        "code": "G50",
+        "professor": {
+          "name": "BRYAN LEOW CHIN SENG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 2.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 0
+  }
+]

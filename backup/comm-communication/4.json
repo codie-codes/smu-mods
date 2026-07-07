@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Design Communication",
+    "moduleCode": "COMM256",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NAZISH ZAFAR"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

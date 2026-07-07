@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Research Methods in Economics",
+    "moduleCode": "ECON350",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MA LIN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

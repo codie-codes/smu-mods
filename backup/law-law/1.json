@@ -1,0 +1,27 @@
+[
+  {
+    "name": "LAW2245 - Sustainability Law in Business Practice",
+    "moduleCode": "COR-LAW2245",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PRESTON WONG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-01",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

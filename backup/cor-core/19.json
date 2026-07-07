@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Spanish",
+    "moduleCode": "COR2408",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MARIJO ROMERO"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MARIJO ROMERO"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "17:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "17:15",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Application of AI in Financial Services",
+    "moduleCode": "IS4000",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RANDALL E. DURAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

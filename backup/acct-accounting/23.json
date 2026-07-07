@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Accounting Work-Study Elective",
+    "moduleCode": "ACCT438",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SEOW POH SUN"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 2
+  }
+]

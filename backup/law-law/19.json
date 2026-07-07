@@ -1,0 +1,27 @@
+[
+  {
+    "name": "AI Literacy and Digital Innovation for Lawyers",
+    "moduleCode": "LAW4067",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RODNEY YAP"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-04",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

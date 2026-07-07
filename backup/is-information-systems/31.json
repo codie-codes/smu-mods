@@ -1,0 +1,69 @@
+[
+  {
+    "name": "IS/SMT/C&L Project Experience (Applications)",
+    "moduleCode": "IS483",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HOE SIU LOON"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "DEBIN GAO"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "KYONG JIN SHIM"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "NYAN TUN ZAW"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "LO SIAW LING"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 1
+  }
+]

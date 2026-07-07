@@ -1,0 +1,1126 @@
+[
+  {
+    "name": "Mathematics for Economics",
+    "moduleCode": "ECON104",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TAKASHI KUNIMOTO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MASSIMILIANO LANDI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "VU HOANG PHUONG QUE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Introduction to Econometrics",
+    "moduleCode": "ECON107",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "DOU LIYU"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CAO WENJIA"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "CAO WENJIA"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Microeconomics 1",
+    "moduleCode": "ECON111",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MASSIMILIANO LANDI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "HU ZIHAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "HU ZIHAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "HU ZIHAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Macroeconomics 1",
+    "moduleCode": "ECON112",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HUYNH BAO TAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "YOSHIKI ANDO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "YOSHIKI ANDO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Economics of Globalisation",
+    "moduleCode": "ECON113",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LAM SAN LING"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LAM SAN LING"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Economic Development in Asia",
+    "moduleCode": "ECON118",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MADHAV SHRIHARI ANEY"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MADHAV SHRIHARI ANEY"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "MADHAV SHRIHARI ANEY"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "MADHAV SHRIHARI ANEY"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Introductory Data Analytics in Healthcare",
+    "moduleCode": "ECON145",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SEAN LAM"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Healthcare Management",
+    "moduleCode": "ECON155",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHAN KAY MIN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "International Economics",
+    "moduleCode": "ECON203",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MEI YUAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MEI YUAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "MEI YUAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Game Theory",
+    "moduleCode": "ECON206",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PAULO DANIEL SALLES RAMOS"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Intermediate Econometrics",
+    "moduleCode": "ECON207",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ANTHONY S. TAY"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Monetary Economics",
+    "moduleCode": "ECON210",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HOON HIAN TECK"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Public Sector Economics",
+    "moduleCode": "ECON211",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHRISTINE HO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHRISTINE HO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Health Economics",
+    "moduleCode": "ECON215",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KIM SEONGHOON"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Economics of Ageing",
+    "moduleCode": "ECON216",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JESLYN TAN SIOK HONG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Macroeconomics of Income Distribution",
+    "moduleCode": "ECON217",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HO KONG WENG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "International Macroeconomics",
+    "moduleCode": "ECON235",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HOON HIAN TECK"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Strategic Thinking",
+    "moduleCode": "ECON241",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "XUE JINGYI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Political Economy Analysis of Institutions",
+    "moduleCode": "ECON242",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HUANG FALI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "HUANG FALI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Demographic and Family Economics",
+    "moduleCode": "ECON243",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHRISTINE HO"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Applied Healthcare Analytics",
+    "moduleCode": "ECON245",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "DENIS LEUNG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Overseas Project Experience (Macroeconomics in Asia)",
+    "moduleCode": "ECON248",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "VU HOANG PHUONG QUE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Microeconomics 2",
+    "moduleCode": "ECON251",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GEA M. LEE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "GEA M. LEE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "GEA M. LEE"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Macroeconomics 2",
+    "moduleCode": "ECON252",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HUYNH BAO TAN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room B1-2",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MOK WENG SAM"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "MOK WENG SAM"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Advanced Microeconomics",
+    "moduleCode": "ECON301",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MASSIMILIANO LANDI"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Research Methods in Economics",
+    "moduleCode": "ECON350",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MA LIN"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

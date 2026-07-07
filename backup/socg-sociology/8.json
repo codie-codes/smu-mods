@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sociology of Education",
+    "moduleCode": "SOCG223",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "JACQUELINE HO"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Changing Policyscapes in Singapore",
+    "moduleCode": "GA103",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GEORGE WONG"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

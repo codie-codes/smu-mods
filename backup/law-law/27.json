@@ -1,0 +1,27 @@
+[
+  {
+    "name": "World Trade Organization: Law and Policy",
+    "moduleCode": "LAW410",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HENRY GAO"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-02",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Introduction to Sociological Theory",
+    "moduleCode": "SOCG215",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LIU JIAQI"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-11",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

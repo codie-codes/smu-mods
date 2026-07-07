@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Corporate Strategy",
+    "moduleCode": "MGMT237",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NINA TAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

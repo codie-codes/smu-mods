@@ -1,0 +1,687 @@
+[
+  {
+    "name": "Marketing",
+    "moduleCode": "MKTG101",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "MAH SUYUN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-10",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MAH SUYUN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "MAH SUYUN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "QI YU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "10:00",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "QI YU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "QI YU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "17:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "17:15",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "JIN MIAO"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "JIN MIAO"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "SAKSHI BABAR"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-10",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "SAKSHI BABAR"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-10",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "THOMAS ALLARD"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "THOMAS ALLARD"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G13",
+        "professor": {
+          "name": "THOMAS ALLARD"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T07:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Consumer Behaviour",
+    "moduleCode": "MKTG102",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HAN MINJU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "HAN MINJU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Marketing Research",
+    "moduleCode": "MKTG103",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HULYA KARAMAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "HULYA KARAMAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "HULYA KARAMAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Services Marketing",
+    "moduleCode": "MKTG204",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICIA LUI, CLEMENT TOH PIN YAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Marketing Strategy",
+    "moduleCode": "MKTG207",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TAN HUIPING, JOSEPHINE"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "TAN HUIPING, JOSEPHINE"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Sales Management",
+    "moduleCode": "MKTG208",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GEOFFREY DA SILVA"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-10",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "New Product Development",
+    "moduleCode": "MKTG215",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "DENNIS NG, TEE KEH LEONG JONATHAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Digital Marketing",
+    "moduleCode": "MKTG220",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICIA LUI, HAZEL THENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Customer Relationship Management",
+    "moduleCode": "MKTG225",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RAYMOND TEO"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Integrated Marketing Communications: A Brand Perspective",
+    "moduleCode": "MKTG227",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SHILPA MADAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SHILPA MADAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Marketing Analytics",
+    "moduleCode": "MKTG228",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ERNST CHRISTIAAN OSINGA"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ERNST CHRISTIAAN OSINGA"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Pricing",
+    "moduleCode": "MKTG313",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TAN BOON ANN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Sustainable Entrepreneurship",
+    "moduleCode": "MGMT223",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KENNETH GOH"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

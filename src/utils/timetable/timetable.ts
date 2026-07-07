@@ -2,15 +2,16 @@ import type { ICalEventData } from "ical-generator";
 import { ICalEventRepeatingFreq } from "ical-generator";
 import { toast } from "sonner";
 
+import { APP_CONFIG } from "@/config";
+import { ModuleBank } from "@/types/banks/moduleBank";
 import type { Term } from "@/types/planner";
 import type { Module, ModuleCode, Section } from "@/types/primitives/module";
 import type {
-  Day,
-  ModifiableClass,
-  Timetable,
+    Day,
+    ModifiableClass,
+    Timetable,
+    TimetableMap,
 } from "@/types/primitives/timetable";
-import { APP_CONFIG } from "@/config";
-import { ModuleBank } from "@/types/banks/moduleBank";
 import { days } from "@/types/primitives/timetable";
 
 import type { TimetableThemeName } from "./colours";
@@ -212,6 +213,30 @@ export function selectSection(
   });
 
   return updatedTimetable;
+}
+
+export function refreshTimetableMap(
+  timetableMap: TimetableMap,
+  moduleBank: ModuleBank,
+): TimetableMap {
+  return Object.fromEntries(
+    Object.entries(timetableMap).map(([term, timetable]) => {
+      const refreshedModules = timetable.modules.map((module) => {
+        const freshModule = moduleBank[module.moduleCode];
+        if (!freshModule) {
+          return module;
+        }
+
+        return {
+          ...freshModule,
+          colorIndex: module.colorIndex,
+          visible: module.visible,
+        };
+      });
+
+      return [term, { ...timetable, modules: refreshedModules }];
+    }),
+  ) as TimetableMap;
 }
 
 export function getClassEndTime(startTime: string, duration: number) {

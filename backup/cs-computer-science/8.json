@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Solution Architecture",
+    "moduleCode": "CS301",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KOH KWAN CHIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "KOH KWAN CHIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 2-3",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "KOH KWAN CHIN"
+        },
+        "location": {
+          "building": "SCIS1",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "OUH ENG LIEH"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

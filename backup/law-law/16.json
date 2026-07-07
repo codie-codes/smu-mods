@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Community Based Projects in the Real World",
+    "moduleCode": "LAW4039",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHAN WING CHEONG, RUBY LEE"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 4-1",
+          "level": 4
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

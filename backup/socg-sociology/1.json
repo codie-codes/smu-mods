@@ -1,0 +1,36 @@
+[
+  {
+    "name": "SOCG2607 - Contemporary South Asian Societies",
+    "moduleCode": "COR-SOCG2607",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "IJLAL NAQVI"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

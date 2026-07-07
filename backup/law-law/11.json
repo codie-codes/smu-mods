@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Law of Property",
+    "moduleCode": "LAW202_622",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ALVIN SEE WEI LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ALVIN SEE WEI LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 2.25
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "ALVIN SEE WEI LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 2.25
+          },
+          {
+            "day": "Thursday",
+            "startTime": "10:00",
+            "duration": 1.5
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "ALVIN SEE WEI LIANG"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-01",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 2.25
+          },
+          {
+            "day": "Thursday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  }
+]

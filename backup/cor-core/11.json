@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Epidemics - Biomedicine and Global Health",
+    "moduleCode": "COR2212",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PARK HAESOO"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "PARK HAESOO"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Seminar Room B1-1",
+          "level": "B1"
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "PARK HAESOO"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 2-15",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

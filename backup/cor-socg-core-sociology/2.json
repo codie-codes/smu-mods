@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SOCG2608 - Understanding China's Economic Miracle: Social Origins and Social Impact",
+    "moduleCode": "COR-SOCG2608",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "Q FORREST ZHANG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-2",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Friday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

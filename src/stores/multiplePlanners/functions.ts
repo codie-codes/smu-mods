@@ -21,7 +21,7 @@ export function update(planners: MultiplePlanner, moduleBank: ModuleBank) {
 
     for (const [moduleCode, plannerModule] of Object.entries(updatedModules)) {
       const plannerModuleAny = plannerModule as any;
-      if (plannerModuleAny.moduleCode && !plannerModuleAny.module) {
+      if (plannerModuleAny.moduleCode) {
         const { moduleCode: _, ...moduleWithoutCode } = plannerModuleAny;
         (updatedModules as any)[moduleCode] = {
           ...moduleWithoutCode,

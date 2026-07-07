@@ -1,0 +1,1304 @@
+[
+  {
+    "name": "MGMT1302 - Business, Government and Society",
+    "moduleCode": "COR-MGMT1302",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "LOO KHEE SHENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "LOO KHEE SHENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "LOO KHEE SHENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "MOHAMED IRSHAD ABBAS ALI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "MOHAMED IRSHAD ABBAS ALI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "MOHAMED IRSHAD ABBAS ALI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "CHAN KAY MIN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "CHAN KAY MIN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "GILBERT TAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "GILBERT TAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-6",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "LIEW YAH LING"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "LIEW YAH LING"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "MGMT1303 - Entrepreneurship and Business Creation",
+    "moduleCode": "COR-MGMT1303",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NG XU WEN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "MGMT2207 - Innovations for Asia’s Smart Cities",
+    "moduleCode": "COR-MGMT2207",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THOMAS MENKHOFF, KAN SIEW NING, KEVIN CHEONG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "MGMT2238 - Doing Business with Artificial Intelligence",
+    "moduleCode": "COR-MGMT2238",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THOMAS MENKHOFF, KAN SIEW NING"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Strategy",
+    "moduleCode": "MGMT102",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "XINA LI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "XINA LI"
+        },
+        "location": {
+          "building": "SOSS/CIS",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "XINA LI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "XINA LI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "AHMADREZA MOSTAJABI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "AHMADREZA MOSTAJABI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Classroom 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "SAY GUI DENG"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "SAY GUI DENG"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "PATRICK TAN SIONG KUAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "TERENCE FAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-6",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "TERENCE FAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "THIA SIM PENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Corporate Entrepreneurship and Innovation",
+    "moduleCode": "MGMT104",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICK TAN SIONG KUAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Introduction to Organisations",
+    "moduleCode": "MGMT106",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THIA SIM PENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "PATRICIA SHARMA"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Introduction to Business Analytics",
+    "moduleCode": "MGMT108",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GOH SIONG THYE"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "GOH SIONG THYE"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "International Business",
+    "moduleCode": "MGMT205",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "DAPHNE YIU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-10",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "DAPHNE YIU"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Family Business",
+    "moduleCode": "MGMT222",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ROGER LOW"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Sustainable Entrepreneurship",
+    "moduleCode": "MGMT223",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KENNETH GOH"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Managing Creativity in Organizations",
+    "moduleCode": "MGMT227",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GILBERT TAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-6",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Business Consulting",
+    "moduleCode": "MGMT232",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "STEFAN MORKOETTER, MATTHIAS TIETZ"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-10",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MATTHIAS TIETZ, STEFAN MORKOETTER"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-10",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Sustainability Management and Governance",
+    "moduleCode": "MGMT235",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SIMON SCHILLEBEECKX"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-7",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SIMON SCHILLEBEECKX"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-7",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Managing Strategic Change and Digital Transformation",
+    "moduleCode": "MGMT236",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICK TAN SIONG KUAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "PATRICK TAN SIONG KUAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-5",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-04T07:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Corporate Strategy",
+    "moduleCode": "MGMT237",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NINA TAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Business Study Mission (Asian Studies)",
+    "moduleCode": "MGMT301",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SESHAN RAMASWAMI"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-9",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "MARK CHONG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-7",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "MAX VON ZEDTWITZ"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "HSU CHIEH"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-6",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "MAX VON ZEDTWITZ"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "HSU CHIEH"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Managing Process Improvement",
+    "moduleCode": "MGMT317",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "EDMUND TAN, WILLIAM FONG"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T07:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Human-centred Design for Innovation",
+    "moduleCode": "MGMT318",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WILSON TENG"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Management of Technology and Innovation",
+    "moduleCode": "MGMT319",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TERENCE FAN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "The Design of Business",
+    "moduleCode": "MGMT330",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SIMON SCHILLEBEECKX"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SAY GUI DENG, ARNOLD WEE"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "SAY GUI DENG, ARJAY GAVANKAR"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "ADAM GERARD"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "JOHN ANTONY"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "PATRICIA SHARMA"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "ANG YI PENG CECIL"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Innovation & Entrepreneurship Work-Study Elective",
+    "moduleCode": "MGMT388",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 2
+  }
+]

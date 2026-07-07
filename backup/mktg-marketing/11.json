@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Pricing",
+    "moduleCode": "MKTG313",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TAN BOON ANN"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 2-8",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

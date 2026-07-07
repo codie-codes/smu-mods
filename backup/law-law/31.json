@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Deal-making and Dispute Resolution: Negotiation in an Age of Disruption",
+    "moduleCode": "LAW482",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "QUEK ANDERSON, DORCAS"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Classroom 1-02",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

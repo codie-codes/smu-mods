@@ -1,0 +1,81 @@
+[
+  {
+    "name": "COMM1313 - Intercultural Communication",
+    "moduleCode": "COR-COMM1313",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ONG SIOW HENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ONG SIOW HENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "ONG SIOW HENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "ONG SIOW HENG"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-8",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Global Security",
+    "moduleCode": "POSC208",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PATRICK QUINTON-BROWN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-4",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          },
+          {
+            "day": "Wednesday",
+            "startTime": "13:45",
+            "duration": 1.5
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

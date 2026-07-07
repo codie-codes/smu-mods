@@ -1,0 +1,1763 @@
+[
+  {
+    "name": "Overseas Project Experience (Sustainability Accounting)",
+    "moduleCode": "ACCT010",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "YUANTO KUSNADI, KEVIN LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Financial Accounting",
+    "moduleCode": "ACCT101",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "RICHARD CROWLEY"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "DAVID SAMUEL"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "PARK KYUNGJIN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "PARK KYUNGJIN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "CHEN CHIH-YING"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "CHEN CHIH-YING"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "CHARMAYNE HIGHFIELD"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "CHARMAYNE HIGHFIELD"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "CHARMAYNE HIGHFIELD"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "LEE, YUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "LEE, YUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "LEE, YUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G13",
+        "professor": {
+          "name": "ONG SHUN SHUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G14",
+        "professor": {
+          "name": "ONG SHUN SHUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-2",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Management Accounting",
+    "moduleCode": "ACCT102",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "WONG SUAY PENG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "WONG SUAY PENG"
+        },
+        "location": {
+          "building": "SOE/SCIS2",
+          "room": "Seminar Room 2-10",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "CHENG NAM SANG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-2",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "SHERIN TAN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "KATHERINE YUEN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "KATHERINE YUEN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": "CHENG NAM SANG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "CHENG NAM SANG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G9",
+        "professor": {
+          "name": "GARY LOW YU KAI"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G10",
+        "professor": {
+          "name": "TAN WEI PENG, BRIAN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G11",
+        "professor": {
+          "name": "MATTHEW SEOW"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G12",
+        "professor": {
+          "name": "SHERIN TAN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G13",
+        "professor": {
+          "name": "TONG YI LIN, EILEEN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Financial Accounting",
+    "moduleCode": "ACCT111",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHANG, HYE SUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHANG, HYE SUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "CHANG, HYE SUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "CHUA TESS"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G5",
+        "professor": {
+          "name": "CHUA TESS"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G6",
+        "professor": {
+          "name": "CHUA TESS"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G7",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G8",
+        "professor": {
+          "name": "WYLAND HO KY"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Corporate Reporting and Financial Analysis",
+    "moduleCode": "ACCT201",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHO, YOUNG JUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHO, YOUNG JUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "CHO, YOUNG JUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "CHO, YOUNG JUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Accounting Information Systems",
+    "moduleCode": "ACCT221",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SEOW POH SUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SEOW POH SUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "SEOW POH SUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "SEOW POH SUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Taxation",
+    "moduleCode": "ACCT223",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "NG RUIMIN, SHAPHAN HARUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "NG RUIMIN, SHAPHAN HARUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "NG RUIMIN, SHAPHAN HARUN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Financial Reporting and Analysis",
+    "moduleCode": "ACCT224",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SAMUEL TAN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "SAMUEL TAN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-1",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "SAMUEL TAN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "SAMUEL TAN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Audit and Assurance",
+    "moduleCode": "ACCT331",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHUA WAN RONG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-2",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHUA WAN RONG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "CHUA WAN RONG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": ""
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Accounting Thought and Governance",
+    "moduleCode": "ACCT332",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "FANG BINGXU"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "FANG BINGXU"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "FANG BINGXU"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Friday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-01T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Intermediate Financial Accounting",
+    "moduleCode": "ACCT334",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "ANDREW LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "ANDREW LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "ANDREW LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "ANDREW LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T01:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Advanced Financial Accounting",
+    "moduleCode": "ACCT335",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KELLY NGO"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "KELLY NGO"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "KELLY NGO"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-03T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Valuation",
+    "moduleCode": "ACCT336",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "PRASART JONGJAROENKAMOL"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "PRASART JONGJAROENKAMOL"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "PRASART JONGJAROENKAMOL"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-27T07:30:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Statistical Programming",
+    "moduleCode": "ACCT337",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "KIM, JUNGBAE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "KIM, JUNGBAE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-1",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G3",
+        "professor": {
+          "name": "LI DAN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G4",
+        "professor": {
+          "name": "LI DAN"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 1-2",
+          "level": 1
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Advanced Taxation",
+    "moduleCode": "ACCT403",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "CHAN WENJIE"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-12",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      },
+      {
+        "code": "G2",
+        "professor": {
+          "name": "CHAN WENJIE"
+        },
+        "location": {
+          "building": "YPHSL",
+          "room": "Seminar Room 3-12",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-12-02T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Corporate Financial Management",
+    "moduleCode": "ACCT407",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "GURDIP SINGH"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-3",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-25T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Accounting Analytics Capstone",
+    "moduleCode": "ACCT414",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BENJAMIN LEE, HE JIANZHONG"
+        },
+        "location": {
+          "building": "SMUC",
+          "room": "Active Learning CR 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Data Modelling and Visualisation",
+    "moduleCode": "ACCT418",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BENJAMIN LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Auditing Information Systems",
+    "moduleCode": "ACCT424",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "TANG HONG WEE, AMELIA CHUA"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-4",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  },
+  {
+    "name": "Forensic Accounting and Investigation",
+    "moduleCode": "ACCT425",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BENJAMIN EE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "19:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T06:00:00.000Z",
+      "durationInHour": 3
+    },
+    "credit": 1
+  },
+  {
+    "name": "Sustainability Accounting and Reporting",
+    "moduleCode": "ACCT431",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HOLLY YANG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Wednesday",
+            "startTime": "08:15",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-24T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Robotic Process Automation for Accounting",
+    "moduleCode": "ACCT433",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HE JIANZHONG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "AI Literacy for Accounting Professionals",
+    "moduleCode": "ACCT437",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "BENJAMIN LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-1",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-23T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  },
+  {
+    "name": "Accounting Work-Study Elective",
+    "moduleCode": "ACCT438",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "SEOW POH SUN"
+        },
+        "location": {
+          "building": "",
+          "room": "",
+          "level": 0
+        },
+        "classes": []
+      }
+    ],
+    "credit": 2
+  },
+  {
+    "name": "Agentic AI for Accounting",
+    "moduleCode": "ACCT439",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "HE JIANZHONG"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 3-2",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Tuesday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-30T06:00:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Wealth Management and Advisory",
+    "moduleCode": "FNCE217",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "THAM, TZE MINN MANDY"
+        },
+        "location": {
+          "building": "LKCSB",
+          "room": "Seminar Room 3-6",
+          "level": 3
+        },
+        "classes": [
+          {
+            "day": "Thursday",
+            "startTime": "12:00",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "exam": {
+      "dateTime": "2026-11-26T01:30:00.000Z",
+      "durationInHour": 2
+    },
+    "credit": 1
+  }
+]

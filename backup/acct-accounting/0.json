@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Overseas Project Experience (Sustainability Accounting)",
+    "moduleCode": "ACCT010",
+    "sections": [
+      {
+        "code": "G1",
+        "professor": {
+          "name": "YUANTO KUSNADI, KEVIN LEE"
+        },
+        "location": {
+          "building": "SOA",
+          "room": "Seminar Room 2-5",
+          "level": 2
+        },
+        "classes": [
+          {
+            "day": "Monday",
+            "startTime": "15:30",
+            "duration": 3.25
+          }
+        ]
+      }
+    ],
+    "credit": 1
+  }
+]
